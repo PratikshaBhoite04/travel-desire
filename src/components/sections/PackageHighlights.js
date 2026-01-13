@@ -1,4 +1,7 @@
+import { useRef } from "react";
 import ExperiencedCard from "./ExperiencedCard";
+
+
 
 import img1 from "../../assets/images/international.png";
 import img2 from "../../assets/images/domestic.png";
@@ -34,8 +37,19 @@ const packages = [
 ];
 
 function PackageHighlights() {
+   const scrollRef = useRef(null);
+
+  const scrollLeft = () => {
+    if (!scrollRef.current) return;
+    scrollRef.current.scrollBy({ left: -300, behavior: "smooth" });
+  };
+
+  const scrollRight = () => {
+    if (!scrollRef.current) return;
+    scrollRef.current.scrollBy({ left: 300, behavior: "smooth" });
+  };
   return (
-    <section className="py-20 bg-white">
+    <section className="py-15 bg-white">
 
       <div className="max-w-7xl mx-auto px-6 mb-14 text-center">
         <h2 className="text-4xl md:text-5xl font-serif text-[#0F2F24]">
@@ -46,46 +60,38 @@ function PackageHighlights() {
           Join fellow travelers on curated group tours.
         </p>
       </div>
-<div className="relative">
-  <div
-    className="
-      flex gap-8
-      overflow-x-auto
-      scroll-smooth
-      no-scrollbar
-      px-6 md:px-8
-    "
-  >
-    {packages.map((item, index) => (
-      <ExperiencedCard key={index} item={item} />
-    ))}
-  </div>
-</div>
+<div
+        ref={scrollRef}
+        className="
+          flex gap-6
+          overflow-x-auto
+          scroll-smooth
+          no-scrollbar
+          px-6
+        "
+      >
+        {packages.map((item, index) => (
+          <ExperiencedCard key={index} item={item} />
+        ))}
+      </div>
 
-  <div className="flex justify-center gap-6 mt-10 md:hidden">
-  <button className="
-    w-14 h-10
-    rounded-full
-    bg-[#E7FF3033]
-    flex items-center justify-center
-  ">
-    ←
-  </button>
+      {/* Mobile arrows */}
+      <div className="flex justify-center gap-6 mt-10 md:hidden">
+        <button
+          onClick={scrollLeft}
+          className="w-14 h-10 rounded-full bg-[#E7FF3033] flex items-center justify-center"
+        >
+          ←
+        </button>
 
-  <button className="
-    w-14 h-10
-    rounded-full
-    bg-[#E7FF30]
-    flex items-center justify-center
-  ">
-    →
-  </button>
-</div>
-
-
-
+        <button
+          onClick={scrollRight}
+          className="w-14 h-10 rounded-full bg-[#E7FF30] flex items-center justify-center"
+        >
+          →
+        </button>
+      </div>
     </section>
   );
 }
-
 export default PackageHighlights;

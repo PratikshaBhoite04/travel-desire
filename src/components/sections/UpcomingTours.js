@@ -28,7 +28,7 @@ const tours = [
 
 function UpcomingTours() {
   return (
-    <section className="py-20 bg-white relative z-0 mt-20">
+    <section className="py-15 bg-white relative z-0 mt-20">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
