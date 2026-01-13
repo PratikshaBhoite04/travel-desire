@@ -6,6 +6,7 @@ import PopularLocations from "../../components/sections/PopularLocations";
 import UpcomingTours from "../../components/sections/UpcomingTours";
 import PackageHighlights from "../../components/sections/PackageHighlights";
 import ExperiencedCard from "../../components/sections/ExperiencedCard";
+import RealTrips from "../../components/sections/RealTrips";
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
       <UpcomingTours />
       <PackageHighlights />
       <ExperiencedCard />
+      <RealTrips />
     </>
   );
 }
