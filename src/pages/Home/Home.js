@@ -7,6 +7,7 @@ import UpcomingTours from "../../components/sections/UpcomingTours";
 import PackageHighlights from "../../components/sections/PackageHighlights";
 import ExperiencedCard from "../../components/sections/ExperiencedCard";
 import RealTrips from "../../components/sections/RealTrips";
+import Testimonials from "../../components/sections/Testimonials";
 
 
 function Home() {
@@ -21,6 +22,7 @@ function Home() {
       <PackageHighlights />
       <ExperiencedCard />
       <RealTrips />
+      <Testimonials />
     </>
   );
 }
