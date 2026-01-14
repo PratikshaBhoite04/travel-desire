@@ -64,7 +64,7 @@ function RealTrips() {
   }, []);
 
   return (
-    <section className="relative bg-[#021E1A] mt-32 py-32 overflow-hidden">
+    <section className="relative bg-[#021E1A] mt-24 py-32 overflow-hidden">
 
       {/* Decorative lines */}
       <img
@@ -108,19 +108,24 @@ function RealTrips() {
         <p className="text-sm text-gray-300 mb-6">
           See what our travelers are experiencing. Follow us on Instagram for daily inspiration
         </p>
-
-       <button className="inline-flex items-center gap-2 border border-[#19FAEA] text-[#19FAEA] px-6 py-3 rounded-full text-sm hover:bg-[#19FAEA] hover:text-black transition">
+<button className="inline-flex items-center gap-2 border border-[#19FAEA] text-[#19FAEA] px-6 py-3 rounded-full text-sm hover:bg-[#19FAEA] transition">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
-    fill="currentColor"
     className="w-5 h-5"
-    
+    style={{
+      background: "linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4)",
+      WebkitBackgroundClip: "text",
+      WebkitTextFillColor: "transparent",
+    }}
   >
     <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5Zm4.25 4a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm5.25-.75a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/>
   </svg>
-  Follow @tripdesire
+
+  <span className="hover:text-black">Follow @tripdesire</span>
 </button>
+
+
 
       </div>
     </section>

@@ -49,7 +49,7 @@ function PackageHighlights() {
     scrollRef.current.scrollBy({ left: 300, behavior: "smooth" });
   };
   return (
-    <section className="py-15 bg-white">
+    <section className="py-20 bg-white">
 
       <div className="max-w-7xl mx-auto px-6 mb-14 text-center">
         <h2 className="text-4xl md:text-5xl font-serif text-[#0F2F24]">
