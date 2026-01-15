@@ -1,18 +1,22 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Services from "./pages/services/Services";
 import Home from "./pages/Home/Home";
-import TripPackages from "./pages/trips/TripPackages"; 
+import Services from "./pages/services/Services";
+import TripPackages from "./pages/trips/TripPackages";
+import MainLayout from "./components/Layout/MainLayout";
+import ScrollToTop from "./components/shared/ScrollToTop";
+
 
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/tour-packages" element={<TripPackages />} />
-        
-
-       <Route path="/services" element={<Services />} />
-
+        {/* Layout Route */}
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/tour-packages" element={<TripPackages />} />
+          <Route path="/services" element={<Services />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );

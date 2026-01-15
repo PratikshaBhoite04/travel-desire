@@ -1,4 +1,4 @@
-import Navbar from "../../components/shared/Navbar";
+
 import Hero from "../../components/sections/Hero";
 import Ratings from "../../components/sections/Ratings";
 import Trips from "../../components/sections/Trips";
@@ -8,12 +8,12 @@ import PackageHighlights from "../../components/sections/PackageHighlights";
 import ExperiencedCard from "../../components/sections/ExperiencedCard";
 import RealTrips from "../../components/sections/RealTrips";
 import Testimonials from "../../components/sections/Testimonials";
+import PlanTripForm from "../../components/sections/PlanTripForm";
 
 
 function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
       <Ratings />
       <Trips/>
@@ -23,6 +23,7 @@ function Home() {
       <ExperiencedCard />
       <RealTrips />
       <Testimonials />
+      <PlanTripForm />
     </>
   );
 }

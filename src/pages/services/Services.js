@@ -90,81 +90,8 @@ function Services() {
         </div>
       </section>
 
-      {/* ================= FOOTER ================= */}
-      <footer
-        className="pt-16 md:pt-20"
-        style={{
-          background:
-            "radial-gradient(1000px 400px at 20% 100%, #062B25 0%, #001917 70%)",
-        }}
-      >
-        <div
-          className="
-            max-w-7xl 
-            mx-auto 
-            px-4 md:px-6 
-            pb-12 
-            grid 
-            grid-cols-1 
-            md:grid-cols-4 
-            gap-8 md:gap-10 
-            text-white
-          "
-        >
-          {/* Brand */}
-          <div>
-            <h3 className="text-lg font-semibold">Traveldesire</h3>
-            <p className="mt-3 text-sm text-white/70 leading-relaxed">
-              Your Desire. Our Destination. Crafting unforgettable travel
-              experiences since 2010.
-            </p>
-
-            <div className="mt-4 flex items-center gap-2 text-sm">
-              <span className="text-[#9EFF00]">★ 4.9</span>
-              <span className="text-white/60">(1,200+ reviews)</span>
-            </div>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h4 className="font-semibold mb-3">Quick Links</h4>
-            <ul className="space-y-2 text-sm text-white/70">
-              <li>Home</li>
-              <li>Tour Packages</li>
-              <li>Services</li>
-              <li>About Us</li>
-              <li>Contact Us</li>
-            </ul>
-          </div>
-
-          {/* Popular Destinations */}
-          <div>
-            <h4 className="font-semibold mb-3">Popular Destinations</h4>
-            <ul className="space-y-2 text-sm text-white/70">
-              <li>Bali, Indonesia</li>
-              <li>Maldives</li>
-              <li>Dubai, UAE</li>
-              <li>Switzerland</li>
-              <li>Kashmir, India</li>
-            </ul>
-          </div>
-
-          {/* Contact */}
-          <div>
-            <h4 className="font-semibold mb-3">Contact Us</h4>
-            <ul className="space-y-3 text-sm text-white/70">
-              <li>123 Travel Street, Mumbai, Maharashtra 400001</li>
-              <li>+91 98765 43210</li>
-              <li>hello@tripdesire.com</li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="border-t border-white/10 py-6 text-center text-xs text-white/50">
-          © 2024 Traveldesire. All rights reserved.
-        </div>
-      </footer>
-    </>
+   
+   </>
   );
 }
 

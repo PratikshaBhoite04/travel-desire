@@ -85,9 +85,9 @@ function PlanTripForm() {
           <div className="md:col-span-2 flex justify-center md:justify-end mt-6">
             <button
               type="submit"
-              className="bg-[#19FAEA] text-black px-10 py-4 rounded-full font-medium hover:opacity-90 transition"
+              className="bg-[#06D5C6] text-black px-10 py-3 rounded-full font-manrope hover:opacity-90 transition"
             >
-              Send Inquiry Now
+              Send Inquiry Now!
             </button>
           </div>
 
