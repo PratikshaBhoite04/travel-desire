@@ -56,3 +56,9 @@ input[type="date"] {
   color-scheme: dark;
 }
 
+.gradient-border {
+  padding: 1.5px;
+  border-radius: 9999px;
+     border: linear-gradient(90deg, #75FEF4, #E6FDBE);
+}
+

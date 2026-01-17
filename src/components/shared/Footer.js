@@ -125,7 +125,7 @@ function Footer() {
 
         </div>
 
-        <div className="border-t border-[#ACF929CC] mt-12 md:mt-16 pt-6 text-center text-xs md:text-sm text-gray-400">
+        <div className="border-t border-[#ACF929CC] mt-12 md:mt-16 pt-6 pb-12 text-center text-xs md:text-sm text-gray-400">
           © 2024 tripdesire. All rights reserved. |{" "}
           <Link to="/privacy-policy" className="hover:text-white">
             Privacy Policy

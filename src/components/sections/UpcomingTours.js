@@ -1,10 +1,13 @@
 import rajasthan from "../../assets/images/rajasthan.png";
 import kashmir from "../../assets/images/kashmir.png";
 import manali1 from "../../assets/images/manali1.png";
+import { useNavigate } from "react-router-dom";
+
 
 const tours = [
   {
     title: "Rajasthan Heritage Tour",
+    slug: "rajasthan-mewad-with-tiger-reserve",
     price: "₹28,999",
     days: "7 Days / 6 Nights",
     rating: "4.9",
@@ -12,6 +15,7 @@ const tours = [
   },
   {
     title: "Kashmir Valley Escape",
+    slug: "kashmir-valley-escape",
     price: "₹28,999",
     days: "7 Days / 6 Nights",
     rating: "4.9",
@@ -19,6 +23,7 @@ const tours = [
   },
   {
     title: "Manali Snow Adventure",
+    slug: "manali-snow-adventure",
     price: "₹28,999",
     days: "7 Days / 6 Nights",
     rating: "4.9",
@@ -26,7 +31,9 @@ const tours = [
   },
 ];
 
+
 function UpcomingTours() {
+   const navigate = useNavigate();
   return (
     <section className="py-15 bg-white relative z-0 mt-10">
       <div className="max-w-7xl mx-auto px-6">
@@ -85,6 +92,7 @@ function UpcomingTours() {
 
                   {/* Arrow Button */}
                   <button
+                 onClick={() => navigate(`/tour/${tour.slug}`)}
                     className="
                       w-16 h-11
                       rounded-full
