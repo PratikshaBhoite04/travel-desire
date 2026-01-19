@@ -1,19 +1,27 @@
 import { useParams } from "react-router-dom";
+import { useState } from "react";
 import { tours } from "../../data/tours";
 
 import TourHero from "../../components/TourHero";
 import PriceBar from "../../components/PriceBar";
 import TourTabs from "../../components/TourTabs";
 import Highlights from "../../components/HighLights";
+import Inclusions from "../../components/Inclusions";
+import Itinerary from "../../components/Itinerary";
+import Pricing from "../../components/Pricing";
+import Terms from "../../components/Terms";
+import Images from "../../components/Images";
 import BookPackageCard from "../../components/BookPackageCard";
 
 function TourDetail() {
   const { slug } = useParams();
+  const [activeTab, setActiveTab] = useState("highlights");
 
-  // ✅ CORRECT WAY (array)
   const tour = tours.find((t) => t.slug === slug);
 
-  if (!tour) return <p className="text-center py-20">Tour not found</p>;
+  if (!tour) {
+    return <p className="text-center py-20">Tour not found</p>;
+  }
 
   return (
     <div className="bg-white">
@@ -21,11 +29,40 @@ function TourDetail() {
       <PriceBar tour={tour} />
 
       <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-10">
+        
+        {/* LEFT CONTENT */}
         <div className="md:col-span-2">
-          <TourTabs />
-          <Highlights highlights={tour.highlights || []} />
+          <TourTabs activeTab={activeTab} setActiveTab={setActiveTab} />
+
+          {activeTab === "highlights" && (
+            <Highlights highlights={tour.highlights || []} />
+          )}
+
+          {activeTab === "inclusions" && (
+            <Inclusions inclusions={tour.inclusions || {}} />
+          )}
+
+          {activeTab === "itinerary" && (
+            <Itinerary
+              itinerary={tour.itinerary || []}
+              points={tour.pointsToRemember || []}
+            />
+          )}
+
+          {activeTab === "pricing" && (
+            <Pricing pricing={tour.pricing || {}} />
+          )}
+
+          {activeTab === "terms" && (
+            <Terms terms={tour.terms || ""} />
+          )}
+
+          {activeTab === "images" && (
+            <Images images={tour.images || []} />
+          )}
         </div>
 
+        {/* RIGHT SIDEBAR */}
         <BookPackageCard tour={tour} />
       </div>
     </div>

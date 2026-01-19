@@ -12,6 +12,7 @@ module.exports = {
       },
       fontFamily: {
         manrope: ["Manrope", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
          tiempos: ["Test Tiempos Fine", "serif"],
          gloock: ['Gloock', 'serif'],
       },
