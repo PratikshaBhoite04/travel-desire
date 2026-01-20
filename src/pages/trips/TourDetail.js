@@ -11,7 +11,11 @@ import Itinerary from "../../components/Itinerary";
 import Pricing from "../../components/Pricing";
 import Terms from "../../components/Terms";
 import Images from "../../components/Images";
+import Testimonials from "../../components/sections/Testimonials";
 import BookPackageCard from "../../components/BookPackageCard";
+import Faqs from "../../components/sections/Faqs";
+import { faqs } from "../../data/faqs";
+
 
 function TourDetail() {
   const { slug } = useParams();
@@ -35,7 +39,7 @@ function TourDetail() {
           <TourTabs activeTab={activeTab} setActiveTab={setActiveTab} />
 
           {activeTab === "highlights" && (
-            <Highlights highlights={tour.highlights || []} />
+            <Highlights highlights={tour.highlightsData || []} />
           )}
 
           {activeTab === "inclusions" && (
@@ -64,7 +68,19 @@ function TourDetail() {
 
         {/* RIGHT SIDEBAR */}
         <BookPackageCard tour={tour} />
+
       </div>
+
+      <Testimonials
+  title="Reviews"
+  showSubtitle={false}
+  withBackground={false}
+/>
+
+
+<Faqs title="FAQs" faqs={faqs} />
+
+
     </div>
   );
 }

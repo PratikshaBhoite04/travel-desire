@@ -60,20 +60,50 @@ function Navbar() {
                 </NavLink>
                 <NavLink to="/services" className={linkClass}>Services</NavLink>
                 <NavLink to="/about" className={linkClass}>About Us</NavLink>
-                <NavLink to="/contact" className={linkClass}>Contact Us</NavLink>
+                <NavLink to="/Contact" className={linkClass}>Contact Us</NavLink>
               </nav>
 
-              {/* CTA Button */}
               <button
-                className="
-                  hidden md:block
-                  relative overflow-hidden
-                  w-[200px] h-[50px]
-                  rounded-full
-                  font-manrope text-[16px]
-                  bg-white/20 hover:bg-[#19FAEA]
-                "
-              />
+  className="
+    hidden md:block
+    relative overflow-hidden
+    w-[200px] h-[50px]
+    rounded-full
+    font-manrope text-[16px] font-medium
+    bg-white/20
+    group
+  "
+>
+  {/* Default text */}
+  <span
+    className="
+      absolute inset-0
+      flex items-center justify-center
+      text-white
+      transition-all duration-300
+      group-hover:-translate-y-full
+      group-hover:opacity-0
+    "
+  >
+    Plan My Trip
+  </span>
+
+  <span
+    className="
+      absolute inset-0
+      flex items-center justify-center
+      text-black
+      bg-[#19FAEA]
+      translate-y-full opacity-0
+      transition-all duration-300
+      group-hover:translate-y-0
+      group-hover:opacity-100
+    "
+  >
+    Send Inquiry Now!
+  </span>
+</button>
+
 
               {/* Mobile Toggle */}
               <button
@@ -119,7 +149,7 @@ function Navbar() {
             </NavLink>
             <NavLink to="/services" onClick={() => setOpen(false)}>Services</NavLink>
             <NavLink to="/about" onClick={() => setOpen(false)}>About Us</NavLink>
-            <NavLink to="/contact" onClick={() => setOpen(false)}>Contact Us</NavLink>
+            <NavLink to="/Contact" onClick={() => setOpen(false)}>Contact Us</NavLink>
           </div>
         </div>
       )}

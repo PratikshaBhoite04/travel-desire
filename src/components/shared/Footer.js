@@ -10,7 +10,7 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-[#021E1A] text-white pt-20">
+    <footer className="bg-[#011715] text-white pt-20">
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="flex flex-col space-y-12 md:grid md:grid-cols-4 md:gap-12 md:space-y-0">
