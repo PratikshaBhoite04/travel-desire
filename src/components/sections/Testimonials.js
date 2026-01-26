@@ -3,169 +3,238 @@ import girl from "../../assets/images/girl.jpg";
 import bird from "../../assets/images/bird.png";
 import lines from "../../assets/images/waves.png";
 
+/* ===== SVG ARROWS (FIGMA STYLE) ===== */
+const ArrowRightIcon = ({ className }) => (
+  <svg viewBox="0 0 24 24" fill="none" className={className}>
+    <path
+      d="M5 12H19M19 12L13 6M19 12L13 18"
+      stroke="#001917"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+const ArrowLeftIcon = ({ className }) => (
+  <svg viewBox="0 0 24 24" fill="none" className={className}>
+    <path
+      d="M19 12H5M5 12L11 6M5 12L11 18"
+      stroke="#001917"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
 function Testimonials({
   title = "Listen to Real Stories",
   highlight = "Real Stories",
   showSubtitle = true,
   withBackground = true,
 }) {
+  /* ===== DESKTOP STATE (UNCHANGED) ===== */
+  const CENTER_INDEX = 1;
   const [activeIndex, setActiveIndex] = useState(null);
-  const scrollRef = useRef(null);
 
   const cards = [0, 1, 2];
 
-  const scrollByCard = (direction) => {
-    if (!scrollRef.current) return;
+const mobileScrollRef = useRef(null);
 
-    const cardWidth = 320 + 24;
-    scrollRef.current.scrollBy({
-      left: direction === "left" ? -cardWidth : cardWidth,
-      behavior: "smooth",
-    });
-  };
+const scrollMobile = (direction) => {
+  if (!mobileScrollRef.current) return;
+
+  mobileScrollRef.current.scrollBy({
+    left: direction * mobileScrollRef.current.offsetWidth,
+    behavior: "smooth",
+  });
+};
+
 
   return (
-    <section
-      className={`py-20 ${
-        withBackground ? "bg-[#F9FDEB]" : "bg-transparent"
-      }`}
-    >
-      {/* ===== HEADING ===== */}
-      <div className="text-center max-w-3xl mx-auto mb-16 px-4">
-        <h2 className="text-[52px] font-gloock font-normal text-[#001917]">
-          {title.includes(highlight) ? (
-            <>
-              {title.replace(highlight, "")}
-              <span className="text-[#19FAEA]">{highlight}</span>
-            </>
-          ) : (
-            title
-          )}
+    <section className={`py-14 md:py-20 ${withBackground ? "bg-[#F9FDEB]" : ""}`}>
+
+      {/* ================= HEADING ================= */}
+      <div className="text-center max-w-3xl mx-auto mb-8 md:mb-10 px-4">
+        <h2 className="text-[36px] font-tiempos font-[500] text-[#121212]">
+          Listen to <span className="text-[#06D5C6]">Real Stories</span>
         </h2>
 
         {showSubtitle && (
-          <p className="mt-4 text-gray-500 text-[16px] font-light font-manrope">
+          <p className="
+            mt-3
+            text-[#7D7D7D]
+            text-[16px] md:text-[18px]
+            font-[300] font-manrope
+            whitespace-normal md:whitespace-nowrap
+          ">
             We’re not just a travel agency, we’re your travel partners committed
-            to creating memorable
-            <br className="hidden md:block" />
-            experiences
+            to creating memorable experiences
           </p>
         )}
       </div>
 
-      {/* ===== CARDS ===== */}
-      <div className="relative">
-        <div
-          ref={scrollRef}
-          className="
-            flex gap-6
-            overflow-x-auto md:overflow-visible
-            px-10 md:px-0
-            scroll-smooth
-            snap-x snap-mandatory
-            no-scrollbar
-            md:justify-center
-          "
-        >
-          {cards.map((_, index) => {
-            const isActive = activeIndex === index;
-            const slide =
-              index === 0 ? "-translate-x-10" : "translate-x-10";
+  {/* ================= MOBILE VIEW ================= */}
+<div className="md:hidden px-4">
+  {/* SCROLL AREA */}
+  <div
+    ref={mobileScrollRef}
+    className="
+      flex gap-4
+      overflow-x-auto
+      snap-x snap-mandatory
+      scroll-smooth
+      scrollbar-hide
+    "
+  >
+    {cards.map((_, index) => (
+      <div
+        key={index}
+        className="min-w-full snap-center"
+      >
+        <div className="relative h-[280px] rounded-[14px] overflow-hidden">
+          {/* Image */}
+          <img
+            src={girl}
+            alt="Traveler"
+            className="absolute inset-0 w-full h-full object-cover"
+          />
 
-            return (
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-[#021E1A]/95 p-5 flex flex-col justify-between">
+            <div>
+              <img src={bird} alt="" className="w-9 mb-10" />
+              <p className="text-[14px] text-[#FFFFFF] font-manrope font-[300] leading-[20px]">
+                “No more ‘let’s hope the experience is good’. Travel Desire
+                sorted everything for us. From planning to execution, it was
+                seamless.”
+              </p>
+            </div>
+
+            <div>
+              <h4 className="text-[#D5FB93] text-[22px] font-[500]">
+                Antara
+              </h4>
+              <p className="font-manrope text-[13px] font-[300] text-white">
+                Rajasthan Custom Trip
+              </p>
+            </div>
+
+            <img
+              src={lines}
+              alt=""
+              className="absolute top-0 right-0 w-[200px] opacity-200"
+            />
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  {/* ARROWS */}
+  <div className="flex justify-center gap-4 mt-6">
+    <button
+      onClick={() => scrollMobile(-1)}
+      className="
+        h-11 px-6
+        rounded-full
+        bg-[#E7FF3033]
+        flex items-center justify-center
+        active:scale-95
+        transition
+      "
+    >
+      <ArrowLeftIcon className="w-5 h-5" />
+    </button>
+
+    <button
+      onClick={() => scrollMobile(1)}
+      className="
+        h-11 px-6
+        rounded-full
+        bg-[#E7FF30]
+        flex items-center justify-center
+        active:scale-95
+        transition
+      "
+    >
+      <ArrowRightIcon className="w-5 h-5" />
+    </button>
+  </div>
+</div>
+
+
+      {/* ================= DESKTOP VIEW (UNCHANGED – EXACT COPY) ================= */}
+      <div className="hidden md:flex justify-center gap-6 px-10">
+        {cards.map((_, index) => {
+          const isCenter = index === CENTER_INDEX;
+          const isSideHovered =
+            activeIndex !== null && activeIndex !== CENTER_INDEX;
+
+          const showDetail =
+            (!isSideHovered && isCenter) || activeIndex === index;
+
+          return (
+            <div
+              key={index}
+              onMouseEnter={() => {
+                if (!isCenter) setActiveIndex(index);
+              }}
+              onMouseLeave={() => {
+                setActiveIndex(null);
+              }}
+              className={`
+                relative h-[380px] rounded-3xl overflow-hidden
+                transition-all duration-500 ease-out
+                ${showDetail ? "w-[560px]" : "w-[320px]"}
+              `}
+            >
+              <img
+                src={girl}
+                alt="Traveler"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+
+              {!showDetail && (
+                <span className="absolute bottom-6 left-6 text-white text-xl z-10">
+                  Antara
+                </span>
+              )}
+
               <div
-                key={index}
-                onMouseEnter={() => {
-                  if (window.innerWidth >= 768) setActiveIndex(index);
-                }}
-                onMouseLeave={() => {
-                  if (window.innerWidth >= 768) setActiveIndex(null);
-                }}
-                onClick={() => {
-                  if (window.innerWidth < 768) {
-                    setActiveIndex(index);
-                  }
-                }}
-                className="
-                  relative h-[380px] flex-shrink-0 snap-center
-                  transition-all duration-500 ease-out
-                  w-[320px]
-                  md:w-[320px]
-                  md:hover:w-[560px]
-                "
+                className={`
+                  absolute inset-0 bg-[#021E1A] text-white p-10
+                  transition-opacity duration-500
+                  ${showDetail ? "opacity-100" : "opacity-0"}
+                `}
               >
-                {/* IMAGE CARD */}
-                <div className="absolute inset-0 rounded-3xl overflow-hidden">
-                  <img
-                    src={girl}
-                    alt="Traveler"
-                    className="w-full h-full object-cover"
-                  />
-                  <span className="absolute bottom-6 left-6 text-white text-xl">
+                <img
+                  src={lines}
+                  alt=""
+                  className="absolute top-0 right-0 w-[320px] opacity-40"
+                />
+
+                <img src={bird} alt="" className="w-11 mb-6" />
+
+                <p className="text-[21px] font-manrope font-[300]">
+                  “No more ‘let’s hope the experience is good’. Travel Desire
+                  sorted everything for us. From planning to execution, it was
+                  seamless.”
+                </p>
+
+                <div className="mt-8">
+                  <h4 className="text-[#D5FB93] text-[34px] font-[500]">
                     Antara
-                  </span>
-                </div>
-
-                {/* HOVER CARD */}
-                <div
-                  className={`
-                    absolute inset-0 rounded-3xl bg-[#021E1A] text-white
-                    p-10 overflow-hidden
-                    transition-all duration-500 ease-out
-                    ${
-                      isActive
-                        ? "opacity-100 translate-x-0"
-                        : `opacity-0 ${slide}`
-                    }
-                  `}
-                >
-                  <img
-                    src={lines}
-                    alt=""
-                    className="absolute top-0 right-0 w-72 pointer-events-none"
-                  />
-
-                  <img
-                    src={bird}
-                    alt=""
-                    className="w-10 mb-8 relative z-10"
-                  />
-
-                  <p className="text-[16px] md:text-[20px] leading-relaxed font-light font-manrope opacity-90 relative z-10">
-                    “No more ‘let’s hope the experience is good’. Travel Desire
-                    sorted everything for us. From planning to execution, it was
-                    seamless.”
+                  </h4>
+                  <p className="font-manrope text-[19px] font-[300]">
+                    Rajasthan Custom Trip
                   </p>
-
-                  <div className="mt-10 relative z-10">
-                    <h4 className="text-[#ACF929] text-[32px] font-manrope font-medium">
-                      Antara
-                    </h4>
-                    <p className="text-white text-xl font-light font-manrope mt-1">
-                      Rajasthan Custom Trip
-                    </p>
-                  </div>
                 </div>
               </div>
-            );
-          })}
-        </div>
-
-        {/* MOBILE ARROWS */}
-        <div className="flex justify-center gap-4 mt-10 md:hidden">
-          <button
-            onClick={() => scrollByCard("left")}
-            className="w-14 h-10 rounded-full bg-[#EAF5C8] flex items-center justify-center"
-          >
-            ←
-          </button>
-          <button
-            onClick={() => scrollByCard("right")}
-            className="w-14 h-10 rounded-full bg-[#D8F929] flex items-center justify-center"
-          >
-            →
-          </button>
-        </div>
+            </div>
+          );
+        })}
       </div>
     </section>
   );

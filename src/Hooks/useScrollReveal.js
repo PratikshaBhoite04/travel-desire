@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-export default function useScrollReveal() {
+export default function useScrollReveal(threshold = 0.3) {
   const elementRef = useRef(null);
   const [show, setShow] = useState(false);
 
@@ -12,7 +12,7 @@ export default function useScrollReveal() {
           observer.disconnect();
         }
       },
-      { threshold: 0.2 }
+      { threshold }
     );
 
     if (elementRef.current) {
@@ -20,7 +20,7 @@ export default function useScrollReveal() {
     }
 
     return () => observer.disconnect();
-  }, []);
+  }, [threshold]);
 
   return [elementRef, show];
 }

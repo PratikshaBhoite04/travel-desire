@@ -2,51 +2,72 @@ import man from "../../assets/images/man.png";
 import useScrollReveal from "../../Hooks/useScrollReveal";
 
 
+
 function Trips() {
+const [imageRef, imageVisible] = useScrollReveal(0.35);
 
   /// Desktop cards
-const [deskCard1Ref, deskCard1Visible] = useScrollReveal();
-const [deskCard2Ref, deskCard2Visible] = useScrollReveal();
-const [deskCard3Ref, deskCard3Visible] = useScrollReveal();
+const [deskCard1Ref, deskCard1Visible] = useScrollReveal(0.3);
+const [deskCard2Ref, deskCard2Visible] = useScrollReveal(0.3);
+const [deskCard3Ref, deskCard3Visible] = useScrollReveal(0.3);
 
 // Mobile cards
-const [mobCard1Ref, mobCard1Visible] = useScrollReveal();
-const [mobCard2Ref, mobCard2Visible] = useScrollReveal();
-const [mobCard3Ref, mobCard3Visible] = useScrollReveal();
+const [mobCard1Ref, mobCard1Visible] = useScrollReveal(0.3);
+const [mobCard2Ref, mobCard2Visible] = useScrollReveal(0.3);
+const [mobCard3Ref, mobCard3Visible] = useScrollReveal(0.3);
+
 
 // Button animations
-const [deskBtnRef, deskBtnVisible] = useScrollReveal();
-const [mobBtnRef, mobBtnVisible] = useScrollReveal();
-
+const [deskBtnRef, deskBtnVisible] = useScrollReveal(0.4);
+const [mobBtnRef, mobBtnVisible] = useScrollReveal(0.4);
 
 
 
   return (
     <section className="bg-[#F9FDEB] py-20">
       <div className="max-w-7xl mx-auto px-6">
+{/* Heading */}
+<div className="text-center max-w-3xl mx-auto">
+  {/* DESKTOP */}
+  <h2 className="hidden md:block text-4xl md:text-5xl font-tiempos text-[#0F2F24]">
+    Trips, built around you
+  </h2>
 
-        {/* Heading */}
-        <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-tiempos text-[#0F2F24]">
-            Trips, built around you
-          </h2>
+  <p className="hidden md:block mt-4 text-[#3F5F54] font-manrope text-sm md:text-base">
+    Every traveler is different. We design personalised trips based on your interests,
+    pace, and budget – so your journey feels truly yours.
+  </p>
 
-          <p className="mt-4 text-[#3F5F54] font-manrope text-sm md:text-base">
-            Every traveler is different. We design personalised trips based on your interests,
-            pace, and budget – so your journey feels truly yours.
-          </p>
-        </div>
+  {/* MOBILE */}
+  <h2 className="md:hidden font-tiempos text-[34px] font-[500]  leading-[33px] text-[#0F2F24]">
+    Trips, built around you
+  </h2>
+
+  <p className="md:hidden mt-3 mx-auto max-w-[320px] text-[14px] leading-[22px] text-[#3F5F54] font-manrope">
+    Every traveler is different. We design personalised trips based on your interests,
+    pace, and budget – so your journey feels truly yours.
+  </p>
+</div>
+
 
         {/* ================= DESKTOP VIEW ================= */}
         <div className="hidden md:grid grid-cols-2 items-start mt-20 gap-12">
 
           {/* Left Image */}
           <div>
-            <img
-              src={man}
-              alt="Traveler"
-              className="max-w-md"
-            />
+           <img
+  ref={imageRef}
+  src={man}
+  alt="Traveler"
+  className={`
+    w-[520px] max-w-none
+    transition-all duration-700 ease-out
+    ${imageVisible
+      ? "opacity-100 translate-y-0"
+      : "opacity-0 translate-y-12"}
+  `}
+/>
+
           </div>
 
           {/* Right Card (slightly upward) */}
@@ -108,12 +129,12 @@ const [mobBtnRef, mobBtnVisible] = useScrollReveal();
 
  <button
   ref={deskBtnRef}
-  className={`self-end bg-[#19FAEA] text-black px-8 py-3 rounded-full text-sm font-small
+  className={`self-end bg-[#06D5C6] text-black px-8 py-3 rounded-full text-sm font-small
     transition-all duration-700
     ${deskBtnVisible
       ? "opacity-100 translate-y-0"
       : "opacity-0 translate-y-6"}
-    hover:bg-[#19FAEA]
+    hover:bg-[#06D5C6]
   `}
 >
   Send Inquiry Now!
@@ -193,7 +214,7 @@ const [mobBtnRef, mobBtnVisible] = useScrollReveal();
 
          <button
   ref={mobBtnRef}
-  className={`border bg-[#19FAEA] text-black px-8 py-3 rounded-full text-sm
+  className={`border bg-[#06D5C6] text-black px-8 py-3 rounded-full text-sm
     transition-all duration-700
     ${mobBtnVisible
       ? "opacity-100 translate-y-0"

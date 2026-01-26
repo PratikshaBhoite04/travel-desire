@@ -9,6 +9,20 @@ function Navbar() {
   //  Hook INSIDE component
   const location = useLocation();
 
+  const pathname = location.pathname.toLowerCase();
+
+const darkPages = [
+  "/tour-packages",
+  "/services",
+  "/about",
+  "/contact",
+];
+
+const isDarkNavbar =
+  darkPages.includes(pathname) || pathname.startsWith("/tour/");
+
+
+
   //  Active when /tour or /tour-packages
   const isTourActive =
     location.pathname.startsWith("/tour") ||
@@ -44,7 +58,13 @@ function Navbar() {
     <>
       {/* ================= DESKTOP NAVBAR ================= */}
       <header className="fixed top-0 left-0 w-full z-50">
-        <div className="backdrop-blur-md bg-black/40">
+       <div
+  className={`
+    backdrop-blur-md transition-colors duration-300
+    ${isDarkNavbar ? "bg-[#001917]" : "bg-black/40"}
+  `}
+>
+
           <div className="max-w-7xl mx-auto px-4">
             <div className="h-20 flex items-center justify-between">
 
@@ -60,27 +80,29 @@ function Navbar() {
                 </NavLink>
                 <NavLink to="/services" className={linkClass}>Services</NavLink>
                 <NavLink to="/about" className={linkClass}>About Us</NavLink>
-                <NavLink to="/Contact" className={linkClass}>Contact Us</NavLink>
+                <NavLink to="/contact" className={linkClass}>Contact Us</NavLink>
               </nav>
 
-              <button
+ <button
   className="
     hidden md:block
     relative overflow-hidden
     w-[200px] h-[50px]
     rounded-full
-    font-manrope text-[16px] font-medium
+    font-manrope
     bg-white/20
     group
   "
 >
-  {/* Default text */}
+  {/* DEFAULT STATE */}
   <span
     className="
       absolute inset-0
       flex items-center justify-center
       text-white
-      transition-all duration-300
+      font-[400] text-[16px]
+      tracking-[-0.16px]
+      transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)]
       group-hover:-translate-y-full
       group-hover:opacity-0
     "
@@ -88,14 +110,17 @@ function Navbar() {
     Plan My Trip
   </span>
 
+  {/* HOVER STATE */}
   <span
     className="
       absolute inset-0
       flex items-center justify-center
-      text-black
       bg-[#19FAEA]
+      text-[#033733]
+      font-[400] text-[16px]
+      tracking-[-0.16px]
       translate-y-full opacity-0
-      transition-all duration-300
+      transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)]
       group-hover:translate-y-0
       group-hover:opacity-100
     "
@@ -103,6 +128,7 @@ function Navbar() {
     Send Inquiry Now!
   </span>
 </button>
+
 
 
               {/* Mobile Toggle */}

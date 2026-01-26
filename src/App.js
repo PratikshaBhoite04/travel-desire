@@ -19,7 +19,7 @@ function App() {
           <Route path="/tour-packages" element={<TripPackages />} />
           <Route path="/services" element={<Services />} />
            <Route path="/about" element={<About />} />
-            <Route path="/Contact" element={<Contact />} />
+            <Route path="/contact" element={<Contact />} />
 
           <Route path="/tour/:slug" element= {<TourDetail />}></Route>
         </Route>

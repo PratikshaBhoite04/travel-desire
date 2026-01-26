@@ -1,17 +1,22 @@
 import rajasthan from "../assets/images/rajasthan.png";
 import kashmir from "../assets/images/kashmir.png";
-import manali1 from "../assets/images/manali1.png";
+import manali3 from "../assets/images/manali3.png";
 import forest from "../assets/images/forest.png";
 import leaf from "../assets/images/leaf.png";
 import coffee from "../assets/images/coffee.png";
 import cream from "../assets/images/cream.png";
 import bottles from "../assets/images/bottles.png";
+import kedarnath from "../assets/images/kedarnath.png";
+import kedarnath2 from "../assets/images/kedarnath2.png";
+import udaipur from "../assets/images/udaipur.png";
+import kashmir1 from "../assets/images/kashmir1.png";
+
 
 
 export const tours = [
   {
     /* ================= RAJASTHAN ================= */
-    title: "Rajasthan Mewad With Tiger Reserve",
+    title: "Rajasthan Mewad ",
     slug: "rajasthan-mewad-with-tiger-reserve",
     price: "₹65,999",
     days: "7 Days / 6 Nights",
@@ -110,7 +115,8 @@ export const tours = [
       "Shopping is at the sole discretion of the guest.",
     ],
 
-    images: [rajasthan, leaf, bottles, forest, coffee, cream, leaf],
+    images: [rajasthan, leaf, bottles, forest, coffee, cream, leaf,  kedarnath,
+  kedarnath2, udaipur,],
   },
 
   {
@@ -194,7 +200,8 @@ export const tours = [
       "Guests must carry valid ID proof.",
     ],
 
-    images: [kashmir, leaf, bottles, forest, coffee, cream, leaf],
+    images: [kashmir, leaf, bottles, forest, coffee, cream, leaf,  kedarnath,
+  kedarnath2, udaipur,],
   },
 
   {
@@ -204,7 +211,7 @@ export const tours = [
     price: "₹28,999",
     days: "7 Days / 6 Nights",
     rating: "4.9",
-    image: manali1,
+    image: manali3,
     location: "Manali, Himachal Pradesh",
     nextDate: "March 5, 2025",
 
@@ -275,6 +282,396 @@ export const tours = [
       "Tour may be rescheduled due to road conditions.",
     ],
 
-    images: [manali1, leaf, bottles, forest, coffee, cream, leaf],
+    images: [manali3, leaf, bottles, forest, coffee, cream, leaf,  kedarnath,
+  kedarnath2, udaipur,],
   },
+
+  {
+  title: "Udaipur Royal Retreat",
+  slug: "udaipur-royal-retreat",
+  price: "₹22,999",
+  days: "5 Days / 4 Nights",
+  rating: "4.8",
+  image: udaipur,
+  location: "Udaipur, Rajasthan",
+  nextDate: "April 12, 2025",
+
+  highlightsData: {
+    locationCard: {
+      meta: "1 Country, 1 City, 6 Locations",
+      places: "Udaipur",
+    },
+    pills: ["Breakfast Included", "Lake View Hotel", "Local Guide"],
+    highlights: [
+      "City Palace",
+      "Lake Pichola Boat Ride",
+      "Jag Mandir",
+      "Saheliyon Ki Bari",
+      "Fateh Sagar Lake",
+    ],
+    experiences: [
+      {
+        title: "Boat Ride",
+        desc: "Sunset boat ride on Lake Pichola with palace views.",
+      },
+      {
+        title: "Royal Culture",
+        desc: "Experience Mewar royal heritage and architecture.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival in Udaipur",
+      desc: "Arrival and leisure evening near Lake Pichola.",
+    },
+    {
+      day: "02",
+      title: "Udaipur Sightseeing",
+      desc: "City Palace, Jag Mandir and local markets.",
+    },
+  ],
+
+  pointsToRemember: [
+    "Comfortable footwear recommended",
+    "Evening boat ride subject to weather",
+  ],
+
+  inclusions: {
+    included: ["Hotel stay", "Daily breakfast", "Local sightseeing"],
+    excluded: ["Personal expenses", "Camera fees"],
+  },
+
+  pricing: {
+    rows: [
+      { category: "Single", price: "₹22,999", unit: "per head" },
+      { category: "Couple", price: "₹19,999", unit: "per head" },
+    ],
+    note: "Prices may vary during peak season.",
+  },
+
+  terms: [
+    "Sightseeing order may change",
+    "Hotel subject to availability",
+  ],
+
+  images: [udaipur, forest, coffee, leaf, cream],
+},
+
+{
+  title: "Kedarnath Spiritual Yatra",
+  slug: "kedarnath-spiritual-yatra",
+  price: "₹18,999",
+  days: "4 Days / 3 Nights",
+  rating: "4.9",
+  image: kedarnath,
+  location: "Kedarnath, Uttarakhand",
+  nextDate: "May 10, 2025",
+
+  highlightsData: {
+    locationCard: {
+      meta: "1 Country, 2 Cities, 5 Locations",
+      places: "Haridwar, Kedarnath",
+    },
+    pills: ["Temple Darshan", "Mountain Views", "Guided Yatra"],
+    highlights: [
+      "Kedarnath Temple Darshan",
+      "Mandakini River",
+      "Gaurikund",
+    ],
+    experiences: [
+      {
+        title: "Spiritual Darshan",
+        desc: "Divine darshan of one of the 12 Jyotirlingas.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Haridwar – Guptkashi",
+      desc: "Scenic drive through Himalayas.",
+    },
+    {
+      day: "02",
+      title: "Kedarnath Darshan",
+      desc: "Trek and temple visit.",
+    },
+  ],
+
+  pointsToRemember: [
+    "Medical fitness required",
+    "Warm clothing mandatory",
+  ],
+
+  inclusions: {
+    included: ["Hotel stay", "Breakfast & Dinner", "Transfers"],
+    excluded: ["Pony / Helicopter charges"],
+  },
+
+  pricing: {
+    rows: [
+      { category: "Single", price: "₹18,999", unit: "per head" },
+      { category: "Couple", price: "₹16,999", unit: "per head" },
+    ],
+    note: "Yatra dates depend on temple opening.",
+  },
+
+  terms: [
+    "Weather dependent itinerary",
+    "Yatra may be postponed due to landslides",
+  ],
+
+  images: [kedarnath, forest, leaf, coffee, cream],
+},
+
+{
+  title: "Kedarnath Himalayan Trek",
+  slug: "kedarnath-himalayan-trek",
+  price: "₹24,999",
+  days: "6 Days / 5 Nights",
+  rating: "4.8",
+  image: kedarnath2,
+  location: "Kedarnath, Uttarakhand",
+  nextDate: "June 5, 2025",
+
+  highlightsData: {
+    locationCard: {
+      meta: "High Altitude Trek",
+      places: "Gaurikund – Kedarnath",
+    },
+    pills: ["Trekking", "Camping", "Adventure"],
+    highlights: [
+      "Snow Trails",
+      "Himalayan Camps",
+      "High Altitude Views",
+    ],
+    experiences: [
+      {
+        title: "Trekking Adventure",
+        desc: "Challenging Himalayan trek with expert guides.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival & Acclimatization",
+      desc: "Briefing and trek preparation.",
+    },
+    {
+      day: "02",
+      title: "Trek to Kedarnath",
+      desc: "Full-day mountain trek.",
+    },
+  ],
+
+  pointsToRemember: [
+    "High fitness level required",
+    "Carry personal medication",
+  ],
+
+  inclusions: {
+    included: ["Guide", "Meals", "Camping gear"],
+    excluded: ["Personal trekking gear"],
+  },
+
+  pricing: {
+    rows: [
+      { category: "Single", price: "₹24,999", unit: "per head" },
+    ],
+    note: "Subject to weather & trail conditions.",
+  },
+
+  terms: [
+    "Adventure risk involved",
+    "Insurance recommended",
+  ],
+
+  images: [kedarnath2, forest, coffee, leaf, cream],
+},
+
+{
+  title: "Kashmir Paradise Escape",
+  slug: "kashmir-paradise-escape",
+  price: "₹32,999",
+  days: "6 Days / 5 Nights",
+  rating: "4.8",
+  image: kashmir1,
+  location: "Kashmir, India",
+  nextDate: "July 15, 2025",
+
+  highlightsData: {
+    locationCard: {
+      meta: "1 Country, 3 Cities, 7 Locations",
+      places: "Srinagar, Sonamarg, Gulmarg",
+    },
+    pills: ["Breakfast Included", "Mountain Views", "Local Guide"],
+    highlights: [
+      "Sonamarg Meadows",
+      "Gulmarg Gondola",
+      "Dal Lake Shikara Ride",
+    ],
+    experiences: [
+      {
+        title: "Shikara Ride",
+        desc: "Relaxing boat ride on Dal Lake.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival in Srinagar",
+      desc: "Welcome and local sightseeing.",
+    },
+    {
+      day: "02",
+      title: "Gulmarg Excursion",
+      desc: "Snow views and gondola ride.",
+    },
+  ],
+
+  pointsToRemember: [
+    "Carry warm clothes",
+    "Weather dependent activities",
+  ],
+
+  inclusions: {
+    included: ["Hotel stay", "Breakfast", "Transfers"],
+    excluded: ["Airfare", "Personal expenses"],
+  },
+
+  pricing: {
+    rows: [
+      { category: "Single", price: "₹32,999", unit: "per head" },
+      { category: "Couple", price: "₹29,999", unit: "per head" },
+    ],
+    note: "Rates may vary during snowfall season.",
+  },
+
+  terms: [
+    "Itinerary subject to weather",
+    "Sightseeing may change",
+  ],
+
+  images: [kashmir1, forest, leaf, coffee, cream],
+},
+
+{
+  title: "Manali Scenic Escape",
+  slug: "manali-scenic-escape",
+  price: "₹27,999",
+  days: "5 Days / 4 Nights",
+  rating: "4.7",
+  image: manali3,
+  location: "Manali, Himachal Pradesh",
+  nextDate: "August 10, 2025",
+
+  highlightsData: {
+    locationCard: {
+      meta: "1 Country, 2 Cities, 5 Locations",
+      places: "Manali, Solang",
+    },
+    pills: ["Snow Views", "Local Sightseeing"],
+    highlights: [
+      "Solang Valley",
+      "Mall Road",
+      "Hadimba Temple",
+    ],
+    experiences: [
+      {
+        title: "Mountain Views",
+        desc: "Scenic Himalayan landscapes.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival in Manali",
+      desc: "Local sightseeing.",
+    },
+  ],
+
+  pointsToRemember: ["Carry jackets"],
+
+  inclusions: {
+    included: ["Hotel stay", "Breakfast"],
+    excluded: ["Adventure activities"],
+  },
+
+  pricing: {
+    rows: [{ category: "Couple", price: "₹27,999", unit: "per head" }],
+    note: "Peak season prices may apply.",
+  },
+
+  terms: ["Hotel subject to availability"],
+
+  images: [manali3, forest, leaf, coffee],
+},
+
+{
+  title: "Rajasthan Desert Delight",
+  slug: "rajasthan-desert-delight",
+  price: "₹34,999",
+  days: "6 Days / 5 Nights",
+  rating: "4.8",
+  image: rajasthan,
+  location: "Rajasthan, India",
+  nextDate: "September 18, 2025",
+
+  highlightsData: {
+    locationCard: {
+      meta: "1 Country, 2 Cities, 6 Locations",
+      places: "Jaisalmer, Jodhpur",
+    },
+    pills: ["Desert Safari", "Cultural Shows"],
+    highlights: [
+      "Sam Sand Dunes",
+      "Mehrangarh Fort",
+      "Camel Safari",
+    ],
+    experiences: [
+      {
+        title: "Desert Safari",
+        desc: "Camel ride & folk performances.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival in Jaisalmer",
+      desc: "Desert camp stay.",
+    },
+  ],
+
+  pointsToRemember: ["Carry sunscreen"],
+
+  inclusions: {
+    included: ["Hotel stay", "Breakfast", "Cultural show"],
+    excluded: ["Personal expenses"],
+  },
+
+  pricing: {
+    rows: [{ category: "Single", price: "₹34,999", unit: "per head" }],
+    note: "Desert camps subject to availability.",
+  },
+
+  terms: ["Weather dependent itinerary"],
+
+  images: [rajasthan, forest, leaf, coffee],
+},
+
+
+
+
 ];

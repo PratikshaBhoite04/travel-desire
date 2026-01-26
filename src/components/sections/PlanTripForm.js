@@ -1,93 +1,194 @@
 function PlanTripForm() {
   return (
-    <section className="bg-[#021E1A] py-20 px-4 md:px-8 lg:px-0">
-      <div className="max-w-5xl mx-auto">
-        
+    <section className="bg-[#021B17] py-20 px-4">
+      <div className="max-w-2xl mx-auto">
+
         {/* Heading */}
-        <h2 className="text-center font-gloock text-[36px] md:text-[44px] lg:text-[52px] font-normal text-white">
-          Plan Your <span className="text-[#19FAEA]">Next Trip</span> With Us
-        </h2>
+<h2 className="text-center font-tiempos font-[500] text-[#FFFFFF] text-[56px] leading-tight">
+  <span className="block font-tiempos font-[500] text-[#FFFFFF] text-[56px]">
+    Plan Your
+  </span>
+  <span className="block  font-tiempos font-[500] text-[#06D5C6] text-[56px]">
+    Next Trip With Us
+  </span>
+</h2>
+
 
         {/* Form */}
-        <form className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8">
+        <form className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8">
 
           {/* Full Name */}
           <div className="md:col-span-2">
-            <label className="block text-white text-sm mb-2">
+            <label className="block text-white text-[17px] font-[600] font-manrope mb-2">
               Full Name<span className="text-red-500">*</span>
             </label>
             <input
               type="text"
               placeholder="John Doe"
-              className="w-full bg-transparent border border-[#0E3B35] rounded-xl px-5 py-4 text-white placeholder:text-gray-400 focus:outline-none focus:border-[#19FAEA]"
+              className="
+                w-full h-[56px]
+                bg-transparent border border-[#0E3B35]
+                rounded-xl px-5
+                text-white font-manrope
+                placeholder:text-[#B5B5B5]
+                placeholder:text-[15px]
+                placeholder:font-normal
+                focus:outline-none focus:border-[#19FAEA]
+              "
             />
           </div>
 
           {/* Phone */}
           <div>
-            <label className="block text-white text-sm mb-2">
+            <label className="block text-white text-[17px] font-[600] font-manrope mb-2">
               Phone Number (Whatsapp)<span className="text-red-500">*</span>
             </label>
             <input
               type="text"
               placeholder="+91 98765 43210"
-              className="w-full bg-transparent border border-[#0E3B35] rounded-xl px-5 py-4 text-white placeholder:text-gray-400 focus:outline-none focus:border-[#19FAEA]"
+              className="
+                w-full h-[56px]
+                bg-transparent border border-[#0E3B35]
+                rounded-xl px-5
+                text-white font-manrope
+                placeholder:text-[#B5B5B5]
+                placeholder:text-[15px]
+                placeholder:font-normal
+                focus:outline-none focus:border-[#19FAEA]
+              "
             />
           </div>
 
           {/* Date */}
           <div>
-            <label className="block text-white text-sm mb-2">
+            <label className="block text-white text-[17px] font-[600] font-manrope mb-2">
               Preferred Date of Travel<span className="text-red-500">*</span>
             </label>
             <input
               type="date"
-              className="w-full bg-transparent border border-[#0E3B35] rounded-xl px-5 py-4 text-white focus:outline-none focus:border-[#19FAEA]"
+              className="
+                w-full h-[56px]
+                bg-transparent border border-[#0E3B35]
+                rounded-xl px-5
+                text-white font-manrope
+                focus:outline-none focus:border-[#19FAEA]
+              "
             />
           </div>
 
           {/* Destination */}
           <div className="md:col-span-2">
-            <label className="block text-white text-sm mb-2">
+            <label className="block text-white text-[17px] font-[600] font-manrope mb-2">
               Destination<span className="text-red-500">*</span>
             </label>
-            <select
-              className="w-full bg-transparent border border-[#0E3B35] rounded-xl px-5 py-4 text-white focus:outline-none focus:border-[#19FAEA]"
-            >
-              <option className="text-black">Select Destination</option>
-              <option className="text-black">Rajasthan</option>
-              <option className="text-black">Kerala</option>
-              <option className="text-black">Himachal</option>
-            </select>
+
+            <div className="relative">
+              <select
+                defaultValue=""
+                className="
+                  w-full h-[56px]
+                  bg-transparent border border-[#0E3B35]
+                  rounded-xl
+                  px-5 pr-12
+                  font-manrope text-[15px]
+                  text-[#B5B5B5]
+                  focus:outline-none focus:border-[#19FAEA]
+                  appearance-none cursor-pointer
+                "
+                onChange={(e) => {
+                  e.target.classList.remove("text-[#B5B5B5]");
+                  e.target.classList.add("text-white");
+                }}
+              >
+                <option value="" disabled hidden>
+                  Select Destination
+                </option>
+                <option className="text-black">Rajasthan</option>
+                <option className="text-black">Kerala</option>
+                <option className="text-black">Himachal</option>
+              </select>
+
+              {/* Arrow */}
+              <svg
+                className="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none"
+                width="14"
+                height="8"
+                viewBox="0 0 14 8"
+                fill="none"
+              >
+                <path
+                  d="M1 1L7 7L13 1"
+                  stroke="#B5B5B5"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
           </div>
 
-          {/* Pax */}
+          {/* PAX */}
           <div className="md:col-span-2">
-            <label className="block text-white text-sm mb-2">
+            <label className="block text-white text-[17px] font-[600] font-manrope mb-2">
               No of PAX (People or Passengers)<span className="text-red-500">*</span>
             </label>
-            <select
-              className="w-full bg-transparent border border-[#0E3B35] rounded-xl px-5 py-4 text-white focus:outline-none focus:border-[#19FAEA]"
-            >
-              <option className="text-black">Select travel type</option>
-              <option className="text-black">1–2</option>
-              <option className="text-black">3–5</option>
-              <option className="text-black">6+</option>
-            </select>
+
+            <div className="relative">
+              <select
+                defaultValue=""
+                className="
+                  w-full h-[56px]
+                  bg-transparent border border-[#0E3B35]
+                  rounded-xl
+                  px-5 pr-12
+                  font-manrope text-[15px]
+                  text-[#B5B5B5]
+                  focus:outline-none focus:border-[#19FAEA]
+                  appearance-none cursor-pointer
+                "
+                onChange={(e) => {
+                  e.target.classList.remove("text-[#B5B5B5]");
+                  e.target.classList.add("text-white");
+                }}
+              >
+                <option value="" disabled hidden>
+                  Select travel type
+                </option>
+                <option className="text-black">1–2</option>
+                <option className="text-black">3–5</option>
+                <option className="text-black">6+</option>
+              </select>
+
+              <svg
+                className="absolute right-5 top-1/2 -translate-y-1/2 pointer-events-none"
+                width="14"
+                height="8"
+                viewBox="0 0 14 8"
+                fill="none"
+              >
+                <path
+                  d="M1 1L7 7L13 1"
+                  stroke="#B5B5B5"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
           </div>
 
           {/* Disclaimer */}
-          <p className="md:col-span-2 text-xs text-gray-400 mt-2">
+          <p className="md:col-span-2 text-[13px] font-inter text-[#717171]">
             By submitting this form, you agree to our privacy policy and terms of service
           </p>
 
           {/* Button */}
-          <div className="md:col-span-2 flex justify-center md:justify-end mt-6">
+          <div className="md:col-span-2 flex justify-end">
             <button
               type="submit"
-              className="bg-[#06D5C6] text-black px-10 py-3 rounded-full font-manrope hover:opacity-90 transition"
+              className="bg-[#06D5C6] text-[#033733] px-12 py-3 rounded-full  font-[300] text-[17px] font-manrope hover:opacity-90 transition"
             >
-              Send Inquiry Now!
+              Send Inquiry Now
             </button>
           </div>
 
