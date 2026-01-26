@@ -1,97 +1,174 @@
+import { useNavigate } from "react-router-dom";
 import Navbar from "../../components/shared/Navbar";
 
+/* ICONS */
+import holidayIcon from "../../assets/images/services1.png";
+import visaIcon from "../../assets/images/services2.png";
+import forexIcon from "../../assets/images/services3.png";
+import flightIcon from "../../assets/images/services.png";
+
+/* HEADER BACKGROUND LINES */
+import headerLines from "../../assets/images/header-lines.png";
+
+/* ================= SERVICES DATA ================= */
 const services = [
   {
     title: "Holiday Packages",
     description:
       "Curated domestic and international holiday packages tailored to your preferences and budget",
+        icon: visaIcon,
+    
+    redirect: "/tour-packages",
   },
   {
     title: "VISA Services",
     description:
       "Hassle-free visa processing for all major destinations with our Visa On Call service",
+  icon: forexIcon,
+    redirect: "/contact",
   },
   {
     title: "Forex Services",
     description:
       "Competitive forex rates and convenient currency exchange for international travelers",
+   
+     icon: holidayIcon,
+    redirect: "/contact",
   },
   {
     title: "Flight & Hotel Booking",
     description:
       "Book flights and hotels worldwide at competitive prices with our travel partners",
+    icon: flightIcon,
+    redirect: "/contact",
   },
 ];
 
 function Services() {
+  const navigate = useNavigate();
+
   return (
     <>
       {/* ================= NAVBAR ================= */}
-      <Navbar />
+      <Navbar bgColor="#001917" />
 
-      {/* ================= HEADER ================= */}
-      <section
-        className="pt-20 md:pt-24"
-        style={{
-          background:
-            "radial-gradient(1200px 500px at 20% 0%, #062B25 0%, #001917 65%)",
-        }}
-      >
-        <div className="max-w-7xl mx-auto px-4 md:px-6 pb-12 md:pb-20">
-          <h1 className="text-[32px] md:text-[56px] font-serif text-white tracking-tight">
-            Our <span className="text-[#1EEBD9]">Services</span>
-          </h1>
-        </div>
-      </section>
+<section className="relative pt-16 md:pt-20 bg-[#001917] overflow-hidden">
+  {/* Right-side decorative lines */}
+  <img
+    src={headerLines}
+    alt=""
+    className="pointer-events-none absolute top-0 right-0 h-full w-auto opacity-90"
+  />
+
+  <div
+    className="
+      relative
+      max-w-7xl mx-auto
+      px-4 md:px-6
+      pt-4 md:pt-10
+      pb-12 md:pb-24
+      flex items-end
+    "
+  >
+    <h1
+      className="
+        font-tiempos
+        text-[32px] md:text-[52px]
+        leading-[40px] md:leading-[62px]
+        tracking-[1px]
+        font-semibold
+        text-white
+      "
+    >
+      Our <span className="text-[#1EEBD9]">Services</span>
+    </h1>
+  </div>
+</section>
+
 
       {/* ================= SERVICES GRID ================= */}
       <section className="bg-white py-12 md:py-20">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="relative rounded-[16px] border border-[#E6EDED] bg-white p-5 md:p-8"
+                className="
+                  rounded-[20px]
+                  border border-[#E6EDED]
+                  bg-white
+                  p-6 md:p-8
+                "
               >
-                {/* Floating Icon */}
-                <div
-                  className="
-                    absolute 
-                    -top-4 md:-top-5 
-                    left-6 md:left-8 
-                    w-9 h-9 md:w-10 md:h-10 
-                    rounded-full 
-                    bg-[#FFD54F] 
-                    flex items-center justify-center 
-                    text-black 
-                    font-medium 
-                    shadow
-                  "
-                >
-                  M
+                {/* Icon */}
+                <div className="mb-6">
+                  <div
+                    className="
+                      w-14 h-14
+                      rounded-2xl
+                      bg-[#EAFCD6]
+                      flex items-center justify-center
+                    "
+                  >
+                    <img
+                      src={service.icon}
+                      alt={service.title}
+                      className="w-8 h-8 object-contain"
+                    />
+                  </div>
                 </div>
 
-                <h3 className="text-lg md:text-xl font-semibold text-[#0F2F24]">
-                  {service.title}
-                </h3>
+                {/* Title */}
+            <h3
+  className="
+    font-tiempos
+    text-[28px]
+    leading-[34px]
+    font-semibold
+    text-[#111827]
+  "
+>
+  {service.title}
+</h3>
 
-                <p className="mt-2 md:mt-3 text-sm text-[#5C6F68] leading-relaxed">
-                  {service.description}
-                </p>
+                {/* Description */}
+              <p
+  className="
+    mt-2
+    font-manrope
+    text-[16px]
+    leading-[26.8px]
+    font-medium
+    text-[#4B5563]
+    max-w-[92%]
+  "
+>
+  {service.description}
+</p>
 
-                <button className="mt-4 md:mt-6 text-sm text-[#1BAA9A] flex items-center gap-1 hover:gap-2 transition-all">
-                  Explore <span>→</span>
-                </button>
+                {/* CTA */}
+              <button
+  onClick={() => navigate(service.redirect)}
+  className="
+    mt-4
+    font-manrope
+    text-[14px]
+    leading-[20px]
+    font-normal
+    text-[#18A99F]
+    flex items-center gap-1
+    transition-all duration-300
+    hover:gap-2
+  "
+>
+  Explore <span>→</span>
+</button>
               </div>
             ))}
           </div>
-
         </div>
       </section>
-
-   
-   </>
+    </>
   );
 }
 

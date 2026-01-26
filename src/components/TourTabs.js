@@ -18,8 +18,8 @@ function TourTabs({ activeTab, setActiveTab }) {
             px-5 py-2 rounded-full text-sm font-medium transition
             ${
               activeTab === tab.key
-                ? "bg-[#D9FF8F] text-[#0F2F24]"
-                : "border border-gray-300 text-gray-500 hover:bg-gray-100"
+                ? "bg-[#D5FB93] text-[#343434] text-[15px] font-[300] font-manrope py-4 px-6"
+                : "border border-gray-200 text-[#B4B4B4] "
             }
           `}
         >

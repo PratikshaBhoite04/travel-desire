@@ -1,6 +1,6 @@
 function BookPackageCard() {
   return (
-    <div className="bg-[#F2FFD8] rounded-2xl p-6 h-fit sticky top-24">
+    <div className="bg-[#F2FFD8] rounded-2xl p-6 h-fit sticky top-20">
       
       {/* Title */}
       <h4 className="text-[26px] font-[500] text-[#1C3627] font-manrope">

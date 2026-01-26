@@ -2,8 +2,13 @@ import lines from "../assets/images/waving-lines.png";
 
 function PriceBar() {
   return (
-    <div className="relative overflow-hidden bg-[#001917] text-white px-14 py-8 ">
-      
+    <div
+      className="
+        relative overflow-hidden bg-[#001917] text-white
+        px-4 py-6
+        md:px-14 md:py-8
+      "
+    >
       {/* Decorative Lines */}
       <img
         src={lines}
@@ -12,13 +17,37 @@ function PriceBar() {
       />
 
       {/* Content */}
-      <p className="text-[19] font-manrope font-[400] text-[#FFFFFF]">
+      <p
+        className="
+          font-manrope font-[400] text-[#FFFFFF]
+          text-[14px]
+          md:text-[19px]
+        "
+      >
         Package Starts From
       </p>
 
-      <div className="flex items-end gap-3">
-        <h2 className="text-[56px] font-tiempos font-[600]">₹65,999</h2>
-        <span className="text-[19] font-manrope font-[400] text-[#FFFFFF] mb-6">per Person</span>
+      <div className="flex items-end gap-2 md:gap-3">
+        <h2
+          className="
+            font-tiempos font-[600]
+            text-[34px]
+            md:text-[56px]
+          "
+        >
+          ₹65,999
+        </h2>
+
+        <span
+          className="
+            font-manrope font-[400] text-[#FFFFFF]
+            text-[14px]
+            mb-3
+            md:text-[19px] md:mb-6
+          "
+        >
+          per Person
+        </span>
       </div>
     </div>
   );

@@ -6,11 +6,11 @@ function Terms({ terms = [] }) {
         Terms & Conditions
       </h3>
 
-      <ul className="space-y-4 list-disc pl-5">
+      <ul className=" list-disc pl-5">
         {terms.map((item, index) => (
           <li
             key={index}
-            className="font-manrope font-[400] text-[16px] text-[#6C7278] leading-relaxed"
+            className="font-inter font-[400] text-[17px] text-[#7D7D7D] leading-[26px]"
           >
             {item}
           </li>

@@ -1,58 +1,97 @@
 import bgImage from "../assets/images/bg.jpg";
-import { FiMapPin, FiClock, FiCalendar } from "react-icons/fi";
+
+import locationIcon from "../assets/icons/location1.png";
+import durationIcon from "../assets/icons/duration.png";
+import calendarIcon from "../assets/icons/calendar.png";
 
 function TourHero({ tour }) {
   return (
-    <section className="relative h-[520px] w-full">
-      {/* Background Image */}
-      <img
-        src={tour.image || bgImage}
-        alt={tour.title}
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+    <>
+      {/* HERO */}
+      <section className="relative h-[520px] w-full">
+        {/* Background */}
+        <img
+          src={tour.image || bgImage}
+          alt={tour.title}
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/45" />
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/45" />
+        {/* Content */}
+        <div className="relative z-10 h-full flex items-end">
+     <div className="
+  w-full
+  pb-16
+  px-4 sm:px-6 md:px-16
+  flex justify-between items-end
+  overflow-x-hidden
+">
 
-      {/* Content */}
-      <div className="relative z-10 h-full flex items-end">
-        <div className="max-w-7xl mx-auto px-6 pb-16 w-full flex justify-between items-end">
 
-          {/* LEFT */}
-          <div className="text-white max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-tiempos font-[500] text-[48px] leading-tight">
-              {tour.title}
-            </h1>
+            {/* LEFT */}
+            <div className="text-white max-w-3xl">
+              <h1 className="font-tiempos font-[500] text-[28px] md:text-[48px] leading-tight">
+                {tour.title}
+              </h1>
 
-            {/* ICON ROW */}
-            <div className="flex flex-wrap gap-6 mt-5 text-sm text-white/90">
+              {/* ICON ROW */}
+              <div className="flex flex-col md:flex-row gap-3 md:gap-6 mt-3">
 
-              <div className="flex items-center gap-2">
-                <FiMapPin className="text-[#FAF031] text-lg" />
-                <span className="font-manrope text-[18px] text-[#FFFFFF] font-[400]">{tour.location}</span>
+                <div className="flex items-center gap-3">
+                  <img src={locationIcon} className="w-[18px] h-[18px]" />
+                  <span className="font-manrope text-[16px] md:text-[18px]">
+                    {tour.location}
+                  </span>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <img src={durationIcon} className="w-[18px] h-[18px]" />
+                  <span className="font-manrope text-[16px] md:text-[18px]">
+                    {tour.days}
+                  </span>
+                </div>
+
+                <div className="flex items-center gap-3">
+                  <img src={calendarIcon} className="w-[18px] h-[18px]" />
+                  <span className="font-manrope text-[16px] md:text-[18px]">
+                    Next: {tour.nextDate}
+                  </span>
+                </div>
+
               </div>
-
-              <div className="flex items-center gap-2">
-                <FiClock className="text-[#FAF031] text-lg" />
-                <span className="font-manrope text-[18px] text-[#FFFFFF] font-[400]">{tour.days}</span>
-              </div>
-
-              <div className="flex items-center gap-2">
-                <FiCalendar className="text-[#FAF031] text-lg" />
-                <span className="font-manrope text-[18px] text-[#FFFFFF] font-[400]">Next: {tour.nextDate}</span>
-              </div>
-
             </div>
+
+            {/* DESKTOP BUTTON */}
+            <button className="
+              hidden md:block
+              bg-[#19FAEA]
+              text-[#001917]
+              px-16 py-4
+              mb-3
+              rounded-full
+              font-manrope text-[17px]
+            ">
+              Book My Trip
+            </button>
+
           </div>
-
-          {/* RIGHT BUTTON */}
-          <button className="bg-[#1EEBD9] text-black px-8 py-3 mb-3 rounded-full font-medium hover:bg-[#D5FB93] transition">
-            Book My Trip
-          </button>
-
         </div>
+      </section>
+
+      {/* ================= MOBILE STICKY CTA ================= */}
+      <div className="md:hidden fixed bottom-0 left-0 w-full z-50  px-8 py-2">
+        <button className="
+          w-full
+          bg-[#19FAEA]
+          text-[#001917]
+          py-4
+          rounded-full
+          font-manrope text-[17px]
+        ">
+          Book My Trip
+        </button>
       </div>
-    </section>
+    </>
   );
 }
 

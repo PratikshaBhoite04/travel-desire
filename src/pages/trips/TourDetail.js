@@ -16,7 +16,6 @@ import BookPackageCard from "../../components/BookPackageCard";
 import Faqs from "../../components/sections/Faqs";
 import { faqs } from "../../data/faqs";
 
-
 function TourDetail() {
   const { slug } = useParams();
   const [activeTab, setActiveTab] = useState("highlights");
@@ -29,14 +28,24 @@ function TourDetail() {
 
   return (
     <div className="bg-white">
+      {/* HERO */}
       <TourHero tour={tour} />
+
+      {/* PRICE BAR */}
       <PriceBar tour={tour} />
 
+      {/* MAIN CONTENT */}
       <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-10">
         
         {/* LEFT CONTENT */}
-        <div className="md:col-span-2">
-          <TourTabs activeTab={activeTab} setActiveTab={setActiveTab} />
+        <div className="md:col-span-2 overflow-x-visible">
+          
+          <div className="-mx-6 md:mx-0">
+            <TourTabs
+              activeTab={activeTab}
+              setActiveTab={setActiveTab}
+            />
+          </div>
 
           {activeTab === "highlights" && (
             <Highlights highlights={tour.highlightsData || []} />
@@ -68,19 +77,17 @@ function TourDetail() {
 
         {/* RIGHT SIDEBAR */}
         <BookPackageCard tour={tour} />
-
       </div>
 
+      {/* TESTIMONIALS */}
       <Testimonials
-  title="Reviews"
-  showSubtitle={false}
-  withBackground={false}
-/>
+        title="Reviews"
+        showSubtitle={false}
+        withBackground={false}
+      />
 
-
-<Faqs title="FAQs" faqs={faqs} />
-
-
+      {/* FAQS */}
+      <Faqs title="FAQs" faqs={faqs} />
     </div>
   );
 }

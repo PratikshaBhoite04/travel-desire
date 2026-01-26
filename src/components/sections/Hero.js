@@ -27,7 +27,7 @@ function Hero() {
           <h1
             className="
               font-tiempos font-[400] leading-[1.05]
-              text-[34px]
+              text-[50px]
               tracking-[-0.8px]
               sm:text-[48px] md:text-[70px]
             "
@@ -41,16 +41,15 @@ function Hero() {
           <p
             className="
               mt-3
-              font-manrope font-[300]
-              text-white/90
-              text-[14px]
-              leading-[1.6]
-              sm:text-[18px] md:text-[22px]
+              font-manrope font-[500]
+              text-[#FFFFFFE5]
+              text-[18px]
+           
             "
           >
-            Handcrafted domestic & international holidays
+            Handcrafted domestic & international 
             <br className="sm:hidden" />
-            and personalized trips
+           holidays and personalized trips
           </p>
 
           {/* Search Bar */}
@@ -66,7 +65,7 @@ function Hero() {
               className="
                 flex items-center gap-3
                 rounded-full
-                px-4 py-[10px]
+                px-4 py-[8px]
                 backdrop-blur-md
               "
             >
@@ -88,39 +87,41 @@ function Hero() {
                 "
               />
 
-              {/* Mobile CTA */}
-              <button
-                onClick={handleSearch}
-                className="
-                  shrink-0
-                  w-[36px] h-[36px]
-                  flex items-center justify-center
-                  rounded-full
-                  bg-[#19FAEA]
-                  text-[#033733]
-                "
-              >
-                <Search size={16} />
-              </button>
+            {/* Mobile CTA */}
+<button
+  onClick={handleSearch}
+  className="
+    md:hidden
+    shrink-0
+    w-[36px] h-[36px]
+    flex items-center justify-center
+    rounded-full
+    bg-[#19FAEA]
+    text-[#033733]
+  "
+>
+  <Search size={16} />
+</button>
 
-              {/* Desktop CTA */}
-              <button
-                onClick={handleSearch}
-                className="
-                  hidden md:flex
-                  rounded-full
-                  px-8 py-[15px]
-                  bg-[#75FEF4]
-                  text-[#033733]
-                  font-manrope font-[300]
-                  text-[17.4px]
-                  leading-[21.75px]
-                  tracking-[-0.16px]
-                  whitespace-nowrap
-                "
-              >
-                Search Destination
-              </button>
+{/* Desktop CTA */}
+<button
+  onClick={handleSearch}
+  className="
+    hidden md:flex
+    rounded-full
+    px-10 py-[13px]
+    bg-[#75FEF4]
+    text-[#033733]
+    font-manrope font-[300]
+    text-[17.4px]
+    leading-[21.75px]
+    tracking-[-0.16px]
+    whitespace-nowrap
+  "
+>
+  Search Destination
+</button>
+
             </div>
           </div>
 

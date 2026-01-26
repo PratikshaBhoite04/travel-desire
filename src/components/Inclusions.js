@@ -1,9 +1,9 @@
-import { CheckCircle, XCircle } from "lucide-react";
+import checkIcon from "../assets/icons/check.png";
+// import crossIcon from "../../assets/icons/cross.png";
 
 function Inclusions() {
   return (
     <div className="bg-white rounded-2xl border border-gray-200 p-8">
-      
       <div className="grid md:grid-cols-2 gap-10 relative">
         
         {/* Divider */}
@@ -23,19 +23,14 @@ function Inclusions() {
               "Daily breakfast",
               "Guided tours and entry fees",
               "Travel insurance",
-              "Round-trip flights",
-              "Airport transfers",
-              "6 nights accommodation (4-star hotels)",
-              "Daily breakfast",
-              "Guided tours and entry fees",
-              "Travel insurance",
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-3">
-                <CheckCircle
-                  size={20}
-                  className="text-[#00A63E] mt-0.5"
+                <img
+                  src={checkIcon}
+                  alt="included"
+                  className="w-[20px] h-[20px] mt-0.5"
                 />
-                <span className="text-[#001917] font-[400] text-[17px] font-inter">
+                <span className="text-[#001917] font-inter font-[400] text-[17px]">
                   {item}
                 </span>
               </li>
@@ -44,7 +39,7 @@ function Inclusions() {
         </div>
 
         {/* RIGHT — EXCLUDED */}
-        <div>
+        {/* <div>
           <h3 className="font-manrope font-[700] text-[26px] text-[#001917] mb-4">
             What’s Excluded
           </h3>
@@ -55,27 +50,20 @@ function Inclusions() {
               "Personal expenses",
               "Tips and gratuities",
               "Optional activities",
-               "Lunch and dinner",
-              "Personal expenses",
-              "Tips and gratuities",
-              "Optional activities",
-               "Lunch and dinner",
-              "Personal expenses",
-              "Tips and gratuities",
-              "Optional activities",
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-3">
-                <XCircle
-                  size={20}
-                  className="text-[#E7000B] mt-0.5"
+                <img
+                  src={crossIcon}
+                  alt="excluded"
+                  className="w-[20px] h-[20px] mt-0.5"
                 />
-                <span className="text-[#001917] font-[400] text-[17px] font-inter">
+                <span className="text-[#001917] font-inter font-[400] text-[17px]">
                   {item}
                 </span>
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
 
       </div>
     </div>

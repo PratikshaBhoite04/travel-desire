@@ -4,6 +4,7 @@ import Footer from "../shared/Footer";
 
 function MainLayout() {
   return (
+    
     <>
       <Navbar />
       <Outlet /> {/* Pages render here */}

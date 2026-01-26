@@ -62,3 +62,29 @@ input[type="date"] {
      border: linear-gradient(90deg, #75FEF4, #E6FDBE);
 }
 
+@keyframes birdSweep {
+  0% {
+    transform: translate(-140%, 140%);
+  }
+  100% {
+    transform: translate(140%, -140%);
+  }
+}
+
+/* Color reveal that follows bird */
+@keyframes colorFollow {
+  0% {
+    transform: translate(-140%, 140%);
+  }
+  100% {
+    transform: translate(0%, 0%);
+  }
+}
+
+.animate-birdSweep {
+  animation: birdSweep 1.7s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.animate-colorFollow {
+  animation: colorFollow 1.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}

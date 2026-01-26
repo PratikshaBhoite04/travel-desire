@@ -15,7 +15,7 @@ function Faqs({
     >
       {/* Heading */}
       <h2
-        className={`text-center font-gloock text-4xl md:text-5xl mb-14 ${
+        className={`text-center font-tiempos text-[34px] font-[600]  mb-10 ${
           withBackground ? "text-white" : "text-[#001917]"
         }`}
       >
@@ -31,7 +31,7 @@ function Faqs({
             <div
               key={index}
               className="
-                bg-[#032923]
+                bg-[#002B2780]
                 rounded-2xl
                 px-8 py-6
                 transition-all
@@ -40,14 +40,25 @@ function Faqs({
             >
               {/* Question */}
               <button
-                onClick={() =>
-                  setOpenIndex(isOpen ? null : index)
-                }
+                onClick={() => setOpenIndex(isOpen ? null : index)}
                 className="w-full flex justify-between items-center text-left"
               >
-                <h4 className="text-white text-lg md:text-xl font-manrope">
-                  {item.question}
-                </h4>
+               <h4
+  className="
+    text-[#FFFFFF]
+    text-[16px]
+    font-[600]
+    font-manrope
+    whitespace-nowrap
+    overflow-hidden
+    text-ellipsis
+    md:whitespace-normal
+    md:overflow-visible
+  "
+>
+  {item.question}
+</h4>
+
 
                 <ChevronDown
                   className={`text-[#19FAEA] transition-transform duration-300 ${
@@ -56,11 +67,17 @@ function Faqs({
                 />
               </button>
 
+              {/* DIVIDER */}
+              {isOpen && (
+                <div className="h-[1px] bg-[#FFFFFF0D] my-4" />
+              )}
+
               {/* Answer */}
               {isOpen && (
-                <p className="mt-4 text-[#C7D4CF] text-sm md:text-base leading-relaxed">
-                  {item.answer}
-                </p>
+               <p className="text-[#B0B0B0] font-[400] font-manrope text-[17px] leading-[28px]">
+  {item.answer}
+</p>
+
               )}
             </div>
           );

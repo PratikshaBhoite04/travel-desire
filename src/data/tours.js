@@ -10,6 +10,10 @@ import kedarnath from "../assets/images/kedarnath.png";
 import kedarnath2 from "../assets/images/kedarnath2.png";
 import udaipur from "../assets/images/udaipur.png";
 import kashmir1 from "../assets/images/kashmir1.png";
+// import jaipur1 from "../assets/images/jaipur1.png";
+// import foundation from "../assets/images/foundation.png";
+// import forest1 from "../assets/images/.png";
+
 
 
 
@@ -64,12 +68,72 @@ export const tours = [
       {
         day: "01",
         title: "Jaipur – Ranthambore",
-        desc: "Arrive at Jaipur and proceed to Ranthambore. Enjoy jungle safari.",
+        desc: "Arrive at designated reporting place, report to vehicle and proceed to Ranthambore. Ranthambore National Park and Tiger Reserve is one of the biggest and most renowned national park in Northern India. It is home to animals like the jackal, mongoose, sloth bear, leopard and the tiger. In the afternoon, take a canter safari in Ranthambore National park for wild life viewing.",
         tags: ["Dinner"],
       },
       {
         day: "02",
         title: "Ranthambore – Jaipur",
+         desc: "Arrive at designated reporting place, report to vehicle and proceed to Ranthambore. Ranthambore National Park and Tiger Reserve is one of the biggest and most renowned national park in Northern India. It is home to animals like the jackal, mongoose, sloth bear, leopard and the tiger. In the afternoon, take a canter safari in Ranthambore National park for wild life viewing.",
+           tags: [
+          {
+            label: "Tea / Coffee / Soft Drink enroute to Ranthambore",
+            icon: coffee,
+          },
+          { label: "Dinner", icon: cream },
+        ],
+      },
+
+        {
+        day: "01",
+        title: "Jaipur – Ranthambore",
+        desc:
+          "Arrive at designated reporting place, report to vehicle and proceed to Ranthambore. Enjoy jungle safari at Ranthambore National Park.",
+        tags: [
+          {
+            label: "Tea / Coffee / Soft Drink enroute to Ranthambore",
+            icon: coffee,
+          },
+          { label: "Dinner", icon: cream },
+        ],
+      },
+      {
+        day: "02",
+        title: "Ranthambore – Jaipur",
+         desc: "Arrive at designated reporting place, report to vehicle and proceed to Ranthambore. Ranthambore National Park and Tiger Reserve is one of the biggest and most renowned national park in Northern India. It is home to animals like the jackal, mongoose, sloth bear, leopard and the tiger. In the afternoon, take a canter safari in Ranthambore National park for wild life viewing.",
+        tags: [
+          { label: "Breakfast", icon: leaf },
+          { label: "Dinner", icon: cream },
+        ],
+      },
+      {
+        day: "03",
+        title: "Jaipur",
+         desc: "Arrive at designated reporting place, report to vehicle and proceed to Ranthambore. Ranthambore National Park and Tiger Reserve is one of the biggest and most renowned national park in Northern India. It is home to animals like the jackal, mongoose, sloth bear, leopard and the tiger. In the afternoon, take a canter safari in Ranthambore National park for wild life viewing.",
+        tags: [{ label: "Breakfast", icon: leaf }],
+      },
+   
+      {
+        day: "05",
+        title: "Pushkar – Kumbhalgarh",
+         desc: "Arrive at designated reporting place, report to vehicle and proceed to Ranthambore. Ranthambore National Park and Tiger Reserve is one of the biggest and most renowned national park in Northern India. It is home to animals like the jackal, mongoose, sloth bear, leopard and the tiger. In the afternoon, take a canter safari in Ranthambore National park for wild life viewing.",
+        tags: [
+          { label: "Breakfast", icon: leaf },
+          { label: "Dinner", icon: cream },
+        ],
+      },
+     
+      {
+        day: "08",
+        title: "Udaipur",
+         desc: "Arrive at designated reporting place, report to vehicle and proceed to Ranthambore. Ranthambore National Park and Tiger Reserve is one of the biggest and most renowned national park in Northern India. It is home to animals like the jackal, mongoose, sloth bear, leopard and the tiger. In the afternoon, take a canter safari in Ranthambore National park for wild life viewing.",
+        tags: [{ label: "Breakfast", icon: leaf }],
+      },
+      {
+        day: "09",
+        title: "Departure from Udaipur",
+         desc: "Arrive at designated reporting place, report to vehicle and proceed to Ranthambore. Ranthambore National Park and Tiger Reserve is one of the biggest and most renowned national park in Northern India. It is home to animals like the jackal, mongoose, sloth bear, leopard and the tiger. In the afternoon, take a canter safari in Ranthambore National park for wild life viewing.",
+        tags: [{ label: "Breakfast", icon: leaf }],
       },
     ],
 
@@ -115,8 +179,7 @@ export const tours = [
       "Shopping is at the sole discretion of the guest.",
     ],
 
-    images: [rajasthan, leaf, bottles, forest, coffee, cream, leaf,  kedarnath,
-  kedarnath2, udaipur,],
+    images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,],
   },
 
   {
@@ -200,8 +263,7 @@ export const tours = [
       "Guests must carry valid ID proof.",
     ],
 
-    images: [kashmir, leaf, bottles, forest, coffee, cream, leaf,  kedarnath,
-  kedarnath2, udaipur,],
+   images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,],
   },
 
   {
@@ -282,8 +344,7 @@ export const tours = [
       "Tour may be rescheduled due to road conditions.",
     ],
 
-    images: [manali3, leaf, bottles, forest, coffee, cream, leaf,  kedarnath,
-  kedarnath2, udaipur,],
+   images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,],
   },
 
   {
@@ -357,7 +418,7 @@ export const tours = [
     "Hotel subject to availability",
   ],
 
-  images: [udaipur, forest, coffee, leaf, cream],
+    images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,],
 },
 
 {
@@ -425,7 +486,7 @@ export const tours = [
     "Yatra may be postponed due to landslides",
   ],
 
-  images: [kedarnath, forest, leaf, coffee, cream],
+ images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,],
 },
 
 {
@@ -491,8 +552,7 @@ export const tours = [
     "Adventure risk involved",
     "Insurance recommended",
   ],
-
-  images: [kedarnath2, forest, coffee, leaf, cream],
+images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,],
 },
 
 {
@@ -559,8 +619,7 @@ export const tours = [
     "Itinerary subject to weather",
     "Sightseeing may change",
   ],
-
-  images: [kashmir1, forest, leaf, coffee, cream],
+images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,],
 },
 
 {
@@ -667,8 +726,7 @@ export const tours = [
   },
 
   terms: ["Weather dependent itinerary"],
-
-  images: [rajasthan, forest, leaf, coffee],
+images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,],
 },
 
 

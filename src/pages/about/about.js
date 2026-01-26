@@ -3,7 +3,7 @@ import Navbar from "../../components/shared/Navbar";
 import teamHero from "../../assets/images/team.png";
 import founder from "../../assets/images/founder.png";
 import journeyImg from "../../assets/images/office.png";
-
+import frameBackground from "../../assets/images/frameBackground.png";
 
 import team1 from "../../assets/images/team1.png";
 import team2 from "../../assets/images/team2.png";
@@ -15,6 +15,8 @@ import quotes from "../../assets/images/quotes.png"
 import ourValues from "../../assets/images/bg.jpg"
 import office from "../../assets/images/office.png"
 import office2 from "../../assets/images/office2.png"
+import headerLines from "../../assets/images/header-lines.png";
+import OurAchievements from "../about/ourAchivement";
 
 function About() {
     return (
@@ -22,13 +24,19 @@ function About() {
             <Navbar />
 
             {/* ================= HERO ================= */}
-            <section className="pt-24 bg-[#001917]">
-                <div className="max-w-7xl mx-auto px-4 md:px-6 pb-16">
-                    <h1 className="text-4xl md:text-5xl font-serif text-white">
-                        About <span className="text-[#1EEBD9]">Us</span>
-                    </h1>
-                </div>
-            </section>
+   <section className="relative pt-16 md:pt-20 bg-[#001917] overflow-hidden">
+             <img
+          src={headerLines}
+          alt=""
+          className="pointer-events-none absolute top-0 right-0 h-full w-auto opacity-90"
+        />
+         <div className="relative max-w-7xl mx-auto px-4 md:px-6 pt-4 md:pt-10 pb-12 md:pb-24 flex items-end">
+          <h1 className="font-tiempos text-[32px] md:text-[52px] leading-[40px] md:leading-[62px] font-semibold text-white">
+            About <span className="text-[#1EEBD9]">Us</span>
+          </h1>
+        </div>
+    
+      </section>
 
             {/* ================= HERO IMAGE ================= */}
             <section className="bg-white">
@@ -39,191 +47,196 @@ function About() {
                 />
             </section>
 
-           <section className="py-16 bg-white">
-  <div className="max-w-7xl mx-auto px-4 md:px-6">
+<section className="bg-white py-24">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+          <h2 className="font-manrope font-medium  font-medium text-[33px] leading-[33px] text-[#121212]">
+            Our Mission
+          </h2>
 
-    <div className="flex items-center justify-between gap-12">
-
-      {/* LEFT */}
-      <div className="flex-1 max-w-[420px]">
-        <h2 className="text-[28px] md:text-[36px] font-serif text-[#0F2F24]">
-          Our Mission
-        </h2>
-      </div>
-
-      {/* RIGHT */}
-      <div className="flex-1 max-w-[620px]">
-        <p className="text-[#5C6F68] text-[14px] md:text-[15px] leading-relaxed">
-          Founded in 2010, TravelDesire began with a simple vision: to make travel
-          accessible, memorable, and hassle-free for everyone. What started as a
-          small travel agency has grown into a trusted name in the travel
-          industry, serving over 10,000 happy travelers across India and beyond.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
+          <p className="font-manrope font-medium text-[15.58px] leading-[30.46px] text-[#717171]">
+            Founded in 2010, tripdesire began with a simple vision: to make travel
+            accessible, memorable, and hassle-free for everyone. What started as
+            a small travel agency has grown into a trusted name in the travel
+            industry, serving over 10,000 happy travelers across India and beyond.
+          </p>
+        </div>
+      </section>
 
 
 
-       {/* ================= FOUNDER QUOTE ================= */}
-<section className="relative bg-[#F6FAE8] overflow-hidden py-16 md:py-24">
-  
-  {/* Right wave background */}
-  {/* <img
-    src={wavePattern}
-    alt="wave background"
-    className="absolute right-0 top-0 h-full object-cover opacity-60 hidden md:block"
-  /> */}
+{/* ================= FOUNDER QUOTE ================= */}
+<section
+  className="relative overflow-hidden py-24"
+  style={{
+    backgroundColor: "#F6FAE8",
+    backgroundImage: `url(${frameBackground})`,
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "right center",
+    backgroundSize: "contain",
+  }}
+>
+  <div className="relative max-w-7xl mx-auto px-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
 
-  <div className="relative max-w-7xl mx-auto px-4 md:px-6">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-
-      {/* LEFT CONTENT */}
-      <div className="max-w-[520px]">
-        
-        {/* Quote icon */}
+      {/* ================= LEFT CONTENT ================= */}
+      <div className="max-w-[640px]">
         <img
           src={quotes}
           alt="quote"
-          className="w-16 h-16 mb-6"
+          className="w-[64px] h-[64px] mb-8"
         />
 
-        {/* Quote text */}
-        <p className="text-[22px] md:text-[28px] font-serif leading-snug text-[#0F2F24]">
-          It’s not just a trip for us, it is a whole experience.
-          It’s not just a trip for us, it is a whole experience
+        <p
+          className="
+            font-tiempos
+            font-normal
+            text-[45.69px]
+            leading-[56.56px]
+            text-[#121212]
+            max-w-[604px]
+          "
+        >
+          It’s not just a trip for us, it is a whole experience. It’s not just
+          a trip for us, it is a whole experience
         </p>
 
-        {/* Founder */}
-        <div className="mt-8">
-          <p className="text-[15px] font-medium text-[#0F2F24]">
-            Mrs. Satya Murti
-          </p>
-          <p className="text-sm text-[#6B7C75]">
-            Founder, TravelDesire
-          </p>
-        </div>
+        {/* Exact Figma spacing */}
+        <div className="h-[56px]" />
+
+        <p className="font-manrope font-medium text-[30.81px] leading-[50.56px] text-[#121212]">
+          Mrs. Satya Murti
+        </p>
+
+        <p className="font-manrope font-light text-[15.93px] leading-[15.81px] text-[#717171] mt-1">
+          Founder, TravelDesire
+        </p>
       </div>
 
-      {/* RIGHT IMAGE */}
-      <div className="flex justify-center md:justify-end">
-        <img
-          src={founder}
-          alt="Founder"
+      {/* ================= RIGHT IMAGE CARD ================= */}
+      <div className="flex justify-end">
+        <div
           className="
-           w-full
-      max-w-[380px]
-      min-h-[320px]
-      md:min-h-[520px]
-      object-cover
-      rounded-[28px]
+           
           "
-        />
+        >
+          <img
+            src={founder}
+            alt="Founder"
+            className="
+              w-full
+              h-full
+              object-contain
+            "
+          />
+        </div>
       </div>
 
     </div>
   </div>
 </section>
+
+
 
 
             {/* ================= OUR JOURNEY ================= */}
 {/* ================= OUR JOURNEY ================= */}
+{/* ================= OUR JOURNEY ================= */}
+{/* ================= OUR JOURNEY ================= */}
 <section className="py-20 bg-white">
   {/* TITLE */}
-  <h2 className="text-5xl font-serif text-center mb-16">
+  <h2 className="text-center font-tiempos font-medium text-[56.56px] leading-[56.56px] mb-16">
     Our <span className="text-[#1EEBD9]">Journey</span>
   </h2>
 
   {/* CONTENT */}
-  <div className="max-w-7xl mx-auto px-4 md:px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+  <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
 
     {/* LEFT IMAGE */}
-    <img
-      src={journeyImg}
-      alt="Our Journey"
-      className="w-full rounded-[24px] object-cover"
-    />
+    <div className="w-full h-[520px] rounded-[24px] overflow-hidden">
+      <img
+        src={journeyImg}
+        alt="Our Journey"
+        className="w-full h-full object-cover"
+      />
+    </div>
 
     {/* RIGHT TIMELINE */}
-    <div className="relative h-[520px] overflow-y-auto pr-4">
+    <div className="relative h-[520px] overflow-y-auto pr-6">
 
       {/* VERTICAL LINE */}
-      <div className="absolute left-6 top-0 bottom-0 w-[2px] bg-[#E6EDED]" />
+      <div className="absolute left-[14px] top-0 bottom-0 w-[2px] bg-[#E6EDED]" />
 
-      {/* TIMELINE ITEMS */}
-      <ul className="relative space-y-16 pl-16">
+      {/* TIMELINE LIST */}
+      <ul className="relative space-y-20 pl-[64px]">
 
-        {/* ITEM 1 */}
+        {/* ===== ITEM 1 ===== */}
         <li className="relative">
-          {/* DOT ON LINE */}
-          <span className="absolute left-1 top-[-] w-3 h-3 bg-[#1EEBD9] rounded-full -translate-x-1/2" />
+          {/* DOT (locked to line) */}
+          <span className="absolute left-[14px] top-[6px] w-[12px] h-[12px] bg-[#1EEBD9] rounded-full -translate-x-1/2" />
 
-          <span className="text-[#1EEBD9] text-sm font-medium">
+          <p className="text-[#1EEBD9] font-manrope font-medium text-[14.58px]">
             2000
-          </span>
+          </p>
 
-          <h4 className="mt-1 text-lg font-medium text-[#0F2F24]">
+          <h4 className="mt-1 font-manrope font-medium text-[22.11px] text-[#0F2F24]">
             Discover Your Desire
           </h4>
 
-          <p className="mt-2 text-sm text-[#6B7C75] leading-relaxed">
+          <p className="mt-2 font-manrope font-regular text-[13.4px] leading-[20.93px] text-[#717171] max-w-[550px]">
             Browse handpicked destinations, curated itineraries, and exclusive
             experiences designed around your travel style.
           </p>
         </li>
 
-        {/* ITEM 2 */}
+        {/* ===== ITEM 2 ===== */}
         <li className="relative">
-          <span className="absolute left-6 top-1 w-3 h-3 bg-[#1EEBD9] rounded-full -translate-x-1/2" />
+          <span className="absolute left-[14px] top-[6px] w-[12px] h-[12px] bg-[#1EEBD9] rounded-full -translate-x-1/2" />
 
-          <span className="text-[#1EEBD9] text-sm font-medium">
+          <p className="text-[#1EEBD9] font-manrope font-medium text-[14.58px]">
             2002 – 2005
-          </span>
+          </p>
 
-          <h4 className="mt-1 text-lg font-medium text-[#0F2F24]">
+          <h4 className="mt-1 font-manrope font-medium text-[22.11px] text-[#0F2F24]">
             Expanding Horizons
           </h4>
 
-          <p className="mt-2 text-sm text-[#6B7C75] leading-relaxed">
+          <p className="mt-2 font-manrope font-regular text-[13.4px] leading-[20.93px] text-[#717171] max-w-[550px]">
             Expanded into international destinations and built strong global
             travel partnerships.
           </p>
         </li>
 
-        {/* ITEM 3 */}
+        {/* ===== ITEM 3 ===== */}
         <li className="relative">
-          <span className="absolute left-6 top-1 w-3 h-3 bg-[#1EEBD9] rounded-full -translate-x-1/2" />
+          <span className="absolute left-[14px] top-[6px] w-[12px] h-[12px] bg-[#1EEBD9] rounded-full -translate-x-1/2" />
 
-          <span className="text-[#1EEBD9] text-sm font-medium">
+          <p className="text-[#1EEBD9] font-manrope font-medium text-[14.58px]">
             2010
-          </span>
+          </p>
 
-          <h4 className="mt-1 text-lg font-medium text-[#0F2F24]">
+          <h4 className="mt-1 font-manrope font-medium text-[22.11px] text-[#0F2F24]">
             Trusted Travel Brand
           </h4>
 
-          <p className="mt-2 text-sm text-[#6B7C75] leading-relaxed">
+          <p className="mt-2 font-manrope font-regular text-[13.4px] leading-[20.93px] text-[#717171] max-w-[550px]">
             Became a trusted travel brand, serving over 10,000 happy travelers
             across India and beyond.
           </p>
         </li>
 
-        {/* ITEM 4 */}
+        {/* ===== ITEM 4 ===== */}
         <li className="relative">
-          <span className="absolute left-6 top-1 w-3 h-3 bg-[#1EEBD9] rounded-full -translate-x-1/2" />
+          <span className="absolute left-[14px] top-[6px] w-[12px] h-[12px] bg-[#1EEBD9] rounded-full -translate-x-1/2" />
 
-          <span className="text-[#1EEBD9] text-sm font-medium">
+          <p className="text-[#1EEBD9] font-manrope font-medium text-[14.58px]">
             2020 – Present
-          </span>
+          </p>
 
-          <h4 className="mt-1 text-lg font-medium text-[#0F2F24]">
+          <h4 className="mt-1 font-manrope font-medium text-[22.11px] text-[#0F2F24]">
             Innovation & Experience
           </h4>
 
-          <p className="mt-2 text-sm text-[#6B7C75] leading-relaxed">
+          <p className="mt-2 font-manrope font-regular text-[13.4px] leading-[20.93px] text-[#717171] max-w-[550px]">
             Leveraging technology and personalization to craft seamless,
             unforgettable travel experiences.
           </p>
@@ -235,16 +248,33 @@ function About() {
 </section>
 
 
+
+{/* ================= WHAT DRIVES US ================= */}
 {/* ================= WHAT DRIVES US ================= */}
 <section className="bg-white py-20">
   <div className="max-w-7xl mx-auto px-4 md:px-6">
 
     {/* Heading */}
     <div className="text-center mb-14">
-      <h2 className="text-[36px] md:text-[48px] font-serif text-[#0F2F24]">
+      <h2
+        className="
+         text-center font-tiempos font-medium text-[56.56px] leading-[56.56px] mb-5
+        "
+      >
         What Drives <span className="text-[#1EEBD9]">Us?</span>
       </h2>
-      <p className="mt-3 text-[#6B7C75] text-sm md:text-base">
+
+      <p
+        className="
+          font-manrope
+          font-medium
+          text-[15.4px]
+          leading-[26.11px]
+          text-[#717171] 
+          max-w-[620px]
+          mx-auto
+        "
+      >
         Our core values guide everything we do and define who we are as a company
       </p>
     </div>
@@ -252,105 +282,213 @@ function About() {
     {/* Content Grid */}
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
 
-      {/* LEFT: 2x2 cards */}
+      {/* LEFT: Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:col-span-2">
 
         {/* Card 1 */}
-        <div className="bg-[#001917] rounded-[18px] p-8">
-          <h4 className="text-[#C8F46A] font-serif text-xl mb-3">
+        <div className="bg-[#001917] rounded-[18px] px-8 pt-10 pb-6">
+          <h4
+            className="
+              font-tiempos
+              font-regular
+              text-[24.11px]
+              leading-[36.07px]
+              text-[#D5FB93]
+              mb-2
+            "
+          >
             Customer First
           </h4>
-          <p className="text-white/80 text-sm leading-relaxed">
+
+          <p
+            className="
+              font-manrope
+              font-regular
+              text-[17.58px]
+              leading-[26.28px]
+              text-white
+            "
+          >
             Your satisfaction and happiness are at the core of everything we do
           </p>
         </div>
 
         {/* Card 2 */}
-        <div className="bg-[#001917] rounded-[18px] p-8">
-          <h4 className="text-[#C8F46A] font-serif text-xl mb-3">
+        <div className="bg-[#001917] rounded-[18px] px-8 pt-10 pb-6">
+          <h4
+            className="
+              font-tiempos
+              font-regular
+              text-[24.11px]
+              leading-[36.07px]
+              text-[#D5FB93]
+              mb-2
+            "
+          >
             Excellence
           </h4>
-          <p className="text-white/80 text-sm leading-relaxed">
+
+          <p
+            className="
+              font-manrope
+              font-regular
+              text-[17.58px]
+              leading-[26.28px]
+              text-white
+            "
+          >
             Your satisfaction and happiness are at the core of everything we do
           </p>
         </div>
 
         {/* Card 3 */}
-        <div className="bg-[#001917] rounded-[18px] p-8">
-          <h4 className="text-[#C8F46A] font-serif text-xl mb-3">
+        <div className="bg-[#001917] rounded-[18px] px-8 pt-10 pb-6">
+          <h4
+            className="
+              font-tiempos
+              font-regular
+              text-[24.11px]
+              leading-[36.07px]
+              text-[#D5FB93]
+              mb-2
+            "
+          >
             Innovation
           </h4>
-          <p className="text-white/80 text-sm leading-relaxed">
+
+          <p
+            className="
+              font-manrope
+              font-regular
+              text-[17.58px]
+              leading-[26.28px]
+              text-white
+            "
+          >
             Your satisfaction and happiness are at the core of everything we do
           </p>
         </div>
 
         {/* Card 4 */}
-        <div className="bg-[#001917] rounded-[18px] p-8">
-          <h4 className="text-[#C8F46A] font-serif text-xl mb-3">
+        <div className="bg-[#001917] rounded-[18px] px-8 pt-10 pb-6">
+          <h4
+            className="
+              font-tiempos
+              font-regular
+              text-[24.11px]
+              leading-[36.07px]
+              text-[#D5FB93]
+              mb-2
+            "
+          >
             Trust
           </h4>
-          <p className="text-white/80 text-sm leading-relaxed">
+
+          <p
+            className="
+              font-manrope
+              font-regular
+              text-[17.58px]
+              leading-[26.28px]
+              text-white
+            "
+          >
             Your satisfaction and happiness are at the core of everything we do
           </p>
         </div>
 
       </div>
 
-      {/* RIGHT: Image */}
+      {/* RIGHT IMAGE */}
       <div className="hidden md:block h-[420px]">
-  <img
-    src={ourValues}
-    alt="Our Values"
-    className="w-full h-full object-cover rounded-[18px]"
-  />
-</div>
-
+        <img
+          src={ourValues}
+          alt="Our Values"
+          className="w-full h-full object-cover rounded-[18px]"
+        />
+      </div>
 
     </div>
   </div>
 </section>
 
 
+
        {/* ================= MEET OUR TEAM ================= */}
 {/* ================= MEET OUR TEAM ================= */}
-<section className="bg-[#F6FAE8] py-20">
+{/* ================= MEET OUR TEAM ================= */}
+<section className="bg-[#FFFFFF] py-20">
   <div className="max-w-7xl mx-auto px-4 md:px-6">
 
-    {/* Heading */}
-    <div className="text-center mb-14">
-      <h2 className="text-[36px] md:text-[48px] font-serif text-[#0F2F24]">
+    {/* ===== Heading ===== */}
+    <div className="text-center mb-16 space-y-3">
+      <h2
+        className="
+          font-tiempos font-medium
+          text-[54.56px] leading-[54.56px]
+          text-[#0F2F24]
+          mb-0
+        "
+      >
         Meet our <span className="text-[#1EEBD9]">Team</span>
       </h2>
-      <p className="mt-3 text-sm text-[#6B7C75]">
+
+      <p
+        className="
+          font-manrope font-medium
+          text-[15.4px] leading-[26.11px]
+          text-[#717171]
+          max-w-[620px]
+          mx-auto
+        "
+      >
         Our core values guide everything we do and define who we are as a company
       </p>
     </div>
 
-    {/* Grid */}
+    {/* ===== Team Grid ===== */}
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
       {[team1, team2, teamM3, teamM2, teamM3, team3, team1, team2, teamM3].map(
         (img, index) => {
-          const isMiddleColumn = index % 3 === 1;
+          const isMiddle = index % 3 === 1;
 
           return (
             <div
               key={index}
-              className="bg-[#F1FFD8] rounded-[24px] p-5"
+              className="
+                bg-[#F1FFD8]
+                rounded-[24px]
+                p-6
+                flex flex-col
+              "
             >
-              {/* MIDDLE CARD → TEXT ON TOP */}
-              {isMiddleColumn && (
+              {/* ===== TOP TEXT (Middle Column Only) ===== */}
+              {isMiddle && (
                 <div className="mb-4">
-                  <h4 className="text-[16px] font-medium text-[#0F2F24]">
+                  <h4
+                    className="
+                      font-manrope font-semibold
+                      text-[23.11px] leading-[31.33px]
+                      text-[#121212]
+                      mb-0
+                    "
+                  >
                     Lucas Henderson
                   </h4>
-                  <p className="text-[13px] text-[#6B7C75]">
+
+                  <p
+                    className="
+                      font-manrope font-medium
+                      text-[15.4px] leading-[26.11px]
+                      text-[#656565]
+                    "
+                  >
                     Project Lead
                   </p>
                 </div>
               )}
 
-              {/* IMAGE */}
+              {/* ===== IMAGE ===== */}
               <div className="overflow-hidden rounded-[20px] mb-4">
                 <img
                   src={img}
@@ -359,13 +497,27 @@ function About() {
                 />
               </div>
 
-              {/* LEFT / RIGHT CARDS → TEXT BELOW */}
-              {!isMiddleColumn && (
+              {/* ===== BOTTOM TEXT (Left & Right Columns) ===== */}
+              {!isMiddle && (
                 <>
-                  <h4 className="text-[16px] font-medium text-[#0F2F24]">
+                  <h4
+                    className="
+                      font-manrope font-semibold
+                      text-[23.11px] leading-[31.33px]
+                      text-[#121212]
+                      mb-0
+                    "
+                  >
                     Lucas Henderson
                   </h4>
-                  <p className="text-[13px] text-[#6B7C75]">
+
+                  <p
+                    className="
+                      font-manrope font-medium
+                      text-[15.4px] leading-[26.11px]
+                      text-[#656565]
+                    "
+                  >
                     Project Lead
                   </p>
                 </>
@@ -380,45 +532,90 @@ function About() {
 
 
 
+
             {/* ================= JOIN OUR TEAM ================= */}
-<section className="bg-[#F6FAE8] py-20 overflow-hidden">
-  {/* TEXT */}
+
+
+  {/* KEYFRAMES */}
+  {/* ================= JOIN OUR TEAM ================= */}
+<section className="bg-[#F6FAE8] pt-20 pb-0 overflow-hidden">
   <div className="max-w-7xl mx-auto px-4 md:px-6 text-center">
-    <h2 className="text-[32px] md:text-[48px] font-serif text-[#0F2F24]">
-      Join our <span className="text-[#1EEBD9]">Team</span>
-    </h2>
 
-    <p className="mt-4 text-sm md:text-base text-[#6B7C75] max-w-2xl mx-auto">
-      Join a team of dreamers pushing the boundaries of what’s possible in
-      making travel experience better
-    </p>
+    {/* HEADING GROUP */}
+    <div className="flex flex-col items-center gap-[12px]">
+      <h2
+        className="
+          font-tiempos
+          font-medium
+          text-[56.56px]
+          leading-[56.56px]
+          text-[#0F2F24]
+          m-0
+          p-0
+        "
+      >
+        Join our <span className="text-[#1EEBD9]">Team</span>
+      </h2>
 
-    <button className="mt-8 h-[48px] px-12 rounded-full bg-[#1EEBD9] text-black text-sm font-medium hover:opacity-90 transition">
+      <p
+        className="
+          font-manrope
+          font-medium
+          text-[17.4px]
+          leading-[26.11px]
+          text-[#717171]
+          max-w-[820px]
+          m-0
+          p-0
+        "
+      >
+        Join a team of dreamers pushing the boundaries of what’s possible in
+        making travel experience better
+      </p>
+    </div>
+
+    {/* BUTTON */}
+    <button
+      className="
+        mt-10
+        h-[48px]
+        px-12
+        rounded-full
+        bg-[#1EEBD9]
+        font-manrope
+        font-regular
+        text-[17.4px]
+        leading-[21.75px]
+        tracking-[-0.16px]
+        text-[#001917]
+        hover:opacity-90
+        transition
+      "
+    >
       Apply Now
     </button>
   </div>
 
-  {/* AUTO SCROLL IMAGES */}
-  <div className="relative mt-16 w-full overflow-hidden">
-    <div className="flex w-max animate-marquee gap-6 px-6">
-      {[office, office2, office, office2,office, office2].map(
-        (img, i) => (
-          <div
-            key={i}
-            className="w-[280px] h-[200px] md:w-[420px] md:h-[260px] flex-shrink-0"
-          >
-            <img
-              src={img}
-              alt="Team"
-              className="w-full h-full object-cover rounded-[18px]"
-            />
-          </div>
-        )
-      )}
+  {/* AUTO SCROLL IMAGES — NO EXTRA SPACE BELOW */}
+  <div className="relative mt-16 mb-0 w-full overflow-hidden">
+    <div className="flex w-max animate-marquee gap-6 px-6 pb-0">
+      {[office, office2, office, office2, office, office2].map((img, i) => (
+        <div
+          key={i}
+          className="w-[280px] h-[200px] md:w-[420px] md:h-[260px] flex-shrink-0"
+        >
+          <img
+            src={img}
+            alt="Team"
+            className="w-full h-full object-cover rounded-[18px]"
+          />
+        </div>
+      ))}
     </div>
   </div>
+</section>
+  <OurAchievements />
 
-  {/* KEYFRAMES */}
   <style>
     {`
       @keyframes marquee {
@@ -430,7 +627,7 @@ function About() {
       }
     `}
   </style>
-</section>
+
 
         </>
     );

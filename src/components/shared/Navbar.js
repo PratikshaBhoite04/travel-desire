@@ -8,6 +8,20 @@ function Navbar() {
 
   //  Hook INSIDE component
   const location = useLocation();
+  const mobileLinkClass = ({ isActive }) =>
+  `
+    font-manrope text-[18px] font-[500]
+    transition-colors duration-300
+    ${isActive ? "text-[#06D5C6]" : "text-white"}
+  `;
+
+  const mobileTourClass = () =>
+  `
+    font-manrope text-[18px] font-[500]
+    transition-colors duration-300
+    ${isTourActive ? "text-[#06D5C6]" : "text-white"}
+  `;
+
 
   const pathname = location.pathname.toLowerCase();
 
@@ -148,35 +162,93 @@ const isDarkNavbar =
         <div className="fixed inset-0 z-50 bg-[#001917] text-white flex flex-col">
           <div className="flex justify-end p-6">
             <button
-              className="text-3xl text-[#D5FB93]"
+              className="text-3xl text-[#E7FF30]"
               onClick={() => setOpen(false)}
             >
               ✕
             </button>
           </div>
 
-          <div className="p-6">
-            <div className="flex items-center bg-white/10 rounded-full px-4 py-3">
-              <input
-                type="text"
-                placeholder="Destination"
-                className="bg-transparent outline-none flex-1 text-white"
-              />
-              <span className="bg-[#19FAEA] text-black p-3 rounded-full">
-                <Search size={18} />
-              </span>
-            </div>
-          </div>
+         <div className="p-6">
+  <div
+    className="
+      rounded-full
+      p-[1px]
+    "
+    style={{
+      backgroundImage:
+        "linear-gradient(90deg, #75FEF4, #E6FDBE)",
+    }}
+  >
+    <div
+      className="
+        flex items-center
+        rounded-full
+        px-4 py-3
+        bg-[#001917]
+      "
+    >
+      <input
+        type="text"
+        placeholder="Destination"
+        className="
+          bg-transparent outline-none flex-1
+          text-white font-manrope
+          text-[17px] font-[400]
+          placeholder-white/70
+        "
+      />
 
-          <div className="flex flex-col gap-6 px-8 mt-10 text-lg">
-            <NavLink to="/" onClick={() => setOpen(false)}>Home</NavLink>
-            <NavLink to="/tour-packages" onClick={() => setOpen(false)}>
-              Tour Packages
-            </NavLink>
-            <NavLink to="/services" onClick={() => setOpen(false)}>Services</NavLink>
-            <NavLink to="/about" onClick={() => setOpen(false)}>About Us</NavLink>
-            <NavLink to="/Contact" onClick={() => setOpen(false)}>Contact Us</NavLink>
-          </div>
+      <span className="bg-[#19FAEA] text-black p-3 rounded-full">
+        <Search size={18} />
+      </span>
+    </div>
+  </div>
+</div>
+
+ <div className="flex flex-col gap-6 px-8 mt-10">
+  <NavLink
+    to="/"
+    className={mobileLinkClass}
+    onClick={() => setOpen(false)}
+  >
+    Home
+  </NavLink>
+
+  <NavLink
+    to="/tour-packages"
+    className={mobileTourClass}
+    onClick={() => setOpen(false)}
+  >
+    Tour Packages
+  </NavLink>
+
+  <NavLink
+    to="/services"
+    className={mobileLinkClass}
+    onClick={() => setOpen(false)}
+  >
+    Services
+  </NavLink>
+
+  <NavLink
+    to="/about"
+    className={mobileLinkClass}
+    onClick={() => setOpen(false)}
+  >
+    About Us
+  </NavLink>
+
+  <NavLink
+    to="/contact"
+    className={mobileLinkClass}
+    onClick={() => setOpen(false)}
+  >
+    Contact Us
+  </NavLink>
+</div>
+
+
         </div>
       )}
     </>

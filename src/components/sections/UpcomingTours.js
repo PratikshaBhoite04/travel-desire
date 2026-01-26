@@ -37,7 +37,7 @@ const tours = [
 function UpcomingTours() {
    const navigate = useNavigate();
   return (
-    <section className="py-15 bg-white relative z-0 mt-10">
+    <section className="py-10 bg-white relative z-0 ">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
@@ -45,27 +45,43 @@ function UpcomingTours() {
   <h2 className="text-[36px] md:text-[54px] font-[500] font-tiempos text-[#1C3627]">
     Upcoming Tours
   </h2>
+<p
+  className="
+    hidden md:block
+    mt-1
+    text-[17px]
+    leading-[26px]
+    tracking-[-0.34px]
+    font-inter
+    font-[400]
+    text-[#717171]
+    text-center
+    whitespace-nowrap
+  "
+>
+  Fixed departure dates with confirmed bookings. Join fellow travelers on curated group tours.
+</p>
 
-  <p
-    className="
-      mt-1
-      mx-auto
-      max-w-[320px]
-      md:max-w-none
-      text-[14px]
-      md:text-[17px]
-      leading-[22px]
-      md:leading-[26px]
-      tracking-[-0.34px]
-      font-inter
-      font-[400]
-      text-[#717171]
-      text-center
-    "
-  >
-    Fixed departure dates with confirmed bookings.
-    Join fellow travelers on curated group tours.
-  </p>
+<p
+  className="
+    md:hidden
+    mt-1
+    mx-auto
+    max-w-[340px]
+    text-[14px]
+    leading-[22px]
+    tracking-[-0.34px]
+    font-inter
+    font-[400]
+    text-[#717171]
+    text-center
+  "
+>
+  Fixed departure dates with confirmed bookings. Join fellow travelers on curated group tours.
+</p>
+
+
+
 </div>
 
 

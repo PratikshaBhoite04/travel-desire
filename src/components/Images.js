@@ -10,7 +10,7 @@ function Images({ images = [] }) {
   return (
     <div className="bg-white rounded-2xl border border-gray-200 p-6">
       {/* Masonry Grid */}
-      <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+      <div className="columns-1 sm:columns-2 lg:columns-3 gap-3 space-y-3">
         {images.map((img, index) => (
           <div
             key={index}
