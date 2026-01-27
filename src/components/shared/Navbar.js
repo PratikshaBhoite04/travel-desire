@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import { Search } from "lucide-react";
+import PlanTripButton from "./animatedButton";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -97,51 +98,7 @@ const isDarkNavbar =
                 <NavLink to="/contact" className={linkClass}>Contact Us</NavLink>
               </nav>
 
- <button
-  className="
-    hidden md:block
-    relative overflow-hidden
-    w-[200px] h-[50px]
-    rounded-full
-    font-manrope
-    bg-white/20
-    group
-  "
->
-  {/* DEFAULT STATE */}
-  <span
-    className="
-      absolute inset-0
-      flex items-center justify-center
-      text-white
-      font-[400] text-[16px]
-      tracking-[-0.16px]
-      transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)]
-      group-hover:-translate-y-full
-      group-hover:opacity-0
-    "
-  >
-    Plan My Trip
-  </span>
-
-  {/* HOVER STATE */}
-  <span
-    className="
-      absolute inset-0
-      flex items-center justify-center
-      bg-[#19FAEA]
-      text-[#033733]
-      font-[400] text-[16px]
-      tracking-[-0.16px]
-      translate-y-full opacity-0
-      transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)]
-      group-hover:translate-y-0
-      group-hover:opacity-100
-    "
-  >
-    Send Inquiry Now!
-  </span>
-</button>
+<PlanTripButton/>
 
 
 

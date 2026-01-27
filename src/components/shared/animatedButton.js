@@ -1,5 +1,5 @@
 import { useState } from "react";
-import hoverPng from "../../assets/icons/bird.png";
+import hoverPng from "../../assets/images/bird - Copy.png";
 
 function PlanTripButton() {
   const [animating, setAnimating] = useState(false);
