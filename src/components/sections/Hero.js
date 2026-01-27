@@ -111,6 +111,7 @@ function Hero() {
     rounded-full
     px-10 py-[13px]
     bg-[#75FEF4]
+    hover:bg-[#06D5C6]
     text-[#033733]
     font-manrope font-[300]
     text-[17.4px]

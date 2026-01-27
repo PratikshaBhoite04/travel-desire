@@ -78,19 +78,24 @@ function TourHero({ tour }) {
         </div>
       </section>
 
-      {/* ================= MOBILE STICKY CTA ================= */}
-      <div className="md:hidden fixed bottom-0 left-0 w-full z-50  px-8 py-2">
-        <button className="
-          w-full
-          bg-[#19FAEA]
-          text-[#001917]
-          py-4
-          rounded-full
-          font-manrope text-[17px]
-        ">
-          Book My Trip
-        </button>
-      </div>
+     
+    {/* MOBILE STICKY CTA */}
+<div className="md:hidden fixed bottom-0 left-0 w-full z-50 px-8 py-2 mobile-cta">
+  <button
+    className="
+      w-full
+      bg-[#19FAEA]
+      text-[#001917]
+      py-4
+      rounded-full
+      font-manrope text-[17px]
+      shadow-lg
+    "
+  >
+    Book My Trip
+  </button>
+</div>
+
     </>
   );
 }

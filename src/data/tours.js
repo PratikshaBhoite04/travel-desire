@@ -11,7 +11,7 @@ import kedarnath2 from "../assets/images/kedarnath2.png";
 import udaipur from "../assets/images/udaipur.png";
 import kashmir1 from "../assets/images/kashmir1.png";
 // import jaipur1 from "../assets/images/jaipur1.png";
-// import foundation from "../assets/images/foundation.png";
+import foundation from "../assets/images/foundation.png";
 // import forest1 from "../assets/images/.png";
 
 
@@ -179,7 +179,7 @@ export const tours = [
       "Shopping is at the sole discretion of the guest.",
     ],
 
-    images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,],
+    images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,leaf, bottles, cream,],
   },
 
   {

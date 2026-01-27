@@ -1,7 +1,11 @@
 import { useState } from "react";
 import hoverPng from "../../assets/images/bird - Copy.png";
 
-function PlanTripButton() {
+function AnimatedCTA({
+  defaultText = "Plan My Trip",
+  hoverText = "Send Inquiry Now!",
+  className = "",
+}) {
   const [animating, setAnimating] = useState(false);
   const [hovered, setHovered] = useState(false);
 
@@ -16,29 +20,25 @@ function PlanTripButton() {
         setAnimating(false);
       }}
       className={`
-        relative hidden md:flex
-        items-center justify-center
-        w-[230px] h-[56px]
-        rounded-full overflow-hidden
-        bg-white/30
-
+        relative overflow-hidden
+        rounded-full
         font-manrope text-[16px] font-[400]
-        text-white
         transition-transform duration-[600ms]
         ease-[cubic-bezier(0.22,1,0.36,1)]
         ${hovered ? "scale-x-[1.08]" : "scale-x-100"}
+        ${className}
       `}
     >
       {/* TEXT */}
-     <span
-  className={`
-    relative z-30
-    transition-colors duration-500
-    ${hovered ? "text-[#033733]" : "text-white"}
-  `}
->
-  {hovered ? "Send Inquiry Now!" : "Plan My Trip"}
-</span>
+      <span
+        className={`
+          relative z-30
+          transition-colors duration-500
+          ${hovered ? "text-[#033733]" : "text-white"}
+        `}
+      >
+        {hovered ? hoverText : defaultText}
+      </span>
 
       {/* COLOR FOLLOW LAYER */}
       {(hovered || animating) && (
@@ -52,7 +52,7 @@ function PlanTripButton() {
         />
       )}
 
-      {/* BIRD PNG (ENTRY ONLY) */}
+      {/* BIRD PNG (UNCHANGED) */}
       {animating && (
         <img
           src={hoverPng}
@@ -70,4 +70,4 @@ function PlanTripButton() {
   );
 }
 
-export default PlanTripButton;
+export default AnimatedCTA;

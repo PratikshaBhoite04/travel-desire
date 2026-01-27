@@ -1,5 +1,5 @@
 import checkIcon from "../assets/icons/check.png";
-// import crossIcon from "../../assets/icons/cross.png";
+import crossIcon from "../assets/icons/cross.png";
 
 function Inclusions() {
   return (
@@ -39,7 +39,7 @@ function Inclusions() {
         </div>
 
         {/* RIGHT — EXCLUDED */}
-        {/* <div>
+        <div>
           <h3 className="font-manrope font-[700] text-[26px] text-[#001917] mb-4">
             What’s Excluded
           </h3>
@@ -63,7 +63,7 @@ function Inclusions() {
               </li>
             ))}
           </ul>
-        </div> */}
+        </div>
 
       </div>
     </div>

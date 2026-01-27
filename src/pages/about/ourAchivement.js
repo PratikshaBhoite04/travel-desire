@@ -129,7 +129,7 @@ function OurAchievements() {
               "linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4)",
           }}
         >
-          <span className="flex items-center gap-2 bg-[#021E1A] px-6 py-3 rounded-full text-[14px] text-white hover:bg-[#19FAEA] hover:text-black transition">
+          <span className="flex items-center gap-2 bg-[#021E1A] px-6 py-3 rounded-full text-[14px] text-white transition">
             <img
               src={instagramIcon}
               alt="Instagram"

@@ -1,9 +1,21 @@
+import { useState } from "react";
 import man from "../../assets/images/man.png";
+import hoverPng from "../../assets/images/bird - Copy.png";
 import useScrollReveal from "../../Hooks/useScrollReveal";
+import TripsCTA from "../shared/TripsCTA";
+
+
+
+
 
 
 
 function Trips() {
+
+  const [hovered, setHovered] = useState(false);
+const [animating, setAnimating] = useState(false);
+
+
 const [imageRef, imageVisible] = useScrollReveal(0.35);
 
   /// Desktop cards
@@ -127,18 +139,15 @@ const [mobBtnRef, mobBtnVisible] = useScrollReveal(0.4);
     </p>
   </div>
 
- <button
-  ref={deskBtnRef}
-  className={`self-end bg-[#06D5C6] text-black px-8 py-3 rounded-full text-sm font-small
-    transition-all duration-700
-    ${deskBtnVisible
-      ? "opacity-100 translate-y-0"
-      : "opacity-0 translate-y-6"}
-    hover:bg-[#06D5C6]
-  `}
->
-  Send Inquiry Now!
-</button>
+<div ref={deskBtnRef} className="self-end">
+<TripsCTA className="w-[230px] h-[56px] self-end" />
+
+
+</div>
+
+
+
+
 
 
 

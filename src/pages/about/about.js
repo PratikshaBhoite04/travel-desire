@@ -17,6 +17,8 @@ import office from "../../assets/images/office.png"
 import office2 from "../../assets/images/office2.png"
 import headerLines from "../../assets/images/header-lines.png";
 import OurAchievements from "../about/ourAchivement";
+import OurJourney from "./OurJourney";
+
 
 function About() {
     return (
@@ -142,265 +144,79 @@ function About() {
 {/* ================= OUR JOURNEY ================= */}
 {/* ================= OUR JOURNEY ================= */}
 {/* ================= OUR JOURNEY ================= */}
-<section className="py-20 bg-white">
-  {/* TITLE */}
-  <h2 className="text-center font-tiempos font-medium text-[56.56px] leading-[56.56px] mb-16">
-    Our <span className="text-[#1EEBD9]">Journey</span>
-  </h2>
 
-  {/* CONTENT */}
-  <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
 
-    {/* LEFT IMAGE */}
-    <div className="w-full h-[520px] rounded-[24px] overflow-hidden">
-      <img
-        src={journeyImg}
-        alt="Our Journey"
-        className="w-full h-full object-cover"
-      />
-    </div>
-
-    {/* RIGHT TIMELINE */}
-    <div className="relative h-[520px] overflow-y-auto pr-6">
-
-      {/* VERTICAL LINE */}
-      <div className="absolute left-[14px] top-0 bottom-0 w-[2px] bg-[#E6EDED]" />
-
-      {/* TIMELINE LIST */}
-      <ul className="relative space-y-20 pl-[64px]">
-
-        {/* ===== ITEM 1 ===== */}
-        <li className="relative">
-          {/* DOT (locked to line) */}
-          <span className="absolute left-[14px] top-[6px] w-[12px] h-[12px] bg-[#1EEBD9] rounded-full -translate-x-1/2" />
-
-          <p className="text-[#1EEBD9] font-manrope font-medium text-[14.58px]">
-            2000
-          </p>
-
-          <h4 className="mt-1 font-manrope font-medium text-[22.11px] text-[#0F2F24]">
-            Discover Your Desire
-          </h4>
-
-          <p className="mt-2 font-manrope font-regular text-[13.4px] leading-[20.93px] text-[#717171] max-w-[550px]">
-            Browse handpicked destinations, curated itineraries, and exclusive
-            experiences designed around your travel style.
-          </p>
-        </li>
-
-        {/* ===== ITEM 2 ===== */}
-        <li className="relative">
-          <span className="absolute left-[14px] top-[6px] w-[12px] h-[12px] bg-[#1EEBD9] rounded-full -translate-x-1/2" />
-
-          <p className="text-[#1EEBD9] font-manrope font-medium text-[14.58px]">
-            2002 – 2005
-          </p>
-
-          <h4 className="mt-1 font-manrope font-medium text-[22.11px] text-[#0F2F24]">
-            Expanding Horizons
-          </h4>
-
-          <p className="mt-2 font-manrope font-regular text-[13.4px] leading-[20.93px] text-[#717171] max-w-[550px]">
-            Expanded into international destinations and built strong global
-            travel partnerships.
-          </p>
-        </li>
-
-        {/* ===== ITEM 3 ===== */}
-        <li className="relative">
-          <span className="absolute left-[14px] top-[6px] w-[12px] h-[12px] bg-[#1EEBD9] rounded-full -translate-x-1/2" />
-
-          <p className="text-[#1EEBD9] font-manrope font-medium text-[14.58px]">
-            2010
-          </p>
-
-          <h4 className="mt-1 font-manrope font-medium text-[22.11px] text-[#0F2F24]">
-            Trusted Travel Brand
-          </h4>
-
-          <p className="mt-2 font-manrope font-regular text-[13.4px] leading-[20.93px] text-[#717171] max-w-[550px]">
-            Became a trusted travel brand, serving over 10,000 happy travelers
-            across India and beyond.
-          </p>
-        </li>
-
-        {/* ===== ITEM 4 ===== */}
-        <li className="relative">
-          <span className="absolute left-[14px] top-[6px] w-[12px] h-[12px] bg-[#1EEBD9] rounded-full -translate-x-1/2" />
-
-          <p className="text-[#1EEBD9] font-manrope font-medium text-[14.58px]">
-            2020 – Present
-          </p>
-
-          <h4 className="mt-1 font-manrope font-medium text-[22.11px] text-[#0F2F24]">
-            Innovation & Experience
-          </h4>
-
-          <p className="mt-2 font-manrope font-regular text-[13.4px] leading-[20.93px] text-[#717171] max-w-[550px]">
-            Leveraging technology and personalization to craft seamless,
-            unforgettable travel experiences.
-          </p>
-        </li>
-
-      </ul>
-    </div>
-  </div>
-</section>
+<OurJourney />
 
 
 
 {/* ================= WHAT DRIVES US ================= */}
 {/* ================= WHAT DRIVES US ================= */}
-<section className="bg-white py-20">
-  <div className="max-w-7xl mx-auto px-4 md:px-6">
+<section className="bg-white py-12 md:py-20">
+  <div className="max-w-7xl mx-auto px-6">
 
     {/* Heading */}
-    <div className="text-center mb-14">
-      <h2
-        className="
-         text-center font-tiempos font-medium text-[56.56px] leading-[56.56px] mb-5
-        "
-      >
+    <div className="text-center mb-10 md:mb-14">
+      <h2 className="font-tiempos font-medium text-[36px] md:text-[56.56px] leading-tight md:leading-[56.56px] mb-5">
         What Drives <span className="text-[#1EEBD9]">Us?</span>
       </h2>
 
-      <p
-        className="
-          font-manrope
-          font-medium
-          text-[15.4px]
-          leading-[26.11px]
-          text-[#717171] 
-          max-w-[620px]
-          mx-auto
-        "
-      >
+      <p className="font-manrope font-medium text-[14px] md:text-[15.4px] leading-relaxed text-[#717171] max-w-[620px] mx-auto">
         Our core values guide everything we do and define who we are as a company
       </p>
     </div>
 
     {/* Content Grid */}
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+    {/* On mobile, we use a single column flex/grid and use 'order' to rearrange */}
+    <div className="flex flex-col md:grid md:grid-cols-3 gap-6 items-stretch">
 
-      {/* LEFT: Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:col-span-2">
-
-        {/* Card 1 */}
-        <div className="bg-[#001917] rounded-[18px] px-8 pt-10 pb-6">
-          <h4
-            className="
-              font-tiempos
-              font-regular
-              text-[24.11px]
-              leading-[36.07px]
-              text-[#D5FB93]
-              mb-2
-            "
-          >
+      {/* LEFT CONTENT AREA: Using a nested grid for cards */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:col-span-2 order-1 md:order-none">
+        
+        {/* Card 1 - Order 1 on mobile */}
+        <div className="bg-[#001917] rounded-[18px] px-8 pt-10 pb-6 order-1">
+          <h4 className="font-tiempos font-regular text-[24.11px] leading-[36.07px] text-[#D5FB93] mb-2">
             Customer First
           </h4>
-
-          <p
-            className="
-              font-manrope
-              font-regular
-              text-[17.58px]
-              leading-[26.28px]
-              text-white
-            "
-          >
+          <p className="font-manrope font-regular text-[17.58px] leading-[26.28px] text-white">
             Your satisfaction and happiness are at the core of everything we do
           </p>
         </div>
 
-        {/* Card 2 */}
-        <div className="bg-[#001917] rounded-[18px] px-8 pt-10 pb-6">
-          <h4
-            className="
-              font-tiempos
-              font-regular
-              text-[24.11px]
-              leading-[36.07px]
-              text-[#D5FB93]
-              mb-2
-            "
-          >
+        {/* Card 2 - Order 2 on mobile */}
+        <div className="bg-[#001917] rounded-[18px] px-8 pt-10 pb-6 order-2">
+          <h4 className="font-tiempos font-regular text-[24.11px] leading-[36.07px] text-[#D5FB93] mb-2">
             Excellence
           </h4>
-
-          <p
-            className="
-              font-manrope
-              font-regular
-              text-[17.58px]
-              leading-[26.28px]
-              text-white
-            "
-          >
+          <p className="font-manrope font-regular text-[17.58px] leading-[26.28px] text-white">
             Your satisfaction and happiness are at the core of everything we do
           </p>
         </div>
 
-        {/* Card 3 */}
-        <div className="bg-[#001917] rounded-[18px] px-8 pt-10 pb-6">
-          <h4
-            className="
-              font-tiempos
-              font-regular
-              text-[24.11px]
-              leading-[36.07px]
-              text-[#D5FB93]
-              mb-2
-            "
-          >
+        {/* Card 3 - Order 4 on mobile (after image) */}
+        <div className="bg-[#001917] rounded-[18px] px-8 pt-10 pb-6 order-4 md:order-none">
+          <h4 className="font-tiempos font-regular text-[24.11px] leading-[36.07px] text-[#D5FB93] mb-2">
             Innovation
           </h4>
-
-          <p
-            className="
-              font-manrope
-              font-regular
-              text-[17.58px]
-              leading-[26.28px]
-              text-white
-            "
-          >
+          <p className="font-manrope font-regular text-[17.58px] leading-[26.28px] text-white">
             Your satisfaction and happiness are at the core of everything we do
           </p>
         </div>
 
-        {/* Card 4 */}
-        <div className="bg-[#001917] rounded-[18px] px-8 pt-10 pb-6">
-          <h4
-            className="
-              font-tiempos
-              font-regular
-              text-[24.11px]
-              leading-[36.07px]
-              text-[#D5FB93]
-              mb-2
-            "
-          >
+        {/* Card 4 - Order 5 on mobile (after image) */}
+        <div className="bg-[#001917] rounded-[18px] px-8 pt-10 pb-6 order-5 md:order-none">
+          <h4 className="font-tiempos font-regular text-[24.11px] leading-[36.07px] text-[#D5FB93] mb-2">
             Trust
           </h4>
-
-          <p
-            className="
-              font-manrope
-              font-regular
-              text-[17.58px]
-              leading-[26.28px]
-              text-white
-            "
-          >
+          <p className="font-manrope font-regular text-[17.58px] leading-[26.28px] text-white">
             Your satisfaction and happiness are at the core of everything we do
           </p>
         </div>
 
       </div>
 
-      {/* RIGHT IMAGE */}
-      <div className="hidden md:block h-[420px]">
+      {/* RIGHT IMAGE - Order 3 on mobile (shows between card 2 and 3) */}
+      <div className="order-3 md:order-none h-[300px] md:h-full">
         <img
           src={ourValues}
           alt="Our Values"
@@ -411,7 +227,6 @@ function About() {
     </div>
   </div>
 </section>
-
 
 
        {/* ================= MEET OUR TEAM ================= */}

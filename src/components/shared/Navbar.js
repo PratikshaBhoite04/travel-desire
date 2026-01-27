@@ -1,11 +1,23 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import { Search } from "lucide-react";
-import PlanTripButton from "./animatedButton";
+import AnimatedCTA from "../../components/shared/AnimatedCTA";
+
 
 function Navbar() {
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+  if (open) {
+    document.body.classList.add("nav-open");
+  } else {
+    document.body.classList.remove("nav-open");
+  }
+
+  return () => document.body.classList.remove("nav-open");
+}, [open]);
+
 
   //  Hook INSIDE component
   const location = useLocation();
@@ -97,8 +109,23 @@ const isDarkNavbar =
                 <NavLink to="/about" className={linkClass}>About Us</NavLink>
                 <NavLink to="/contact" className={linkClass}>Contact Us</NavLink>
               </nav>
+<AnimatedCTA
+  label="Plan My Trip"
+  hoverText="Send Inquiry Now!"
+  className="
+    hidden md:flex
+    items-center justify-center
+    w-[230px] h-[56px]
 
-<PlanTripButton/>
+    bg-white/25
+    backdrop-blur-lg
+
+    text-white
+    border border-white/10
+    shadow-[0_4px_20px_rgba(255,255,255,0.08)]
+  "
+/>
+
 
 
 
