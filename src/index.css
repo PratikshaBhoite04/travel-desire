@@ -93,3 +93,8 @@ input[type="date"] {
 body.nav-open .mobile-cta {
   display: none;
 }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(88%) sepia(45%) saturate(600%) hue-rotate(125deg);
+  cursor: pointer;
+}

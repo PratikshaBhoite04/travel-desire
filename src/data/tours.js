@@ -20,7 +20,7 @@ import foundation from "../assets/images/foundation.png";
 export const tours = [
   {
     /* ================= RAJASTHAN ================= */
-    title: "Rajasthan Mewad ",
+    title: "Rajasthan Mewad With Tiger Reserve ",
     slug: "rajasthan-mewad-with-tiger-reserve",
     price: "₹65,999",
     days: "7 Days / 6 Nights",

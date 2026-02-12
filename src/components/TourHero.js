@@ -30,29 +30,40 @@ function TourHero({ tour }) {
 
             {/* LEFT */}
             <div className="text-white max-w-3xl">
-              <h1 className="font-tiempos font-[500] text-[28px] md:text-[48px] leading-tight">
-                {tour.title}
-              </h1>
+             <h1
+  className="
+    font-tiempos
+    font-[500]
+    text-[52.21px]
+    leading-[52.21px]
+    tracking-[0.08px]
+    text-white
+     whitespace-nowrap
+  "
+>
+  {tour.title}
+</h1>
+
 
               {/* ICON ROW */}
               <div className="flex flex-col md:flex-row gap-3 md:gap-6 mt-3">
 
                 <div className="flex items-center gap-3">
-                  <img src={locationIcon} className="w-[18px] h-[18px]" />
+                  <img src={locationIcon} className="w-[21px] h-[21px]" />
                   <span className="font-manrope text-[16px] md:text-[18px]">
                     {tour.location}
                   </span>
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <img src={durationIcon} className="w-[18px] h-[18px]" />
+                  <img src={durationIcon} className="w-[21px] h-[21px]" />
                   <span className="font-manrope text-[16px] md:text-[18px]">
                     {tour.days}
                   </span>
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <img src={calendarIcon} className="w-[18px] h-[18px]" />
+                  <img src={calendarIcon} className="w-[21px] h-[21px]" />
                   <span className="font-manrope text-[16px] md:text-[18px]">
                     Next: {tour.nextDate}
                   </span>

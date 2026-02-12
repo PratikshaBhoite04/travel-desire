@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { tours } from "../../data/tours";
-
+import { toursFromPackages } from "../../data/packageAdapter";
 import TourHero from "../../components/TourHero";
 import PriceBar from "../../components/PriceBar";
 import TourTabs from "../../components/TourTabs";
@@ -19,8 +19,11 @@ import { faqs } from "../../data/faqs";
 function TourDetail() {
   const { slug } = useParams();
   const [activeTab, setActiveTab] = useState("highlights");
+  
+  const allTours = [...tours, ...toursFromPackages];
 
-  const tour = tours.find((t) => t.slug === slug);
+const tour = allTours.find((t) => t.slug === slug);
+
 
   if (!tour) {
     return <p className="text-center py-20">Tour not found</p>;

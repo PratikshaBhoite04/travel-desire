@@ -3,6 +3,8 @@ import { NavLink, useLocation } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
 import { Search } from "lucide-react";
 import AnimatedCTA from "../../components/shared/AnimatedCTA";
+import searchIcon from "../../assets/icons/search.png"; 
+
 
 
 function Navbar() {
@@ -57,7 +59,7 @@ const isDarkNavbar =
 
   const linkClass = ({ isActive }) =>
     `
-    relative font-manrope text-[16px] font-[400]
+    relative font-manrope text-[16px] font-[300] 
     transition-colors duration-300
     ${isActive ? "text-[#19FAEA]" : "text-white/70 hover:text-white"}
     after:content-['']
@@ -70,7 +72,7 @@ const isDarkNavbar =
 
     const tourLinkClass = () =>
   `
-  relative font-manrope text-[16px] font-[400]
+  relative font-manrope text-[16px] font-[300]
   transition-colors duration-300
   ${isTourActive ? "text-[#19FAEA]" : "text-white/70 hover:text-white"}
   after:content-['']
@@ -81,16 +83,54 @@ const isDarkNavbar =
   `;
 
 
+const isTripPackagesPage = pathname === "/tour-packages";
+const isTourDetailPage = pathname.startsWith("/tour/");
+const showSearchIcon = isTripPackagesPage || isTourDetailPage;
+
+
+const navbarCTAClass = `
+  hidden md:flex
+  items-center justify-center
+  w-[210px] h-[52px]
+  rounded-full
+  font-manrope font-medium text-[14px]
+  transition-all duration-300
+  backdrop-blur-[36.98px]
+  ${
+    isTourDetailPage
+      ? `
+        bg-[rgba(18,18,18,0.3)]
+        text-[#06D5C6]
+        hover:bg-[rgba(18,18,18,0.4)]
+      `
+      : `
+        bg-white/25
+        text-white
+        border border-white/10
+        hover:bg-white/30
+      `
+  }
+`;
+
+
+
   return (
     <>
       {/* ================= DESKTOP NAVBAR ================= */}
       <header className="fixed top-0 left-0 w-full z-50">
-       <div
-  className={`
-    backdrop-blur-md transition-colors duration-300
-    ${isDarkNavbar ? "bg-[#001917]" : "bg-black/40"}
-  `}
+<div
+  className="
+    backdrop-blur-[36.98px]
+    transition-colors duration-300
+  "
+  style={{
+    backgroundColor: "rgba(18,18,18,0.3)", 
+    borderBottom: "0.40px solid rgba(124, 119, 119, 0.6)", 
+  }}
 >
+
+
+
 
           <div className="max-w-7xl mx-auto px-4">
             <div className="h-20 flex items-center justify-between">
@@ -109,22 +149,51 @@ const isDarkNavbar =
                 <NavLink to="/about" className={linkClass}>About Us</NavLink>
                 <NavLink to="/contact" className={linkClass}>Contact Us</NavLink>
               </nav>
-<AnimatedCTA
-  label="Plan My Trip"
-  hoverText="Send Inquiry Now!"
-  className="
-    hidden md:flex
-    items-center justify-center
-    w-[230px] h-[56px]
 
-    bg-white/25
-    backdrop-blur-lg
 
-    text-white
-    border border-white/10
-    shadow-[0_4px_20px_rgba(255,255,255,0.08)]
-  "
-/>
+
+<div className="hidden md:flex items-center gap-5 mt-1">
+
+
+  {(isTripPackagesPage || isTourDetailPage) && (
+    <img
+      src={searchIcon}
+      alt="Search"
+      className="
+        w-6 h-6
+        opacity-80
+        cursor-pointer
+        hover:opacity-100
+        transition-opacity duration-300
+      "
+    />
+  )}
+
+
+  <AnimatedCTA
+    label="Plan My Trip"
+    hoverText="Send Inquiry Now!"
+    className={`
+      hidden md:flex
+      items-center justify-center
+      w-[210px] h-[52px]
+      rounded-full
+      transition-all duration-300
+      backdrop-blur-[36.98px]
+
+      ${
+        isTripPackagesPage
+          ? "text-[#06D5C6] bg-[rgba(255,255,255,0.1)]"
+          : isTourDetailPage
+          ? "text-[#06D5C6] bg-[rgba(18,18,18,0.3)]"
+          : "text-white bg-white/25 border border-white/10 shadow-[0_4px_20px_rgba(255,255,255,0.08)]"
+      }
+    `}
+  />
+
+</div>
+
+
 
 
 

@@ -5,6 +5,11 @@ import { Clock } from "lucide-react";
 import headerLines from "../../assets/images/header-lines.png";
 import dropdownArrow from "../../assets/icons/dropdown-arrow.png";
 import starIcon from "../../assets/icons/star.png"; 
+import AnimatedCTA from "../../components/shared/AnimatedCTA";
+import ArrowButton from "../../components/shared/ArrowButton";
+
+
+
 
 
 function TripPackages() {
@@ -151,12 +156,10 @@ function TripPackages() {
                       {tour.price}
                     </span>
 
-                    <button
-                      onClick={() => navigate(`/tour/${tour.slug}`)}
-                      className="w-14 h-10 rounded-full bg-[#1EEBD9] flex items-center justify-center"
-                    >
-                      ↗
-                    </button>
+                    <ArrowButton to={`/tour/${tour.slug}`} size="sm" />
+
+
+
                   </div>
                 </div>
               </div>

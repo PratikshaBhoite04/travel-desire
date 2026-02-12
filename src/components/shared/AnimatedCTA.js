@@ -5,12 +5,15 @@ function AnimatedCTA({
   defaultText = "Plan My Trip",
   hoverText = "Send Inquiry Now!",
   className = "",
+  onClick,
+  leftIcon = null, 
 }) {
   const [animating, setAnimating] = useState(false);
   const [hovered, setHovered] = useState(false);
 
   return (
     <button
+      onClick={onClick}
       onMouseEnter={() => {
         if (!hovered) setAnimating(true);
         setHovered(true);
@@ -29,18 +32,22 @@ function AnimatedCTA({
         ${className}
       `}
     >
-      {/* TEXT */}
-      <span
-        className={`
-          relative z-30
-          transition-colors duration-500
-          ${hovered ? "text-[#033733]" : "text-white"}
-        `}
-      >
-        {hovered ? hoverText : defaultText}
+      {/* CONTENT */}
+      <span className="relative z-30 flex items-center gap-2 transition-colors duration-500">
+        {leftIcon && (
+          <img
+            src={leftIcon}
+            alt=""
+            className="w-4 h-4 opacity-80"
+          />
+        )}
+
+        <span className={hovered ? "text-[#033733]" : "text-inherit"}>
+          {hovered ? hoverText : defaultText}
+        </span>
       </span>
 
-      {/* COLOR FOLLOW LAYER */}
+      {/* COLOR FOLLOW */}
       {(hovered || animating) && (
         <span
           className={`
@@ -52,7 +59,7 @@ function AnimatedCTA({
         />
       )}
 
-      {/* BIRD PNG (UNCHANGED) */}
+      {/* BIRD */}
       {animating && (
         <img
           src={hoverPng}

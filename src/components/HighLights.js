@@ -21,10 +21,10 @@ function Highlights({ highlights }) {
         </div>
 
         <div>
-          <p className="font-manrope font-[500] text-[14px] md:text-[16px] text-[#6C7278]">
+          <p className="font-manrope font-[500] text-[13px] md:text-[16px] text-[#6C7278]">
             {locationCard.meta}
           </p>
-          <p className="font-manrope font-[600] text-[18px] md:text-[21px] text-[#001917]">
+          <p className="font-manrope font-[600] text-[21px] md:text-[21px] text-[#001917]">
             {locationCard.places}
           </p>
         </div>
@@ -84,7 +84,7 @@ function Highlights({ highlights }) {
               <h4 className="mb-1.5 md:mb-2 font-manrope font-[600] text-[16px] md:text-[19px] text-[#E6FDBE]">
                 {item.title}
               </h4>
-              <p className="font-manrope font-[400] text-[14px] md:text-[15px] text-white leading-relaxed">
+              <p className="font-manrope font-[400] text-[14px] md:text-[15px] text-[#FFFFFF] leading-relaxed">
                 {item.desc}
               </p>
             </div>

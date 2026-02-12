@@ -56,21 +56,24 @@ function Hero() {
           <div
             className="mt-6 w-full rounded-full"
             style={{
-              border: "0.5px solid rgba(117,254,244,0.45)",
-              outline: "0.5px solid rgba(230,253,190,0.45)",
-              outlineOffset: "-0.5px",
+             border: "0.3px solid rgba(117,254,244,0.45)",
+    outline: "0.3px solid rgba(230,253,190,0.45)",
+    outlineOffset: "-1px",
             }}
           >
             <div
               className="
                 flex items-center gap-3
                 rounded-full
-                px-4 py-[8px]
-                backdrop-blur-md
+                h-[74px]
+                px-6 py-[10px] 
+                pl-12
+            backdrop-blur-[36.98px]
+  bg-white/13
               "
             >
               {/* Icon (hidden on very small if needed) */}
-              <Search size={16} className="text-white/70 shrink-0" />
+              <Search size={16} className="text-[#FFFFFF] shrink-0" />
 
               {/* Input */}
               <input
@@ -80,10 +83,10 @@ function Hero() {
                 onChange={(e) => setDestination(e.target.value)}
                 className="
                   flex-1 bg-transparent
-                  text-white placeholder-white/70
+                  text-white placeholder-[#FFFFFF]
                   outline-none
                   font-manrope font-[400]
-                  text-[14px]
+                  text-[16px]
                 "
               />
 
@@ -98,6 +101,7 @@ function Hero() {
     rounded-full
     bg-[#19FAEA]
     text-[#033733]
+
   "
 >
   <Search size={16} />
@@ -109,13 +113,13 @@ function Hero() {
   className="
     hidden md:flex
     rounded-full
-    px-10 py-[13px]
-    bg-[#75FEF4]
+    px-10 py-[14px]
+    bg-[#19FAEA]
     hover:bg-[#06D5C6]
     text-[#033733]
     font-manrope font-[300]
-    text-[17.4px]
-    leading-[21.75px]
+    text-[17px]
+    leading-[20.75px]
     tracking-[-0.16px]
     whitespace-nowrap
   "

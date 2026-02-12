@@ -1,7 +1,7 @@
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
 import checkIcon from "../assets/icons/check.png";
-
+import AnimatedCTAOutline from "./shared/AnimatedCTAOutline";
 function Itinerary({ itinerary = [], points = [] }) {
   const [openDay, setOpenDay] = useState(0);
 
@@ -19,13 +19,12 @@ function Itinerary({ itinerary = [], points = [] }) {
 
           <button
             onClick={() => setOpenDay(null)}
-            className="text-sm text-[#6C7278]"
+            className="text-[18px] font-manrope font-[600] text-[#5A5B5B] underline"
           >
             Collapse All
           </button>
         </div>
 
-        {/* DAYS (❌ no divide-y now) */}
         <div>
           {itinerary.map((day, index) => {
             const isOpen = openDay === index;
@@ -39,20 +38,16 @@ function Itinerary({ itinerary = [], points = [] }) {
                   className="w-full flex items-center justify-between"
                 >
                   <div className="flex items-center gap-3">
-                    <div className="w-9 h-9 rounded-full bg-[#ECFDCE] flex items-center justify-center text-sm font-manrope font-[600] text-[#607F4F]">
+                    <div className="w-11 h-11 rounded-full bg-[#ECFDCE] flex items-center justify-center text-[21px] font-manrope font-[500] text-[#607F4F]">
                       {day.day}
                     </div>
 
-                    <p className="font-manrope font-[600] text-[16px] md:text-[18px] text-[#001917]">
+                    <p className="font-manrope font-[600] text-[16px] md:text-[21px] text-[#001917]">
                       {day.title}
                     </p>
                   </div>
 
-                  {isOpen ? (
-                    <ChevronUp size={18} />
-                  ) : (
-                    <ChevronDown size={18} />
-                  )}
+                  {isOpen ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
                 </button>
 
                 {/* CONTENT */}
@@ -60,7 +55,7 @@ function Itinerary({ itinerary = [], points = [] }) {
                   <div className="mt-4 pl-12">
 
                     {day.desc && (
-                      <p className="text-[15px] md:text-[15px] text-[#001917] font-manrope leading-[26px] mb-3">
+                      <p className="text-[15px] md:text-[17px] font-[400] text-[#000000] font-manrope leading-[26px] mb-3">
                         {day.desc}
                       </p>
                     )}
@@ -70,9 +65,9 @@ function Itinerary({ itinerary = [], points = [] }) {
                         {day.tags.map((tag, i) => (
                           <span
                             key={i}
-                            className="bg-[#E1FFFD] text-[#001917] px-4 py-2 rounded-full text-[13px]"
+                            className="bg-[#E1FFFD] text-[#001917] px-4 py-2 rounded-full font-manrope font-[400] text-[15px]"
                           >
-                            {tag}
+                            {typeof tag === "object" ? tag.label : tag}
                           </span>
                         ))}
                       </div>
@@ -85,33 +80,35 @@ function Itinerary({ itinerary = [], points = [] }) {
           })}
         </div>
 
-      {/* DOWNLOAD BUTTON */}
-<div className="mt-6 flex justify-center md:justify-end">
-  <button
-    className="
-      w-full md:w-auto
-      px-8 py-3
-      rounded-full
-      font-manrope font-[400] text-[14px]
+  <div className="mt-6 flex justify-center md:justify-end">
+  <div className="scale-x-100 overflow-visible">
 
-      /* MOBILE */
-      border border-[#0FA297]
-      text-[#0FA297]
-      bg-white
-     
+<AnimatedCTAOutline
+  label="Download Itenary"
+  hoverText="Plan My Trip!"
+  className={`
+    hidden md:flex
+    items-center justify-center
+    w-[210px] h-[52px]
+    rounded-full
 
-      /* DESKTOP */
-      md:bg-[#19FAEA]
-      md:text-[#001917]
-      md:border-transparent
+    border border-[#0FA297]
+    text-[#001917]
+    bg-[#19FAEA]
 
-      hover:opacity-90
-      transition
-    "
-  >
-    Download Itinerary
-  </button>
+    backdrop-blur-[36.98px]
+
+    hover:border-[#06D5C6]
+    hover:bg-[white]
+    transition-all duration-300
+  `}
+/>
+
+
+  </div>
 </div>
+
+      
 
       </div>
 

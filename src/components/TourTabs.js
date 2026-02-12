@@ -39,7 +39,7 @@ function TourTabs({ activeTab, setActiveTab }) {
               /* flex-shrink-0: Essential so buttons don't squeeze */
               flex-shrink-0 
               px-5 
-              py-2 
+              py-3 
               rounded-full 
               text-sm 
               font-medium 
@@ -47,8 +47,8 @@ function TourTabs({ activeTab, setActiveTab }) {
               whitespace-nowrap
               ${
                 activeTab === tab.key
-                  ? "bg-[#D5FB93] text-[#343434] text-[15px] font-[300] font-manrope py-3 px-6"
-                  : "border border-gray-200 text-[#B4B4B4] bg-white"
+                  ? "bg-[#D5FB93] text-[#343434] text-[15px] font-[500] font-manrope py-3 px-6"
+                  : "border border-gray-200 text-[#B4B4B4] bg-white font-manrope text-15px font-[400]"
               }
             `}
           >

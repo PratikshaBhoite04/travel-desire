@@ -55,25 +55,34 @@ const scrollMobile = (direction) => {
   return (
     <section className={`py-14 md:py-20 ${withBackground ? "bg-[#F9FDEB]" : ""}`}>
 
-      {/* ================= HEADING ================= */}
-      <div className="text-center max-w-3xl mx-auto mb-8 md:mb-10 px-4">
-        <h2 className="text-[36px] font-tiempos font-[500] text-[#121212]">
-          Listen to <span className="text-[#06D5C6]">Real Stories</span>
-        </h2>
+  {/* ================= HEADING ================= */}
+<div className="text-center max-w-3xl mx-auto mb-4 md:mb-10 px-4">
+  <h2 className="text-[45px] font-tiempos font-[600] text-[#001917]">
+    {title === "Reviews" ? (
+      title
+    ) : (
+      <>
+        Listen to <span className="text-[#06D5C6]">Real Stories</span>
+      </>
+    )}
+  </h2>
 
-        {showSubtitle && (
-          <p className="
-            mt-3
-            text-[#7D7D7D]
-            text-[16px] md:text-[18px]
-            font-[300] font-manrope
-            whitespace-normal md:whitespace-nowrap
-          ">
-            We’re not just a travel agency, we’re your travel partners committed
-            to creating memorable experiences
-          </p>
-        )}
-      </div>
+  {showSubtitle && (
+    <p
+      className="
+        mt-3
+        text-[#7D7D7D]
+        text-[16px] md:text-[18px]
+        font-[300] font-manrope
+        whitespace-normal md:whitespace-nowrap
+      "
+    >
+      We’re not just a travel agency, we’re your travel partners committed
+      to creating memorable experiences
+    </p>
+  )}
+</div>
+
 
   {/* ================= MOBILE VIEW ================= */}
 <div className="md:hidden px-4">
@@ -165,7 +174,6 @@ const scrollMobile = (direction) => {
 </div>
 
 
-      {/* ================= DESKTOP VIEW (UNCHANGED – EXACT COPY) ================= */}
       <div className="hidden md:flex justify-center gap-6 px-10">
         {cards.map((_, index) => {
           const isCenter = index === CENTER_INDEX;
