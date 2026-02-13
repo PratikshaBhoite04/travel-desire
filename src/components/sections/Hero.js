@@ -24,29 +24,32 @@ function Hero() {
         <div className="w-full max-w-[340px] sm:max-w-3xl">
 
           {/* Heading */}
-          <h1
-            className="
-              font-tiempos font-[500] leading-[1.05]
-              text-[74px]
-              tracking-[-0.8px]
-              sm:text-[48px] md:text-[70px]
-            "
-          >
+        <h1
+  className="
+    font-tiempos font-[500] leading-[1.08]
+    text-[42px]
+    tracking-[-0.5px]
+    sm:text-[48px] md:text-[70px]
+  "
+>
+
             Your Desire.
             <br />
             Our Destination.
           </h1>
 
           {/* Subtitle */}
-          <p
-            className="
-              mt-2
-              font-manrope font-[500]
-              text-[#FFFFFFE5]
-              text-[22px]
-           
-            "
-          >
+        <p
+  className="
+    mt-4
+    font-manrope font-[500]
+    text-[#FFFFFFE5]
+    text-[16px]
+    leading-[22px]
+    sm:text-[18px]
+  "
+>
+
             Handcrafted domestic & international 
             <br className="sm:hidden" />
            holidays and personalized trips
@@ -61,73 +64,76 @@ function Hero() {
              outlineOffset: "-1px",
             }}
           >
-            <div
-              className="
-                flex items-center gap-3
-                rounded-full
-                h-[74px]
-                px-7 py-[10px] 
-                pl-12
-            backdrop-blur-[36.98px]
-  bg-white/13
-              "
-            >
-              {/* Icon (hidden on very small if needed) */}
-              <Search size={16} className="text-[#FFFFFF] shrink-0" />
+<div
+  className="
+    flex items-center
+    rounded-full
+    h-[58px] md:h-[74px]
+    px-4 md:px-7
+    backdrop-blur-[36.98px]
+    bg-white/13
+  "
+>
 
-              {/* Input */}
-              <input
-                type="text"
-                placeholder="Destination"
-                value={destination}
-                onChange={(e) => setDestination(e.target.value)}
-                className="
-                  flex-1 bg-transparent
-                  text-white placeholder-[#FFFFFF]
-                  outline-none
-                  font-manrope font-[400]
-                  text-[16px]
-                "
-              />
+  {/* Left Icon */}
+<Search size={18} className="hidden md:block text-white shrink-0" />
 
-            {/* Mobile CTA */}
+  {/* Input */}
+  <input
+    type="text"
+    placeholder="Destination"
+    value={destination}
+    onChange={(e) => setDestination(e.target.value)}
+    className="
+      flex-1
+      bg-transparent
+      text-white placeholder-[#FFFFFF]
+      outline-none
+      font-manrope font-[400]
+      text-[16px]
+      px-3
+    "
+  />
+
+  {/* Mobile CTA */}
 <button
   onClick={handleSearch}
   className="
     md:hidden
-    shrink-0
-    w-[36px] h-[36px]
+    w-[42px] h-[42px]
+    min-w-[42px]
     flex items-center justify-center
     rounded-full
     bg-[#19FAEA]
     text-[#033733]
-
+    ml-2
   "
 >
-  <Search size={16} />
+  <Search size={18} />
 </button>
 
-{/* Desktop CTA */}
-<button
-  onClick={handleSearch}
-  className="
-    hidden md:flex
-    rounded-full
-    px-10 py-[14px]
-    bg-[#19FAEA]
-    hover:bg-[#06D5C6]
-    text-[#033733]
-    font-manrope font-[300]
-    text-[17px]
-    leading-[20.75px]
-    tracking-[-0.16px]
-    whitespace-nowrap
-  "
->
-  Search Destination
-</button>
 
-            </div>
+  {/* Desktop CTA */}
+  <button
+    onClick={handleSearch}
+    className="
+      hidden md:flex
+      rounded-full
+      px-10 py-[14px]
+      bg-[#19FAEA]
+      hover:bg-[#06D5C6]
+      text-[#033733]
+      font-manrope font-[300]
+      text-[17px]
+      leading-[20.75px]
+      tracking-[-0.16px]
+      whitespace-nowrap
+    "
+  >
+    Search Destination
+  </button>
+</div>
+
           </div>
 
         </div>

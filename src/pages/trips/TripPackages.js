@@ -20,16 +20,16 @@ function TripPackages() {
       <Navbar bgColor="#001917" />
 
       {/* HEADER */}
-      <section className="relative pt-24 bg-gradient-to-b from-[#001917] to-[#001917]/95 overflow-hidden">
+<section className="relative pt-20 md:pt-24 bg-gradient-to-b from-[#001917] to-[#001917]/95 overflow-hidden">
         <img
           src={headerLines}
           alt=""
           className="pointer-events-none absolute top-0 right-0 h-full w-auto opacity-90"
         />
 
-        <div className="relative max-w-7xl mx-auto px-6 pt-12 pb-20 ">
+      <div className="relative max-w-7xl mx-auto px-6 pt-12 pb-20 text-left">
           {/* TITLE */}
-          <h1 className="text-[56px] md:text-[56px] font-[600] font-tiempos text-white translate-y-4 md:translate-y-8">
+<h1 className="text-left md:text-left text-[42px] md:text-[56px] font-[600] font-tiempos text-white translate-y-2 md:translate-y-8">
             Explore <span className="text-[#06D5C6]">Trips</span>
           </h1>
 
@@ -46,7 +46,7 @@ function TripPackages() {
                 md:bg-gradient-to-r md:from-[#3B4444] md:to-[#46473F80]
               "
             >
-              <div className="flex items-center w-full bg-[#001917] rounded-full px-6 py-2 md:py-2.5 gap-3">
+              <div className="flex items-center w-full bg-[#001917] rounded-full px-4 py-3 md:px-6 md:py-2.5 gap-3">
                 {/* LEFT ICON — DESKTOP ONLY */}
                 <svg
                   className="hidden md:block w-5 h-5 text-white opacity-80"
@@ -70,21 +70,22 @@ function TripPackages() {
                 />
 
                 {/* MOBILE SEARCH BUTTON */}
-                <button className="md:hidden w-10 h-10 bg-[#19FAEA] rounded-full flex items-center justify-center shrink-0">
-                  <svg
-                    className="w-5 h-5 text-[#001917]"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2.5"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M21 21l-4.35-4.35m1.35-5.65a7 7 0 11-14 0 7 7 0 0114 0z"
-                    />
-                  </svg>
-                </button>
+           <button className="md:hidden w-[38px] h-[38px] bg-[#19FAEA] rounded-full flex items-center justify-center shrink-0">
+  <svg
+    className="w-4 h-4 text-[#001917]"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    viewBox="0 0 24 24"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M21 21l-4.35-4.35m1.35-5.65a7 7 0 11-14 0 7 7 0 0114 0z"
+    />
+  </svg>
+</button>
+
 
                 {/* DESKTOP SEARCH BUTTON */}
                 <button className="hidden md:block bg-[#06D5C6] text-[#121212] font-manrope text-[15px] px-8 py-2 rounded-full">

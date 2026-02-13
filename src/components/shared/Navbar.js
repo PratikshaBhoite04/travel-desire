@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/icons/logo.svg";
 import { Search } from "lucide-react";
 import AnimatedCTA from "../../components/shared/AnimatedCTA";
 import searchIcon from "../../assets/icons/search.png"; 
@@ -144,7 +144,7 @@ const navbarCTAClass = `
             <div className="h-20 flex items-center justify-between">
 
               {/* Logo */}
-              <img src={logo} alt="Travel Desire" className="h-14" />
+              <img src={logo} alt="Travel Desire" className="h-14 w-auto" />
 
               {/* Desktop Links */}
               <nav className="hidden md:flex gap-8 text-sm">
