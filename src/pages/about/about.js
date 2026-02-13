@@ -33,7 +33,7 @@ function About() {
           className="pointer-events-none absolute top-0 right-0 h-full w-auto opacity-90"
         />
          <div className="relative max-w-7xl mx-auto px-4 md:px-6 pt-4 md:pt-10 pb-12 md:pb-24 flex items-end">
-          <h1 className="font-tiempos text-[32px] md:text-[52px] leading-[40px] md:leading-[62px] font-semibold text-white">
+          <h1 className="font-tiempos text-[52px] font-[600] md:text-[52px] leading-[40px] md:leading-[62px] font-semibold text-white  translate-y-5 md:translate-y-12">
             About <span className="text-[#1EEBD9]">Us</span>
           </h1>
         </div>

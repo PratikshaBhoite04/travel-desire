@@ -17,20 +17,21 @@ function Contact() {
       {/* ================= NAVBAR ================= */}
       <Navbar bgColor="#001917" />
 
-      {/* ================= HEADER ================= */}
-      <section className="relative pt-16 md:pt-20 bg-[#001917] overflow-hidden">
-        <img
-          src={headerLines}
-          alt=""
-          className="pointer-events-none absolute top-0 right-0 h-full w-auto opacity-90"
-        />
+<section className="relative bg-[#001917] overflow-hidden h-[210px] md:h-[270px]">
+  <img
+    src={headerLines}
+    alt=""
+    className="pointer-events-none absolute top-0 right-0 h-full w-auto opacity-90"
+  />
 
-        <div className="relative max-w-7xl mx-auto px-4 md:px-6 pt-4 md:pt-10 pb-12 md:pb-24 flex items-end">
-          <h1 className="font-tiempos text-[32px] md:text-[52px] leading-[40px] md:leading-[62px] font-semibold text-white">
-            Have <span className="text-[#1EEBD9]">Queries?</span>
-          </h1>
-        </div>
-      </section>
+  <div className="relative max-w-7xl mx-auto px-3 md:px-6 h-full flex items-end pb-6 md:pb-10">
+    <h1 className="font-tiempos text-[56px] md:text-[52px] leading-[40px] md:leading-[62px] font-[500] text-white">
+      Have <span className="text-[#1EEBD9]">Queries?</span>
+    </h1>
+  </div>
+</section>
+
+
 
       {/* ================= FORM SECTION ================= */}
       <section className="bg-white py-12 md:py-20">
@@ -168,7 +169,7 @@ function Contact() {
                 </p>
 
                 {/* BUTTON – CENTERED */}
-                <div className="flex justify-center pt-6">
+                <div className="flex justify-end  pt-6">
                   {/* <button
                     type="submit"
                     className="h-[48px] px-10 rounded-full bg-[#06D5C6] text-[#001917] text-[14px] font-medium hover:bg-[#17D6C6] transition"

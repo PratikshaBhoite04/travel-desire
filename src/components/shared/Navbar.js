@@ -47,6 +47,14 @@ const darkPages = [
   "/contact",
 ];
 
+const isSpecialNavbarPage =
+  pathname === "/tour-packages" ||
+  pathname.startsWith("/tour/") ||
+  pathname === "/contact" ||
+  pathname === "/services" ||
+  pathname === "/about";
+
+
 const isDarkNavbar =
   darkPages.includes(pathname) || pathname.startsWith("/tour/");
 
@@ -136,7 +144,7 @@ const navbarCTAClass = `
             <div className="h-20 flex items-center justify-between">
 
               {/* Logo */}
-              <img src={logo} alt="Travel Desire" className="h-8" />
+              <img src={logo} alt="Travel Desire" className="h-14" />
 
               {/* Desktop Links */}
               <nav className="hidden md:flex gap-8 text-sm">
@@ -154,8 +162,7 @@ const navbarCTAClass = `
 
 <div className="hidden md:flex items-center gap-5 mt-1">
 
-
-  {(isTripPackagesPage || isTourDetailPage) && (
+  {isSpecialNavbarPage && (
     <img
       src={searchIcon}
       alt="Search"
@@ -181,13 +188,12 @@ const navbarCTAClass = `
       transition-all duration-300
       backdrop-blur-[36.98px]
 
-      ${
-        isTripPackagesPage
-          ? "text-[#06D5C6] bg-[rgba(255,255,255,0.1)]"
-          : isTourDetailPage
-          ? "text-[#06D5C6] bg-[rgba(18,18,18,0.3)]"
-          : "text-white bg-white/25 border border-white/10 shadow-[0_4px_20px_rgba(255,255,255,0.08)]"
-      }
+   ${
+  isSpecialNavbarPage
+    ? "text-[#06D5C6] bg-[rgba(255,255,255,0.1)]"
+    : "text-white bg-white/25 border border-white/10 shadow-[0_4px_20px_rgba(255,255,255,0.08)]"
+}
+
     `}
   />
 

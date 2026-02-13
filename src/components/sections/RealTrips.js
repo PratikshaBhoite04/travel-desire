@@ -97,7 +97,7 @@ function RealTrips() {
       {/* ===== SCROLLER ===== */}
       <div
         ref={scrollRef}
-        className="flex gap-3 md:gap-2 overflow-x-scroll no-scrollbar px-4 md:px-8"
+        className="flex gap-3 md:gap-2 overflow-x-scroll no-scrollbar px-4 pt-4 md:px-8"
       >
         {images.map((img, index) => (
           <div

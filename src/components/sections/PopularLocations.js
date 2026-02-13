@@ -33,13 +33,16 @@ const loopData = [...locations, ...locations];
 
 const ArrowUpRightIcon = ({ className }) => (
   <svg viewBox="0 0 24 24" fill="none" className={className}>
+      <g transform="translate(0,2)">
     <path
       d="M7 17L17 7M17 7H9M17 7V15"
       stroke="currentColor"
       strokeWidth="1.8"
       strokeLinecap="round"
       strokeLinejoin="round"
+      
     />
+    </g>
   </svg>
 );
 
@@ -102,6 +105,8 @@ function Card({ place }) {
           <ArrowUpRightIcon
             className="
               w-5 h-5 text-[#D5FB93]
+              translate-y-[2px]
+                 translate-x-[1px]
               transition-transform duration-300
               group-hover:translate-x-[2px]
               group-hover:-translate-y-[2px]

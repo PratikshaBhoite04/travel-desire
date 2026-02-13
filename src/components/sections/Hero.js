@@ -17,7 +17,7 @@ function Hero() {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${bgImage})` }}
       />
-      <div className="absolute inset-0 bg-black/40" />
+      <div className="absolute inset-0 bg-black/20" />
 
       {/* Content */}
       <div className="relative z-10 flex items-center justify-center min-h-screen px-4 text-center text-white">
@@ -26,8 +26,8 @@ function Hero() {
           {/* Heading */}
           <h1
             className="
-              font-tiempos font-[400] leading-[1.05]
-              text-[50px]
+              font-tiempos font-[500] leading-[1.05]
+              text-[74px]
               tracking-[-0.8px]
               sm:text-[48px] md:text-[70px]
             "
@@ -40,10 +40,10 @@ function Hero() {
           {/* Subtitle */}
           <p
             className="
-              mt-3
+              mt-2
               font-manrope font-[500]
               text-[#FFFFFFE5]
-              text-[18px]
+              text-[22px]
            
             "
           >
@@ -54,11 +54,11 @@ function Hero() {
 
           {/* Search Bar */}
           <div
-            className="mt-6 w-full rounded-full"
+            className="mt-7 w-full rounded-full"
             style={{
              border: "0.3px solid rgba(117,254,244,0.45)",
-    outline: "0.3px solid rgba(230,253,190,0.45)",
-    outlineOffset: "-1px",
+             outline: "0.3px solid rgba(230,253,190,0.45)",
+             outlineOffset: "-1px",
             }}
           >
             <div
@@ -66,7 +66,7 @@ function Hero() {
                 flex items-center gap-3
                 rounded-full
                 h-[74px]
-                px-6 py-[10px] 
+                px-7 py-[10px] 
                 pl-12
             backdrop-blur-[36.98px]
   bg-white/13

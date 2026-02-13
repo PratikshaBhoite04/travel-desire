@@ -6,6 +6,8 @@ import holidayIcon from "../../assets/images/services1.png";
 import visaIcon from "../../assets/images/services2.png";
 import forexIcon from "../../assets/images/services3.png";
 import flightIcon from "../../assets/images/services.png";
+import AnimatedCTA from "../../components/shared/AnimatedCTA";
+
 
 /* HEADER BACKGROUND LINES */
 import headerLines from "../../assets/images/header-lines.png";
@@ -70,18 +72,20 @@ function Services() {
       flex items-end
     "
   >
-    <h1
-      className="
-        font-tiempos
-        text-[32px] md:text-[52px]
-        leading-[40px] md:leading-[62px]
-        tracking-[1px]
-        font-semibold
-        text-white
-      "
-    >
-      Our <span className="text-[#1EEBD9]">Services</span>
-    </h1>
+   <h1
+  className="
+    font-tiempos
+    text-[52px] font-[600] md:text-[52px]
+    leading-[40px] md:leading-[62px]
+    tracking-[1px]
+    font-semibold
+    text-white
+    translate-y-5 md:translate-y-14
+  "
+>
+  Our <span className="text-[#1EEBD9]">Services</span>
+</h1>
+
   </div>
 </section>
 

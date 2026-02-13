@@ -27,14 +27,14 @@ function TripPackages() {
           className="pointer-events-none absolute top-0 right-0 h-full w-auto opacity-90"
         />
 
-        <div className="relative max-w-7xl mx-auto px-6 pt-12 pb-20">
+        <div className="relative max-w-7xl mx-auto px-6 pt-12 pb-20 ">
           {/* TITLE */}
-          <h1 className="text-[32px] md:text-[56px] font-[500] font-tiempos text-white">
+          <h1 className="text-[56px] md:text-[56px] font-[600] font-tiempos text-white translate-y-4 md:translate-y-8">
             Explore <span className="text-[#06D5C6]">Trips</span>
           </h1>
 
           {/* SEARCH + FILTER */}
-          <div className="mt-8 flex flex-col gap-4 md:flex-row md:items-center md:gap-6">
+          <div className="mt-8 flex flex-col gap-4 md:flex-row md:items-center md:gap-6    translate-y-4 md:translate-y-8">
             {/* SEARCH */}
             <div
               className="
