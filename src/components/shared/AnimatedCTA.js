@@ -63,7 +63,7 @@ function AnimatedCTA({
       {animating && (
         <img
           src={hoverPng}
-          alt=""
+          alt="Travel location"
           onAnimationEnd={() => setAnimating(false)}
           className="
             pointer-events-none

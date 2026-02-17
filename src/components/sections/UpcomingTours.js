@@ -10,7 +10,7 @@ const tours = [
   {
     title: "Rajasthan Heritage Tour",
     slug: "rajasthan-mewad-with-tiger-reserve",
-    price: "₹28,999",
+    price: "On Request",
     days: "7 Days / 6 Nights",
     rating: "4.9",
     image: rajasthan,
@@ -18,7 +18,7 @@ const tours = [
   {
     title: "Kashmir Valley Escape",
     slug: "kashmir-valley-escape",
-    price: "₹28,999",
+    price: "On Request",
     days: "7 Days / 6 Nights",
     rating: "4.9",
     image: kashmir,
@@ -26,7 +26,7 @@ const tours = [
   {
     title: "Manali Snow Adventure",
     slug: "manali-snow-adventure",
-    price: "₹28,999",
+    price: "On Request",
     days: "7 Days / 6 Nights",
     rating: "4.9",
     image: manali3,
@@ -37,7 +37,7 @@ const tours = [
 function UpcomingTours() {
    const navigate = useNavigate();
   return (
-    <section className="py-10 bg-white relative z-0 ">
+    <section className="py-1 md:py-5 bg-white relative z-0 ">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}

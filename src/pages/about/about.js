@@ -1,8 +1,8 @@
 import Navbar from "../../components/shared/Navbar";
 
-import teamHero from "../../assets/images/team.png";
+// import teamHero from "../../assets/images/team.png";
 import founder from "../../assets/images/founder.png";
-import journeyImg from "../../assets/images/office.png";
+// import journeyImg from "../../assets/images/office.png";
 import frameBackground from "../../assets/images/frameBackground.png";
 
 import team1 from "../../assets/images/team1.png";
@@ -17,7 +17,7 @@ import temple2 from "../../assets/images/temple2.png"
 import office from "../../assets/images/office.png"
 import office2 from "../../assets/images/office2.png"
 import headerLines from "../../assets/images/header-lines.png";
-import OurAchievements from "../about/ourAchivement";
+// import OurAchievements from "../about/ourAchivement";
 import OurJourney from "./OurJourney";
 import { useRef } from "react";
 

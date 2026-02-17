@@ -45,7 +45,7 @@ function AnimatedCTAOutline({
         `}
       >
         {leftIcon && (
-          <img src={leftIcon} alt="" className="w-4 h-4 opacity-80" />
+          <img src={leftIcon} alt="Travel location" className="w-4 h-4 opacity-80" />
         )}
 
         {hovered ? "Plan My Trip" : "Send Inquiry Now!"}
