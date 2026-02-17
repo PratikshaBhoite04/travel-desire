@@ -1,6 +1,6 @@
 import lines from "../assets/images/waving-lines.png";
 
-function PriceBar() {
+function PriceBar({tour}) {
   return (
     <div
       className="
@@ -35,7 +35,7 @@ function PriceBar() {
             md:text-[56px]
           "
         >
-          ₹65,999
+        {tour.price}
         </h2>
 
         <span

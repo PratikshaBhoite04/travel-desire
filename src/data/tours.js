@@ -1,4 +1,18 @@
 import rajasthan from "../assets/images/rajasthan.png";
+import rajasthan3 from "../assets/images/rajasthan3.jpg";
+import rajasthan4 from "../assets/images/rajasthan4.jpg";
+import rajasthan5 from "../assets/images/rajasthan5.jpg";
+import rajasthan6 from "../assets/images/rajasthan6.jpg";
+import rajasthan7 from "../assets/images/rajasthan7.jpg";
+import rajasthan8 from "../assets/images/rajasthan8.jpg";
+import rajasthan9 from "../assets/images/rajasthan9.jpg";
+import rajasthan10 from "../assets/images/rajasthan10.jpg";
+import rajasthan11 from "../assets/images/rajasthan11.jpg";
+import rajasthan12 from "../assets/images/rajasthan12.jpg";
+import rajasthan13 from "../assets/images/rajasthan13.jpg";
+import rajasthan14 from "../assets/images/rajasthan14.jpg";
+import rajasthan15 from "../assets/images/rajasthan15.jpg";
+import rajasthan16 from "../assets/images/rajasthan16.jpg";
 import kashmir from "../assets/images/kashmir.png";
 import manali3 from "../assets/images/manali3.png";
 import forest from "../assets/images/forest.png";
@@ -9,10 +23,44 @@ import bottles from "../assets/images/bottles.png";
 import kedarnath from "../assets/images/kedarnath.png";
 import kedarnath2 from "../assets/images/kedarnath2.png";
 import udaipur from "../assets/images/udaipur.png";
+import kashmir3 from "../assets/images/kashmir3.jpg";
+import kashmir4 from "../assets/images/kashmir4.jpg";
+import kashmir5 from "../assets/images/kashmir5.jpg";
+import kashmir6 from "../assets/images/kashmir6.jpg";
+import kashmir7 from "../assets/images/kashmir7.jpg";
+import kashmir8 from "../assets/images/kashmir8.jpg";
+import kashmir9 from "../assets/images/kashmir9.jpg";
+import kashmir10 from "../assets/images/kashmir10.jpg";
+import kashmir11 from "../assets/images/kashmir11.jpg";
+import kashmir12 from "../assets/images/kashmir12.jpg";
+import kashmir13 from "../assets/images/kashmir13.jpg";
+import kashmir15 from "../assets/images/kashmir15.jpg";
 import kashmir1 from "../assets/images/kashmir1.png";
 // import jaipur1 from "../assets/images/jaipur1.png";
 import foundation from "../assets/images/foundation.png";
 // import forest1 from "../assets/images/.png";
+import europe1 from "../assets/images/europe1.jpg";
+import europe2 from "../assets/images/europe2.jpg";
+import europe3 from "../assets/images/europe3.jpg";
+import europe4 from "../assets/images/europe4.jpg";
+import europe5 from "../assets/images/europe5.jpg";
+import europe6 from "../assets/images/europe6.jpg";
+import europe7 from "../assets/images/europe7.jpg";
+import europe8 from "../assets/images/europe8.jpg";
+import europe9 from "../assets/images/europe9.jpg";
+import europe10 from "../assets/images/europe10.jpg";
+import europe11 from "../assets/images/europe11.jpg";
+import europe12 from "../assets/images/europe12.jpg";
+import europe13 from "../assets/images/europe13.jpg";
+import europe14 from "../assets/images/europe14.jpg";
+import europe15 from "../assets/images/europe15.jpg";
+import europe16 from "../assets/images/europe16.jpg";
+import europe17 from "../assets/images/europe17.jpg";
+import europe18 from "../assets/images/europe18.jpg";
+import europe19 from "../assets/images/europe19.jpg";
+import europe20 from "../assets/images/europe20.jpg";
+
+
 
 
 
@@ -22,10 +70,10 @@ export const tours = [
     /* ================= RAJASTHAN ================= */
     title: "Rajasthan Mewad With Tiger Reserve ",
     slug: "rajasthan-mewad-with-tiger-reserve",
-    price: "₹65,999",
+    price: "On Request",
     days: "7 Days / 6 Nights",
     rating: "4.9",
-    image: rajasthan,
+    image: rajasthan6,
     location: "Rajasthan, India",
     nextDate: "January 20, 2025",
 
@@ -160,15 +208,20 @@ export const tours = [
     },
 
     /* ---------- PRICING ---------- */
-    pricing: {
-      rows: [
-        { category: "Single", price: "₹65,999", unit: "per head" },
-        { category: "Couple", price: "₹62,999", unit: "per head" },
-        { category: "Triple", price: "₹59,999", unit: "per head" },
-      ],
-      note:
-        "Under unavoidable circumstances hotels are subject to change. Substitute hotel of similar category will be provided.",
-    },
+    // pricing: {
+    //   rows: [
+    //     { category: "Single", price: "₹65,999", unit: "per head" },
+    //     { category: "Couple", price: "₹62,999", unit: "per head" },
+    //     { category: "Triple", price: "₹59,999", unit: "per head" },
+    //   ],
+    //   note:
+    //     "Under unavoidable circumstances hotels are subject to change. Substitute hotel of similar category will be provided.",
+    // },
+
+pricing: {
+    rows: [{ category: "Standard", price: "On Request", unit: "per person" }],
+    note: "Seasonal pricing."
+  },
 
     /* ---------- TERMS ---------- */
     terms: [
@@ -179,17 +232,17 @@ export const tours = [
       "Shopping is at the sole discretion of the guest.",
     ],
 
-    images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,leaf, bottles, cream,],
+    images: [rajasthan3, rajasthan4, rajasthan5, rajasthan6, rajasthan7, rajasthan8, rajasthan9, rajasthan10, rajasthan11, rajasthan12, rajasthan13, rajasthan14, rajasthan15, rajasthan16 ],
   },
 
   {
     /* ================= KASHMIR ================= */
     title: "Kashmir Valley Escape",
     slug: "kashmir-valley-escape",
-    price: "₹28,999",
+    price: "On Request",
     days: "7 Days / 6 Nights",
     rating: "4.9",
-    image: kashmir,
+    image: kashmir3,
     location: "Kashmir, India",
     nextDate: "February 10, 2025",
 
@@ -248,13 +301,19 @@ export const tours = [
       ],
     },
 
+    // pricing: {
+    //   rows: [
+    //     { category: "Single", price: "₹28,999", unit: "per head" },
+    //     { category: "Couple", price: "₹25,999", unit: "per head" },
+    //   ],
+    //   note: "Prices may vary during peak snowfall season.",
+    // },
+
+
     pricing: {
-      rows: [
-        { category: "Single", price: "₹28,999", unit: "per head" },
-        { category: "Couple", price: "₹25,999", unit: "per head" },
-      ],
-      note: "Prices may vary during peak snowfall season.",
-    },
+    rows: [{ category: "Standard", price: "On Request", unit: "per person" }],
+    note: "Seasonal pricing."
+  },
 
     terms: [
       "Weather conditions may affect sightseeing.",
@@ -263,14 +322,15 @@ export const tours = [
       "Guests must carry valid ID proof.",
     ],
 
-   images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,],
+   images: [kashmir3, kashmir4, kashmir5, kashmir15, kashmir6, kashmir7, kashmir8, kashmir9, kashmir10, kashmir11, kashmir12, kashmir13 , ],
   },
+
 
   {
     /* ================= MANALI ================= */
     title: "Manali Snow Adventure",
     slug: "manali-snow-adventure",
-    price: "₹28,999",
+    price: "On Request",
     days: "7 Days / 6 Nights",
     rating: "4.9",
     image: manali3,
@@ -329,13 +389,19 @@ export const tours = [
       ],
     },
 
+    // pricing: {
+    //   rows: [
+    //     { category: "Single", price: "₹26,999", unit: "per head" },
+    //     { category: "Couple", price: "₹23,999", unit: "per head" },
+    //   ],
+    //   note: "Rohtang Pass charges are extra if open.",
+    // },
+
+
     pricing: {
-      rows: [
-        { category: "Single", price: "₹26,999", unit: "per head" },
-        { category: "Couple", price: "₹23,999", unit: "per head" },
-      ],
-      note: "Rohtang Pass charges are extra if open.",
-    },
+    rows: [{ category: "Standard", price: "On Request", unit: "per person" }],
+    note: "Seasonal pricing."
+  },
 
     terms: [
       "Rohtang Pass visit depends on weather & permits.",
@@ -347,84 +413,101 @@ export const tours = [
    images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,],
   },
 
-  {
-  title: "Udaipur Royal Retreat",
-  slug: "udaipur-royal-retreat",
-  price: "₹22,999",
-  days: "5 Days / 4 Nights",
+{
+  title: "European Wonders – 09 Days",
+  slug: "european-wonders-09-days",
+  price: "On Request",
+  days: "9 Days / 8 Nights",
   rating: "4.8",
-  image: udaipur,
-  location: "Udaipur, Rajasthan",
-  nextDate: "April 12, 2025",
+  image: europe2,
+  location: "France, Switzerland & Italy",
+  nextDate: "Available on Request",
 
   highlightsData: {
     locationCard: {
-      meta: "1 Country, 1 City, 6 Locations",
-      places: "Udaipur",
+      meta: "3 Countries, 6 Cities, 8 Nights",
+      places: "Paris, Lucerne, Interlaken, Venice, Florence, Rome",
     },
-    pills: ["Breakfast Included", "Lake View Hotel", "Local Guide"],
+    pills: [
+      "Daily Breakfast",
+      "Jungfraujoch Excursion",
+      "Eiffel Tower",
+      "Gondola Ride",
+      "Colosseum Visit"
+    ],
     highlights: [
-      "City Palace",
-      "Lake Pichola Boat Ride",
-      "Jag Mandir",
-      "Saheliyon Ki Bari",
-      "Fateh Sagar Lake",
+      "Jungfraujoch – Top of Europe",
+      "Eiffel Tower",
+      "Venice Canals",
+      "Florence Duomo",
+      "Roman Colosseum"
     ],
     experiences: [
       {
-        title: "Boat Ride",
-        desc: "Sunset boat ride on Lake Pichola with palace views.",
+        title: "Swiss Glacier Adventure",
+        desc: "Journey to Jungfraujoch, Europe’s highest railway station."
       },
       {
-        title: "Royal Culture",
-        desc: "Experience Mewar royal heritage and architecture.",
-      },
+        title: "Historic Rome",
+        desc: "Explore Colosseum and Vatican area."
+      }
     ],
   },
 
   itinerary: [
-    {
-      day: "01",
-      title: "Arrival in Udaipur",
-      desc: "Arrival and leisure evening near Lake Pichola.",
-    },
-    {
-      day: "02",
-      title: "Udaipur Sightseeing",
-      desc: "City Palace, Jag Mandir and local markets.",
-    },
+    { day: "01", title: "Arrive Paris", desc: "Arrival and leisure." },
+    { day: "02", title: "Paris City Tour", desc: "Eiffel Tower visit and sightseeing." },
+    { day: "03", title: "Paris – Lucerne", desc: "Train to Lucerne." },
+    { day: "04", title: "Jungfraujoch Excursion", desc: "Full-day Swiss Alps excursion." },
+    { day: "05", title: "Lucerne – Venice", desc: "Travel to Venice." },
+    { day: "06", title: "Venice", desc: "Explore canals and St. Mark’s Square." },
+    { day: "07", title: "Venice – Florence", desc: "Discover Renaissance Florence." },
+    { day: "08", title: "Florence – Rome", desc: "Visit Rome landmarks." },
+    { day: "09", title: "Depart Rome", desc: "Departure transfer." }
   ],
 
   pointsToRemember: [
-    "Comfortable footwear recommended",
-    "Evening boat ride subject to weather",
+    "Seat-in-coach city tours.",
+    "Optional tours extra."
   ],
 
   inclusions: {
-    included: ["Hotel stay", "Daily breakfast", "Local sightseeing"],
-    excluded: ["Personal expenses", "Camera fees"],
+    included: [
+      "08 nights accommodation",
+      "Daily breakfast",
+      "Jungfraujoch excursion",
+      "City tours"
+    ],
+    excluded: [
+      "Airfare",
+      "Visa",
+      "Travel insurance"
+    ],
   },
 
-  pricing: {
-    rows: [
-      { category: "Single", price: "₹22,999", unit: "per head" },
-      { category: "Couple", price: "₹19,999", unit: "per head" },
-    ],
-    note: "Prices may vary during peak season.",
+  // pricing: {
+  //   rows: [{ category: "Standard", price: "On Request", unit: "per person" }],
+  //   note: "Rates vary by travel season."
+  // },
+
+  
+    pricing: {
+    rows: [{ category: "Standard", price: "On Request", unit: "per person" }],
+    note: "Seasonal pricing."
   },
+
 
   terms: [
-    "Sightseeing order may change",
-    "Hotel subject to availability",
+    "Subject to availability."
   ],
 
-    images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,],
+   images: [europe1, europe2, europe3, europe4, europe5, europe6, europe7, europe8, europe9, europe10, europe11, europe12, europe13, europe14, europe15, europe16, europe17, europe18, europe19, europe20],
 },
 
 {
   title: "Kedarnath Spiritual Yatra",
   slug: "kedarnath-spiritual-yatra",
-  price: "₹18,999",
+  price: "On Request",
   days: "4 Days / 3 Nights",
   rating: "4.9",
   image: kedarnath,
@@ -473,13 +556,20 @@ export const tours = [
     excluded: ["Pony / Helicopter charges"],
   },
 
-  pricing: {
-    rows: [
-      { category: "Single", price: "₹18,999", unit: "per head" },
-      { category: "Couple", price: "₹16,999", unit: "per head" },
-    ],
-    note: "Yatra dates depend on temple opening.",
+  // pricing: {
+  //   rows: [
+  //     { category: "Single", price: "₹18,999", unit: "per head" },
+  //     { category: "Couple", price: "₹16,999", unit: "per head" },
+  //   ],
+  //   note: "Yatra dates depend on temple opening.",
+  // },
+
+  
+    pricing: {
+    rows: [{ category: "Standard", price: "On Request", unit: "per person" }],
+    note: "Seasonal pricing."
   },
+
 
   terms: [
     "Weather dependent itinerary",
@@ -492,7 +582,7 @@ export const tours = [
 {
   title: "Kedarnath Himalayan Trek",
   slug: "kedarnath-himalayan-trek",
-  price: "₹24,999",
+  price: "on Request",
   days: "6 Days / 5 Nights",
   rating: "4.8",
   image: kedarnath2,
@@ -541,12 +631,19 @@ export const tours = [
     excluded: ["Personal trekking gear"],
   },
 
-  pricing: {
-    rows: [
-      { category: "Single", price: "₹24,999", unit: "per head" },
-    ],
-    note: "Subject to weather & trail conditions.",
+  // pricing: {
+  //   rows: [
+  //     { category: "Single", price: "₹24,999", unit: "per head" },
+  //   ],
+  //   note: "Subject to weather & trail conditions.",
+  // },
+
+  
+    pricing: {
+    rows: [{ category: "Standard", price: "On Request", unit: "per person" }],
+    note: "Seasonal pricing."
   },
+
 
   terms: [
     "Adventure risk involved",
@@ -558,7 +655,7 @@ images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bo
 {
   title: "Kashmir Paradise Escape",
   slug: "kashmir-paradise-escape",
-  price: "₹32,999",
+  price: "On Request",
   days: "6 Days / 5 Nights",
   rating: "4.8",
   image: kashmir1,
@@ -607,13 +704,20 @@ images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bo
     excluded: ["Airfare", "Personal expenses"],
   },
 
-  pricing: {
-    rows: [
-      { category: "Single", price: "₹32,999", unit: "per head" },
-      { category: "Couple", price: "₹29,999", unit: "per head" },
-    ],
-    note: "Rates may vary during snowfall season.",
+  // pricing: {
+  //   rows: [
+  //     { category: "Single", price: "₹32,999", unit: "per head" },
+  //     { category: "Couple", price: "₹29,999", unit: "per head" },
+  //   ],
+  //   note: "Rates may vary during snowfall season.",
+  // },
+
+  
+    pricing: {
+    rows: [{ category: "Standard", price: "On Request", unit: "per person" }],
+    note: "Seasonal pricing."
   },
+
 
   terms: [
     "Itinerary subject to weather",
@@ -625,7 +729,7 @@ images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bo
 {
   title: "Manali Scenic Escape",
   slug: "manali-scenic-escape",
-  price: "₹27,999",
+  price: "On Request",
   days: "5 Days / 4 Nights",
   rating: "4.7",
   image: manali3,
@@ -679,7 +783,7 @@ images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bo
 {
   title: "Rajasthan Desert Delight",
   slug: "rajasthan-desert-delight",
-  price: "₹34,999",
+  price: "On Request",
   days: "6 Days / 5 Nights",
   rating: "4.8",
   image: rajasthan,
@@ -720,16 +824,21 @@ images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bo
     excluded: ["Personal expenses"],
   },
 
-  pricing: {
-    rows: [{ category: "Single", price: "₹34,999", unit: "per head" }],
-    note: "Desert camps subject to availability.",
+  // pricing: {
+  //   rows: [{ category: "Single", price: "₹34,999", unit: "per head" }],
+  //   note: "Desert camps subject to availability.",
+  // },
+
+  
+    pricing: {
+    rows: [{ category: "Standard", price: "On Request", unit: "per person" }],
+    note: "Seasonal pricing."
   },
+
 
   terms: ["Weather dependent itinerary"],
 images: [leaf, leaf, bottles, udaipur, bottles, coffee, cream, udaipur, leaf, bottles, cream, udaipur,],
 },
-
-
 
 
 ];

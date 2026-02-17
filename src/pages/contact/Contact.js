@@ -25,7 +25,7 @@ function Contact() {
   />
 
   <div className="relative max-w-7xl mx-auto px-3 md:px-6 h-full flex items-end pb-6 md:pb-10">
-    <h1 className="font-tiempos text-[56px] md:text-[52px] leading-[40px] md:leading-[62px] font-[500] text-white">
+    <h1 className="font-tiempos text-[36px] md:text-[52px] leading-[40px] md:leading-[62px] font-[500] text-white">
       Have <span className="text-[#1EEBD9]">Queries?</span>
     </h1>
   </div>
@@ -52,7 +52,7 @@ function Contact() {
                   <input
                     type="text"
                     placeholder="Your name"
-                    className="w-full h-[48px] rounded-[12px] border border-[#7DBAB366] px-5 text-[14px] font-manrope font-[400] text-[#B5B5B5] outline-none focus:border-[#A3FEF8] focus:bg-[#F1FFFE]"
+                    className="w-full h-[48px] rounded-[12px] border border-[#7DBAB366] px-5 text-[14px] font-manrope font-[400] text-[#033733] outline-none focus:border-[#A3FEF8] focus:bg-[#F1FFFE]"
                   />
                 </div>
 
@@ -65,7 +65,7 @@ function Contact() {
                     <input
                       type="text"
                       placeholder="+91 98765 43210"
-                      className="w-full h-[48px] rounded-[12px] border border-[#7DBAB366] px-5 text-[14px] font-manrope font-[400] text-[#B5B5B5] outline-none focus:border-[#A3FEF8] focus:bg-[#F1FFFE]"
+                      className="w-full h-[48px] rounded-[12px] border border-[#7DBAB366] px-5 text-[14px] font-manrope font-[400] text-[#033733] outline-none focus:border-[#A3FEF8] focus:bg-[#F1FFFE]"
                     />
                   </div>
 
@@ -75,7 +75,7 @@ function Contact() {
                     </label>
                     <input
                       type="date"
-                      className="w-full h-[48px] rounded-[12px] border border-[#7DBAB366] px-5 text-[14px] text-[#B5B5B5] bg-white text-[400] font-manrope outline-none focus:border-[#A3FEF8] focus:bg-[#F1FFFE]"
+                      className="w-full h-[48px] rounded-[12px] border border-[#7DBAB366] px-5 text-[14px] text-[#033733] bg-white text-[400] font-manrope outline-none focus:border-[#A3FEF8] focus:bg-[#F1FFFE]"
                     />
                   </div>
                 </div>
@@ -89,7 +89,7 @@ function Contact() {
                   <div className="relative">
                     <select
                       defaultValue=""
-                      className="w-full h-[48px] rounded-[12px] border border-[#7DBAB366] px-5 pr-12 text-[14px] text-[#B5B5B5] text-[400] font-manrope appearance-none outline-none focus:border-[#A3FEF8] focus:bg-[#F1FFFE]"
+                      className="w-full h-[48px] rounded-[12px] border border-[#7DBAB366] px-5 pr-12 text-[14px] text-[#033733] text-[400] font-manrope appearance-none outline-none focus:border-[#A3FEF8] focus:bg-[#F1FFFE]"
                       onChange={(e) => {
                         e.target.classList.remove("text-[#6B7C75]");
                         e.target.classList.add("text-[#001917]");
@@ -131,7 +131,7 @@ function Contact() {
                   <div className="relative">
                     <select
                       defaultValue=""
-                      className="w-full h-[48px] rounded-[12px] border border-[#7DBAB366] px-5 pr-12 text-[14px] font-manrope font-[400] text-[#B5B5B5] appearance-none outline-none focus:border-[#A3FEF8] focus:bg-[#F1FFFE]"
+                      className="w-full h-[48px] rounded-[12px] border border-[#7DBAB366] px-5 pr-12 text-[14px] font-manrope font-[400] text-[#033733] appearance-none outline-none focus:border-[#A3FEF8] focus:bg-[#F1FFFE]"
                       onChange={(e) => {
                         e.target.classList.remove("text-[#6B7C75]");
                         e.target.classList.add("text-[#001917]");
@@ -164,40 +164,31 @@ function Contact() {
                 </div>
 
                 {/* Disclaimer */}
-                <p className="text-[12px] font-inter font-[400] text-[#717171]">
-                  By submitting this form, you agree to our privacy policy and terms of service.
-                </p>
+               <p className="text-[12px] leading-[18px] font-inter font-[400] text-[#717171] text-center  md:text-left">
+  By submitting this form, you agree to our privacy policy and terms of service.
+</p>
 
-                {/* BUTTON – CENTERED */}
-                <div className="flex justify-end  pt-6">
-                  {/* <button
-                    type="submit"
-                    className="h-[48px] px-10 rounded-full bg-[#06D5C6] text-[#001917] text-[14px] font-medium hover:bg-[#17D6C6] transition"
-                  >
-                    Send Inquiry Now!
-                  </button> */}
 
-                  <AnimatedCTAOutline
-  defaultText ="Send Inquiry Now!"
-  hoverText="Plan My Trip!"
-  className={`
-    hidden md:flex
-    items-center justify-center
-    w-[210px] h-[52px]
-    rounded-full
+         <div className="flex justify-center md:justify-end pt-4 md:pt-6">
+  <AnimatedCTAOutline
+    defaultText="Send Inquiry Now!"
+    hoverText="Plan My Trip!"
+    className="
+      flex items-center justify-center
+      w-[210px]
+      h-[48px] md:h-[52px]
+      rounded-full
+      border border-[#0FA297]
+      text-[#001917]
+      bg-[#06D5C6]
+      hover:border-[#06D5C6]
+      hover:bg-white
+      transition-all duration-300
+    "
+  />
+</div>
 
-    border border-[#0FA297]
-    text-[#001917]
-    bg-[#19FAEA]
 
-    backdrop-blur-[36.98px]
-
-    hover:border-[#06D5C6]
-    hover:bg-[white]
-    transition-all duration-300
-  `}
-/>
-                </div>
 
               </form>
             </div>

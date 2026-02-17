@@ -121,15 +121,19 @@ function Card({ place }) {
 function PopularLocations() {
   return (
     <section className="py-20 bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 mb-12">
-        <h2
-          className="font-tiempos text-center font-[500] text-[#0F2F24]"
-          style={{ fontSize: "56.56px", lineHeight: "56.56px" }}
-        >
-          Most Popular{" "}
-          <span className="text-[#06D5C6]">Locations</span>
-        </h2>
-      </div>
+ <div className="max-w-7xl mx-auto px-6 mb-12">
+  <h2
+    className="font-tiempos text-center font-[500] text-[#0F2F24]
+               text-[36px] leading-[36px]
+               md:text-[56.56px] md:leading-[56.56px]"
+  >
+    Most Popular{" "}
+    <span className="text-[#06D5C6] block md:inline">
+      Locations
+    </span>
+  </h2>
+</div>
+
 
       <div className="overflow-hidden mb-6">
         <div className="flex gap-3 w-max animate-marquee-left px-6">

@@ -1,5 +1,6 @@
 import { useState } from "react";
-import bgImage from "../../assets/images/bg.jpg";
+// import bgImage from "../../assets/images/bg.jpg";
+import bgVideo from "../../assets/images/Td Website.mp4";
 import { Search } from "lucide-react";
 
 function Hero() {
@@ -13,10 +14,21 @@ function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden">
       {/* Background */}
-      <div
+      {/* <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${bgImage})` }}
-      />
+      /> */}
+
+      {/* Background Video */}
+<video
+  className="absolute inset-0 w-full h-full object-cover"
+  src={bgVideo}
+  autoPlay
+  loop
+  muted
+  playsInline
+/>
+
       <div className="absolute inset-0 bg-black/20" />
 
       {/* Content */}

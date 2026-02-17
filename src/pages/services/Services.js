@@ -72,19 +72,21 @@ function Services() {
       flex items-end
     "
   >
-   <h1
-  className="
-    font-tiempos
-    text-[52px] font-[600] md:text-[52px]
-    leading-[40px] md:leading-[62px]
-    tracking-[1px]
-    font-semibold
-    text-white
-    translate-y-5 md:translate-y-14
-  "
->
-  Our <span className="text-[#1EEBD9]">Services</span>
-</h1>
+<div className="pt-15 pb-14 md:pt-15 md:pb-0">
+  <h1
+    className="
+      font-tiempos
+      text-[52px] font-[600] md:text-[52px]
+      leading-[40px] md:leading-[62px]
+      tracking-[1px]
+      text-white
+      translate-y-16 md:translate-y-14
+    "
+  >
+    Our <span className="text-[#1EEBD9]">Services</span>
+  </h1>
+</div>
+
 
   </div>
 </section>

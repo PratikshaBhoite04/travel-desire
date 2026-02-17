@@ -42,39 +42,23 @@ function UpcomingTours() {
 
         {/* Heading */}
       <div className="text-center max-w-2xl mx-auto mb-12 px-6">
-  <h2 className="text-[36px] md:text-[54px] font-[500] font-tiempos text-[#1C3627]">
-    Upcoming Tours
-  </h2>
-<p
-  className="
-    hidden md:block
-    mt-1
-    text-[17px]
-    leading-[26px]
-    tracking-[-0.34px]
-    font-inter
-    font-[400]
-    text-[#717171]
-    text-center
-    whitespace-nowrap
-  "
->
-  Fixed departure dates with confirmed bookings. Join fellow travelers on curated group tours.
-</p>
+ <h2 className="text-[36px] md:text-[54px] font-[500] font-tiempos text-[#1C3627] whitespace-nowrap">
+  Upcoming Tours
+</h2>
 
 <p
   className="
-    md:hidden
     mt-1
     mx-auto
-    max-w-[340px]
-    text-[14px]
-    leading-[22px]
+    max-w-[340px] md:max-w-none
+    text-[14px] md:text-[17px]
+    leading-[22px] md:leading-[26px]
     tracking-[-0.34px]
     font-inter
     font-[400]
     text-[#717171]
     text-center
+    md:whitespace-nowrap
   "
 >
   Fixed departure dates with confirmed bookings. Join fellow travelers on curated group tours.

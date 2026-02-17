@@ -74,14 +74,11 @@ function OurAchievements() {
       />
 
       {/* MOBILE HEADING */}
-      <h2 className="md:hidden text-center font-tiempos font-medium tracking-[0.4px] mb-10">
-        <span className="block text-white text-[36px] leading-[42px]">
-          Our
-        </span>
-        <span className="block text-[#0ED9CB] text-[36px] leading-[42px]">
-          Achievements
-        </span>
-      </h2>
+    <h2 className="md:hidden text-center font-tiempos font-medium tracking-[0.4px] mb-10 text-[36px] leading-[42px]">
+  <span className="text-white">Our </span>
+  <span className="text-[#0ED9CB]">Achievements</span>
+</h2>
+
 
       {/* DESKTOP HEADING */}
       <h2 className="hidden md:block text-center font-tiempos font-medium text-[56px] leading-[56px] text-white mb-16">

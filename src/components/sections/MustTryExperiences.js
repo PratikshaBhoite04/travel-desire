@@ -48,7 +48,7 @@ const experiences = [
   },
   {
     title: "Wine Tasting",
-    slug: "rajasthan-mewad-with-tiger-reserve",
+    slug: "european-wonders-09-days",
     image: Wine,
     className: "row-span-2",
   },
@@ -85,7 +85,7 @@ function MustTryExperiences() {
   };
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 md:py-10 bg-white">
      <div className="max-w-7xl mx-auto px-6 text-center mb-12">
   {/* ===== MOBILE HEADING ===== */}
   <h2 className="md:hidden font-tiempos font-[500] text-[36px] leading-[42px] tracking-[1px] text-[#1C3627]">

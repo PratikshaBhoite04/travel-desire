@@ -1,11 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
+import  team7 from "../../assets/images/team7.png";
 
 const OurJourney = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const scrollContainerRef = useRef(null);
   const itemRefs = useRef([]);
 
-  const journeyImg = "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop";
+  // const journeyImg = "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop";
 
   const timelineData = [
     {
@@ -72,9 +73,9 @@ const OurJourney = () => {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-start">
         
         {/* LEFT IMAGE - Non-sticky on mobile to prevent overlap */}
-        <div className="w-full h-[300px] md:h-[520px] rounded-[20px] md:rounded-[24px] overflow-hidden md:sticky md:top-24 shadow-sm">
+<div className="hidden md:block w-full h-[520px] rounded-[24px] overflow-hidden sticky top-24 shadow-sm">
           <img
-            src={journeyImg}
+            src={team7}
             alt="Our Journey"
             className="w-full h-full object-cover"
           />
@@ -99,12 +100,15 @@ const OurJourney = () => {
                 key={index}
                 ref={(el) => (itemRefs.current[index] = el)}
                 className={`relative pl-[56px] md:pl-[64px] pb-16 md:pb-24 transition-all duration-700 ease-in-out
-                  ${activeIndex === index ? 'opacity-100' : 'opacity-20 md:opacity-10'}`}
+                 ${activeIndex === index ? 'opacity-100' : 'md:opacity-40 opacity-100'}`}
               >
                 {/* THE DOT */}
                 <span 
                   className={`absolute left-[16px] top-[10px] w-2 h-2 rounded-full z-20 transition-all duration-500
-                  ${activeIndex === index ? 'bg-[#1EEBD9] scale-150 ring-4 ring-[#1EEBD9]/20' : 'bg-[#E6EDED] scale-100'}`}
+                 ${activeIndex === index 
+  ? 'bg-[#1EEBD9] scale-150 ring-4 ring-[#1EEBD9]/20' 
+  : 'bg-[#DADADA] scale-100'}
+`}
                 />
 
                 {/* YEAR */}

@@ -1,10 +1,44 @@
 import { useEffect, useRef, useState } from "react";
 import linesTop from "../../assets/images/lines-top.png";
 import linesBottom from "../../assets/images/lines-bottom.png";
-import temple from "../../assets/images/temple.png";
+// import temple from "../../assets/images/temple.png";
+
+import trip1 from "../../assets/images/trip1.webp";
+import trip2 from "../../assets/images/trip2.webp";
+import trip3 from "../../assets/images/trip3.webp";
+import trip4 from "../../assets/images/trip4.webp";
+import trip5 from "../../assets/images/trip5.webp";
+import trip6 from "../../assets/images/trip6.webp";
+import trip7 from "../../assets/images/trip7.webp";
+import trip8 from "../../assets/images/trip8.webp";
+import trip9 from "../../assets/images/trip9.webp";
+import trip10 from "../../assets/images/trip10.webp";
+import trip11 from "../../assets/images/trip11.webp";
+import trip12 from "../../assets/images/trip12.webp";
+import trip13 from "../../assets/images/trip13.webp";
+import trip14 from "../../assets/images/trip14.webp";
+import trip15 from "../../assets/images/trip15.webp";
+import trip16 from "../../assets/images/trip16.webp";
+import trip17 from "../../assets/images/trip17.webp";
+import trip18 from "../../assets/images/trip18.webp";
+import trip19 from "../../assets/images/trip19.webp";
+import trip20 from "../../assets/images/trip20.webp";
+import trip21 from "../../assets/images/trip21.webp";
+import trip22 from "../../assets/images/trip22.webp";
+import trip23 from "../../assets/images/trip23.webp";
+import trip24 from "../../assets/images/trip24.webp";
+
+
+
 import instagramIcon from "../../assets/icons/instagram.png";
 
-const images = Array(7).fill(temple);
+const images = [
+    trip1, trip2, trip3, trip4, trip5,
+  trip6, trip7, trip8, trip9, trip10,
+  trip11, trip12, trip13, trip14, trip15,
+  trip16, trip17, trip18, trip19, trip20,
+  trip21, trip22, trip23, trip24, 
+];
 
 function RealTrips() {
   const scrollRef = useRef(null);
@@ -64,7 +98,7 @@ function RealTrips() {
   }, []);
 
   return (
-    <section className="relative bg-[#021E1A] mt-20 md:mt-24 py-16 md:py-20 overflow-hidden">
+    <section className="relative bg-[#021E1A] mt-2 md:mt-10 py-16 md:py-20 overflow-hidden">
 
       {/* Decorative lines */}
       <img
@@ -83,7 +117,7 @@ function RealTrips() {
   <span className="block text-white text-[36px] leading-[42px]">
     Real Trips by Real
   </span>
-  <span className="block text-[#0ED9CB] text-[36px] leading-[42px]">
+  <span className="block text-[#0ED9CB] text-[36px] leading-[42px] mb-4">
     People
   </span>
 </h2>
