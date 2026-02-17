@@ -5,15 +5,15 @@ import founder from "../../assets/images/founder.png";
 // import journeyImg from "../../assets/images/office.png";
 import frameBackground from "../../assets/images/frameBackground.png";
 
-import team1 from "../../assets/images/team1.png";
-import team2 from "../../assets/images/team2.png";
+import team1 from "../../assets/images/team1.webp";
+import team2 from "../../assets/images/teamM2.webp";
 import team3 from "../../assets/images/team2.png";
-import team5 from "../../assets/images/team5.png";
-import team6 from "../../assets/images/team6.png";
-import teamM2 from "../../assets/images/teamM2.png";
-import teamM3 from "../../assets/images/teamM3.png";
+import team5 from "../../assets/images/team5.webp";
+import team6 from "../../assets/images/team6.webp";
+import teamM2 from "../../assets/images/teamM2.webp";
+import teamM3 from "../../assets/images/teamM3.webp";
 import quotes from "../../assets/images/quotes.png"
-import temple2 from "../../assets/images/temple2.png"
+import temple2 from "../../assets/images/temple2.webp"
 import office from "../../assets/images/office.png"
 import office2 from "../../assets/images/office2.png"
 import headerLines from "../../assets/images/header-lines.png";

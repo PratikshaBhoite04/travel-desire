@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import  team7 from "../../assets/images/team7.png";
+import  team7 from "../../assets/images/team7.webp";
 
 const OurJourney = () => {
   const [activeIndex, setActiveIndex] = useState(0);

@@ -1,9 +1,9 @@
 import { useRef } from "react";
 import Paragliding from "../../assets/images/paragliding.png";
-import Trekking from "../../assets/images/trekking.png";
-import Wine from "../../assets/images/wine.png";
-import Aurora from "../../assets/images/aurora.png";
-import Ropeway from "../../assets/images/ropeway.png";
+import Trekking from "../../assets/images/trekking.webp";
+import Wine from "../../assets/images/wine.webp";
+import Aurora from "../../assets/images/aurora.webp";
+import Ropeway from "../../assets/images/ropeway.webp";
 import Surfing from "../../assets/images/surfing.png";
 import { useNavigate } from "react-router-dom";
 

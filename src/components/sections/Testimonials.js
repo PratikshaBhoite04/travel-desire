@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
-import girl from "../../assets/images/girl.jpg";
-import bird from "../../assets/images/bird.png";
+import girl from "../../assets/images/girl.webp";
+import bird from "../../assets/images/bird.webp";
 import lines from "../../assets/images/waves.png";
 
 /* ===== SVG ARROWS (FIGMA STYLE) ===== */
