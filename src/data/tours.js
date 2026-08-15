@@ -14,7 +14,7 @@ import rajasthan14 from "../assets/images/rajasthan14.jpg";
 import rajasthan15 from "../assets/images/rajasthan15.jpg";
 import rajasthan16 from "../assets/images/rajasthan16.jpg";
 // import kashmir from "../assets/images/kashmir.png";
-import manali3 from "../assets/images/manali3.png";
+// import manali3 from "../assets/images/manali3.png";
 import forest from "../assets/images/forest.png";
 import leaf from "../assets/images/leaf.png";
 import coffee from "../assets/images/coffee.png";
@@ -99,6 +99,31 @@ import golden4 from "../assets/images/goldenTriangle4.jpg";
 import golden5 from "../assets/images/goldenTriangle5.jpg";
 import golden6 from "../assets/images/goldenTriangle6.jpg";
 
+import gujarat1 from "../assets/images/gujarat1.jpg";
+import gujarat2 from "../assets/images/gujarat2.jpg";
+import gujarat3 from "../assets/images/gujarat3.jpg";
+import gujarat4 from "../assets/images/gujarat4.jpg";
+import gujarat5 from "../assets/images/gujarat5.jpg";
+
+import himachal1 from "../assets/images/himachal1.jpg";
+import himachal2 from "../assets/images/himachal2.jpg";
+import himachal3 from "../assets/images/himachal3.jpg";
+import himachal4 from "../assets/images/himachal4.jpg";
+import himachal5 from "../assets/images/himachal5.jpg";
+import himachal6 from "../assets/images/himachal6.jpg";
+import manali1 from "../assets/images/manali1.jpg";
+import manali2 from "../assets/images/manali2.jpg";
+import manali3 from "../assets/images/manali3.jpg";
+import manali4 from "../assets/images/manali4.jpg";
+import manali5 from "../assets/images/manali5.jpg";
+
+import himachall1 from "../assets/images/himachal-1.jpg";
+import himachall2 from "../assets/images/himachal-2.jpg";
+import himachall3 from "../assets/images/himachal-3.jpg";
+import himachall5 from "../assets/images/himachal-5.jpg";
+import himachall6 from "../assets/images/himachal-6.jpg";
+import himachall7 from "../assets/images/himachal-7.jpg";
+import himachall8 from "../assets/images/himachal-8.jpg";
 
 export const tours = [
 
@@ -426,8 +451,8 @@ End of tour with Happy Memory.`,
     slug: "himachal-5nights-6days-package",
     price: "₹28,900",
     days: "05 Nights / 06 Days",
-    rating: "",
-    // image: himachal1,
+    rating: "4.9",
+    image: himachal1,
     location: "Manali, Shimla",
     nextDate: "Available on Request",
 
@@ -570,12 +595,19 @@ Overnight hotel.`,
       note: "Cost Per Person Meal Plan: 28,900/- MAP",
     },
 
-    // images: [
-    //   himachal1,
-    //   himachal2,
-    //   himachal3,
-    //   himachal4,
-    // ],
+    images: [
+      himachal1,
+      himachal2,
+      himachal3,
+      himachal4,
+      himachal5,
+      himachal6,
+      manali1,
+      manali2,
+      manali3,
+      manali4,
+      manali5,
+    ],
   },
 
 
@@ -586,8 +618,8 @@ Overnight hotel.`,
     slug: "himachal-6nights-7days-package",
     price: "₹42,000",
     days: "06 Nights / 07 Days",
-    rating: "",
-    // image: himachal6n1,
+    rating: "4.9",
+    image: himachall1,
     location: "Shimla, Manali, Kasol",
     nextDate: "Available on Request",
 
@@ -744,12 +776,15 @@ O/N hotel`,
       note: "RS.42000 PER PERSON",
     },
 
-    // images: [
-    //   himachal6n1,
-    //   himachal6n2,
-    //   himachal6n3,
-    //   himachal6n4,
-    // ],
+    images: [
+      himachall1,
+      himachall2,
+      himachall3,
+      himachall5,
+      himachall6,
+      himachall7,
+      himachall8,
+    ],
   },
 
 
@@ -2931,7 +2966,7 @@ Later drop at Ahmedabad / Udaipur Airport or Railway Station.
     price: "₹19,700",
     days: "03 Nights / 04 Days",
     rating: "",
-    // image: gujarat1,
+    image: gujarat1,
     location: "Ahmedabad, Statue of Unity, Vadodara",
     nextDate: "Available on Request",
 
@@ -3063,12 +3098,12 @@ Drive Towards Ahmedabad Airport for Departure
       note: "PACKAGE COST WITH 3 STAR DELUXE HOTEL - INR 19,700/- Per Person (AC Sedan)",
     },
 
-    // images: [
-    //   gujarat1,
-    //   gujarat2,
-    //   gujarat3,
-    //   gujarat4,
-    // ],
+    images: [
+      gujarat1,
+      gujarat2,
+      gujarat3,
+      gujarat4,
+    ],
   },
 
 
@@ -3080,7 +3115,7 @@ Drive Towards Ahmedabad Airport for Departure
     price: "₹24,900",
     days: "04 Nights / 05 Days",
     rating: "",
-    // image: gujarat4n1,
+    image: gujarat1,
     location: "Rajkot, Jamnagar, Dwarka, Bet Dwarka, Porbandar, Somnath, Junagadh",
     nextDate: "Available on Request",
 
@@ -3236,12 +3271,13 @@ Drive Towards Rajkot for Departure
       note: "PACKAGE COST WITH 3 STAR DELUXE HOTEL - Minimum 2 Person: INR 24,900/- Per Person (AC Sedan)",
     },
 
-    // images: [
-    //   gujarat4n1,
-    //   gujarat4n2,
-    //   gujarat4n3,
-    //   gujarat4n4,
-    // ],
+    images: [
+      gujarat1,
+      gujarat2,
+      gujarat3,
+      gujarat4,
+      gujarat5,
+    ],
   },
 
 
