@@ -125,6 +125,16 @@ import himachall6 from "../assets/images/himachal-6.jpg";
 import himachall7 from "../assets/images/himachal-7.jpg";
 import himachall8 from "../assets/images/himachal-8.jpg";
 
+import zurich1 from "../assets/images/zurich1.jpg";
+import zurich2 from "../assets/images/zurich2.jpg";
+import zurich3 from "../assets/images/zurich3.jpg";
+import zurich4 from "../assets/images/zurich4.jpg";
+import zurich5 from "../assets/images/zurich5.jpg";
+import zurich6 from "../assets/images/zurich6.jpg";
+import zurich7 from "../assets/images/zurich7.jpg";
+
+
+
 export const tours = [
 
   //================================ Rajasthan =======================================
@@ -132,6 +142,7 @@ export const tours = [
   {
     title: "Rajasthan Heritage Tour",
     slug: "rajasthan-heritage-tour",
+    category: "Domestic",
     price: "₹36,750",
     days: "9 Days / 8 Nights",
     rating: "4.9",
@@ -357,6 +368,7 @@ End of tour with Happy Memory.`,
     /* ================= KASHMIR ================= */
     title: "Kashmir Valley Escape",
     slug: "kashmir-valley-escape",
+    category: "Domestic",
     price: "On Request",
     days: "7 Days / 6 Nights",
     rating: "4.9",
@@ -616,6 +628,7 @@ Overnight hotel.`,
   {
     title: "Exciting Himachal",
     slug: "himachal-6nights-7days-package",
+    category: "Domestic",
     price: "₹42,000",
     days: "06 Nights / 07 Days",
     rating: "4.9",
@@ -889,6 +902,7 @@ O/N hotel`,
   {
     title: "Chardham Package",
     slug: "chardham-package",
+    category: "Domestic",
     price: "₹62,000",
     days: "12 Days / 11 Nights",
     rating: "4.9",
@@ -1202,6 +1216,7 @@ Upon arrival at Dehradun Airport, proceed with your onward journey, carrying che
   {
     title: "Kedarnath",
     slug: "kedarnath-package",
+    category: "Domestic",
     price: "₹26,200",
     days: "5 Days / 4 Nights",
     rating: "4.9",
@@ -1415,6 +1430,7 @@ Upon arrival at Dehradun Airport, proceed with your onward journey, carrying che
   {
     title: "Amazing Kashmir",
     slug: "kashmir-5nights-6days-package",
+    category: "Domestic",
     price: "₹44,500",
     days: "05 Nights / 06 Days",
     rating: "",
@@ -1778,6 +1794,7 @@ Note: Temple visit will depend on your departure time. It May be done on previou
   {
     title: "Rajasthan Jaipur Pushkar Udaipur",
     slug: "rajasthan-jaipur-pushkar-udaipur",
+    category: "Domestic",
     price: "₹25,550",
     days: "6 Days / 5 Nights",
     rating: "4.8",
@@ -3288,7 +3305,7 @@ Drive Towards Rajkot for Departure
     slug: "sikkim-darjeeling-7nights-8days-package",
     price: "₹40,800",
     days: "7 Nights / 8 Days",
-    rating: "",
+    rating: "4.9",
     // image: sikkim1,
     location: "Gangtok, Pelling, Darjeeling",
     nextDate: "Available on Request",
@@ -4018,7 +4035,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     price: "Euro 302 per person onwards",
     days: "03 Nights / 04 Days",
     rating: "", // not present in PDF
-    image: "", // not present in PDF
+    image: "/images/Athens/day-1.jpg",
     location: "Athens, Greece",
     nextDate: "Available on Request", // not present in PDF
 
@@ -4267,13 +4284,23 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [], // no photos present in PDF, only company logo
+    images: [
+  "/images/Athens/day-1.jpg",
+  "/images/Athens/day-2.jpg",
+  "/images/Athens/day-3.jpg",
+  "/images/Athens/day-4.jpg",
+  "/images/Athens/day-5.jpg",
+  "/images/Athens/day-6.jpg",
+  "/images/Athens/day-7.jpg",
+],
+
   },
 
   {
     title: "Athens Mykonos Santorini Heraklion",
     slug: "athens-mykonos-santorini-heraklion",
     price: "Euro 1024 per person",
+    image: "/images/Mykonos/day-1.jpg",
     days: "09 Days / 08 Nights",
     location: "Athens, Mykonos, Santorini, Heraklion",
     nextDate: "Available on Request",
@@ -4553,7 +4580,24 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when payment is processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+  "/images/Mykonos/day-1.jpg",
+  "/images/Mykonos/day-2.jpg",
+  "/images/Mykonos/day-3.jpg",
+  "/images/Mykonos/day-4.jpg",
+  "/images/Mykonos/day-5.jpg",
+  "/images/Mykonos/day-6.jpg",
+  "/images/Mykonos/day-7.jpg",
+  "/images/Mykonos/day-8.jpg",
+  "/images/Mykonos/day-9.jpg",
+  "/images/Mykonos/extra1.jpg",
+  "/images/Mykonos/extra2.jpg",
+  "/images/Mykonos/extra3.jpg",
+  "/images/Mykonos/extra4.jpg",
+  "/images/Mykonos/extra5.jpg",
+ 
+],
+
   },
 
   {
@@ -4561,6 +4605,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "glimpses-of-greece-athens-santorini",
     price: "Euro 905 per person",
     days: "06 Days / 05 Nights",
+    image: "/images/Greece/day-1.jpg",
     location: "Athens, Santorini",
     nextDate: "Available on Request",
 
@@ -4777,7 +4822,17 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when payment is processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/Greece/day-1.jpg",
+      "/images/Greece/day-2.jpg",
+      "/images/Greece/day-3.jpg",
+      "/images/Greece/day-4.jpg",
+      "/images/Greece/day-5.jpg",
+      "/images/Greece/day-6.jpg",
+      "/images/Greece/extra1.jpg",
+      "/images/Greece/extra2.jpg",
+      "/images/Greece/extra3.jpg",
+    ],
   },
 
   {
@@ -4785,6 +4840,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "experience-the-heart-of-greece-athens-mykonos-santorini",
     price: "EUR 1232 per person",
     days: "08 Days / 07 Nights",
+    rating: "4.9",
+    image: "/images/heart/day-1.jpg",
     location: "Athens, Mykonos, Santorini",
     nextDate: "Available on Request",
 
@@ -5080,7 +5137,15 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when payment is processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/heart/day-1.jpg",
+      "/images/heart/day-2.jpg",
+      "/images/heart/day-3.jpg",
+      "/images/heart/day-4.jpg",
+      "/images/heart/day-5.jpg",
+      "/images/heart/day-6.jpg",
+      "/images/heart/extra1.jpg",
+    ],
   },
 
   {
@@ -5528,8 +5593,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "explore-santorini-3n",
     price: "Euro 447 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Apr-Jul 2026)
     days: "03 Nights / 04 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/san/day-1.jpg",
     location: "Santorini, Greece",
     nextDate: "Available on Request",
 
@@ -5744,286 +5809,294 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/san/day-1.jpg",
+      "/images/san/day-2.jpg",
+      "/images/san/day-3.jpg",
+      "/images/san/day-4.jpg",
+      "/images/san/extra1.jpg",
+      "/images/san/extra2.jpg",
+      "/images/san/extra3.jpg",
+    ],
   },
 
 
-  {
-    title: "Best of Barcelona, Madrid & Ibiza",
-    slug: "best-of-barcelona-madrid-ibiza",
-    price: "Euro 1114 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
-    days: "08 Nights / 09 Days",
-    rating: "",
-    image: "",
-    location: "Barcelona, Madrid, Ibiza, Spain",
-    nextDate: "Available on Request",
+  // {
+  //   title: "Best of Barcelona, Madrid & Ibiza",
+  //   slug: "best-of-barcelona-madrid-ibiza",
+  //   price: "Euro 1114 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
+  //   days: "08 Nights / 09 Days",
+  //   rating: "",
+  //   image: "",
+  //   location: "Barcelona, Madrid, Ibiza, Spain",
+  //   nextDate: "Available on Request",
 
-    highlightsData: {
-      locationCard: {
-        meta: "1 Country, 3 Cities, 08 Nights",
-        places: "Barcelona, Madrid, Ibiza",
-      },
+  //   highlightsData: {
+  //     locationCard: {
+  //       meta: "1 Country, 3 Cities, 08 Nights",
+  //       places: "Barcelona, Madrid, Ibiza",
+  //     },
 
-      pills: [
-        "Breakfast Included",
-        "Private Airport Transfers Included",
-        "08 Nights Accommodation",
-      ],
+  //     pills: [
+  //       "Breakfast Included",
+  //       "Private Airport Transfers Included",
+  //       "08 Nights Accommodation",
+  //     ],
 
-      highlights: [
-        "Sagrada Familia",
-        "Montserrat Monastery",
-        "Royal Palace, Madrid",
-        "Prado Museum",
-        "Segovia & Toledo",
-        "Formentera Cruise",
-      ],
+  //     highlights: [
+  //       "Sagrada Familia",
+  //       "Montserrat Monastery",
+  //       "Royal Palace, Madrid",
+  //       "Prado Museum",
+  //       "Segovia & Toledo",
+  //       "Formentera Cruise",
+  //     ],
 
-      experiences: [
-        {
-          title: "Barcelona Hop-On Hop-Off City Tour",
-          desc: "Covers Plaça de Catalunya, Gothic Quarter, La Rambla, Olympic Port and Montjuïc Hill, followed by a visit to Sagrada Familia with entry ticket.",
-        },
-        {
-          title: "Montserrat Day Tour",
-          desc: "Shared coach to Montserrat, travel up the mountain by cog-wheel train or cable car, guided orientation tour and visit to Santa Maria de Montserrat Abbey including the Black Madonna.",
-        },
-        {
-          title: "Madrid Hop-On Hop-Off City Tour",
-          desc: "Covers the Royal Palace, Plaza Mayor, Gran Via and Puerta del Sol, followed by a Prado Museum Guided Tour with Skip-the-Line Ticket.",
-        },
-        {
-          title: "Segovia & Toledo Day Tour with Alcázar",
-          desc: "Shared coach day tour to Segovia (Roman Aqueduct, Alcázar of Segovia) and Toledo (Toledo Cathedral exterior, Jewish Quarter, artisan streets).",
-        },
-        {
-          title: "Ibiza – Formentera Cruise",
-          desc: "Shared-basis cruise to Formentera including paddle activities, snorkeling and scenic coastal views.",
-        },
-      ],
-    },
+  //     experiences: [
+  //       {
+  //         title: "Barcelona Hop-On Hop-Off City Tour",
+  //         desc: "Covers Plaça de Catalunya, Gothic Quarter, La Rambla, Olympic Port and Montjuïc Hill, followed by a visit to Sagrada Familia with entry ticket.",
+  //       },
+  //       {
+  //         title: "Montserrat Day Tour",
+  //         desc: "Shared coach to Montserrat, travel up the mountain by cog-wheel train or cable car, guided orientation tour and visit to Santa Maria de Montserrat Abbey including the Black Madonna.",
+  //       },
+  //       {
+  //         title: "Madrid Hop-On Hop-Off City Tour",
+  //         desc: "Covers the Royal Palace, Plaza Mayor, Gran Via and Puerta del Sol, followed by a Prado Museum Guided Tour with Skip-the-Line Ticket.",
+  //       },
+  //       {
+  //         title: "Segovia & Toledo Day Tour with Alcázar",
+  //         desc: "Shared coach day tour to Segovia (Roman Aqueduct, Alcázar of Segovia) and Toledo (Toledo Cathedral exterior, Jewish Quarter, artisan streets).",
+  //       },
+  //       {
+  //         title: "Ibiza – Formentera Cruise",
+  //         desc: "Shared-basis cruise to Formentera including paddle activities, snorkeling and scenic coastal views.",
+  //       },
+  //     ],
+  //   },
 
-    itinerary: [
-      {
-        day: "01",
-        title: "India – Barcelona",
-        desc: "Arrival at Barcelona Airport. Meet & greet and private transfer to the hotel. Check-in and rest of the day at leisure. Overnight Stay in Barcelona.",
-        tags: [],
-      },
-      {
-        day: "02",
-        title: "Barcelona – Hop On Hop Off City Tour",
-        desc: "Breakfast at the hotel. 01 Day Hop-On Hop-Off City Tour covering Plaça de Catalunya, Gothic Quarter, La Rambla, Olympic Port and Montjuïc Hill. Later, visit Sagrada Familia with entry ticket only. Evening free for leisure or shopping. Overnight Stay in Barcelona.",
-        tags: [{ label: "Breakfast" }],
-      },
-      {
-        day: "03",
-        title: "Barcelona – Montserrat Day Tour",
-        desc: "Breakfast at hotel. Pickup from a designated meeting point in Barcelona on a shared coach to Montserrat. Travel up the mountain by cog-wheel train or cable car (subject to availability). Guided orientation tour and visit to Santa Maria de Montserrat Abbey, including access to see the Black Madonna (La Moreneta). Free time to explore the basilica, enjoy panoramic views, visit souvenir shops, or taste local products. Return to Barcelona.",
-        tags: [{ label: "Breakfast" }],
-      },
-      {
-        day: "04",
-        title: "Barcelona → Madrid",
-        desc: "Breakfast at the hotel. After check-out, private transfer from Barcelona Hotel to Barcelona Station to board the onward journey to Madrid (train ticket not included). Upon arrival at Madrid Station, private transfer to the hotel. Rest of the day at leisure. Overnight Stay in Madrid.",
-        tags: [{ label: "Breakfast" }],
-      },
-      {
-        day: "05",
-        title: "Madrid Hop-On Hop-Off City Tour",
-        desc: "Breakfast at the hotel. 01 Day Hop-On Hop-Off City Tour of Madrid covering the Royal Palace, Plaza Mayor, Gran Via and Puerta del Sol. Later, enjoy the Prado Museum Guided Tour with Skip-the-Line Ticket. Evening free at leisure. Overnight Stay in Madrid.",
-        tags: [{ label: "Breakfast" }],
-      },
-      {
-        day: "06",
-        title: "Day Tour from Madrid to Segovia & Toledo with Alcázar (Shared Basis)",
-        desc: "Breakfast at the hotel. Departure from a designated meeting point in Madrid by shared coach with a professional guide. Guided walking tour of Segovia including the Roman Aqueduct, the old town and the Alcázar of Segovia. Free time in Segovia, then continue to Toledo, the 'City of Three Cultures.' Panoramic view of the city followed by a guided walking tour covering the exterior of Toledo Cathedral, the Jewish Quarter and artisan streets. Free time before returning to Madrid by shared coach.",
-        tags: [{ label: "Breakfast" }],
-      },
-      {
-        day: "07",
-        title: "Madrid → Ibiza",
-        desc: "Breakfast at the hotel. Check-out and private transfer from Madrid Hotel to Madrid Airport for the flight to Ibiza (flight not included). Upon arrival at Ibiza Airport, private transfer to the hotel. Rest of the day free to relax or explore Ibiza town. Overnight Stay in Ibiza.",
-        tags: [{ label: "Breakfast" }],
-      },
-      {
-        day: "08",
-        title: "Ibiza – Formentera Cruise",
-        desc: "Breakfast at the hotel. Formentera Cruise on a shared basis including paddle activities, snorkeling experience and scenic coastal views. Return to Ibiza and enjoy the evening at leisure. Overnight Stay in Ibiza.",
-        tags: [{ label: "Breakfast" }],
-      },
-      {
-        day: "09",
-        title: "Departure from Ibiza",
-        desc: "Breakfast at the hotel. Check-out and private transfer from Ibiza Hotel to Ibiza Airport for the onward journey. End of Tour with Wonderful Memories.",
-        tags: [{ label: "Breakfast" }],
-      },
-    ],
+  //   itinerary: [
+  //     {
+  //       day: "01",
+  //       title: "India – Barcelona",
+  //       desc: "Arrival at Barcelona Airport. Meet & greet and private transfer to the hotel. Check-in and rest of the day at leisure. Overnight Stay in Barcelona.",
+  //       tags: [],
+  //     },
+  //     {
+  //       day: "02",
+  //       title: "Barcelona – Hop On Hop Off City Tour",
+  //       desc: "Breakfast at the hotel. 01 Day Hop-On Hop-Off City Tour covering Plaça de Catalunya, Gothic Quarter, La Rambla, Olympic Port and Montjuïc Hill. Later, visit Sagrada Familia with entry ticket only. Evening free for leisure or shopping. Overnight Stay in Barcelona.",
+  //       tags: [{ label: "Breakfast" }],
+  //     },
+  //     {
+  //       day: "03",
+  //       title: "Barcelona – Montserrat Day Tour",
+  //       desc: "Breakfast at hotel. Pickup from a designated meeting point in Barcelona on a shared coach to Montserrat. Travel up the mountain by cog-wheel train or cable car (subject to availability). Guided orientation tour and visit to Santa Maria de Montserrat Abbey, including access to see the Black Madonna (La Moreneta). Free time to explore the basilica, enjoy panoramic views, visit souvenir shops, or taste local products. Return to Barcelona.",
+  //       tags: [{ label: "Breakfast" }],
+  //     },
+  //     {
+  //       day: "04",
+  //       title: "Barcelona → Madrid",
+  //       desc: "Breakfast at the hotel. After check-out, private transfer from Barcelona Hotel to Barcelona Station to board the onward journey to Madrid (train ticket not included). Upon arrival at Madrid Station, private transfer to the hotel. Rest of the day at leisure. Overnight Stay in Madrid.",
+  //       tags: [{ label: "Breakfast" }],
+  //     },
+  //     {
+  //       day: "05",
+  //       title: "Madrid Hop-On Hop-Off City Tour",
+  //       desc: "Breakfast at the hotel. 01 Day Hop-On Hop-Off City Tour of Madrid covering the Royal Palace, Plaza Mayor, Gran Via and Puerta del Sol. Later, enjoy the Prado Museum Guided Tour with Skip-the-Line Ticket. Evening free at leisure. Overnight Stay in Madrid.",
+  //       tags: [{ label: "Breakfast" }],
+  //     },
+  //     {
+  //       day: "06",
+  //       title: "Day Tour from Madrid to Segovia & Toledo with Alcázar (Shared Basis)",
+  //       desc: "Breakfast at the hotel. Departure from a designated meeting point in Madrid by shared coach with a professional guide. Guided walking tour of Segovia including the Roman Aqueduct, the old town and the Alcázar of Segovia. Free time in Segovia, then continue to Toledo, the 'City of Three Cultures.' Panoramic view of the city followed by a guided walking tour covering the exterior of Toledo Cathedral, the Jewish Quarter and artisan streets. Free time before returning to Madrid by shared coach.",
+  //       tags: [{ label: "Breakfast" }],
+  //     },
+  //     {
+  //       day: "07",
+  //       title: "Madrid → Ibiza",
+  //       desc: "Breakfast at the hotel. Check-out and private transfer from Madrid Hotel to Madrid Airport for the flight to Ibiza (flight not included). Upon arrival at Ibiza Airport, private transfer to the hotel. Rest of the day free to relax or explore Ibiza town. Overnight Stay in Ibiza.",
+  //       tags: [{ label: "Breakfast" }],
+  //     },
+  //     {
+  //       day: "08",
+  //       title: "Ibiza – Formentera Cruise",
+  //       desc: "Breakfast at the hotel. Formentera Cruise on a shared basis including paddle activities, snorkeling experience and scenic coastal views. Return to Ibiza and enjoy the evening at leisure. Overnight Stay in Ibiza.",
+  //       tags: [{ label: "Breakfast" }],
+  //     },
+  //     {
+  //       day: "09",
+  //       title: "Departure from Ibiza",
+  //       desc: "Breakfast at the hotel. Check-out and private transfer from Ibiza Hotel to Ibiza Airport for the onward journey. End of Tour with Wonderful Memories.",
+  //       tags: [{ label: "Breakfast" }],
+  //     },
+  //   ],
 
-    pointsToRemember: [
-      "Booking should be received 45 days prior to arrival.",
-      "A 10% deposit of the total booking amount is required at the time of confirmation.",
-      "The offered rates are net and non-commissionable.",
-      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
-      "Rates and availability of the services are subject to change before any confirmation.",
-      "No bookings are made at the time of quotation.",
-      "Any extra services to be paid directly.",
-      "Driver tips to be paid directly.",
-      "Anything that is not mentioned in the inclusions list is always not included.",
-      "Cancellation Policy: As per our trading contract.",
-      "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
-    ],
+  //   pointsToRemember: [
+  //     "Booking should be received 45 days prior to arrival.",
+  //     "A 10% deposit of the total booking amount is required at the time of confirmation.",
+  //     "The offered rates are net and non-commissionable.",
+  //     "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+  //     "Rates and availability of the services are subject to change before any confirmation.",
+  //     "No bookings are made at the time of quotation.",
+  //     "Any extra services to be paid directly.",
+  //     "Driver tips to be paid directly.",
+  //     "Anything that is not mentioned in the inclusions list is always not included.",
+  //     "Cancellation Policy: As per our trading contract.",
+  //     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  //   ],
 
-    inclusions: {
-      included: [
-        "08 Nights' Accommodation with Breakfast",
-        "Private transfer from Barcelona Airport to Barcelona Hotel",
-        "Barcelona: 01 Day Hop-On Hop-Off City Tour",
-        "Barcelona: Sagrada Familia Entry Ticket (Only)",
-        "Day tour to Montserrat with Black Madonna on Shared Basis",
-        "Private transfer from Barcelona Hotel to Barcelona Station",
-        "Private transfer from Madrid Station to Madrid Hotel",
-        "Madrid: 01 Day Hop-On Hop-Off City Tour",
-        "Madrid: Prado Museum Guided Tour with Skip-the-Line Ticket",
-        "Day tour from Madrid to Segovia and Toledo Tour, Alcazar on Shared Basis",
-        "Private transfer from Madrid Hotel to Madrid Airport",
-        "Private transfer from Ibiza Airport to Ibiza Hotel",
-        "Ibiza: Cruise to Formentera with Paddle & Snorkelling",
-        "Private transfer from Ibiza Hotel to Ibiza Airport",
-      ],
+  //   inclusions: {
+  //     included: [
+  //       "08 Nights' Accommodation with Breakfast",
+  //       "Private transfer from Barcelona Airport to Barcelona Hotel",
+  //       "Barcelona: 01 Day Hop-On Hop-Off City Tour",
+  //       "Barcelona: Sagrada Familia Entry Ticket (Only)",
+  //       "Day tour to Montserrat with Black Madonna on Shared Basis",
+  //       "Private transfer from Barcelona Hotel to Barcelona Station",
+  //       "Private transfer from Madrid Station to Madrid Hotel",
+  //       "Madrid: 01 Day Hop-On Hop-Off City Tour",
+  //       "Madrid: Prado Museum Guided Tour with Skip-the-Line Ticket",
+  //       "Day tour from Madrid to Segovia and Toledo Tour, Alcazar on Shared Basis",
+  //       "Private transfer from Madrid Hotel to Madrid Airport",
+  //       "Private transfer from Ibiza Airport to Ibiza Hotel",
+  //       "Ibiza: Cruise to Formentera with Paddle & Snorkelling",
+  //       "Private transfer from Ibiza Hotel to Ibiza Airport",
+  //     ],
 
-      excluded: [
-        "The tours which are on SIC/Shared basis require the client to reach the pickup point",
-        "Return Flight Tickets",
-        "Visa & Insurance fees",
-        "Water Bottles",
-        "Train ticket",
-        "Optional tours",
-        "Hotel City Tax (paid on the spot at the hotel)",
-        "Lunch & Dinner",
-        "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or any other charges/expenses not mentioned in Inclusions",
-        "Mandatory tips of Euro 2-3 per person per day for Coach Drivers, etc.",
-      ],
-    },
+  //     excluded: [
+  //       "The tours which are on SIC/Shared basis require the client to reach the pickup point",
+  //       "Return Flight Tickets",
+  //       "Visa & Insurance fees",
+  //       "Water Bottles",
+  //       "Train ticket",
+  //       "Optional tours",
+  //       "Hotel City Tax (paid on the spot at the hotel)",
+  //       "Lunch & Dinner",
+  //       "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or any other charges/expenses not mentioned in Inclusions",
+  //       "Mandatory tips of Euro 2-3 per person per day for Coach Drivers, etc.",
+  //     ],
+  //   },
 
-    supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
-      items: [
-        {
-          name: "2nd class train ticket from Barcelona to Madrid",
-          price: "€90 – 120 per person",
-        },
-      ],
-    },
+  //   supplementaryTours: {
+  //     note: "Price is not applicable during fair/Events dates.",
+  //     items: [
+  //       {
+  //         name: "2nd class train ticket from Barcelona to Madrid",
+  //         price: "€90 – 120 per person",
+  //       },
+  //     ],
+  //   },
 
-    pricing: {
-      note: "The tours which are on SIC/Shared basis require the client to reach the pickup point. Price is not applicable during fair/event dates.",
-      options: [
-        {
-          category: "Option 1 – 3* Hotel",
-          hotels: [
-            { location: "Barcelona 03N", hotel: "Hotel Acta Azul Barcelona or similar" },
-            { location: "Madrid 03N", hotel: "Hotel Puerta de Toledo or similar" },
-            { location: "Ibiza 03N", hotel: "Hotel Royal Plaza or similar" },
-          ],
-          seasons: [
-            {
-              months: "Jan, Feb, Nov & Dec - 2026",
-              rows: [
-                { pax: "02 Pax", price: "Euro 1114 per person onwards on Twin/Double sharing basis" },
-                { pax: "04 Pax", price: "Euro 1069 per person onwards on Twin/Double sharing basis / Euro 965 per person onwards on Triple sharing basis" },
-                { pax: "06 Pax", price: "Euro 1026 per person onwards on Twin/Double sharing basis / Euro 922 per person onwards on Triple sharing basis" },
-                { pax: "Child Sharing with Extra Bed", price: "Euro 698 per child onwards" },
-                { pax: "Single Room Supplement", price: "Euro 362 onwards" },
-                { pax: "Below 2-year child", price: "Free of cost" },
-              ],
-            },
-            {
-              months: "April, May, June, July & Aug - 2026",
-              rows: [
-                { pax: "02 Pax", price: "Euro 1193 per person onwards on Twin/Double sharing basis" },
-                { pax: "04 Pax", price: "Euro 1148 per person onwards on Twin/Double sharing basis / Euro 1124 per person onwards on Triple sharing basis" },
-                { pax: "06 Pax", price: "Euro 1105 per person onwards on Twin/Double sharing basis / Euro 1181 per person onwards on Triple sharing basis" },
-                { pax: "Child Sharing with Extra Bed", price: "Euro 1031 per child onwards" },
-                { pax: "Single Room Supplement", price: "Euro 681 onwards" },
-                { pax: "Below 2-year child", price: "Free of cost" },
-              ],
-            },
-            {
-              months: "Mar, Sept & Oct - 2026",
-              rows: [
-                { pax: "02 Pax", price: "Euro 1268 per person onwards on Twin/Double sharing basis" },
-                { pax: "04 Pax", price: "Euro 1223 per person onwards on Twin/Double sharing basis / Euro 1119 per person onwards on Triple sharing basis" },
-                { pax: "06 Pax", price: "Euro 1180 per person onwards on Twin/Double sharing basis / Euro 1076 per person onwards on Triple sharing basis" },
-                { pax: "Child Sharing with Extra Bed", price: "Euro 852 per child onwards" },
-                { pax: "Single Room Supplement", price: "Euro 516 onwards" },
-                { pax: "Below 2-year child", price: "Free of cost" },
-              ],
-            },
-          ],
-        },
-        {
-          category: "Option 2 – 4* Hotel",
-          hotels: [
-            { location: "Barcelona 3N", hotel: "Catalonia Barcelona Plaza or similar" },
-            { location: "Madrid 3N", hotel: "Nh Collection Madrid Gran Via or similar" },
-            { location: "Ibiza 2N", hotel: "Hotel Royal Plaza or similar" },
-          ],
-          seasons: [
-            {
-              months: "Jan, Feb, Nov & Dec - 2026",
-              rows: [
-                { pax: "02 Pax", price: "Euro 1347 per person onwards on Twin/Double sharing basis" },
-                { pax: "04 Pax", price: "Euro 1302 per person onwards on Twin/Double sharing basis / Euro 1214 per person onwards on Triple sharing basis" },
-                { pax: "06 Pax", price: "Euro 1263 per person onwards on Twin/Double sharing basis / Euro 1167 per person onwards on Triple sharing basis" },
-                { pax: "Child Sharing with Extra Bed", price: "Euro 979 per child onwards" },
-                { pax: "Single Room Supplement", price: "Euro 643 onwards" },
-                { pax: "Below 2-year child", price: "Free of cost" },
-              ],
-            },
-            {
-              months: "April, May, June, July & Aug - 2026",
-              rows: [
-                { pax: "02 Pax", price: "Euro 1403 per person onwards on Twin/Double sharing basis" },
-                { pax: "04 Pax", price: "Euro 1358 per person onwards on Twin/Double sharing basis / Euro 1243 per person onwards on Triple sharing basis" },
-                { pax: "06 Pax", price: "Euro 1340 per person onwards on Twin/Double sharing basis / Euro 1175 per person onwards on Triple sharing basis" },
-                { pax: "Child Sharing with Extra Bed", price: "Euro 968 per child onwards" },
-                { pax: "Single Room Supplement", price: "Euro 618 onwards" },
-                { pax: "Below 2-year child", price: "Free of cost" },
-              ],
-            },
-            {
-              months: "Mar, Sept & Oct - 2026",
-              rows: [
-                { pax: "02 Pax", price: "Euro 1456 per person onwards on Twin/Double sharing basis" },
-                { pax: "04 Pax", price: "Euro 1411 per person onwards on Twin/Double sharing basis / Euro 1262 per person onwards on Triple sharing basis" },
-                { pax: "06 Pax", price: "Euro 1368 per person onwards on Twin/Double sharing basis / Euro 1219 per person onwards on Triple sharing basis" },
-                { pax: "Child Sharing with Extra Bed", price: "Euro 905 per child onwards" },
-                { pax: "Single Room Supplement", price: "Euro 569 onwards" },
-                { pax: "Below 2-year child", price: "Free of cost" },
-              ],
-            },
-          ],
-        },
-      ],
-    },
+  //   pricing: {
+  //     note: "The tours which are on SIC/Shared basis require the client to reach the pickup point. Price is not applicable during fair/event dates.",
+  //     options: [
+  //       {
+  //         category: "Option 1 – 3* Hotel",
+  //         hotels: [
+  //           { location: "Barcelona 03N", hotel: "Hotel Acta Azul Barcelona or similar" },
+  //           { location: "Madrid 03N", hotel: "Hotel Puerta de Toledo or similar" },
+  //           { location: "Ibiza 03N", hotel: "Hotel Royal Plaza or similar" },
+  //         ],
+  //         seasons: [
+  //           {
+  //             months: "Jan, Feb, Nov & Dec - 2026",
+  //             rows: [
+  //               { pax: "02 Pax", price: "Euro 1114 per person onwards on Twin/Double sharing basis" },
+  //               { pax: "04 Pax", price: "Euro 1069 per person onwards on Twin/Double sharing basis / Euro 965 per person onwards on Triple sharing basis" },
+  //               { pax: "06 Pax", price: "Euro 1026 per person onwards on Twin/Double sharing basis / Euro 922 per person onwards on Triple sharing basis" },
+  //               { pax: "Child Sharing with Extra Bed", price: "Euro 698 per child onwards" },
+  //               { pax: "Single Room Supplement", price: "Euro 362 onwards" },
+  //               { pax: "Below 2-year child", price: "Free of cost" },
+  //             ],
+  //           },
+  //           {
+  //             months: "April, May, June, July & Aug - 2026",
+  //             rows: [
+  //               { pax: "02 Pax", price: "Euro 1193 per person onwards on Twin/Double sharing basis" },
+  //               { pax: "04 Pax", price: "Euro 1148 per person onwards on Twin/Double sharing basis / Euro 1124 per person onwards on Triple sharing basis" },
+  //               { pax: "06 Pax", price: "Euro 1105 per person onwards on Twin/Double sharing basis / Euro 1181 per person onwards on Triple sharing basis" },
+  //               { pax: "Child Sharing with Extra Bed", price: "Euro 1031 per child onwards" },
+  //               { pax: "Single Room Supplement", price: "Euro 681 onwards" },
+  //               { pax: "Below 2-year child", price: "Free of cost" },
+  //             ],
+  //           },
+  //           {
+  //             months: "Mar, Sept & Oct - 2026",
+  //             rows: [
+  //               { pax: "02 Pax", price: "Euro 1268 per person onwards on Twin/Double sharing basis" },
+  //               { pax: "04 Pax", price: "Euro 1223 per person onwards on Twin/Double sharing basis / Euro 1119 per person onwards on Triple sharing basis" },
+  //               { pax: "06 Pax", price: "Euro 1180 per person onwards on Twin/Double sharing basis / Euro 1076 per person onwards on Triple sharing basis" },
+  //               { pax: "Child Sharing with Extra Bed", price: "Euro 852 per child onwards" },
+  //               { pax: "Single Room Supplement", price: "Euro 516 onwards" },
+  //               { pax: "Below 2-year child", price: "Free of cost" },
+  //             ],
+  //           },
+  //         ],
+  //       },
+  //       {
+  //         category: "Option 2 – 4* Hotel",
+  //         hotels: [
+  //           { location: "Barcelona 3N", hotel: "Catalonia Barcelona Plaza or similar" },
+  //           { location: "Madrid 3N", hotel: "Nh Collection Madrid Gran Via or similar" },
+  //           { location: "Ibiza 2N", hotel: "Hotel Royal Plaza or similar" },
+  //         ],
+  //         seasons: [
+  //           {
+  //             months: "Jan, Feb, Nov & Dec - 2026",
+  //             rows: [
+  //               { pax: "02 Pax", price: "Euro 1347 per person onwards on Twin/Double sharing basis" },
+  //               { pax: "04 Pax", price: "Euro 1302 per person onwards on Twin/Double sharing basis / Euro 1214 per person onwards on Triple sharing basis" },
+  //               { pax: "06 Pax", price: "Euro 1263 per person onwards on Twin/Double sharing basis / Euro 1167 per person onwards on Triple sharing basis" },
+  //               { pax: "Child Sharing with Extra Bed", price: "Euro 979 per child onwards" },
+  //               { pax: "Single Room Supplement", price: "Euro 643 onwards" },
+  //               { pax: "Below 2-year child", price: "Free of cost" },
+  //             ],
+  //           },
+  //           {
+  //             months: "April, May, June, July & Aug - 2026",
+  //             rows: [
+  //               { pax: "02 Pax", price: "Euro 1403 per person onwards on Twin/Double sharing basis" },
+  //               { pax: "04 Pax", price: "Euro 1358 per person onwards on Twin/Double sharing basis / Euro 1243 per person onwards on Triple sharing basis" },
+  //               { pax: "06 Pax", price: "Euro 1340 per person onwards on Twin/Double sharing basis / Euro 1175 per person onwards on Triple sharing basis" },
+  //               { pax: "Child Sharing with Extra Bed", price: "Euro 968 per child onwards" },
+  //               { pax: "Single Room Supplement", price: "Euro 618 onwards" },
+  //               { pax: "Below 2-year child", price: "Free of cost" },
+  //             ],
+  //           },
+  //           {
+  //             months: "Mar, Sept & Oct - 2026",
+  //             rows: [
+  //               { pax: "02 Pax", price: "Euro 1456 per person onwards on Twin/Double sharing basis" },
+  //               { pax: "04 Pax", price: "Euro 1411 per person onwards on Twin/Double sharing basis / Euro 1262 per person onwards on Triple sharing basis" },
+  //               { pax: "06 Pax", price: "Euro 1368 per person onwards on Twin/Double sharing basis / Euro 1219 per person onwards on Triple sharing basis" },
+  //               { pax: "Child Sharing with Extra Bed", price: "Euro 905 per child onwards" },
+  //               { pax: "Single Room Supplement", price: "Euro 569 onwards" },
+  //               { pax: "Below 2-year child", price: "Free of cost" },
+  //             ],
+  //           },
+  //         ],
+  //       },
+  //     ],
+  //   },
 
-    terms: [
-      "Booking should be received 45 days prior to arrival.",
-      "A 10% deposit of the total booking amount is required at the time of confirmation.",
-      "The offered rates are net and non-commissionable.",
-      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
-      "Rates and availability of the services are subject to change before any confirmation.",
-      "No bookings are made at the time of quotation.",
-      "Any extra services to be paid directly.",
-      "Driver tips to be paid directly.",
-      "Anything that is not mentioned in the inclusions list is always not included.",
-      "Cancellation Policy: As per our trading contract.",
-      "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
-    ],
+  //   terms: [
+  //     "Booking should be received 45 days prior to arrival.",
+  //     "A 10% deposit of the total booking amount is required at the time of confirmation.",
+  //     "The offered rates are net and non-commissionable.",
+  //     "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+  //     "Rates and availability of the services are subject to change before any confirmation.",
+  //     "No bookings are made at the time of quotation.",
+  //     "Any extra services to be paid directly.",
+  //     "Driver tips to be paid directly.",
+  //     "Anything that is not mentioned in the inclusions list is always not included.",
+  //     "Cancellation Policy: As per our trading contract.",
+  //     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  //   ],
 
-    images: [],
-  },
+  //   images: [],
+  // },
 
 
   {
@@ -6283,7 +6356,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     price: "EUR 918 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "06 Nights / 07 Days",
     rating: "",
-    image: "",
+    image: "/images/Lajuba/day-1.jpg",
     location: "Ljubljana, Salzburg, Munich",
     nextDate: "Available on Request",
 
@@ -6533,7 +6606,18 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/Lajuba/day-1.jpg",
+      "/images/Lajuba/day-2.jpg",
+      "/images/Lajuba/day-3.jpg",
+      "/images/Lajuba/day-4.jpg",
+      "/images/Lajuba/day-5.jpg",
+      "/images/Lajuba/day-6.jpg",
+      "/images/Lajuba/day-7.jpg",
+      "/images/Lajuba/extra1.jpg",
+      "/images/Lajuba/extra2.jpg",
+      "/images/Lajuba/extra3.jpg",
+    ],
   },
 
 
@@ -7822,7 +7906,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     price: "EUR 838 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "06 Nights / 07 Days",
     rating: "",
-    image: "",
+    image: "/images/wind/day-1.jpg",
     location: "Amsterdam, Paris",
     nextDate: "Available on Request",
 
@@ -8070,7 +8154,15 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/wind/day-1.jpg",
+      "/images/wind/day-2.jpg",
+      "/images/wind/day-3.jpg",
+      "/images/wind/day-4.jpg",
+      "/images/wind/day-5.jpg",
+      "/images/wind/day-6.jpg",
+      "/images/wind/day-7.jpg",
+    ],
   },
 
 
@@ -8346,8 +8438,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "best-of-barcelona-valencia-seville-madrid",
     price: "EUR 863 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "08 Nights / 09 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/Madrid7/day-1.jpg",
     location: "Barcelona, Valencia, Seville, Madrid, Spain",
     nextDate: "Available on Request",
 
@@ -8630,7 +8722,15 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+  "/images/Madrid7/day-1.jpg",
+  "/images/Madrid7/day-2.jpg",
+  "/images/Madrid7/day-3.jpg",
+  "/images/Madrid7/day-4.jpg",
+  "/images/Madrid7/day-5.jpg",
+  "/images/Madrid7/day-6.jpg",
+  "/images/Madrid7/day-7.jpg",
+],
   },
 
   {
@@ -8884,7 +8984,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "budapest-vienna-prague",
     price: "EUR 546 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Nov/Dec/Jan/Feb 2026-2027)
     days: "06 Nights / 07 Days",
-    rating: "",
+    rating: "4.9",
     image: "",
     location: "Budapest, Vienna, Prague",
     nextDate: "Available on Request",
@@ -10146,8 +10246,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "florence-pisa-rome-07n",
     price: "EUR 1015 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "07 Nights / 08 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/rom/day-1.jpg",
     location: "Florence, Pisa, Rome",
     nextDate: "Available on Request",
 
@@ -10413,7 +10513,16 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/rom/day-1.jpg",
+      "/images/rom/day-2.jpg",
+      "/images/rom/day-3.jpg",
+      "/images/rom/day-4.jpg",
+      "/images/rom/day-5.jpg",
+      "/images/rom/day-6.jpg",
+      "/images/rom/day-7.jpg",
+      "/images/rom/day-8.jpg",
+    ],
   },
 
   {
@@ -10421,8 +10530,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "milan-venice-florence-rome-09n",
     price: "EUR 930 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "09 Nights / 10 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image:  "/images/italy/day-1.jpg",
     location: "Milan, Venice, Florence, Rome",
     nextDate: "Available on Request",
 
@@ -10701,7 +10810,25 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/italy/day-1.jpg",
+      "/images/italy/day-2.jpg",
+      "/images/italy/day-3.jpg",
+      "/images/italy/day-4.jpg",
+      "/images/italy/day-5.jpg",
+      "/images/italy/day-6.jpg",
+      "/images/italy/day-7.jpg",
+      "/images/italy/day-8.jpg",
+      "/images/italy/day-9.jpg",
+      "/images/italy/day-10.jpg",
+      "/images/italy/extra1.jpg",
+      "/images/italy/extra2.jpg",
+      "/images/italy/extra3.jpg",
+      "/images/italy/extra4.jpg",
+      "/images/italy/extra5.jpg",
+      "/images/italy/extra6.jpg",
+      "/images/italy/extra7.jpg",
+    ],
   },
 
   {
@@ -10938,8 +11065,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "london-edinburgh-07n",
     price: "GBP 1259 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "07 Nights / 08 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/Grand/day-1.jpg",
     location: "London, Edinburgh",
     nextDate: "Available on Request",
 
@@ -11195,7 +11322,23 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/Grand/day-1.jpg",
+      "/images/Grand/day-2.jpg",
+      "/images/Grand/day-3.jpg",
+      "/images/Grand/day-4.jpg",
+      "/images/Grand/day-5.jpg",
+      "/images/Grand/day-6.jpg",
+      "/images/Grand/day-7.jpg",
+      "/images/Grand/extra1.jpg",
+      "/images/Grand/extra2.jpg",
+      "/images/Grand/extra3.jpg",
+      "/images/Grand/extra4.jpg",
+      "/images/Grand/extra5.jpg",
+      "/images/Grand/extra6.jpg",
+      "/images/Grand/extra7.jpg",
+      "/images/Grand/extra8.jpg",
+    ],
   },
 
   {
@@ -11460,8 +11603,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "munich-innsbruck-salzburg-vienna-08n",
     price: "EUR 1078 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Nov/Dec/Jan/Feb 2026-2027)
     days: "08 Nights / 09 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/Inns/day-1.jpg",
     location: "Munich, Innsbruck, Salzburg, Vienna",
     nextDate: "Available on Request",
 
@@ -11726,7 +11869,23 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/Inns/day-1.jpg",
+      "/images/Inns/day-2.jpg",
+      "/images/Inns/day-3.jpg",
+      "/images/Inns/day-4.jpg",
+      "/images/Inns/day-5.jpg",
+      "/images/Inns/day-6.jpg",
+      "/images/Inns/day-7.jpg",
+      "/images/Inns/day-8.jpg",
+      "/images/Inns/day-9.jpg",
+      "/images/Inns/extra1.jpg",
+      "/images/Inns/extra2.jpg",
+      "/images/Inns/extra3.jpg",
+      "/images/Inns/extra4.jpg",
+      "/images/Inns/extra5.jpg",
+      "/images/Inns/extra6.jpg",
+    ],
   },
 
   {
@@ -11734,8 +11893,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "munich-stuttgart-frankfurt-06n",
     price: "EUR 812 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Nov/Dec/Jan/Feb 2026-2027)
     days: "06 Nights / 07 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/Satu/day-1.jpg",
     location: "Munich, Stuttgart, Frankfurt",
     nextDate: "Available on Request",
 
@@ -11984,7 +12143,17 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/Satu/day-1.jpg",
+      "/images/Satu/day-2.jpg",
+      "/images/Satu/day-3.jpg",
+      "/images/Satu/day-4.jpg",
+      "/images/Satu/day-5.jpg",
+      "/images/Satu/day-6.jpg",
+      "/images/Satu/day-7.jpg",
+      "/images/Satu/extra1.jpg",
+      "/images/Satu/extra2.jpg",
+    ],
   },
 
   {
@@ -13047,9 +13216,11 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     price: "EUR 1053 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Nov/Dec/Jan/Feb 2026-27)
     days: "06 Nights / 07 Days",
     rating: "",
-    image: "",
+    image: zurich1,
     location: "Zurich, Innsbruck, Salzburg",
     nextDate: "Available on Request",
+
+    
 
     highlightsData: {
       locationCard: {
@@ -13293,16 +13464,24 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      zurich1,
+      zurich2,
+      zurich3,
+      zurich4,
+      zurich5,
+      zurich6,
+      zurich7],
   },
+
 
   {
     title: "Zurich + Bern + Geneva",
     slug: "zurich-bern-geneva-07n",
     price: "EUR 1428 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "07 Nights / 08 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/Bern/day-1.jpg",
     location: "Zurich, Bern, Geneva",
     nextDate: "Available on Request",
 
@@ -13556,7 +13735,15 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+   images: [
+  "/images/Bern/day-1.jpg",
+  "/images/Bern/day-2.jpg",
+  "/images/Bern/day-3.jpg",
+  "/images/Bern/day-4.jpg",
+  "/images/Bern/day-5.jpg",
+  "/images/Bern/day-6.jpg",
+  "/images/Bern/day-7.jpg",
+],
   },
 
   {
@@ -13564,8 +13751,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "vienna-budapest-prague-06n",
     price: "EUR 546 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Nov/Dec/Jan/Feb 2026-27)
     days: "06 Nights / 07 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image:  "/images/Pergue/day-1.jpg",
     location: "Vienna, Budapest, Prague",
     nextDate: "Available on Request",
 
@@ -13812,7 +13999,15 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/Pergue/day-1.jpg",
+      "/images/Pergue/day-2.jpg",
+      "/images/Pergue/day-3.jpg",
+      "/images/Pergue/day-4.jpg",
+      "/images/Pergue/day-5.jpg",
+      "/images/Pergue/day-6.jpg",
+      "/images/Pergue/day-7.jpg",
+    ],
   },
 
   {
@@ -14615,6 +14810,15148 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
 
     images: [],
   },
+
+  // ============================================================
+// 1) Best of Barcelona + Valencia + Seville + Madrid || 07N/08D
+// (Source: Barcelona_2N_Valencia_1N_Neville_2N_Madrid_2N.pdf)
+// ============================================================
+{
+  title: "Best of Barcelona + Valencia + Seville + Madrid",
+  slug: "barcelona-valencia-seville-madrid-07n",
+  price: "EUR 737 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
+  days: "07 Nights / 08 Days",
+  rating: "",
+  image: "",
+  location: "Barcelona, Valencia, Seville, Madrid",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "4 Destinations, 07 Nights",
+      places: "Barcelona, Valencia, Seville, Madrid",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "07 Nights Accommodation",
+      "Private Airport Transfers",
+    ],
+
+    highlights: [
+      "Sagrada Familia",
+      "Park Güell",
+      "City of Arts and Sciences, Valencia",
+      "Royal Alcázar, Seville",
+      "Plaza de España, Seville",
+      "Maria Luisa Park, Seville",
+      "Santa Cruz Jewish Quarter, Seville",
+      "Royal Palace, Madrid",
+      "Prado Museum, Madrid",
+      "Puerta de Alcalá, Madrid",
+      "El Retiro Park, Madrid",
+      "Royal Botanic Gardens, Madrid",
+      "Cibeles Palace, Madrid",
+      "Almudena Cathedral, Madrid",
+    ],
+
+    experiences: [
+      {
+        title: "Barcelona Hop-On Hop-Off Tours",
+        desc: "Barcelona hop-on hop-off tours are a convenient way to see the city's main attractions using a double-decker bus that runs on two different routes. You can purchase 24- or 48-hour passes that allow unlimited stops at key landmarks like the Sagrada Familia and Park Güell, with the buses providing audio commentary and free Wi-Fi.",
+      },
+      {
+        title: "Seville 01 Day Hop on Hop off Bus Tour",
+        desc: "Hop on board one of bright red buses to see the best of Seville - the artistic, cultural, and financial capital of southern Spain. With 14 bus stops around this historical masterpiece of a city, you will see so much from prestigious Islamic monuments, to gardens and Flamenco festivals. Sit back and enjoy the panoramic view from the open top bus and hop on and off at your convenience! Join the free walking tours to find out even more about Seville: discover Plaza de España and Maria Luisa Park, the Jewish quarter, Santa Cruz, with the buses providing audio commentary and free Wi-Fi.",
+      },
+      {
+        title: "Madrid City Tour (SIC Basis – 1.5 hrs approx.)",
+        desc: "Covering key highlights of Madrid including historical monuments, iconic squares, and architectural landmarks. Experience the best of Madrid on a Big Bus open-top sightseeing tour! Sit back and soak up the city's vibrant energy as your live guide shares the stories behind iconic landmarks like the Royal Palace, Prado Museum, and Puerta de Alcalá. Cruise through lush parks like El Retiro and the Royal Botanic Gardens, and marvel at stunning architecture like Cibeles Palace and Almudena Cathedral.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Barcelona – Arrival",
+      desc: "Welcome to Barcelona – The City of Gaudí! Your adventure begins with a smooth transfer from the airport to your hotel, where you'll be ready to immerse yourself in the magic of Barcelona. Whether you're here for the art, the culture, the fashion, or the food, Barcelona offers an abundance of experiences waiting to be explored. Overnight Stay in Barcelona.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Barcelona – Barcelona hop-on hop-off tours",
+      desc: "Breakfast at Hotel. After breakfast proceed to Barcelona hop-on hop-off tours are a convenient way to see the city's main attractions using a double-decker bus that runs on two different routes. You can purchase 24- or 48-hour passes that allow unlimited stops at key landmarks like the Sagrada Familia and Park Güell, with the buses providing audio commentary and free Wi-Fi. Overnight stay at Barcelona.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Barcelona - Valencia",
+      desc: "After Breakfast Check-out from Barcelona Hotel. Train from Barcelona to Valencia. Travelling by train from Barcelona to Valencia you can take the AVE high-speed train, which takes around 3-3.5 hours, or the Euromed train, which takes around 3-4 hours. Both trains offer comfortable seating, Wi-Fi, and scenic views of the Mediterranean coast. Some popular trains include: AVE: High-speed train (around 3 hours); Euromed: High-speed train (around 3-4 hours); Iryo: Modern, high-speed train (around 3 hours). Welcome to Valencia! Valencia, the City of Arts and Sciences, is a vibrant and stunning destination on Spain's eastern coast. Known for its beautiful beaches, futuristic architecture, and rich cultural heritage, Valencia is a must-visit! Enjoy the city's delicious cuisine, including paella, and explore the historic center, filled with charming streets and tapas bars! Overnight stay at Valencia.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Valencia – Seville",
+      desc: "After Breakfast Check-out from Valencia Hotel. Train from Valencia to Seville. Travelling by train from Valencia to Seville is a great way to see Spain's diverse landscapes! The journey takes around 6-8 hours, depending on the train and route. You can take the AVE high-speed train with a change in Madrid, or opt for a more scenic route with Renfe's Intercity trains. Some popular trains include: AVE: High-speed train with a change in Madrid (around 6 hours); Renfe Intercity: Scenic route with multiple changes (around 8 hours). Welcome to Seville! Seville, the Pearl of Andalusia, is a city of passion, history, and beauty! Known for its stunning architecture, rich culture, and vibrant flamenco music, Seville is a must-visit destination. Overnight stay at Seville.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Seville - Seville 01 Day Hop on Hop off bus tour",
+      desc: "Breakfast at Hotel. After breakfast proceed to Seville Hop on Hop off Bus Tour - Hop on board one of bright red buses to see the best of Seville - the artistic, cultural, and financial capital of southern Spain. With 14 bus stops around this historical masterpiece of a city, you will see so much from prestigious Islamic monuments, to gardens and Flamenco festivals. Sit back and enjoy the panoramic view from the open top bus and hop on and off at your convenience! Join the free walking tours to find out even more about Seville: discover Plaza de España and Maria Luisa Park, the Jewish quarter, Santa Cruz, with the buses providing audio commentary and free Wi-Fi. Overnight Stay in Seville.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Seville – Madrid",
+      desc: "After Breakfast Check-out from Seville Hotel. Travelling by train from Seville to Madrid is an amazing experience! The AVE high-speed trains are super comfortable, and you can enjoy the beautiful Spanish countryside rolling by. The journey takes around 2.5-4 hours, depending on the train and class. Welcome Madrid! The vibrant capital of Spain, Madrid is a city of art, culture, and passion! Known for its stunning architecture, world-class museums, and lively nightlife, Madrid is a must-visit destination. Overnight Stay in Madrid.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Madrid – Madrid City Tour (SIC Basis – 1.5 hrs approx.)",
+      desc: "After breakfast, enjoy the Madrid City Tour on SIC Basis, covering key highlights of Madrid including historical monuments, iconic squares, and architectural landmarks. Afternoon and evening at leisure. Experience the best of Madrid on a Big Bus open-top sightseeing tour! Sit back and soak up the city's vibrant energy as your live guide shares the stories behind iconic landmarks like the Royal Palace, Prado Museum, and Puerta de Alcalá. Cruise through lush parks like El Retiro and the Royal Botanic Gardens, and marvel at stunning architecture like Cibeles Palace and Almudena Cathedral. Overnight stay at Madrid.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Madrid – Departure",
+      desc: "After Breakfast Check-out from Madrid Hotel. After breakfast proceed to airport with private transfer.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable.",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly.",
+    "Driver tips to be paid directly.",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract.",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  inclusions: {
+    included: [
+      "07 Nights’ Accommodation with Breakfast",
+      "Private Transfer from Barcelona Airport to Barcelona Hotel",
+      "Barcelona 01 Day Hop on Hop off bus tour",
+      "Madrid City Tour on SIC Basis (1.5hrs approx.)",
+      "Seville 01 Day Hop on Hop off bus tour",
+      "Private Transfer from Madrid Hotel to Madrid Airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or any other charges/ expenses not mentioned in Inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers, etc",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "Optional Cost for Train (Price is not applicable during fair/Events dates)",
+    items: [
+      {
+        name: "Barcelona – Valencia / Valencia – Seville / Seville – Madrid standard class train ticket – on actual basis",
+        price: "EUR 180 – 200 per person",
+      },
+      { name: "Entrance to Park Guell", price: "EUR 22 per person" },
+      { name: "Entrance to Sagrada Familia", price: "EUR 30 per person" },
+      { name: "Entrance to Royal Alcázar", price: "EUR 32 per person" },
+      { name: "Tour Bernabéu Entry Ticket", price: "EUR 37 per person" },
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+        hotels: [
+          { location: "Barcelona 2N", hotel: "NH Barcelona Eixample or Similar" },
+          { location: "Valencia 1N", hotel: "Hotel Ilunion Valencia 3 or similar" },
+          { location: "Seville 2N", hotel: "ibis Styles Sevilla Santa Justa or similar" },
+          { location: "Madrid 2N", hotel: "Leonardo Boutique Hotel Madrid or similar" },
+        ],
+        seasons: [
+          {
+            months: "Jan, Feb, Nov, Dec - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 737 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 715 per person onwards on Twin/Double sharing basis / EUR 674 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 702 per person onwards on Twin/Double sharing basis / EUR 648 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 469 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 398 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 840 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 818 per person onwards on Twin/Double sharing basis / EUR 713 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 805 per person onwards on Twin/Double sharing basis / EUR 687 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 674 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 309 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sept, Oct - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 782 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 760 per person onwards on Twin/Double sharing basis / EUR 738 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 747 per person onwards on Twin/Double sharing basis / EUR 712 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 461 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 403 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+      {
+        category: "Option 2 – 4* Hotel",
+        hotels: [
+          { location: "Barcelona 2N", hotel: "Hotel Derby or Similar" },
+          { location: "Valencia 1N", hotel: "Hotel Ilunion Valencia 4 or similar" },
+          { location: "Seville 2N", hotel: "Hotel Sevilla Center or similar" },
+          { location: "Madrid 2N", hotel: "Hotel Agora Juan De Austria or similar" },
+        ],
+        seasons: [
+          {
+            months: "Jan, Feb, Nov, Dec - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 748 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 726 per person onwards on Twin/Double sharing basis / EUR 683 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 713 per person onwards on Twin/Double sharing basis / EUR 657 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 494 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 410 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 912 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 890 per person onwards on Twin/Double sharing basis / EUR 854 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 877 per person onwards on Twin/Double sharing basis / EUR 828 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 669 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 588 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sept, Oct - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 831 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 809 per person onwards on Twin/Double sharing basis / EUR 743 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 796 per person onwards on Twin/Double sharing basis / EUR 717 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 458 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 455 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable.",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly.",
+    "Driver tips to be paid directly.",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract.",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images: [],
+},
+
+
+// ============================================================
+// 2) Best of Barcelona + Valencia + Malaga + Seville || 06N/07D
+// (Source: Barcelona_2N_Valencia_1N_Malaga_1N_Seville_2N.pdf)
+// ============================================================
+{
+  title: "Best of Barcelona + Valencia + Malaga + Seville",
+  slug: "barcelona-valencia-malaga-seville-06n",
+  price: "EUR 618 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+  image: "/images/Malaga/day-1.jpg",
+  location: "Barcelona, Valencia, Malaga, Seville",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "4 Destinations, 06 Nights",
+      places: "Barcelona, Valencia, Malaga, Seville",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Private Airport Transfers",
+    ],
+
+    highlights: [
+      "Sagrada Familia",
+      "Park Güell",
+      "City of Arts and Sciences, Valencia",
+      "Málaga – birthplace of Picasso",
+      "Royal Alcázar, Seville",
+      "Plaza de España, Seville",
+      "Maria Luisa Park, Seville",
+      "Santa Cruz Jewish Quarter, Seville",
+    ],
+
+    experiences: [
+      {
+        title: "Barcelona Hop-On Hop-Off Tours",
+        desc: "Barcelona hop-on hop-off tours are a convenient way to see the city's main attractions using a double-decker bus that runs on two different routes. You can purchase 24- or 48-hour passes that allow unlimited stops at key landmarks like the Sagrada Familia and Park Güell, with the buses providing audio commentary and free Wi-Fi.",
+      },
+      {
+        title: "Seville 01 Day Hop on Hop off Bus Tour",
+        desc: "Hop on board one of bright red buses to see the best of Seville - the artistic, cultural, and financial capital of southern Spain. With 14 bus stops around this historical masterpiece of a city, you will see so much from prestigious Islamic monuments, to gardens and Flamenco festivals. Sit back and enjoy the panoramic view from the open top bus and hop on and off at your convenience! Join the free walking tours to find out even more about Seville: discover Plaza de España and Maria Luisa Park, the Jewish quarter, Santa Cruz, with the buses providing audio commentary and free Wi-Fi.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Barcelona – Arrival",
+      desc: "Welcome to Barcelona – The City of Gaudí! Your adventure begins with a smooth transfer from the airport to your hotel, where you'll be ready to immerse yourself in the magic of Barcelona. Whether you're here for the art, the culture, the fashion, or the food, Barcelona offers an abundance of experiences waiting to be explored. Overnight Stay in Barcelona.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Barcelona – Barcelona hop-on hop-off tours",
+      desc: "Breakfast at Hotel. After breakfast proceed to Barcelona hop-on hop-off tours are a convenient way to see the city's main attractions using a double-decker bus that runs on two different routes. You can purchase 24- or 48-hour passes that allow unlimited stops at key landmarks like the Sagrada Familia and Park Güell, with the buses providing audio commentary and free Wi-Fi. Overnight stay at Barcelona.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Barcelona - Valencia",
+      desc: "After Breakfast Check-out from Barcelona Hotel. Train from Barcelona to Valencia. Travelling by train from Barcelona to Valencia you can take the AVE high-speed train, which takes around 3-3.5 hours, or the Euromed train, which takes around 3-4 hours. Both trains offer comfortable seating, Wi-Fi, and scenic views of the Mediterranean coast. Some popular trains include: AVE: High-speed train (around 3 hours); Euromed: High-speed train (around 3-4 hours); Iryo: Modern, high-speed train (around 3 hours). Welcome to Valencia! Valencia, the City of Arts and Sciences, is a vibrant and stunning destination on Spain's eastern coast. Known for its beautiful beaches, futuristic architecture, and rich cultural heritage, Valencia is a must-visit! Enjoy the city's delicious cuisine, including paella, and explore the historic center, filled with charming streets and tapas bars! Overnight stay at Valencia.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Valencia - Malaga",
+      desc: "After Breakfast Check-out from Valencia Hotel. Train from Valencia to Malaga. The train journey from Valencia to Malaga is a great way to see Spain's southern landscapes! You can take the AVE high-speed train, which takes around 4-5 hours with a change in Madrid or direct. Some popular trains include: AVE: High-speed train (around 4-5 hours); Renfe Intercity: Scenic route with multiple changes (around 6-8 hours). Welcome to Malaga! Málaga, the birthplace of Picasso, is a vibrant coastal city with a rich history, stunning architecture, and beautiful beaches! Known for its warm climate, tapas, and cultural heritage, Málaga is a fantastic destination. Overnight stay at Seville.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Malaga – Seville",
+      desc: "After Breakfast Check-out from Valencia Hotel. Train from Valencia to Seville. Travelling by train from Valencia to Seville is a great way to see Spain's diverse landscapes! The journey takes around 6-8 hours, depending on the train and route. You can take the AVE high-speed train with a change in Madrid, or opt for a more scenic route with Renfe's Intercity trains. Some popular trains include: AVE: High-speed train with a change in Madrid (around 6 hours); Renfe Intercity: Scenic route with multiple changes (around 8 hours). Welcome to Seville! Seville, the Pearl of Andalusia, is a city of passion, history, and beauty! Known for its stunning architecture, rich culture, and vibrant flamenco music, Seville is a must-visit destination. Overnight stay at Seville.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Seville - Seville 01 Day Hop on Hop off bus tour",
+      desc: "Breakfast at Hotel. After breakfast proceed to Seville Hop on Hop off Bus Tour - Hop on board one of bright red buses to see the best of Seville - the artistic, cultural, and financial capital of southern Spain. With 14 bus stops around this historical masterpiece of a city, you will see so much from prestigious Islamic monuments, to gardens and Flamenco festivals. Sit back and enjoy the panoramic view from the open top bus and hop on and off at your convenience! Join the free walking tours to find out even more about Seville: discover Plaza de España and Maria Luisa Park, the Jewish quarter, Santa Cruz, with the buses providing audio commentary and free Wi-Fi. Overnight Stay in Seville.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Seville – Departure",
+      desc: "After Breakfast Check-out from Madrid Hotel. After breakfast proceed to airport with private transfer.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable.",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly.",
+    "Driver tips to be paid directly.",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract.",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights’ Accommodation with Breakfast",
+      "Private Transfer from Barcelona Airport to Barcelona Hotel",
+      "Barcelona 01 Day Hop on Hop off bus tour",
+      "Seville 01 Day Hop on Hop off bus tour",
+      "Private Transfer from Seville Hotel to Seville Airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or any other charges/ expenses not mentioned in Inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers, etc",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "Optional Cost for Train (Price is not applicable during fair/Events dates)",
+    items: [
+      {
+        name: "Barcelona – Valencia / Valencia – Malaga / Malaga – Seville standard class train ticket – on actual basis",
+        price: "EUR 185 – 195 per person",
+      },
+      { name: "Entrance to Park Guell", price: "EUR 22 per person" },
+      { name: "Entrance to Sagrada Familia", price: "EUR 30 per person" },
+      { name: "Entrance to Royal Alcázar", price: "EUR 32 per person" },
+      { name: "Tour Bernabéu Entry Ticket", price: "EUR 37 per person" },
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+        hotels: [
+          { location: "Barcelona 2N", hotel: "NH Barcelona Eixample or Similar" },
+          { location: "Valencia 1N", hotel: "Hotel Ilunion Valencia 3 or similar" },
+          { location: "Malaga 1N", hotel: "Líbere Málaga Trinidad or Similar" },
+          { location: "Seville 2N", hotel: "ibis Styles Sevilla Santa Justa or similar" },
+        ],
+        seasons: [
+          {
+            months: "Jan, Feb, Nov, Dec - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 618 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 616 per person onwards on Twin/Double sharing basis / EUR 596 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 604 per person onwards on Twin/Double sharing basis / EUR 584 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 531 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 430 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 690 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 668 per person onwards on Twin/Double sharing basis / EUR 636 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 656 per person onwards on Twin/Double sharing basis / EUR 624 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 497 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 530 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sept, Oct - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 678 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 656 per person onwards on Twin/Double sharing basis / EUR 556 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 644 per person onwards on Twin/Double sharing basis / EUR 544 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 471 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 230 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+      {
+        category: "Option 2 – 4* Hotel",
+        hotels: [
+          { location: "Barcelona 2N", hotel: "Hotel Derby or Similar" },
+          { location: "Valencia 1N", hotel: "Hotel Ilunion Valencia 4 or similar" },
+          { location: "Malaga 1N", hotel: "Novotel Suites Malaga Centro or Similar" },
+          { location: "Seville 2N", hotel: "Hotel Sevilla Centre or similar" },
+        ],
+        seasons: [
+          {
+            months: "Jan, Feb, Nov, Dec - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 673 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 651 per person onwards on Twin/Double sharing basis / EUR 616 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 639 per person onwards on Twin/Double sharing basis / EUR 604 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 551 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 450 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 728 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 706 per person onwards on Twin/Double sharing basis / EUR 682 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 694 per person onwards on Twin/Double sharing basis / EUR 670 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 559 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 498 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sept, Oct - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 682 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 660 per person onwards on Twin/Double sharing basis / EUR 616 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 648 per person onwards on Twin/Double sharing basis / EUR 604 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 473 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 392 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable.",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly.",
+    "Driver tips to be paid directly.",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract.",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images: [
+  "/images/Malaga/day-1.jpg",
+  "/images/Malaga/day-2.jpg",
+  "/images/Malaga/day-3.jpg",
+  "/images/Malaga/day-4.jpg",
+  "/images/Malaga/day-5.jpg",
+  "/images/Malaga/day-6.jpg",
+
+],
+
+},
+
+
+// ============================================================
+// 3) Best of Barcelona + Madrid || 04N/05D
+// (Source: Barcelona_2N_Madrid_2N.pdf)
+// ============================================================
+{
+  title: "Best of Barcelona + Madrid",
+  slug: "barcelona-madrid-04n",
+  price: "EUR 543 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
+  days: "04 Nights / 05 Days",
+  rating: "",
+  image: "",
+  location: "Barcelona, Madrid",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "2 Destinations, 04 Nights",
+      places: "Barcelona, Madrid",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "04 Nights Accommodation",
+      "Private Airport Transfers",
+    ],
+
+    highlights: [
+      "Sagrada Familia",
+      "Park Güell",
+      "Royal Palace, Madrid",
+      "Prado Museum, Madrid",
+      "Puerta de Alcalá, Madrid",
+      "El Retiro Park, Madrid",
+      "Royal Botanic Gardens, Madrid",
+      "Cibeles Palace, Madrid",
+      "Almudena Cathedral, Madrid",
+    ],
+
+    experiences: [
+      {
+        title: "Barcelona Hop-On Hop-Off Tours",
+        desc: "Barcelona hop-on hop-off tours are a convenient way to see the city's main attractions using a double-decker bus that runs on two different routes. You can purchase 24- or 48-hour passes that allow unlimited stops at key landmarks like the Sagrada Familia and Park Güell, with the buses providing audio commentary and free Wi-Fi.",
+      },
+      {
+        title: "Madrid City Tour (SIC Basis – 1.5 hrs approx.)",
+        desc: "Covering key highlights of Madrid including historical monuments, iconic squares, and architectural landmarks. Experience the best of Madrid on a Big Bus open-top sightseeing tour! Sit back and soak up the city's vibrant energy as your live guide shares the stories behind iconic landmarks like the Royal Palace, Prado Museum, and Puerta de Alcalá. Cruise through lush parks like El Retiro and the Royal Botanic Gardens, and marvel at stunning architecture like Cibeles Palace and Almudena Cathedral.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Barcelona – Arrival",
+      desc: "Welcome to Barcelona – The City of Gaudí! Your adventure begins with a smooth transfer from the airport to your hotel, where you'll be ready to immerse yourself in the magic of Barcelona. Whether you're here for the art, the culture, the fashion, or the food, Barcelona offers an abundance of experiences waiting to be explored. Overnight Stay in Barcelona.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Barcelona – Barcelona hop-on hop-off tours",
+      desc: "Breakfast at Hotel. After breakfast proceed to Barcelona hop-on hop-off tours are a convenient way to see the city's main attractions using a double-decker bus that runs on two different routes. You can purchase 24- or 48-hour passes that allow unlimited stops at key landmarks like the Sagrada Familia and Park Güell, with the buses providing audio commentary and free Wi-Fi. Overnight stay at Barcelona.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Barcelona - Madrid",
+      desc: "After Breakfast Check-out from Barcelona Hotel. Travelling by train from Barcelona to Madrid is a breeze! The high-speed train journey takes around 2 hours and 30 minutes, covering a distance of approximately 505 kilometers. You'll have plenty of options to choose from, with around 40-50 trains operating daily, including Renfe AVE, iryo, Ouigo, and Avlo. Welcome Madrid! The vibrant capital of Spain, Madrid is a city of art, culture, and passion! Known for its stunning architecture, world-class museums, and lively nightlife, Madrid is a must-visit destination. Overnight stay at Madrid.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Madrid – Madrid City Tour (SIC Basis – 1.5 hrs approx.)",
+      desc: "After breakfast, enjoy the Madrid City Tour on SIC Basis, covering key highlights of Madrid including historical monuments, iconic squares, and architectural landmarks. Afternoon and evening at leisure. Experience the best of Madrid on a Big Bus open-top sightseeing tour! Sit back and soak up the city's vibrant energy as your live guide shares the stories behind iconic landmarks like the Royal Palace, Prado Museum, and Puerta de Alcalá. Cruise through lush parks like El Retiro and the Royal Botanic Gardens, and marvel at stunning architecture like Cibeles Palace and Almudena Cathedral. Overnight stay at Madrid.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Madrid – Departure",
+      desc: "After Breakfast Check-out from Madrid Hotel. After breakfast proceed to airport with private transfer.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable.",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly.",
+    "Driver tips to be paid directly.",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract.",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  inclusions: {
+    included: [
+      "04 Nights’ Accommodation with Breakfast",
+      "Private Transfer from Barcelona Airport to Barcelona Hotel",
+      "Barcelona 01 Day Hop on Hop off bus tour",
+      "Madrid City Tour on SIC Basis (1.5hrs approx.)",
+      "Private Transfer from Madrid Hotel to Madrid Airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or any other charges/ expenses not mentioned in Inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers, etc",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "Optional Cost for Tour (Price is not applicable during fair/Events dates)",
+    items: [
+      { name: "Entrance to Park Guell", price: "EUR 22 per person" },
+      { name: "Entrance to Sagrada Familia", price: "EUR 30 per person" },
+      { name: "Entrance to Royal Alcázar", price: "EUR 32 per person" },
+      { name: "Tour Bernabéu Entry Ticket", price: "EUR 37 per person" },
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+        hotels: [
+          { location: "Barcelona 2N", hotel: "NH Barcelona Eixample or Similar" },
+          { location: "Madrid 2N", hotel: "Leonardo Boutique Hotel Madrid or similar" },
+        ],
+        seasons: [
+          {
+            months: "Jan, Feb, Nov, Dec - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 543 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 521 per person onwards on Twin/Double sharing basis / EUR 476 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 508 per person onwards on Twin/Double sharing basis / EUR 460 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 297 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 249 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 617 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 595 per person onwards on Twin/Double sharing basis / EUR 566 per person on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 582 per person onwards on Twin/Double sharing basis / EUR 540 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 399 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 341 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sept, Oct - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 580 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 558 per person onwards on Twin/Double sharing basis / EUR 511 per person on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 545 per person onwards on Twin/Double sharing basis / EUR 465 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 268 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 210 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+      {
+        category: "Option 2 – 4* Hotel",
+        hotels: [
+          { location: "Barcelona 2N", hotel: "Hotel Derby or Similar" },
+          { location: "Madrid 2N", hotel: "Hotel Agora Juan De Austria or similar" },
+        ],
+        seasons: [
+          {
+            months: "Jan, Feb, Nov, Dec - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 549 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 527 per person onwards on Twin/Double sharing basis / EUR 481 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 524 per person onwards on Twin/Double sharing basis / EUR 485 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 305 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 142 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 635 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 613 per person onwards on Twin/Double sharing basis / EUR 602 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 600 per person onwards on Twin/Double sharing basis / EUR 576 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 471 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 413 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sept, Oct - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 585 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 563 per person onwards on Twin/Double sharing basis / EUR 551 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 550 per person onwards on Twin/Double sharing basis / EUR 485 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 348 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 290 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable.",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly.",
+    "Driver tips to be paid directly.",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract.",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images: [],
+},
+
+
+// ============================================================
+// 4) Best of Barcelona + Ibiza + Madrid || 06N/07D
+// (Source: Barcelona_2N_Ibiza_2N_Madrid_2N.pdf)
+// ============================================================
+{
+  title: "Best of Barcelona + Ibiza + Madrid",
+  slug: "barcelona-ibiza-madrid-06n",
+  price: "EUR 780 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+ image: "/images/Ibiza/day-1.jpg",
+  location: "Barcelona, Ibiza, Madrid",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Barcelona, Ibiza, Madrid",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Private Transfers Included",
+    ],
+
+    highlights: [
+      "Sagrada Familia",
+      "Park Güell",
+      "Ibiza Town (Eivissa)",
+      "Royal Palace, Madrid",
+      "Prado Museum, Madrid",
+      "Puerta de Alcalá, Madrid",
+      "El Retiro Park, Madrid",
+      "Royal Botanic Gardens, Madrid",
+      "Cibeles Palace, Madrid",
+      "Almudena Cathedral, Madrid",
+    ],
+
+    experiences: [
+      {
+        title: "Barcelona Hop-On Hop-Off Tours",
+        desc: "Barcelona hop-on hop-off tours are a convenient way to see the city's main attractions using a double-decker bus that runs on two different routes. You can purchase 24- or 48-hour passes that allow unlimited stops at key landmarks like the Sagrada Familia and Park Güell, with the buses providing audio commentary and free Wi-Fi.",
+      },
+      {
+        title: "Madrid City Tour (SIC Basis – 1.5 hrs approx.)",
+        desc: "Covering key highlights of Madrid including historical monuments, iconic squares, and architectural landmarks. Experience the best of Madrid on a Big Bus open-top sightseeing tour! Sit back and soak up the city's vibrant energy as your live guide shares the stories behind iconic landmarks like the Royal Palace, Prado Museum, and Puerta de Alcalá. Cruise through lush parks like El Retiro and the Royal Botanic Gardens, and marvel at stunning architecture like Cibeles Palace and Almudena Cathedral.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Barcelona – Arrival",
+      desc: "Welcome to Barcelona – The City of Gaudí! Your adventure begins with a smooth transfer from the airport to your hotel, where you'll be ready to immerse yourself in the magic of Barcelona. Whether you're here for the art, the culture, the fashion, or the food, Barcelona offers an abundance of experiences waiting to be explored. Overnight Stay in Barcelona.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Barcelona – Barcelona hop-on hop-off tours",
+      desc: "Breakfast at Hotel. After breakfast proceed to Barcelona hop-on hop-off tours are a convenient way to see the city's main attractions using a double-decker bus that runs on two different routes. You can purchase 24- or 48-hour passes that allow unlimited stops at key landmarks like the Sagrada Familia and Park Güell, with the buses providing audio commentary and free Wi-Fi. Overnight stay at Barcelona.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Barcelona - Ibiza",
+      desc: "After Breakfast Check-out from Barcelona Hotel. After breakfast, check out and proceed to the airport for your flight to Ibiza. Upon arrival, take your private transfer to your hotel. Rest of the day at leisure on the island. Welcome to Ibiza! The White Island, Ibiza, is a paradise of sun, sea, and vibrant nightlife! Known for its stunning beaches, crystal-clear waters, and world-class clubs, Ibiza is a top destination for travellers. Overnight stay at Ibiza.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Ibiza – Day Free",
+      desc: "Breakfast at Hotel. You've got a whole day to unwind and soak up the Ibiza vibes. Whether you want to lounge on the beach, explore the charming old town, or try some delicious local cuisine, the island is all yours! Ibiza is known for its stunning beaches, vibrant nightlife, and beautiful landscapes. The main city is called Ibiza Town, also known as Eivissa. Overnight stay at Ibiza.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Ibiza - Madrid",
+      desc: "After Breakfast Check-out from Ibiza Hotel. After breakfast, check out from your hotel and take your private transfer to Ibiza Airport for your onward journey to Madrid. Upon arrival, check in at your hotel and enjoy free time in the Spanish capital. Overnight stay at Madrid.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Madrid – Madrid City Tour (SIC Basis – 1.5 hrs approx.)",
+      desc: "After breakfast, enjoy the Madrid City Tour on SIC Basis, covering key highlights of Madrid including historical monuments, iconic squares, and architectural landmarks. Afternoon and evening at leisure. Experience the best of Madrid on a Big Bus open-top sightseeing tour! Sit back and soak up the city's vibrant energy as your live guide shares the stories behind iconic landmarks like the Royal Palace, Prado Museum, and Puerta de Alcalá. Cruise through lush parks like El Retiro and the Royal Botanic Gardens, and marvel at stunning architecture like Cibeles Palace and Almudena Cathedral. Overnight stay at Madrid.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Madrid – Departure",
+      desc: "After Breakfast Check-out from Madrid Hotel. After breakfast proceed to airport with private transfer.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable.",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly.",
+    "Driver tips to be paid directly.",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract.",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights’ Accommodation with Breakfast",
+      "Private Transfer from Barcelona Airport to Barcelona Hotel",
+      "Barcelona 01 Day Hop on Hop off bus tour",
+      "Private Transfer from Ibiza Airport to Ibiza Hotel",
+      "Private Transfer from Ibiza Hotel to Ibiza Airport",
+      "Madrid City Tour on SIC Basis (1.5hrs approx.)",
+      "Private Transfer from Madrid Hotel to Madrid Airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or any other charges/ expenses not mentioned in Inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers, etc",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "Optional Cost for Tour (Price is not applicable during fair/Events dates)",
+    items: [
+      { name: "Entrance to Park Guell", price: "EUR 22 per person" },
+      { name: "Entrance to Sagrada Familia", price: "EUR 30 per person" },
+      { name: "Entrance to Royal Alcázar", price: "EUR 32 per person" },
+      { name: "Tour Bernabéu Entry Ticket", price: "EUR 37 per person" },
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+        hotels: [
+          { location: "Barcelona 2N", hotel: "Hotel Derby or Similar" },
+          { location: "Ibiza 2N", hotel: "Eurostars Ibiza or Similar" },
+          { location: "Madrid 2N", hotel: "Leonardo Boutique Hotel Madrid or similar" },
+        ],
+        seasons: [
+          {
+            months: "Jan, Feb, Nov, Dec - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 780 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 726 per person onwards on Twin/Double sharing basis / EUR 656 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 695 per person onwards on Twin/Double sharing basis / EUR 606 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 290 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 277 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 906 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 862 per person onwards on Twin/Double sharing basis / EUR 767 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 831 per person onwards on Twin/Double sharing basis / EUR 736 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 453 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 385 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sept, Oct - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 841 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 787 per person onwards on Twin/Double sharing basis / EUR 741 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 756 per person onwards on Twin/Double sharing basis / EUR 681 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 438 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 380 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+      {
+        category: "Option 2 – 4* Hotel",
+        hotels: [
+          { location: "Barcelona 2N", hotel: "Hotel Derby or Similar" },
+          { location: "Ibiza 2N", hotel: "Eurostars Ibiza or Similar" },
+          { location: "Madrid 2N", hotel: "Hotel Agora Juan De Austria or similar" },
+        ],
+        seasons: [
+          {
+            months: "Jan, Feb, Nov, Dec - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 805 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 751 per person onwards on Twin/Double sharing basis / EUR 717 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 730 per person onwards on Twin/Double sharing basis / EUR 686 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 375 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 297 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 966 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 921 per person onwards on Twin/Double sharing basis / EUR 781 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 861 per person onwards on Twin/Double sharing basis / EUR 751 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 468 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 410 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sept, Oct - 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 821 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 767 per person onwards on Twin/Double sharing basis / EUR 727 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 736 per person onwards on Twin/Double sharing basis / EUR 696 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 523 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 465 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable.",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly.",
+    "Driver tips to be paid directly.",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract.",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images: [
+  "/images/Ibiza/day-1.jpg",
+  "/images/Ibiza/day-2.jpg",
+  "/images/Ibiza/day-3.jpg",
+  "/images/Ibiza/day-4.jpg",
+  "/images/Ibiza/day-5.jpg",
+  "/images/Ibiza/day-6.jpg",
+  "/images/Ibiza/extra1.jpg",
+  "/images/Ibiza/extra2.jpg",
+  "/images/Ibiza/extra3.jpg",
+  "/images/Ibiza/extra4.jpg",
+],
+},
+
+{
+  title: "From Gaudí’s Barcelona to Andalusian Seville",
+  slug: "barcelona-madrid-seville-08n",
+  price: "EUR 1066 per person onwards",
+  days: "08 Nights / 09 Days",
+  rating:  "",
+  image: "/images/gau/day-1.jpg",
+  location: "Barcelona, Madrid, Seville",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 08 Nights",
+      places: "Barcelona, Madrid, Seville",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "08 Nights Accommodation",
+      "Private Transfers Included",
+    ],
+
+    highlights: [
+      "Sagrada Família",
+      "Montserrat",
+      "Girona",
+      "Costa Brava",
+      "Madrid Panoramic Bus Tour",
+      "Royal Palace",
+      "Segovia",
+      "Toledo",
+      "Seville Hop-On Hop-Off",
+      "Royal Alcázar of Seville",
+      "Flamenco Show",
+    ],
+
+    experiences: [
+      {
+        title: "Barcelona – City Tour with Hop-On Hop-Off & Sagrada Família",
+        desc: "Explore Barcelona at your own pace on a 1-day Hop-On Hop-Off bus tour, enjoying panoramic city views and informative audio guides. Later, visit the Sagrada Família, celebrated for its unique architecture, intricate façades, and stunning interior designed by Antoni Gaudí.",
+      },
+      {
+        title: "Barcelona – Day Trip to Montserrat, Girona & Costa Brava",
+        desc: "Take a full day SIC tour to Montserrat, Girona, and the Costa Brava, exploring breathtaking landscapes, historic landmarks, and charming Mediterranean coves. Discover the mountain monastery of Montserrat, stroll through Girona’s medieval streets, and relax along the picturesque beaches and seaside towns of the Costa Brava.",
+      },
+      {
+        title: "Madrid – Panoramic Bus Tour & Royal Palace",
+        desc: "Start your day with a panoramic bus tour of Madrid, enjoying views of the city’s iconic landmarks, historic streets, and cultural highlights with a live guide. Later, visit the Royal Palace to admire its grand architecture, opulent interiors, and centuries of royal history.",
+      },
+      {
+        title: "Madrid – Day Trip to Segovia & Toledo",
+        desc: "Enjoy a full day SIC tour to Segovia and Toledo, two of Spain’s most historic cities. In Segovia, marvel at the Roman aqueduct and explore the medieval castle. In Toledo, wander through ancient alleys, admiring its cathedrals, synagogues, and historic architecture.",
+      },
+      {
+        title: "Seville – City Tour with Hop-On Hop-Off, Royal Alcázar & Flamenco Show",
+        desc: "Explore Seville on a 1-day Hop-On Hop-Off bus tour. Later, visit the Royal Alcázar of Seville, renowned for its stunning Mudejar architecture and lush gardens. End the day with an authentic flamenco show at Teatro Flamenco Sevilla.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Barcelona",
+      desc: "Welcome to Barcelona – The Cosmopolitan Jewel of Spain! Upon arrival at Barcelona Airport, you’ll be met for a private transfer to your city centre hotel. Settle in and get ready to explore a city famed for its architecture, culture, and vibrant energy. Overnight Stay in Barcelona.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Barcelona – City Tour with Hop-On Hop-Off & Sagrada Família",
+      desc: "Breakfast at the hotel. Explore Barcelona at your own pace on a 1-day Hop-On Hop-Off bus tour, enjoying panoramic city views and informative audio guides. Later, visit the Sagrada Família, the world’s largest unfinished Catholic church, celebrated for its unique architecture, intricate façades, and stunning interior designed by Antoni Gaudí. Overnight Stay in Barcelona.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Barcelona – Day Trip to Montserrat, Girona & Costa Brava",
+      desc: "Breakfast at the hotel. Take a full day SIC tour to Montserrat, Girona, and the Costa Brava, exploring breathtaking landscapes, historic landmarks, and charming Mediterranean coves. Discover the mountain monastery of Montserrat, stroll through Girona’s medieval streets, and relax along the picturesque beaches and seaside towns of the Costa Brava. Overnight stay at Barcelona.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Barcelona – Madrid",
+      desc: "Breakfast at the hotel. Private transfer to Barcelona Sants station and board the high-speed train to Madrid Atocha. On arrival, enjoy a private transfer to your Madrid city centre hotel for check-in and relaxation. Overnight in Madrid.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Madrid - Panoramic Bus Tour & Royal Palace Visit",
+      desc: "Breakfast at the hotel. Start your day with a panoramic bus tour of Madrid, enjoying views of the city’s iconic landmarks, historic streets, and cultural highlights with a live guide. Later, visit the Royal Palace to admire its grand architecture, opulent interiors, and centuries of royal history. Overnight stay in Madrid.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Madrid - Day Trip to Segovia & Toledo from Madrid",
+      desc: "Breakfast at the hotel. Enjoy a full day SIC tour to Segovia and Toledo, two of Spain’s most historic cities. In Segovia, marvel at the Roman aqueduct and explore the medieval castle. In Toledo, wander through ancient alleys, admiring its cathedrals, synagogues, and historic architecture, and experience the city’s unique cultural heritage. Overnight Stay in Madrid.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Madrid – Seville",
+      desc: "Breakfast at the hotel. Private transfer from your Madrid city centre hotel to the train station. Board the high-speed train from Madrid Atocha to Sevilla Santa Justa. On arrival, a private transfer will take you to your Seville hotel to relax and settle in. Overnight Stay in Seville.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Seville – City Tour with Hop-On Hop-Off, Royal Alcázar & Flamenco Show",
+      desc: "Breakfast at the hotel. Explore Seville on a 1-day Hop-On Hop-Off bus tour, enjoying panoramic city views and the flexibility to explore at your own pace. Later, visit the Royal Alcázar of Seville. End the day with an authentic flamenco show at Teatro Flamenco Sevilla. Overnight Stay in Seville.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "09",
+      title: "Seville – Departure",
+      desc: "Breakfast at the hotel. Private transfer from your Seville hotel to Seville Airport (SVQ) for your onward flight.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable.",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly.",
+    "Driver tips to be paid directly.",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract.",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  inclusions: {
+    included: [
+      "08 Nights Accommodation with Breakfast",
+      "Private transfers between airports, hotels, and train stations",
+      "01 Day Barcelona Hop-on Hop-off Bus ticket",
+      "Sagrada Família entrance ticket",
+      "Day trip to Montserrat, Girona & Costa Brava from Barcelona on SIC basis",
+      "Madrid Panoramic Bus tour ticket – Single ride",
+      "Royal Palace entrance ticket",
+      "Day trip to Segovia and Toledo from Madrid on SIC basis",
+      "01 Day Seville Hop-on Hop-off Bus ticket",
+      "Royal Alcázar of Seville entrance ticket",
+      "Flamenco show ticket",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tour",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Luch & Dinner",
+      "Extracharges/expensesof personalnaturelikelaundry,mineralwater/drinks,telephoneor any other charges/ expenses not mentioned in Inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers. etc",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "Optional Cost for Train (Price is not applicable during fair/Events dates)",
+    items: [
+      {
+        name: "Barcelona – Madrid – Seville 02nd class train ticket – on actual basis",
+        price: "EUR 135 – 185 onwards per person",
+      },
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+        hotels: [
+          { location: "Barcelona 3N", hotel: "Barcelona Century Hotel or similar" },
+          { location: "Madrid 3N", hotel: "Petit Palace Preciados or similar" },
+          { location: "Seville 2N", hotel: "Patio De La Alameda or similar" },
+        ],
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec: 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 1066 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 955 per person onwards on Twin/Double sharing basis / EUR 937 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 921 per person onwards on Twin/Double sharing basis / EUR 901 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 622 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 459 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug: 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 1514 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 1402 per person onwards on Twin/Double sharing basis / EUR 1219 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 1369 per person onwards on Twin/Double sharing basis / EUR 1184 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 577 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 885 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct: 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 1333 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 1222 per person onwards on Twin/Double sharing basis / EUR 1208 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 1188 per person onwards on Twin/Double sharing basis / EUR 1179 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 906 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 713 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+        hotels: [
+          { location: "Barcelona 3N", hotel: "Leonardo Royal Hotel Barcelona or similar" },
+          { location: "Madrid 3N", hotel: "Hotel ILUNION Suites Madrid or similar" },
+          { location: "Seville 2N", hotel: "Hotel Exe Sevilla Palmera or similar" },
+        ],
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec: 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 1091 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 980 per person onwards on Twin/Double sharing basis / EUR 959 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 946 per person onwards on Twin/Double sharing basis / EUR 927 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 655 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 486 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug: 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 1615 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 1494 per person onwards on Twin/Double sharing basis / EUR 1448 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 1470 per person onwards on Twin/Double sharing basis / EUR 1426 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 1171 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 984 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct: 2026",
+            rows: [
+              { pax: "02 Pax", price: "EUR 1386 per person onwards on Twin/Double sharing basis" },
+              { pax: "04 Pax", price: "EUR 1276 per person onwards on Twin/Double sharing basis / EUR 1264 per person onwards on Triple sharing basis" },
+              { pax: "06 Pax", price: "EUR 1242 per person onwards on Twin/Double sharing basis / EUR 1232 per person onwards on Triple sharing basis" },
+              { pax: "Child Sharing with Extra Bed", price: "EUR 1040 per child onwards" },
+              { pax: "Single Room Supplement", price: "EUR 766 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable.",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly.",
+    "Driver tips to be paid directly.",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract.",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images: [
+    "/images/gau/day-1.jpg",
+    "/images/gau/day-2.jpg",
+    "/images/gau/day-3.jpg",
+    "/images/gau/day-4.jpg",
+    "/images/gau/day-5.jpg",
+    "/images/gau/day-6.jpg",
+    "/images/gau/day-7.jpg",
+    "/images/gau/day-8.jpg",
+    "/images/gau/extra1.jpg",
+    "/images/gau/extra2.jpg",
+    "/images/gau/extra3.jpg",
+  ],
+},
+
+{
+  title: "Spanish–French Riviera Delight",
+  slug: "barcelona-nice-06n",
+  price: "EUR 715 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+  image: "/images/Spanish/day-1.jpg",
+  location: "Barcelona, Nice",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "2 Destinations, 06 Nights",
+      places: "Barcelona, Nice",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Private Transfers Included",
+    ],
+
+    highlights: [
+      "Sagrada Familia",
+      "Barcelona Hop-on Hop-off",
+      "Montserrat",
+      "Cogwheel Train",
+      "Black Madonna",
+      "Nice Hop-on Hop-off",
+      "French Riviera",
+      "Èze",
+      "Monaco",
+      "Monte Carlo",
+      "Saint-Paul-De-Vence",
+      "Cannes",
+    ],
+
+    experiences: [
+      {
+        title: "Barcelona – Sagrada Familia & Hop-on Hop-off Tour",
+        desc: "After breakfast, proceed for your full-day experience of Barcelona with the 01-Day Hop on Hop off bus tour, offering the perfect way to explore the city’s major highlights at your own pace. Your visit includes the Sagrada Familia Entry Ticket, allowing you to witness Antoni Gaudí’s masterpiece up close.",
+      },
+      {
+        title: "Barcelona – Montserrat Tour",
+        desc: "After breakfast, proceed for the Montserrat Tour with Cogwheel & Black Madonna on SIC basis. This journey takes you to Catalonia’s most famous mountain sanctuary, offering panoramic views, ancient Benedictine traditions, and the revered statue of the Black Madonna.",
+      },
+      {
+        title: "Nice – Hop on Hop off Tour",
+        desc: "After breakfast, proceed for your Nice 01-Day Hop on Hop off Bus Tour. This flexible sightseeing experience allows you to explore Nice's iconic landmarks including the Promenade des Anglais, Castle Hill, Old Town, and more, all while enjoying stunning coastal views along the way.",
+      },
+      {
+        title: "Nice – French Riviera Day Tour",
+        desc: "Today, proceed for the French Riviera Day Tour on SIC basis. Visit Èze, Monaco, Monte Carlo, Saint-Paul-De-Vence and Cannes, exploring charming seaside towns, scenic views and the timeless elegance of the Côte d’Azur.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Barcelona",
+      desc: "Arrival in Barcelona. Upon arrival at Barcelona Airport, you will enjoy a smooth and comfortable private transfer to your hotel. Your first evening offers the perfect introduction to Barcelona with time to admire the illuminated streets, stroll along La Rambla, or soak in the energy of Plaça Catalunya. Overnight Stay in Barcelona.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Barcelona – Sagrada Familia Entry Ticket & Barcelona Hop-on Hop-off Tour",
+      desc: "Breakfast at Hotel. After breakfast, proceed for your full-day experience of Barcelona with the 01-Day Hop on Hop off bus tour. Your visit includes the Sagrada Familia Entry Ticket, allowing you to witness Antoni Gaudí’s masterpiece up close. Overnight Stay in Barcelona.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Barcelona – Montserrat Tour",
+      desc: "Breakfast at Hotel. After breakfast, proceed for the Montserrat Tour with Cogwheel & Black Madonna on SIC basis. The scenic cog-wheel train ride enhances the experience with breathtaking landscapes and peaceful surroundings. Overnight Stay in Barcelona.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Barcelona – Nice",
+      desc: "Breakfast at Hotel. After breakfast, enjoy a private transfer from your Barcelona hotel to Barcelona Airport for your flight to Nice. Upon arrival in Nice, a private transfer will take you to your hotel. Overnight Stay in Nice.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Nice – Hop on Hop off Tour",
+      desc: "Breakfast at Hotel. After breakfast, proceed for your Nice 01-Day Hop on Hop off Bus Tour. Explore Nice's iconic landmarks including the Promenade des Anglais, Castle Hill, Old Town, and more. Overnight Stay in Nice.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Nice – French Riviera Day Tour",
+      desc: "Breakfast at Hotel. Today, proceed for the French Riviera Day Tour on SIC basis. Visit the medieval village of Èze, the Principality of Monaco, Monte Carlo, Saint-Paul-De-Vence and Cannes. Overnight Stay in Nice.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Nice – Departure",
+      desc: "Breakfast at Hotel. After breakfast, proceed to Nice Airport with a private transfer for your onward flight to India.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights’ Accommodation with breakfast",
+      "Private transfer from Barcelona Airport to Barcelona Hotel",
+      "Barcelona 01-Day Hop on Hop off bus tour",
+      "Sagrada Familia entry ticket",
+      "Montserrat Tour with Cogwheel & Black Madonna from Barcelona on SIC basis",
+      "Private transfer from Barcelona Hotel to Barcelona Airport",
+      "Private transfer from Nice Airport to Nice Hotel",
+      "Nice 01-Day Hop on Hop off bus tour",
+      "French Riviera Day tour from Nice on SIC basis",
+      "Private transfer from Nice Hotel to Nice Airport",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tour",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Luch & Dinner",
+      "Extracharges/expensesof personalnaturelikelaundry,mineralwater/drinks,telephoneor any other charges/ expenses not mentioned in Inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers. etc",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+        hotels: [
+          {
+            location: "Barcelona 3N",
+            hotel: "Hotel Glories Barcelona or similar",
+          },
+          {
+            location: "Nice 3N",
+            hotel: "Hotel Relais Acropolis or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Apr, May, Jun, Jul & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 960 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 912 per person onwards on Twin/Double sharing basis / EUR 761 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 888 per person onwards on Twin/Double sharing basis / EUR 737 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 335 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 564",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 882 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 834 per person onwards on Twin/Double sharing basis / EUR 723 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 810 per person onwards on Twin/Double sharing basis / EUR 699 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 377 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 486",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Nov, Dec, Jan & Feb – 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 715 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 667 per person onwards on Twin/Double sharing basis / EUR 622 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 643 per person onwards on Twin/Double sharing basis / EUR 598 per person onwards on Triple sharing basis",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+        hotels: [
+          {
+            location: "Barcelona",
+            hotel: "Hotel Gotico or similar",
+          },
+          {
+            location: "Nice",
+            hotel: "Novotel Nice Centre Vieux Nice or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Apr, May, Jun, Jul & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1153 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1105 per person onwards on Twin/Double sharing basis / EUR 1090 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1081 per person onwards on Twin/Double sharing basis / EUR 1066 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 936 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 757",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 932 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 934 per person onwards on Twin/Double sharing basis / EUR 918 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 910 per person onwards on Twin/Double sharing basis / EUR 894 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 862 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 536",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Nov, Dec, Jan & Feb – 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 915 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 867 per person onwards on Twin/Double sharing basis / EUR 734 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 843 per person onwards on Twin/Double sharing basis / EUR 710 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 344 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 519",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable.",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly.",
+    "Driver tips to be paid directly.",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract.",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/Spanish/day-1.jpg",
+    "/images/Spanish/day-2.jpg",
+    "/images/Spanish/day-3.jpg",
+    "/images/Spanish/day-4.jpg",
+    "/images/Spanish/day-5.jpg",
+    "/images/Spanish/day-6.jpg",
+    "/images/Spanish/extra1.jpg",
+    "/images/Spanish/extra2.jpg",
+  ],
+},
+
+{
+  title: "Best of Seville + Lisbon + Porto",
+  slug: "seville-lisbon-porto-05n",
+  price: "EUR 638 per person onwards",
+  days: "05 Nights / 06 Days",
+  rating: "",
+  image: "",
+  location: "Seville, Lisbon, Porto",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 05 Nights",
+      places: "Seville, Lisbon, Porto",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "05 Nights Accommodation",
+      "Private Transfers Included",
+    ],
+
+    highlights: [
+      "Seville Hop-on Hop-off",
+      "Plaza de España",
+      "Maria Luisa Park",
+      "Santa Cruz",
+      "Lisbon Hop-on Hop-off",
+      "Jerónimos Monastery",
+      "Belém Tower",
+      "Baixa",
+      "Porto",
+      "Ribeira",
+      "Douro River",
+    ],
+
+    experiences: [
+      {
+        title: "Seville – 01 Day Hop on Hop off Bus Tour",
+        desc: "Hop aboard the iconic red double-decker bus and explore Seville’s most celebrated landmarks at your own pace. With 14 convenient stops, you can visit prestigious Islamic monuments, lush gardens, and enjoy the essence of Andalusian culture. Additional free walking tours cover Plaza de España, Maria Luisa Park, and the Jewish Quarter of Santa Cruz.",
+      },
+      {
+        title: "Lisbon – 01 Day Hop-On Hop-Off Bus Tour",
+        desc: "Discover Lisbon’s highlights aboard an open-top sightseeing bus, offering the flexibility to explore iconic attractions such as the Jerónimos Monastery, Belém Tower, and the historic Baixa district.",
+      },
+      {
+        title: "Lisbon – Porto",
+        desc: "Travel from Lisbon to Porto. Travelling from Lisbon to Porto by train is a fantastic option, with trains running frequently throughout the day. Porto is known for its enchanting old town, stunning riverfront, and world-famous port wine.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Seville – Arrival",
+      desc: "Welcome to Seville – The Pearl of Andalusia! Your adventure begins with a smooth private transfer from Seville Airport to your hotel. Once you arrive, settle in and get ready to experience one of Spain’s most enchanting cities, famous for its Moorish architecture, flamenco rhythms, and historic charm. Overnight stay in Seville.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Seville – Seville 01 Day Hop on Hop Off Bus Tour",
+      desc: "Breakfast at Hotel. After breakfast, proceed for your Seville Hop On Hop Off Bus Tour. Hop aboard the iconic red double-decker bus and explore Seville’s most celebrated landmarks at your own pace. Enjoy open-top views, onboard audio commentary, free Wi-Fi, and additional free walking tours covering Plaza de España, Maria Luisa Park, and the atmospheric Jewish Quarter of Santa Cruz. Overnight stay in Seville.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Seville – Lisbon",
+      desc: "Breakfast at Hotel. After breakfast, check out from the hotel. A private transfer will take you to Seville Airport for your onward flight to Lisbon. Upon arrival in Lisbon, a private transfer will comfortably take you to your hotel. Enjoy your day at leisure to explore the city’s atmospheric neighborhoods or relax at your hotel. Overnight stay in Lisbon.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Lisbon – Lisbon 01 Day Hop-On Hop-Off Bus Tour",
+      desc: "Breakfast at Hotel. After breakfast, proceed for your Lisbon Hop-On Hop-Off Bus Tour. Discover Lisbon’s highlights aboard an open-top sightseeing bus, offering the flexibility to explore iconic attractions such as the Jerónimos Monastery, Belém Tower, and the historic Baixa district. Overnight stay in Lisbon.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Lisbon – Porto",
+      desc: "Breakfast at Hotel. After breakfast, check out from the hotel and travel to Porto. Travelling from Lisbon to Porto by train is a fantastic option, with trains running frequently throughout the day. Welcome to Porto – Portugal’s city of bridges, wine, and riverside charm! Overnight stay in Porto.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Porto – Departure",
+      desc: "Breakfast at Hotel. After breakfast, check out from the hotel. A private transfer will take you from your Porto hotel to Porto Airport for your departure flight.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "05 Nights’ Accommodation with Breakfast",
+      "Private Transfer from Seville Airport to Seville Hotel",
+      "Seville 01 Day Hop on Hop off bus tour",
+      "Private Transfer from Seville Hotel to Seville Airport",
+      "Private Transfer from Lisbon Airport to Lisbon Hotel",
+      "Lisbon 01 Day Hop-On Hop-Off Bus Tour",
+      "Private Transfer from Porto Hotel to Porto Airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Luch & Dinner",
+      "Extracharges/expensesof personalnaturelikelaundry,mineralwater/drinks,telephoneor any other charges/ expenses not mentioned in Inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers. etc",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+        hotels: [
+          {
+            location: "Seville 2N",
+            hotel: "ibis Styles Sevilla Santa Justa or similar",
+          },
+          {
+            location: "Lisbon 2N",
+            hotel: "Ibis Styles Lisboa Centro Liberdade Ne or similar",
+          },
+          {
+            location: "Porto 1N",
+            hotel: "Holiday Inn Express Porto City Centre or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 638 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 596 per person onwards on Twin/Double sharing basis / EUR 511 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 572 per person onwards on Twin/Double sharing basis / EUR 487 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 354 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 165 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 643 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 601 per person onwards on Twin/Double sharing basis / EUR 591 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 577 per person onwards on Twin/Double sharing basis / EUR 567 per person onwards on Triple sharing basis",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 643 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 591 per person onwards on Twin/Double sharing basis / EUR 531 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 557 per person onwards on Twin/Double sharing basis / EUR 507 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 324 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 210 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+        hotels: [
+          {
+            location: "Seville 2N",
+            hotel: "Hotel Sevilla Center or similar",
+          },
+          {
+            location: "Lisbon 2N",
+            hotel: "Novotel Lisboa or similar",
+          },
+          {
+            location: "Porto 1N",
+            hotel: "Eurostars das Artes or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 648 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 606 per person onwards on Twin/Double sharing basis / EUR 571 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 582 per person onwards on Twin/Double sharing basis / EUR 547 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 434 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 385 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 698 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 646 per person onwards on Twin/Double sharing basis / EUR 571 per person onwards on Triple sharing basis",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 658 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 616 per person onwards on Twin/Double sharing basis / EUR 591 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 592 per person onwards on Twin/Double sharing basis / EUR 567 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 384 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 384 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Lisbon – Porto Standard Class Train Ticket",
+      price: "EUR 76 – 90 per person onwards",
+      note: "On actual basis",
+    },
+    {
+      name: "Entrance to Park Guell",
+      price: "EUR 22 per person",
+    },
+    {
+      name: "Entrance to Sagrada Familia",
+      price: "EUR 30 per person",
+    },
+    {
+      name: "Entrance to Royal Alcázar",
+      price: "EUR 32 per person",
+    },
+    {
+      name: "Tour Bernabéu Entry Ticket",
+      price: "EUR 37 per person",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable.",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly.",
+    "Driver tips to be paid directly.",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract.",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+},
+
+{
+  title: "From Spain’s Royal Cities to Portugal’s Coastal Wonders",
+  slug: "madrid-lisbon-faro-08n",
+  price: "EUR 1003 per person onwards",
+  days: "08 Nights / 09 Days",
+  rating: "",
+  image: "/images/royal/day-1.jpg",
+  location: "Madrid, Lisbon, Faro",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 08 Nights",
+      places: "Madrid, Lisbon, Faro",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "08 Nights Accommodation",
+      "Private Transfers Included",
+    ],
+
+    highlights: [
+      "Madrid Panoramic Bus Tour",
+      "Royal Palace",
+      "Segovia",
+      "Toledo",
+      "Lisbon Hop-on Hop-off",
+      "Jerónimos Monastery",
+      "Belém Tower",
+      "Sintra",
+      "Pena Palace",
+      "Quinta da Regaleira",
+      "Cabo da Roca",
+      "Cascais",
+      "Benagil Cave",
+      "Marinha Beach",
+    ],
+
+    experiences: [
+      {
+        title: "Madrid – Panoramic Bus Tour & Royal Palace",
+        desc: "Start your day with a panoramic bus tour of Madrid, giving you an excellent overview of the city’s iconic landmarks, historic streets, and cultural highlights. Later, visit the Royal Palace and admire its grand architecture, lavish interiors, and priceless art collections.",
+      },
+      {
+        title: "Madrid – Day Trip to Segovia & Toledo",
+        desc: "Embark on a full-day SIC tour to Segovia and Toledo. In Segovia, see the remarkable Roman aqueduct and explore the Alcázar of Segovia. In Toledo, stroll through cobblestone streets, visit magnificent cathedrals and synagogues, and admire the city’s blend of Christian, Jewish, and Muslim architecture.",
+      },
+      {
+        title: "Lisbon – Hop-On Hop-Off & Monuments",
+        desc: "Discover Lisbon at your own pace on a 1-day Hop-On Hop-Off bus tour. Visit the Jerónimos Monastery and Belém Tower and explore Lisbon’s historic landmarks, architecture, and culture.",
+      },
+      {
+        title: "Lisbon – Sintra, Pena, Regaleira, Cabo da Roca & Cascais",
+        desc: "Take a full-day SIC tour to explore Sintra, Pena Palace, Quinta da Regaleira, Cabo da Roca and Cascais. Discover royal gardens, fairytale architecture, the Initiation Well, Atlantic views and the picturesque seaside town of Cascais.",
+      },
+      {
+        title: "Faro – Benagil Cave & Marinha Beach",
+        desc: "Embark on a half-day shared tour from Faro to Benagil Cave and Marinha Beach. Marvel at the stunning cliffs, turquoise waters, hidden grottos and pristine sands of Marinha Beach.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Madrid",
+      desc: "Welcome to Madrid – The Heart of Spain! Upon arrival at Madrid Airport, you’ll be met for a private transfer to your city centre hotel. Take some time to settle in and enjoy the atmosphere of Madrid. Overnight Stay in Madrid.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Madrid – Panoramic Bus Tour & Royal Palace",
+      desc: "Breakfast at the hotel. Start your day with a panoramic bus tour of Madrid, giving you an excellent overview of the city’s iconic landmarks, historic streets, and cultural highlights. Later, visit the Royal Palace, the official residence of Spain’s royal family. Overnight Stay in Madrid.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Madrid – Day Trip to Segovia & Toledo",
+      desc: "Breakfast at the hotel. Embark on a full-day SIC tour to Segovia and Toledo. In Segovia, see the remarkable Roman aqueduct and explore the Alcázar of Segovia. In Toledo, stroll through cobblestone streets, visit magnificent cathedrals and synagogues, and admire the city’s blend of Christian, Jewish, and Muslim architecture. Overnight Stay in Madrid.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Madrid – Lisbon",
+      desc: "Breakfast at the hotel. Private transfer from your Madrid hotel to Madrid Airport (MAD) for your flight to Lisbon. Upon arrival at Lisbon Airport, enjoy a private transfer to your city centre hotel. Overnight Stay in Lisbon.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Lisbon – Hop-On Hop-Off & Monuments",
+      desc: "Breakfast at the hotel. Discover Lisbon at your own pace on a 1-day Hop-On Hop-Off bus tour. Admire sights like Belém Tower, Jerónimos Monastery, and São Jorge Castle. Visit the Jerónimos Monastery and continue to Belém Tower. Overnight Stay in Lisbon.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Lisbon – Sintra, Pena, Regaleira, Cabo da Roca & Cascais",
+      desc: "Breakfast at the hotel. Take a full-day SIC tour to explore the magical town of Sintra, the romantic Pena Palace, the mystical Quinta da Regaleira, the breathtaking cliffs of Cabo da Roca, and the charming seaside town of Cascais. Overnight Stay in Lisbon.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Lisbon – Faro",
+      desc: "Breakfast at the hotel. Private transfer from your Lisbon hotel to Lisbon Train Station. Board the train from Lisboa Oriente to Faro. On arrival, a private transfer to your Faro hotel will bring you to the heart of the Algarve region. Overnight Stay in Faro.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Faro – Benagil Cave & Marinha Beach",
+      desc: "Breakfast at the hotel. Embark on a half-day shared tour from Faro to Benagil Cave and Marinha Beach, two of the Algarve’s most iconic coastal attractions. Overnight Stay in Faro.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "09",
+      title: "Faro – Departure",
+      desc: "Breakfast at the hotel. Private transfer from your Faro hotel to Faro Airport (FAO) for your onward flight.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "08 Nights Accommodation with Breakfast",
+      "Private transfers between airports, hotels, and train stations",
+      "Madrid Panoramic Bus tour ticket – Single ride",
+      "Royal Palace entrance ticket",
+      "Day trip to Segovia and Toledo from Madrid on SIC basis",
+      "Lisbon 1-Day Hop-on Hop-off Bus ticket",
+      "Jerónimos Monastery entrance ticket",
+      "Belém Tower entrance ticket",
+      "Day trip to Sintra, Pena, Regaleira, Cabo da Roca & Cascais from Lisbon on SIC basis",
+      "Half-day trip to Benagil Cave & Marinha Beach from Faro on shared basis",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tour",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Luch & Dinner",
+      "Extracharges/expensesof personalnaturelikelaundry,mineralwater/drinks,telephoneor any other charges/ expenses not mentioned in Inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers. etc",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+        hotels: [
+          {
+            location: "Madrid 3N",
+            hotel: "Petit Palace Preciados or similar",
+          },
+          {
+            location: "Lisbon 3N",
+            hotel: "Avenida Park or similar",
+          },
+          {
+            location: "Faro 2N",
+            hotel: "Hotel Occidental Faro or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec: 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1003 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 954 per person onwards on Twin/Double sharing basis / EUR 885 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 913 per person onwards on Twin/Double sharing basis / EUR 843 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 493 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 458 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug: 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1239 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1173 per person onwards on Twin/Double sharing basis / EUR 1151 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1132 per person onwards on Twin/Double sharing basis / EUR 1112 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 917 onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 665 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct: 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1214 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1146 per person onwards on Twin/Double sharing basis / EUR 1104 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1105 per person onwards on Twin/Double sharing basis / EUR 1068 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 612 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 635 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+        hotels: [
+          {
+            location: "Madrid 3N",
+            hotel: "Hotel ILUNION Suites Madrid or similar",
+          },
+          {
+            location: "Lisbon 3N",
+            hotel: "Eurostars Lisboa Parque or similar",
+          },
+          {
+            location: "Faro 2N",
+            hotel: "Hotel Occidental Faro",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec: 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1006 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 938 per person onwards on Twin/Double sharing basis / EUR 908 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 897 per person onwards on Twin/Double sharing basis / EUR 866 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 595 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 442 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "April, May, June, July & Aug: 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1334 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1268 per person onwards on Twin/Double sharing basis / EUR 1232 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1227 per person onwards on Twin/Double sharing basis / EUR 1193 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 980 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 755 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "March, Sep & Oct: 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1284 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1216 per person onwards on Twin/Double sharing basis / EUR 1174 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1175 per person onwards on Twin/Double sharing basis / EUR 1138 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 1101 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 705 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Lisbon - Faro 02nd class train ticket",
+      price: "EUR 65 – 80 onwards",
+      note: "On actual basis",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable.",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly.",
+    "Driver tips to be paid directly.",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract.",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/royal/day-1.jpg",
+    "/images/royal/day-2.jpg",
+    "/images/royal/day-3.jpg",
+    "/images/royal/day-4.jpg",
+    "/images/royal/day-5.jpg",
+    "/images/royal/day-6.jpg",
+    "/images/royal/day-7.jpg",
+    "/images/royal/day-8.jpg",
+    "/images/royal/extra1.jpg",
+  ]
+},
+
+
+{
+  title: "Best of Paris + Lyon + Marseille",
+  slug: "paris-lyon-marseille-06n",
+  price: "EUR 974 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "",
+  image: "",
+  location: "Paris, Lyon, Marseille",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Paris, Lyon, Marseille",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Private Transfers Included",
+    ],
+
+    highlights: [
+      "Paris City Tour",
+      "Seine River Cruise",
+      "Eiffel Tower 2nd Level",
+      "Lyon Walking Tour",
+      "Old Lyon",
+      "Traboules",
+      "Fourvière Hill",
+      "Presqu’île",
+      "Marseille Walking Food Tour",
+      "Food Tastings",
+    ],
+
+    experiences: [
+      {
+        title: "Paris – City Tour with River Cruise & Eiffel Tower",
+        desc: "Explore Paris on a city tour covering iconic landmarks including the Eiffel Tower and Louvre, along with charming neighbourhoods such as Montmartre and Le Marais. Enjoy a Seine River Cruise and Eiffel Tower 2nd Level entry.",
+      },
+      {
+        title: "Lyon – City Highlights Walking Tour",
+        desc: "Explore Old Lyon, its famous traboules, Fourvière Hill exterior, and the Presqu’île district on a shared walking tour.",
+      },
+      {
+        title: "Marseille – Walking Food Tour with Tastings",
+        desc: "Experience Marseille with a local guide while exploring historic eateries, modern cafes and trendy restaurants. Sample local gastronomic specialties and learn about the city’s history and culinary culture.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Paris",
+      desc: "Welcome to Paris – The City of Lights! Your adventure begins with a smooth transfer from the airport to your hotel. Explore Paris through its art, culture, fashion and food. Overnight Stay in Paris.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Paris – City tour with river cruise & Eiffel Tower",
+      desc: "Breakfast at Hotel. After breakfast proceed to Paris city tour on SIC basis. Explore iconic landmarks like the Eiffel Tower and Louvre and charming neighbourhoods like Montmartre and Le Marais. Enjoy the Seine River Cruise and Eiffel Tower 2nd Level entry. Overnight Stay in Paris.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Paris – Lyon",
+      desc: "Breakfast at Hotel. Private transfer from Paris Hotel to Paris Train Station. Train from Paris to Lyon in 2nd Class. Private transfer from Lyon Train Station to Lyon Hotel. Overnight Stay in Lyon.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Lyon - City Highlights Walking Tour of Lyon",
+      desc: "Breakfast at Hotel. Meeting Point: Office du Tourisme et des Congrès de la Métropole de Lyon. Explore Old Lyon, its famous traboules, Fourvière Hill exterior, and the Presqu’île district. Overnight Stay in Lyon.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Lyon – Marseille",
+      desc: "Breakfast at Hotel. Private transfer from Lyon Hotel to Lyon Train Station. Train from Lyon to Marseille in 2nd Class. Private transfer from Marseille Train Station to Marseille Hotel. Overnight Stay in Marseille.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Marseille – Walking Food Tour with Tastings",
+      desc: "Breakfast at Hotel. Meeting Point: Meet your guide in front of the restaurant Le New Terrasse. Experience a food-lovers paradise while walking through the charming streets of Marseille with a local guide. Overnight Stay in Marseille.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Marseille – India",
+      desc: "Breakfast at Hotel. Private transfer from Marseille Hotel to Marseille Airport. Flight Details: XXX | MRS – XXX | XXXHRS – XXXHRS.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights’ Accommodation with Breakfast",
+      "Private transfer from Paris Airport (CDG) to Paris Hotel",
+      "Paris city tour on SIC basis",
+      "Seine River Cruise Ticket",
+      "Eiffel Tower 2nd Level Entry Ticket",
+      "Private transfer from Paris Hotel to Paris Train Station",
+      "Private transfer from Lyon Train Station to Lyon Hotel",
+      "City Highlights Walking Tour from Lyon on Shared basis",
+      "Private transfer from Lyon Hotel to Lyon Train Station",
+      "Private transfer from Marseille Train Station to Marseille Hotel",
+      "Walking Food Tour with Tastings from Marseille on Shared basis",
+      "Private transfer from Marseille Hotel to Marseille Airport",
+      "Train/Tram/Bus ticket from Zurich hotel to airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Luch & Dinner",
+      "Extracharges/expensesof personalnaturelikelaundry,mineralwater/drinks,telephoneor any other charges/ expenses not mentioned in Inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers. etc",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Paris 2N",
+            hotel: "Hotel vacances bleues provinces opera or Similar",
+          },
+          {
+            location: "Lyon 2N",
+            hotel: "Citadines Presqu'ile Lyon or similar",
+          },
+          {
+            location: "Marseille 2N",
+            hotel: "Ibis Marseille Centre Euroméd or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, March - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 974 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 904 per person onwards on Twin/Double sharing basis / EUR 872 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 885 per person onwards on Twin/Double sharing basis / EUR 812 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 332 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1540 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "April, May, June, July, Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1087 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1064 per person onwards on Twin/Double sharing basis / EUR 1021 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1040 per person onwards on Twin/Double sharing basis / EUR 952 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 366 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1845 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1014 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 962 per person onwards on Twin/Double sharing basis / EUR 890 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 905 per person onwards on Twin/Double sharing basis / EUR 820 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 315 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 865 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Paris 2N",
+            hotel: "BLOOM HOUSE HOTEL RESTAURANT & SPA PARIS or Similar",
+          },
+          {
+            location: "Lyon 2N",
+            hotel: "Novotel Lyon Gerland Musée des Confluences or similar",
+          },
+          {
+            location: "Marseille 2N",
+            hotel: "Novotel Marseille Centre Prado Vélodrome or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, March - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1090 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1062 per person onwards on Twin/Double sharing basis / EUR 997 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1015 per person onwards on Twin/Double sharing basis / EUR 979 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 434 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 770 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "April, May, June, July, Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1272 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1139 per person onwards on Twin/Double sharing basis / EUR 1090 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1110 per person onwards on Twin/Double sharing basis / EUR 1079 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 384 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 844",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "Jan, Feb, March - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1112 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1019 per person onwards on Twin/Double sharing basis / EUR 999 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1010 per person onwards on Twin/Double sharing basis / EUR 989 per person onwards on Triple sharing basis",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Paris - Lyon - Marseille 02nd class train ticket",
+      price: "EUR 250 - 270",
+      note: "On actual basis",
+    },
+    {
+      name: "Disneyland 01 Day 01 Park with transfer on SIC basis",
+      price: "EUR 135",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+},
+
+{
+  title: "France Grand Discovery: Paris, Marseille & French Riviera",
+  slug: "paris-marseille-nice-09n",
+  price: "EUR 1390 per person onwards",
+  days: "09 Nights / 10 Days",
+  rating: "",
+  image: "/images/paris/day-1.jpg",
+  location: "Paris, Marseille, Nice",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 09 Nights",
+      places: "Paris, Marseille, Nice",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "09 Nights Accommodation",
+      "Private Transfers Included",
+    ],
+
+    highlights: [
+      "Eiffel Tower 2nd Level",
+      "Paris Hop-on Hop-off",
+      "Seine River Cruise",
+      "Disneyland Paris",
+      "Marseille Hop-on Hop-off",
+      "Musée de l’Illusion",
+      "Calanques National Park",
+      "Nice Hop-on Hop-off",
+      "Monaco",
+      "Monte-Carlo",
+      "Èze",
+    ],
+
+    experiences: [
+      {
+        title: "Paris – Eiffel Tower & Hop-on Hop-off",
+        desc: "Explore Paris with a 01-Day Hop-on Hop-off Bus Tour, Eiffel Tower 2nd Level Entry Ticket and Seine River Cruise.",
+      },
+      {
+        title: "Paris – Disneyland",
+        desc: "Enjoy a full day at Disneyland Paris with a 1-Day 1-Park Ticket including shuttle transfers.",
+      },
+      {
+        title: "Marseille – City Tour & Musée de l’Illusion",
+        desc: "Explore Marseille with a 1-day Hop On Hop Off Bus Tour covering the Old Port, Notre-Dame de la Garde, Fort Saint-Nicolas and Le Panier, followed by a visit to Musée de l’Illusion.",
+      },
+      {
+        title: "Marseille – Calanques National Park",
+        desc: "Enjoy a guided hike through Calanques National Park, exploring dramatic limestone cliffs, turquoise waters and scenic Mediterranean trails.",
+      },
+      {
+        title: "Nice – Hop-on Hop-off",
+        desc: "Explore Nice including the Old Town, Castle Hill, Matisse Museum, Cimiez Monastery and panoramic seaside views.",
+      },
+      {
+        title: "Nice – Monaco, Monte-Carlo & Èze",
+        desc: "Visit Èze, Monaco and Monte-Carlo, including the Prince’s Palace, Casino Square and scenic coastline.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Paris",
+      desc: "Arrival in Paris. Upon arrival at Paris CDG Airport, a private transfer will take you to your hotel. Spend your first evening exploring the city at leisure. Overnight Stay in Paris.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Eiffel Tower 2nd Level Entry Ticket & Paris Hop-on Hop-off Tour",
+      desc: "Breakfast at Hotel. Begin your exploration of Paris with the 01-Day Hop-on Hop-off Bus Tour. Enjoy Eiffel Tower 2nd Level Entry and a Seine River Cruise offering views of Notre-Dame Cathedral, Musée d’Orsay and the Louvre. Overnight Stay in Paris.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Disneyland 1-Day 1-Park Ticket with Shuttle Transfer",
+      desc: "Breakfast at Hotel. Enjoy a magical full day at Disneyland Paris with your 1-Day 1-Park Ticket including shuttle transfers. Overnight Stay in Paris.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Paris → Marseille by Train",
+      desc: "After breakfast, check out and enjoy a private transfer from your Paris hotel to the train station. Board your high-speed train to Marseille. Upon arrival, private transfer from Marseille Train Station to your hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Marseille City Tour – Hop On Hop Off | Musée de l’Illusion",
+      desc: "Breakfast at Hotel. Discover Marseille with a 1-day Hop On Hop Off Bus Tour. Explore the Old Port, Notre-Dame de la Garde, Fort Saint-Nicolas and Le Panier. Later visit Musée de l’Illusion, subject to availability.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Calanques National Park Guided Hike",
+      desc: "Breakfast at Hotel. Embark on a guided hike in Calanques National Park on shared basis. Explore dramatic limestone cliffs, turquoise waters and scenic trails. Return to Marseille for an evening at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Marseille → Nice by Train",
+      desc: "After breakfast, check out and proceed on a private transfer from your Marseille hotel to the train station. Board your train to Nice. Upon arrival, private transfer from Nice Train Station to your hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Nice Hop On Hop Off Tour",
+      desc: "Discover Nice with a 1-day Hop on Hop Off Bus Tour on SIC basis, subject to availability. Explore the Old Town, Castle Hill, Matisse Museum, Cimiez Monastery and panoramic seaside views.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "09",
+      title: "Monaco, Monte-Carlo & Èze Tour",
+      desc: "Enjoy a spectacular SIC tour to Monaco, Monte-Carlo & Èze. Visit the medieval village of Èze, explore Monte-Carlo and witness the elegance of Monaco including the Prince’s Palace, Casino Square and scenic coastline.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "10",
+      title: "Nice – Departure",
+      desc: "After breakfast, check out from the hotel. A private transfer will take you to Nice Airport for your onward journey.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "Accommodation with breakfast",
+      "Private transfer from Paris CDG Airport to hotel",
+      "Paris 01 day hop on hop off bus tour - SIC",
+      "Seine river Cruise entry ticket only",
+      "Eiffel 02 level entry ticket",
+      "Disneyland 01-day 01 park entry ticket with Shuttle return transfer on Shared basis",
+      "Private transfer from Paris hotel to train Station",
+      "Private transfer from Marseille train Station to hotel",
+      "Marseille 01 day hop on hop off bus tour",
+      "Musee de l'Illusion Entry Ticket",
+      "Calanques National Park Guided Hike From Marseille on Shared basis",
+      "Private transfer from Marseille hotel to train Station",
+      "Private transfer from Nice train Station to hotel",
+      "Nice 01 day hop on hop off bus tour - SIC",
+      "Monaco, Monte-Carlo & Eze Tour from Nice on SIC",
+      "Private transfer from Nice Hotel to Airport",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tours",
+      "Return flight tickets",
+      "Visa & insurance fees",
+      "Water bottles",
+      "Train ticket from Paris to Nice",
+      "Optional tours",
+      "Hotel city tax payable directly at the hotel",
+      "Lunch & dinner",
+      "Personal expenses such as laundry, drinks, telephone charges, or any item not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for coach drivers, etc.",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Paris 3N",
+            hotel: "Hôtel Kabanel by HappyCulture or similar",
+          },
+          {
+            location: "Marseille 3N",
+            hotel: "ibis Marseille Centre Gare Saint-Charles or Similar",
+          },
+          {
+            location: "Nice 3N",
+            hotel: "Hotel Relais Acropolis or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Apr, May, Jun, Jul & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1390 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1300 per person onwards on Twin/Double sharing basis / EUR 1183 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1253 per person onwards on Twin/Double sharing basis / EUR 1136 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 528 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 575 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1470 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1486 per person onwards on Twin/Double sharing basis / EUR 1336 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1439 per person onwards on Twin/Double sharing basis / EUR 1289 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 612 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 575 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "Nov, Dec, Jan & Feb – 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1291 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1282 per person onwards on Twin/Double sharing basis / EUR 1162 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1236 per person onwards on Twin/Double sharing basis / EUR 1114 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 513 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 569 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Paris 3N",
+            hotel: "Hôtel Les Matins de Paris & Spa - Paris 9e",
+          },
+          {
+            location: "Marseille 3N",
+            hotel: "Hotel NH Collection Marseille",
+          },
+          {
+            location: "Nice 3N",
+            hotel: "Hôtel Nice Excelsior by Happy Culture",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Apr, May, Jun, Jul & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1909 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1820 per person onwards on Twin/Double sharing basis / EUR 1791 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1773 per person onwards on Twin/Double sharing basis / EUR 1746 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 1380 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1070 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1470 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1486 per person onwards on Twin/Double sharing basis / EUR 1336 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1439 per person onwards on Twin/Double sharing basis / EUR 1289 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 1035 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1121 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "Nov, Dec, Jan & Feb – 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1513 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1482 per person onwards on Twin/Double sharing basis / EUR 1444 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1475 per person onwards on Twin/Double sharing basis / EUR 1376 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 983 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 748 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Paris – Marseille – Nice 02nd class train ticket",
+      price: "EUR 85 - 95",
+      note: "On actual basis",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/paris/day-1.jpg",
+    "/images/paris/day-2.jpg",
+    "/images/paris/day-3.jpg",
+    "/images/paris/day-4.jpg",
+    "/images/paris/day-5.jpg",
+    "/images/paris/day-6.jpg",
+    "/images/paris/day-7.jpg",
+    "/images/paris/day-8.jpg",
+    "/images/paris/day-9.jpg",
+    "/images/paris/extra1.jpg",
+    "/images/paris/extra2.jpg",
+    "/images/paris/extra3.jpg",
+    "/images/paris/extra4.jpg",
+    "/images/paris/extra5.jpg",
+  ]
+},
+
+{
+  title: "France City Explorer",
+  slug: "paris-nice-06n",
+  price: "EUR 904 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "",
+  image: "/images/france/day-1.jpg",
+  location: "Paris, Nice",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "2 Destinations, 06 Nights",
+      places: "Paris, Nice",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Private Transfers Included",
+    ],
+
+    highlights: [
+      "Eiffel Tower 2nd Level",
+      "Paris Hop-on Hop-off",
+      "Seine River Cruise",
+      "Disneyland Paris",
+      "Nice Hop-on Hop-off",
+      "French Riviera",
+      "Èze",
+      "Monaco",
+      "Monte-Carlo",
+      "Saint-Paul-De-Vence",
+      "Cannes",
+    ],
+
+    experiences: [
+      {
+        title: "Paris – Eiffel Tower & Hop-on Hop-off",
+        desc: "Explore Paris with a 01-Day Hop-on Hop-off Bus Tour, Eiffel Tower 2nd Level Entry Ticket and Seine River Cruise.",
+      },
+      {
+        title: "Paris – Disneyland",
+        desc: "Enjoy a full day at Disneyland Paris with a 1-Day 1-Park Ticket including shuttle transfers.",
+      },
+      {
+        title: "Nice – Hop-on Hop-off",
+        desc: "Explore Nice's iconic landmarks including the Promenade des Anglais, Castle Hill and Old Town while enjoying coastal views.",
+      },
+      {
+        title: "Nice – French Riviera Day Tour",
+        desc: "Visit Èze, Monaco, Monte-Carlo, Saint-Paul-De-Vence and Cannes on a full-day SIC tour.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Paris",
+      desc: "Arrival in Paris. Upon arrival at Paris CDG Airport, a private transfer will take you to your hotel. Spend your first evening getting acquainted with Paris. Overnight Stay in Paris.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Eiffel Tower 2nd Level Entry Ticket & Paris Hop-on Hop-off Tour",
+      desc: "Breakfast at Hotel. Explore Paris with the 01-Day Hop-on Hop-off Bus Tour. Enjoy Eiffel Tower 2nd Level Entry and a Seine River Cruise offering views of Notre-Dame Cathedral, Musée d’Orsay and the Louvre. Overnight Stay in Paris.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Disneyland 1-Day 1-Park Ticket with Shuttle Transfer",
+      desc: "Breakfast at Hotel. Enjoy a magical full day at Disneyland Paris with your 1-Day 1-Park Ticket including shuttle transfers. Overnight Stay in Paris.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Paris – Nice",
+      desc: "Breakfast at Hotel. Enjoy a private transfer from your Paris hotel to Paris train station for your train to Nice. Upon arrival in Nice, a private transfer will take you to your hotel. Overnight Stay in Nice.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Nice – Hop on Hop off Tour",
+      desc: "Breakfast at Hotel. Proceed for your Nice 01-Day Hop on Hop off Bus Tour. Explore the Promenade des Anglais, Castle Hill, Old Town and more. Overnight Stay in Nice.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Nice – French Riviera Day Tour",
+      desc: "Breakfast at Hotel. Proceed for the French Riviera Day Tour on SIC basis. Visit Èze, Monaco, Monte Carlo, Saint-Paul-De-Vence and Cannes. Overnight Stay in Nice.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Nice – Departure",
+      desc: "Breakfast at Hotel. Proceed to Nice Airport with a private transfer for your onward flight to India.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights’ accommodation with breakfast",
+      "Private transfer from Paris CDG Airport to Paris Hotel",
+      "Paris 01-Day Hop on Hop off bus tour",
+      "Eiffel Tower 2nd Level entry ticket",
+      "Seine River cruise entry ticket",
+      "Disneyland 01-Day 01-Park ticket with shuttle transfer",
+      "Private transfer from Paris Hotel to Paris train station",
+      "Private transfer from Nice train station to Nice Hotel",
+      "Nice 01-Day Hop on Hop off bus tour",
+      "French Riviera Day Tour from Nice on SIC basis",
+      "Private transfer from Nice Hotel to Nice Airport",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tours",
+      "Return flight tickets",
+      "Visa & insurance fees",
+      "Water bottles",
+      "Train ticket from Paris to Nice",
+      "Optional tours",
+      "Hotel city tax payable directly at the hotel",
+      "Lunch & dinner",
+      "Personal expenses such as laundry, drinks, telephone charges, or any item not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for coach drivers, etc.",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Paris 3N",
+            hotel: "Hôtel Kabanel by HappyCulture or similar",
+          },
+          {
+            location: "Nice 3N",
+            hotel: "Hotel Relais Acropolis or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Apr, May, Jun, Jul & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1042 per person onward on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 991 per person onward on Twin/Double sharing basis / EUR 891 per person onward on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 962 per person onward on Twin/Double sharing basis / EUR 862 per person onward on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 553 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 536",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1047 per person onward on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 996 per person onward on Twin/Double sharing basis / EUR 918 per person onward on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 967 per person onward on Twin/Double sharing basis / EUR 889 per person onward on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 646x per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 531",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "Nov, Dec, Jan & Feb – 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 904 per person onward on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 853 per person onward on Twin/Double sharing basis / EUR 784 per person onward on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 824 per person onward on Twin/Double sharing basis / EUR 755 per person onward on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 498 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 408",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Paris 3N",
+            hotel: "Grand Hotel Lafayette or similar",
+          },
+          {
+            location: "Nice 3N",
+            hotel: "Novotel Nice Centre Vieux Nice or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Apr, May, Jun, Jul & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1406 per person onward on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1355 per person onward on Twin/Double sharing basis / EUR 1328 per person onward on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1326 per person onward on Twin/Double sharing basis / EUR 1299 per person onward on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 1146 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 910",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1212 per person onward on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1161 per person onward on Twin/Double sharing basis / EUR 1314 per person onward on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1132 per person onward on Twin/Double sharing basis / EUR 1285 per person onward on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 1482 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 706",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "Nov, Dec, Jan & Feb – 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1149 per person onward on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1098 per person onward on Twin/Double sharing basis / EUR 1018 per person onward on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1069 per person onward on Twin/Double sharing basis / EUR 989 per person onward on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 710 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 989",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Paris - Nice 02nd class train ticket",
+      price: "EUR 65 - 80",
+      note: "On actual basis",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/france/day-1.jpg",
+    "/images/france/day-2.jpg",
+    "/images/france/day-3.jpg",
+    "/images/france/day-4.jpg",
+    "/images/france/day-5.jpg",
+    "/images/france/day-6.jpg",
+    "/images/france/extra1.jpg",
+    "/images/france/extra2.jpg",
+    "/images/france/extra3.jpg",
+  ]
+},
+
+{
+  title: "From the French Riviera to Milan’s Elegance",
+  slug: "nice-monaco-milan-06n",
+  price: "EUR 995 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+  image: "/images/french/day-1.jpg",
+  location: "Nice, Monaco, Milan",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Nice, Monaco, Milan",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Private Transfers Included",
+    ],
+
+    highlights: [
+      "French Riviera",
+      "Èze",
+      "Monaco",
+      "Monte Carlo",
+      "Antibes",
+      "Saint-Paul-de-Vence",
+      "Cannes",
+      "Monaco Hop-on Hop-off",
+      "Milan Hop-on Hop-off",
+      "Duomo di Milano",
+      "Duomo Terraces",
+    ],
+
+    experiences: [
+      {
+        title: "Nice – Full Day French Riviera Exploration",
+        desc: "Explore the highlights of the French Riviera including Èze, Monaco, Monte Carlo, Antibes, Saint-Paul-de-Vence and Cannes. Enjoy medieval lanes, coastal views, luxury marinas, perfumeries and the famous Croisette promenade.",
+      },
+      {
+        title: "Monaco – Discover Monaco at Your Own Pace",
+        desc: "Explore Monaco with a Hop-On Hop-Off sightseeing tour. Visit Monte Carlo, Fontvieille and the Rock of Monaco, including landmarks such as the Prince’s Palace and iconic Casino.",
+      },
+      {
+        title: "Milan – City Sightseeing",
+        desc: "Explore Milan with a Hop-On Hop-Off sightseeing experience covering the Duomo, Sforza Castle, La Scala Opera House and stylish shopping districts.",
+      },
+      {
+        title: "Milan – Duomo Museum & Terraces",
+        desc: "Visit the Duomo di Milano Museum & Terraces and enjoy rooftop views of Milan and the distant Alps.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Nice",
+      desc: "Welcome to Nice – the glamorous gateway to the French Riviera. Upon arrival at Nice Airport, enjoy a private transfer to your hotel in the city centre. Spend the rest of the day relaxing or exploring the Promenade des Anglais and Old Town. Overnight Stay in Nice.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Nice – Full day French Riviera Exploration",
+      desc: "Breakfast at the hotel. Embark on a full-day tour exploring the highlights of the French Riviera including Èze, Monaco, Monte Carlo, Antibes, Saint-Paul-de-Vence and Cannes. Overnight Stay in Nice.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Nice – Monaco",
+      desc: "Breakfast at the hotel. Transfer from Nice to the principality of Monaco while enjoying scenic views of the Mediterranean coastline. Spend the rest of the day at leisure. Overnight Stay in Monaco.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Monaco – Discover Monaco at Your Own Pace",
+      desc: "Breakfast at the hotel. Explore Monaco with a Hop-On Hop-Off sightseeing tour. Visit Monte Carlo, Fontvieille and the Rock of Monaco, including historic landmarks such as the Prince’s Palace and the iconic Casino. Overnight Stay in Monaco.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Monaco – Milan",
+      desc: "Breakfast at the hotel. Leave Monaco behind and travel by train across picturesque landscapes to Milan. After arriving in the city centre, check in to your hotel and enjoy the remainder of the day at leisure. Overnight Stay in Milan.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Milan City Sightseeing",
+      desc: "Breakfast at the hotel. Enjoy a full day exploring Milan with a Hop-On Hop-Off sightseeing experience. Discover the Duomo, Sforza Castle, La Scala Opera House and stylish shopping districts. Later, visit the Duomo di Milano Museum & Terraces with elevator access. Overnight Stay in Milan.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Milan – India",
+      desc: "Breakfast at the hotel. After checking out, proceed to Milan Airport for your onward journey.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights Accommodation with Breakfast",
+      "Private transfers between airports, hotels, and train stations",
+      "Full-Day French Riviera Tour from Nice on SIC basis",
+      "01-Day Monaco Hop-On Hop-Off Bus Ticket",
+      "01-Day Milan Hop-On Hop-Off Bus Ticket",
+      "Duomo di Milano Museum & Terraces Entrance with elevator",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tour",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Luch & Dinner",
+      "Extracharges/expensesof personalnaturelikelaundry,mineralwater/drinks,telephoneor any other charges/ expenses not mentioned in Inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers. etc",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Nice 2N",
+            hotel: "ibis Nice Centre Gare or similar",
+          },
+          {
+            location: "Monaco 2N",
+            hotel: "Novotel Monte Carlo or similar",
+          },
+          {
+            location: "Milan 2N",
+            hotel: "Hotel ibis Milano Centro or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec: 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 995 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 886 per person onwards on Twin/Double sharing basis / EUR 850 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 842 per person onwards on Twin/Double sharing basis / EUR 821 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 580 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 522 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "April, May, June, July & Aug: 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1321 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1212 per person onwards on Twin/Double sharing basis / EUR 1116 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1168 per person onwards on Twin/Double sharing basis / EUR 1069 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 669 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 833 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "March, Sep & Oct: 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1047 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 938 per person onwards on Twin/Double sharing basis / EUR 895 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 894 per person onwards on Twin/Double sharing basis / EUR 849 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 561 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 572 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Nice 2N",
+            hotel: "Novotel Nice Centre Vieux Nice or similar",
+          },
+          {
+            location: "Monaco 2N",
+            hotel: "Port Palace Hôtel or similar",
+          },
+          {
+            location: "Milan 2N",
+            hotel: "Leonardo Hotel Milan City Center or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec: 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1064 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 945 per person onwards on Twin/Double sharing basis / EUR 915 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 901 per person onwards on Twin/Double sharing basis / EUR 869 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 586 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 588 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "April, May, June, July & Aug: 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1460 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1382 per person onwards on Twin/Double sharing basis / EUR 1368 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1338 per person onwards on Twin/Double sharing basis / EUR 1331 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 1179 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 995 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+
+          {
+            months: "March, Sep & Oct: 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                price: "EUR 1378 per person onwards on Twin/Double sharing basis",
+              },
+              {
+                pax: "04 Pax",
+                price: "EUR 1296 per person onwards on Twin/Double sharing basis / EUR 1257 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "06 Pax",
+                price: "EUR 1252 per person onwards on Twin/Double sharing basis / EUR 1211 per person onwards on Triple sharing basis",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 914 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 913 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Monaco – Milan 02nd class train ticket",
+      price: "EUR 50 - 80 onwards",
+      note: "On actual basis",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/french/day-1.jpg",
+    "/images/french/day-2.jpg",
+    "/images/french/day-3.jpg",
+    "/images/french/day-4.jpg",
+    "/images/french/day-5.jpg",
+    "/images/french/day-6.jpg",
+    "/images/french/extra1.jpg",
+  ]
+  
+},
+
+{
+  title: "Glimpses of Switzerland",
+  slug: "lucerne-interlaken-geneva-06n",
+  price: "EUR 1408 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+  image: "/images/Swit/day-1.jpg",
+  location: "Lucerne, Interlaken, Geneva",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Lucerne, Interlaken, Geneva",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Swiss Travel Pass Included",
+    ],
+
+    highlights: [
+      "Mt. Titlis",
+      "Ice Flyer",
+      "Lake Lucerne Cruise",
+      "Mt. Jungfrau",
+      "Jungfrau-Aletsch Glacier",
+      "Sphinx Observatory",
+      "Ice Palace",
+      "Lake Geneva Cruise",
+      "Montreux",
+      "Chillon Castle",
+    ],
+
+    experiences: [
+      {
+        title: "Lucerne – Mt. Titlis with Ice Flyer",
+        desc: "Travel from Lucerne to Engelberg and experience Mount Titlis, including the Ice Flyer chairlift, Glacier Park, hiking and panoramic alpine views.",
+      },
+      {
+        title: "Interlaken – Mt. Jungfrau",
+        desc: "Explore Jungfrau with the Swiss Pass, including the Sphinx Observatory, Ice Palace and Glacier Plateau.",
+      },
+      {
+        title: "Geneva – Lake Geneva",
+        desc: "Explore Geneva and enjoy the opportunity to cruise Lake Geneva while discovering the Old Town, Jet d'Eau and St. Pierre Cathedral.",
+      },
+      {
+        title: "Montreux – Chillon Castle",
+        desc: "Visit the medieval Château de Chillon on Lake Geneva using the Swiss Pass.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Lucerne",
+      desc: "Welcome to Zurich! Take the train from Zurich to Lucerne using your Swiss Pass. Explore Lucerne's historical charm, Lake Lucerne and picturesque old town.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Lucerne – Mt. Titlis with Ice Flyer",
+      desc: "Breakfast at Hotel. Take a morning train from Lucerne to Engelberg and visit Mount Titlis. Experience the Ice Flyer chairlift, Glacier Park, hiking and panoramic alpine views. The Swiss Pass also covers boat cruises on Lake Lucerne.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Lucerne – Interlaken",
+      desc: "Breakfast at Hotel. After check out, take a train to Interlaken. Enjoy the scenic journey through the Swiss Alps, lakes and mountains. Overnight Stay in Interlaken.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Interlaken – Mt. Jungfrau",
+      desc: "Breakfast at Hotel. Take a morning train from Interlaken to Grindelwald and continue towards Mt. Jungfrau. Explore the Sphinx Observatory, Ice Palace and Glacier Plateau.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Interlaken – Geneva",
+      desc: "Breakfast at Hotel. Travel from Interlaken to Geneva by train while enjoying scenic mountain peaks and natural landscapes. You can take a cruise on Lake Geneva. Explore Geneva's Old Town, Jet d'Eau, St. Pierre Cathedral and international institutions.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Geneva – Montreux with Swiss Pass",
+      desc: "Breakfast at Hotel. Visit Montreux, a traditional resort town on Lake Geneva. Visit Chillon Castle using your Swiss Pass.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Geneva – India",
+      desc: "Use the Swiss Pass from Geneva hotel to Geneva Airport for your onward journey.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 nights’ accommodation with Breakfast",
+      "Swiss Travel Pass 2nd class 8 consecutive days",
+      "Excursion to Mt. Titlis with Ice Flyer",
+      "Excursion to Mt. Jungfrau using Swiss Pass",
+      "Visit to Lindt Museum Chocolate Factory ticket",
+      "Rhine Falls with Swiss Pass",
+      "Lake Lucerne Cruise with Swiss Pass",
+      "Lake Lucerne and Geneva Cruise with Swiss Pass",
+      "Lake Thun and Lake Brienz Cruise with Swiss Pass",
+      "Visit Chillon castle with Swiss Pass",
+      "Geneva hotel to airport using Swiss Pass",
+    ],
+
+    excluded: [
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Personal expenses such as laundry, mineral water, drinks, telephone or any other charges not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers, etc.",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Lucerne 2N",
+            hotel: "ibis Styles Luzern City or similar",
+          },
+          {
+            location: "Interlaken 2N",
+            hotel: "Hotel Lotschberg or similar",
+          },
+          {
+            location: "Geneva 2N",
+            hotel: "Ibis Geneve Centre Gare or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Apr, May, Jun, Jul & Aug - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 1476 per person onwards",
+                triple: "EUR 1388 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 515 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 779",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 1487 per person onwards",
+                triple: "EUR 1389 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 488 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 790",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Nov, Dec, Jan & Feb - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 1408 per person onwards",
+                triple: "EUR 1258 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 262 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 711",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Lucerne 2N",
+            hotel: "Hotel Monopol Luzern or similar",
+          },
+          {
+            location: "Interlaken 2N",
+            hotel: "Hotel Metropole or similar",
+          },
+          {
+            location: "Geneva 2N",
+            hotel: "Novotel Suites Geneve Aeroport or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Apr, May, Jun, Jul & Aug - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 1588 per person onwards",
+                triple: "EUR 1569 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 812 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 869",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 1659 per person onwards",
+                triple: "EUR 1546 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 628 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 967",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Nov, Dec, Jan & Feb - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 1469 per person onwards",
+                triple: "EUR 1403 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 579 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 777",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Rhine Fall 15 minutes boat ride",
+      price: "EUR 12",
+    },
+    {
+      name: "Lindt home chocolate ticket",
+      price: "EUR 20",
+    },
+    {
+      name: "Jungfraujoch with Swiss Pass ticket",
+      price: "EUR 145",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/Swit/day-1.jpg",
+    "/images/Swit/day-2.jpg",
+    "/images/Swit/day-3.jpg",
+    "/images/Swit/day-4.jpg",
+    "/images/Swit/day-5.jpg",
+    "/images/Swit/day-6.jpg",
+    "/images/Swit/day-7.jpg",
+    
+  ],
+},
+
+{
+  title: "From Rhine Fall to Glacier 3000",
+  slug: "lucerne-interlaken-montreux-07n",
+  price: "EUR 1586 per person onwards",
+  days: "07 Nights / 08 Days",
+  rating: "",
+  image: "/images/fall/day-1.jpg",
+  location: "Lucerne, Interlaken, Montreux",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 07 Nights",
+      places: "Lucerne, Interlaken, Montreux",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "07 Nights Accommodation",
+      "08 Days Swiss Pass",
+    ],
+
+    highlights: [
+      "Lindt Home of Chocolate",
+      "Rhine Falls",
+      "Mt. Titlis",
+      "Ice Flyer",
+      "Grindelwald",
+      "Lauterbrunnen",
+      "Mt. Jungfrau",
+      "GoldenPass Route",
+      "Glacier 3000",
+      "Peak Walk by Tissot",
+    ],
+
+    experiences: [
+      {
+        title: "Lindt Chocolate Museum & Rhine Falls",
+        desc: "Visit Lindt Home of Chocolate and Rhine Falls using the Swiss Pass. The Rhine Falls visit does not include the boat ride.",
+      },
+      {
+        title: "Mt. Titlis with Ice Flyer",
+        desc: "Experience Mt. Titlis at 3,238 meters with cable car access, Ice Flyer chairlift, Glacier Cave and snow activities.",
+      },
+      {
+        title: "Grindelwald & Lauterbrunnen",
+        desc: "Explore the alpine villages of Grindelwald and Lauterbrunnen using the Swiss Pass.",
+      },
+      {
+        title: "Jungfraujoch – Top of Europe",
+        desc: "Visit Jungfraujoch with the Swiss Pass and supplement, including Ice Palace, Sphinx Observatory and views of the Aletsch Glacier.",
+      },
+      {
+        title: "Glacier 3000",
+        desc: "Enjoy alpine panoramas, snow activities, Peak Walk by Tissot and glacier views.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Arrival in Switzerland | Zurich Airport → Lucerne",
+      desc: "Upon arrival at Zurich Airport, activate your Swiss Pass and travel to Lucerne by train. Explore Lucerne at leisure, including Chapel Bridge, Lake Lucerne and the old town.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Lindt Chocolate Museum & Rhine Falls (No Boat Ride)",
+      desc: "Visit Lindt Home of Chocolate and later continue to Rhine Falls using your Swiss Pass. Explore the waterfall from various viewing platforms.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Excursion to Mt. Titlis with Ice Flyer",
+      desc: "Embark on the Mt. Titlis excursion with your Swiss Pass and mountain pass. Experience the Ice Flyer chairlift, Glacier Cave and snow activities.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Lucerne → Interlaken | Visit Grindelwald & Lauterbrunnen",
+      desc: "Travel from Lucerne to Interlaken using your Swiss Pass. Explore Grindelwald and Lauterbrunnen with their valleys, waterfalls and panoramic views.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Excursion to Mt. Jungfrau (Top of Europe)",
+      desc: "Experience Jungfraujoch using the Swiss Pass with supplement. Explore the Ice Palace, Sphinx Observatory and views of the Aletsch Glacier.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Interlaken → Montreux",
+      desc: "Travel from Interlaken to Montreux using your Swiss Pass. Enjoy lakes, vineyards and mountain scenery along the GoldenPass route. Overnight in Montreux.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Excursion to Glacier 3000",
+      desc: "Enjoy Glacier 3000 with alpine panoramas, snow activities, Peak Walk by Tissot and glacier views.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Departure | Montreux → Geneva Airport",
+      desc: "After breakfast, check out and proceed to Geneva Airport using your Swiss Pass.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "Accommodation with breakfast",
+      "08 days continuous 02 Class Swiss Pass",
+      "Zurich Airport to Lucerne hotel using Swiss pass",
+      "Lindt chocolate museum entry ticket",
+      "Visit Rhine fall using Swiss pass (NO boat ride)",
+      "Excursion to Mt Titlis with Ice flyer conjunction to Swiss pass",
+      "Lucerne Hotel to Interlaken hotel using Swiss pass",
+      "Visit Grindelwald and Lauterbrunnen using Swiss pass",
+      "Excursion to Mt Jungfrau with Swiss pass",
+      "Interlaken to Montreux hotel using Swiss Pass",
+      "Excursion to Glacier 3000 using Swiss Pass",
+      "Montreux hotel to Geneva Airport using Swiss Pass",
+    ],
+
+    excluded: [
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Personal expenses such as laundry, mineral water, drinks, telephone or any other charges not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers, etc.",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Lucerne 3N",
+            hotel: "Hotel de la Paix or Similar",
+          },
+          {
+            location: "Interlaken 2N",
+            hotel: "Hotel Weisses Kreuz or Similar",
+          },
+          {
+            location: "Montreux 2N",
+            hotel: "Tralala Hôtel Montreux or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Apr, May, Jun, Jul & Aug - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 1586 per person onwards",
+                triple: "EUR 1402 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 265 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 771 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 1672 per person onwards",
+                triple: "EUR 1496 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 368 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 853 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Nov, Dec, Jan & Feb - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 1723 per person onwards",
+                triple: "EUR 1546 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 416 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 901 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Lucerne 3N",
+            hotel: "Hotel MONOPOL Luzern or Similar",
+          },
+          {
+            location: "Interlaken 2N",
+            hotel: "Hotel Metropole or Similar",
+          },
+          {
+            location: "Montreux 2N",
+            hotel: "Hotel Victoria Glion or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Apr, May, Jun, Jul & Aug - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 1962 per person onwards",
+                triple: "EUR 1773 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 683 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1129 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 2249 per person onwards",
+                triple: "EUR 2002 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 716 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1402 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Nov, Dec, Jan & Feb - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 1791 per person onwards",
+                triple: "EUR 1646 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 571 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 966 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Rhine Fall 15 minutes boat ride",
+      price: "EUR 12",
+    },
+    {
+      name: "Lindt home chocolate ticket",
+      price: "EUR 20",
+    },
+    {
+      name: "Jungfraujoch with Swiss Pass ticket",
+      price: "EUR 145",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/fall/day-1.jpg",
+    "/images/fall/day-2.jpg",
+    "/images/fall/day-3.jpg",
+    "/images/fall/day-4.jpg",
+    "/images/fall/day-5.jpg",
+    "/images/fall/day-6.jpg",
+    "/images/fall/day-7.jpg",
+  ]
+},
+
+{
+  title: "Explore Florence + Pisa + Rome",
+  slug: "florence-pisa-rome-06n",
+  price: "EUR 812 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+  image: "/images/rome/day-1.jpg",
+  location: "Florence, Pisa, Rome",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Florence, Pisa, Rome",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Private Transfers Included",
+    ],
+
+    highlights: [
+      "Florence Walking Tour",
+      "Duomo",
+      "Baptistery",
+      "Pisa",
+      "Leaning Tower of Pisa",
+      "Piazza dei Miracoli",
+      "Rome Hop-on Hop-off",
+      "Colosseum",
+      "Roman Forum",
+      "Pantheon",
+    ],
+
+    experiences: [
+      {
+        title: "Florence – Walking Tour with Expert Guide",
+        desc: "Enjoy a 1.5-hour shared walking tour with an expert guide covering Florence's iconic landmarks, historic centre and charming piazzas.",
+      },
+      {
+        title: "Pisa – Leaning Tower",
+        desc: "Visit the Leaning Tower of Pisa with entry ticket access and enjoy panoramic views of Piazza dei Miracoli.",
+      },
+      {
+        title: "Rome – Hop-on Hop-off",
+        desc: "Explore Rome at your own pace with a 24-hour Hop-on Hop-off bus ticket covering the city's major landmarks.",
+      },
+      {
+        title: "Rome – Colosseum",
+        desc: "Visit the iconic Colosseum and explore its ancient corridors, arches and underground passages.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Florence",
+      desc: "Arrival at Florence Airport followed by a private transfer to the hotel. Spend the evening exploring Florence at leisure, including the Duomo, Arno River and Renaissance streets.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Florence – Florence Walking Tour with Expert Guide – 1.5 Hour",
+      desc: "Breakfast at Hotel. Enjoy a 1.5-hour shared walking tour with an expert guide covering Florence's iconic landmarks, Duomo, Baptistery, historic centre and charming piazzas.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Florence – Pisa",
+      desc: "Breakfast at Hotel. Travel by train from Florence to Pisa. The journey is approximately 85 km and typically takes between 50 minutes and 1 hour 10 minutes.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Pisa – Leaning Tower of Pisa Entry Ticket",
+      desc: "Breakfast at Hotel. Visit the Leaning Tower of Pisa and climb to the top for panoramic views of Piazza dei Miracoli, cathedral and baptistery.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Pisa – Rome",
+      desc: "Breakfast at Hotel. Travel from Pisa to Rome by train. The journey is approximately 350 km and takes around 2 hours 45 minutes to 3 hours on high-speed services.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Rome – Hop-on Hop-off Bus Tour – 24 Hours",
+      desc: "Breakfast at Hotel. Explore Rome with a 24-hour Hop-on Hop-off bus tour. Later visit the Colosseum with entry ticket.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Rome – India",
+      desc: "Breakfast at Hotel. After breakfast proceed to Rome airport with private transfer.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Night Accommodation with Breakfast",
+      "Transfer from Florence airport to hotel on private basis",
+      "Florence Walking Tour with Expert Guide - 1.5 Hour on Shared Basis",
+      "Transfer from Florence hotel to train station on private basis",
+      "Train from Florence to Pisa",
+      "Transfer from Pisa train station to hotel on private basis",
+      "Leaning Tower of Pisa Entry Ticket",
+      "Transfer from Pisa hotel to train station on private basis",
+      "Train from Pisa to Rome",
+      "Transfer from Rome train station to hotel on private basis",
+      "Rome hop on hop off bus tour - 24 hours",
+      "Colosseum Entry Ticket",
+      "Private Transfer from Rome Hotel to Airport",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tour",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Personal expenses such as laundry, mineral water, drinks, telephone or any other charges not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers, etc.",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Florence 2N",
+            hotel: "Comfort Hotel Bergen or similar",
+          },
+          {
+            location: "Pisa 2N",
+            hotel: "Hotel Alessandro Della Spina or similar",
+          },
+          {
+            location: "Rome 2N",
+            hotel: "Hotel Luxor Florence or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 812 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 724 per person onwards",
+                triple: "EUR 639 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 675 per person onwards",
+                triple: "EUR 590 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 271 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 451 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 941 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 843 per person onwards",
+                triple: "EUR 764 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 793 per person onwards",
+                triple: "EUR 720 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 381 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 558 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 848 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 757 per person onwards",
+                triple: "EUR 692 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 705 per person onwards",
+                triple: "EUR 645 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 352 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 469 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Florence 2N",
+            hotel: "Hotel San Giovanni Roma or similar",
+          },
+          {
+            location: "Pisa 2N",
+            hotel: "Bologna Hotel or similar",
+          },
+          {
+            location: "Rome 2N",
+            hotel: "Cellai Boutique Hotel or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 819 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 733 per person onwards",
+                triple: "EUR 676 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 652 per person onwards",
+                triple: "EUR 608 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 338 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 368 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 946 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 851 per person onwards",
+                triple: "EUR 773 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 803 per person onwards",
+                triple: "EUR 728 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 329 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 563 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 852 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 759 per person onwards",
+                triple: "EUR 723 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 713 per person onwards",
+                triple: "EUR 672 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 434 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 473 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Florence - Pisa – Rome 02nd Class train ticket",
+      price: "EUR 65 - 75",
+      note: "On actual basis",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/rome/day-1.jpg",
+    "/images/rome/day-2.jpg",
+    "/images/rome/day-3.jpg",
+    "/images/rome/day-4.jpg",
+    "/images/rome/day-5.jpg",
+    "/images/rome/day-6.jpg",
+    "/images/rome/extra1.jpg",
+    "/images/rome/extra2.jpg",
+    "/images/rome/extra3.jpg",
+    "/images/rome/extra4.jpg",
+    "/images/rome/extra5.jpg",
+  ]
+},
+
+{
+  title: "Explore Geneva + Montreux + Zermatt",
+  slug: "geneva-montreux-zermatt-06n",
+  price: "EUR 1408 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+  image: "/images/gene/day-1.jpg",
+  location: "Geneva, Montreux, Zermatt",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Geneva, Montreux, Zermatt",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Swiss Travel Pass Included",
+    ],
+
+    highlights: [
+      "Swiss Travel Pass",
+      "Mont-Blanc",
+      "Mer de Glace",
+      "Montenvers Cogwheel Train",
+      "Glacier 3000",
+      "Peak Walk",
+      "Zermatt",
+      "Matterhorn Glacier Paradise",
+      "Glacier Palace",
+    ],
+
+    experiences: [
+      {
+        title: "Geneva – Mont-Blanc & Mer de Glace",
+        desc: "Enjoy a full-day shared excursion to Mont-Blanc and Mer de Glace, travelling through Chamonix and ascending by the historic Montenvers Cogwheel Train.",
+      },
+      {
+        title: "Montreux – Glacier 3000",
+        desc: "Experience Glacier 3000 with panoramic alpine views, Peak Walk suspension bridge and glacier activities.",
+      },
+      {
+        title: "Zermatt – Matterhorn Glacier Paradise",
+        desc: "Ascend to Matterhorn Glacier Paradise, the highest cable car station in Europe, and explore the glacier palace and surrounding alpine scenery.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Geneva",
+      desc: "Arrival at Geneva Airport followed by a private transfer to the hotel. Spend the evening exploring Geneva, Lake Geneva and the Old Town at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Geneva – Swiss Travel Pass – 06 Days Continuous | 02nd Class",
+      desc: "After breakfast, begin exploring Switzerland using the 6-day continuous Swiss Travel Pass. Enjoy a full-day shared excursion to Mont-Blanc and Mer de Glace with the Montenvers Cogwheel Train.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Geneva – Montreux",
+      desc: "After breakfast, travel from Geneva to Montreux using the Swiss Travel Pass. Enjoy scenic Lake Geneva and vineyard views along the journey.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Montreux – Excursion to Glacier 3000 Using Swiss Pass",
+      desc: "After breakfast, enjoy a full-day shared excursion to Glacier 3000 using the Swiss Travel Pass. Experience alpine panoramas, Peak Walk and glacier activities.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Montreux – Zermatt",
+      desc: "After breakfast, travel from Montreux to Zermatt using the Swiss Travel Pass. Enjoy scenic views of lakes, vineyards and alpine landscapes. Overnight Stay in Zermatt.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Zermatt – Excursion to Matterhorn Glacier Paradise Using Swiss Pass",
+      desc: "After breakfast, embark on a full-day shared excursion to Matterhorn Glacier Paradise. Ascend to the highest cable car station in Europe and explore the Glacier Palace and surrounding peaks.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Zermatt – Geneva",
+      desc: "After breakfast, travel from Zermatt to Geneva using your Swiss Travel Pass. Upon arrival proceed to Geneva Airport.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Night Accommodation with Breakfast",
+      "Transfer from Geneva airport to hotel on private basis",
+      "Swiss Travel Pass - 06 Days Continuous | 02nd Class",
+      "Day Trip to Mont-Blanc and Cogwheel Ticket Mer de Glace Tour",
+      "Train from Geneva to Montreux Using Swiss Pass",
+      "Excursion to Glacier 3000 Using Swiss Pass",
+      "Train from Montreux to Zermatt Using Swiss Pass",
+      "Excursion to Matterhorn Glacier Paradise Using Swiss Pass",
+      "Train from Zermatt to Geneva Using Swiss Pass",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tour",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Personal expenses such as laundry, mineral water, drinks, telephone or any other charges not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers, etc.",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Geneva 2N",
+            hotel: "Hotel Eden Geneve or similar",
+          },
+          {
+            location: "Montreux 2N",
+            hotel: "Tralala Hotel Montreux or similar",
+          },
+          {
+            location: "Zermatt 2N",
+            hotel: "Hotel Bristol or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1408 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1385 per person onwards",
+                triple: "EUR 1325 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1374 per person onwards",
+                triple: "EUR 1315 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 581 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 642 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1783 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1762 per person onwards",
+                triple: "EUR 1626 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1751 per person onwards",
+                triple: "EUR 1618 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 658 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 932 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1539 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1518 per person onwards",
+                triple: "EUR 1458 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1506 per person onwards",
+                triple: "EUR 1437 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 713 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 768 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Geneva 2N",
+            hotel: "Wellness Hotel Alpenhof or similar",
+          },
+          {
+            location: "Montreux 2N",
+            hotel: "Hotel du Grand Lac Excelsior or similar",
+          },
+          {
+            location: "Zermatt 2N",
+            hotel: "Hotel Ambassador Zermatt or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1711 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1688 per person onwards",
+                triple: "EUR 1569 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1675 per person onwards",
+                triple: "EUR 1557 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 702 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 934 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1917 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1894 per person onwards",
+                triple: "EUR 1747 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1883 per person onwards",
+                triple: "EUR 1735 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 841 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1109 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1892 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1880 per person onwards",
+                triple: "EUR 1873 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1869 per person onwards",
+                triple: "EUR 1860 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 1398 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1111 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/gene/day-1.jpg",
+    "/images/gene/day-2.jpg",
+    "/images/gene/day-3.jpg",
+    "/images/gene/day-4.jpg",
+    "/images/gene/day-5.jpg",
+    "/images/gene/day-6.jpg",
+    "/images/gene/extra1.jpg",
+    "/images/gene/extra2.jpg",
+    "/images/gene/extra3.jpg",
+    "/images/gene/extra4.jpg",
+    "/images/gene/extra5.jpg",
+     "/images/gene/extra6.jpg",
+  ]
+},
+
+{
+  title: "Best of Engelberg + Grindelwald + Zurich",
+  slug: "engelberg-grindelwald-zurich-06n",
+  price: "EUR 1640 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "",
+  image: "",
+  location: "Engelberg, Grindelwald, Zurich",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Engelberg, Grindelwald, Zurich",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "06 Days Swiss Pass",
+    ],
+
+    highlights: [
+      "Mt. Titlis",
+      "Titlis Cliff Walk",
+      "Mt. Jungfrau",
+      "Top of Europe",
+      "Ice Palace",
+      "Sphinx Observatory",
+      "Rhine Falls",
+      "Lindt Home of Chocolate",
+      "Zurich Old Town",
+      "Lake Zurich",
+    ],
+
+    experiences: [
+      {
+        title: "Engelberg – Mt. Titlis",
+        desc: "Experience Mt. Titlis with panoramic gondola rides, snowy mountain views and the famous Titlis Cliff Walk.",
+      },
+      {
+        title: "Grindelwald – Alpine Village",
+        desc: "Travel to Grindelwald through the scenic Berner Oberland region and enjoy views of the Eiger North Face.",
+      },
+      {
+        title: "Jungfraujoch – Top of Europe",
+        desc: "Visit Jungfraujoch using the Swiss Pass and explore the Ice Palace, Sphinx Observatory and panoramic glacier views.",
+      },
+      {
+        title: "Zurich – Rhine Falls",
+        desc: "Visit Rhine Falls using the Swiss Pass. Boat tour is not included.",
+      },
+      {
+        title: "Zurich – Lindt Home of Chocolate",
+        desc: "Visit the Lindt Home of Chocolate and explore interactive exhibits and the famous chocolate fountain.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Zurich – Engelberg",
+      desc: "Arrival at Zurich Airport and travel to Engelberg using your Swiss Pass. Enjoy a scenic train journey through Switzerland's rolling hills and lakes. Spend the evening surrounded by Engelberg's mountain scenery.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Engelberg – Mt. Titlis Excursion",
+      desc: "Breakfast at Hotel. Enjoy an excursion to Mt. Titlis using your Swiss Pass, including panoramic gondola rides, snowy vistas and the famous Titlis Cliff Walk.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Engelberg – Grindelwald",
+      desc: "Breakfast at Hotel. Travel from Engelberg to Grindelwald using your Swiss Pass through the scenic Berner Oberland region. Enjoy the mountain scenery surrounding Grindelwald and the Eiger North Face.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Grindelwald – Excursion to Mt. Jungfrau",
+      desc: "Breakfast at Hotel. Visit Jungfraujoch – Top of Europe using your Swiss Pass. Explore the Ice Palace, Sphinx Observatory and panoramic viewpoints overlooking glaciers and snow-covered mountains.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Grindelwald – Zurich",
+      desc: "Breakfast at Hotel. Travel from Grindelwald to Zurich using your Swiss Pass. In the afternoon visit Rhine Falls using your Swiss Pass. Boat tour is not included.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Zurich – Lindt Home of Chocolate",
+      desc: "Breakfast at Hotel. Visit the Lindt Home of Chocolate and explore its interactive exhibits and chocolate fountain. Spend the rest of the day exploring Zurich at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Zurich – India",
+      desc: "Breakfast at Hotel. Private transfer from Zurich hotel to Zurich Airport for your onward journey to India.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Night Accommodation with Breakfast",
+      "06 Days Consecutive 2nd Class Swiss Pass",
+      "Zurich Airport to Engelberg Hotel Using Swiss Pass",
+      "Excursion to Mt. Titlis with Swiss Pass",
+      "Engelberg to Grindelwald Using Swiss Pass",
+      "Excursion to Mt. Jungfrau with Swiss Pass",
+      "Grindelwald to Zurich Using Swiss Pass",
+      "Lindt Home of Chocolate Entrance Tickets (Subject to Availability)",
+      "Visit to Rhine Falls with Swiss Pass (Without Boat Tour)",
+      "Private Transfer from Zurich Hotel to Zurich Airport",
+      "Train/Tram/Bus ticket from Zurich hotel to airport",
+    ],
+
+    excluded: [
+      "Tours on SIC/Shared basis where client needs to reach the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Personal expenses such as laundry, mineral water, drinks, telephone or other expenses not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Engelberg 2N",
+            hotel: "Hotel Crystal Engelberg or Similar",
+          },
+          {
+            location: "Grindelwald 2N",
+            hotel: "Hotel Bernerhof Grindelwald or similar",
+          },
+          {
+            location: "Zurich 2N",
+            hotel: "ibis Zurich Messe Airport or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb & March - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1640 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1602 per person onwards",
+                triple: "EUR 1398 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1467 per person onwards",
+                triple: "EUR 1376 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 174 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 910 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1610 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1595 per person onwards",
+                triple: "EUR 1474 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1564 per person onwards",
+                triple: "EUR 1449 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 136 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 880 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1592 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1572 per person onwards",
+                triple: "EUR 1390 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1487 per person onwards",
+                triple: "EUR 1376 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 244 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1309 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Engelberg 2N",
+            hotel: "Hotel Bellevue Terminus or Similar",
+          },
+          {
+            location: "Grindelwald 2N",
+            hotel: "Belvedere Swiss Quality Hotel Grindelwald or similar",
+          },
+          {
+            location: "Zurich 2N",
+            hotel: "Novotel Zurich Airport Messe - récemment rénové or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1816 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1796 per person onwards",
+                triple: "EUR 1737 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1785 per person onwards",
+                triple: "EUR 1708 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 139 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1030 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1787 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1747 per person onwards",
+                triple: "EUR 1719 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1737 per person onwards",
+                triple: "EUR 1704 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 182 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 805 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1757 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1727 per person onwards",
+                triple: "EUR 1696 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1708 per person onwards",
+                triple: "EUR 1686 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 174 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1260 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+},
+
+{
+  title: "From Zurich's Charm to Mont Blanc Views",
+  slug: "zurich-bern-geneva-06n",
+  price: "EUR 1230 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+  image: "/images/charm/day-1.jpg",
+  location: "Zurich, Bern, Geneva",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Zurich, Bern, Geneva",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Swiss Travel Pass",
+    ],
+
+    highlights: [
+      "Rhine Falls",
+      "Lindt Home of Chocolate",
+      "Bern Old Town",
+      "Zytglogge",
+      "Mt. Jungfrau",
+      "Top of Europe",
+      "Aletsch Glacier",
+      "Ice Palace",
+      "Mont Blanc",
+      "Chamonix",
+      "Aiguille du Midi",
+      "Lake Geneva",
+    ],
+
+    experiences: [
+      {
+        title: "Zurich – Rhine Falls",
+        desc: "Visit Rhine Falls using your Swiss Pass. Boat rides are not included.",
+      },
+      {
+        title: "Zurich – Lindt Home of Chocolate",
+        desc: "Visit the Lindt Home of Chocolate with entry to the chocolate fountain and interactive exhibits.",
+      },
+      {
+        title: "Bern – Jungfraujoch",
+        desc: "Travel to Jungfrau via Interlaken Ost, Grindelwald Terminal, Eiger Express and Jungfrau Bahn. Explore the Aletsch Glacier and Ice Palace.",
+      },
+      {
+        title: "Geneva – Mont Blanc",
+        desc: "Take an SIC day trip from Geneva to Chamonix and ride the Aiguille du Midi cable car for panoramic alpine views.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Zurich",
+      desc: "Arrival in Zurich and check-in at the hotel. Enjoy Zurich at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Zurich – Rhine Falls & Lindt Home of Chocolate",
+      desc: "Breakfast at Hotel. Visit Rhine Falls using your Swiss Pass, followed by the Lindt Home of Chocolate in Kilchberg.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Zurich – Bern",
+      desc: "Breakfast at Hotel. Travel by train from Zurich to Bern using the Swiss Pass. Explore Bern's UNESCO-listed Old Town, Zytglogge clock tower and Aare River.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Bern – Excursion to Mt. Jungfrau",
+      desc: "Breakfast at Hotel. Take a full-day excursion to Mt. Jungfrau – Top of Europe using your Swiss Pass. Travel via Interlaken Ost, Grindelwald Terminal, Eiger Express and Jungfrau Bahn. Explore the Aletsch Glacier and Ice Palace.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Bern – Geneva",
+      desc: "Breakfast at Hotel. Travel from Bern to Geneva using your Swiss Pass. Explore Geneva including Jet d'Eau, Flower Clock, Old Town and Lake Geneva.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Geneva – Mont Blanc Excursion",
+      desc: "Breakfast at Hotel. Embark on an SIC day trip to Mont Blanc from Geneva. Travel to Chamonix and enjoy the Aiguille du Midi cable car with ticket included.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Geneva – India",
+      desc: "Breakfast at Hotel. Proceed to the airport using your Swiss Pass for the onward journey.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights Accommodation with Breakfast",
+      "Swiss Travel Pass 2nd class 4 consecutive days",
+      "Rhine Falls with Swiss Pass",
+      "Lindt Home of Chocolate entry ticket",
+      "Zurich to Bern by Train using Swiss Pass",
+      "Excursion to Mt. Jungfrau with Swiss Pass",
+      "Bern to Geneva by Train using Swiss Pass",
+      "Day trip to Mont Blanc from Geneva on SIC basis",
+      "Aiguille du Midi cable car ticket included",
+      "Tram/Bus ticket from Zurich & Geneva hotel to airport",
+    ],
+
+    excluded: [
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Personal expenses such as laundry, mineral water, drinks, telephone or other expenses not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Zurich 2N",
+            hotel: "ibis Styles Zurich City Center or similar",
+          },
+          {
+            location: "Bern 2N",
+            hotel: "ibis Styles Bern City or similar",
+          },
+          {
+            location: "Geneva 2N",
+            hotel: "ibis Genève Centre Nations or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1230 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1190 per person onwards",
+                triple: "EUR 1166 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1172 per person onwards",
+                triple: "EUR 1156 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 513 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 382 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1553 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1510 per person onwards",
+                triple: "EUR 1445 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1496 per person onwards",
+                triple: "EUR 1430 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 564 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 690 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1454 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1411 per person onwards",
+                triple: "EUR 1349 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1396 per person onwards",
+                triple: "EUR 1334 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 481 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 595 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Zurich 2N",
+            hotel: "Sheraton Zurich Hotel or similar",
+          },
+          {
+            location: "Bern 2N",
+            hotel: "ibis Bern Expo or similar",
+          },
+          {
+            location: "Geneva 2N",
+            hotel: "Novotel Genève Centre or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1610 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1572 per person onwards",
+                triple: "EUR 1460 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1552 per person onwards",
+                triple: "EUR 1444 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 498 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 744 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1898 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1857 per person onwards",
+                triple: "EUR 1674 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1853 per person onwards",
+                triple: "EUR 1658 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 538 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1030 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1715 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1672 per person onwards",
+                triple: "EUR 1535 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1657 per person onwards",
+                triple: "EUR 1520 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 514 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 844 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Rhine Fall 15 minutes boat ride",
+      price: "EUR 10 onwards",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/charm/day-1.jpg",
+    "/images/charm/day-2.jpg",
+    "/images/charm/day-3.jpg",
+    "/images/charm/day-4.jpg",
+    "/images/charm/day-5.jpg",
+    "/images/charm/day-6.jpg",
+  ]
+},
+
+{
+  title: "Scenic Switzerland Discovery",
+  slug: "lucerne-interlaken-zermatt-montreux-09n",
+  price: "EUR 2028 per person onwards",
+  days: "09 Nights / 10 Days",
+  rating: "4.9",
+  image: "/images/Switzerland/day-1.jpg",
+  location: "Lucerne, Interlaken, Zermatt, Montreux",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "4 Destinations, 09 Nights",
+      places: "Lucerne, Interlaken, Zermatt, Montreux",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "09 Nights Accommodation",
+      "Swiss Pass Included",
+    ],
+
+    highlights: [
+      "Lindt Home of Chocolate",
+      "Rhine Falls",
+      "Mt. Titlis",
+      "Ice Flyer",
+      "Grindelwald",
+      "Lauterbrunnen",
+      "Mt. Jungfrau",
+      "Jungfrau-Aletsch Glacier",
+      "Matterhorn Glacier Paradise",
+      "Matterhorn",
+      "Glacier 3000",
+      "Peak Walk by Tissot",
+    ],
+
+    experiences: [
+      {
+        title: "Lucerne – Lindt & Rhine Falls",
+        desc: "Visit Lindt Home of Chocolate and Rhine Falls using your Swiss Pass. Rhine Falls boat ride is not included.",
+      },
+      {
+        title: "Mt. Titlis with Ice Flyer",
+        desc: "Experience Mt. Titlis and the Ice Flyer with alpine snow views.",
+      },
+      {
+        title: "Grindelwald & Lauterbrunnen",
+        desc: "Explore the scenic twin valleys of Grindelwald and Lauterbrunnen.",
+      },
+      {
+        title: "Jungfraujoch – Top of Europe",
+        desc: "Visit Jungfraujoch at 3,454 metres, including the Ice Palace and views of the Aletsch Glacier.",
+      },
+      {
+        title: "Matterhorn Glacier Paradise",
+        desc: "Visit Europe's highest cable car station and enjoy panoramic snowfields and ice sculptures.",
+      },
+      {
+        title: "Glacier 3000",
+        desc: "Experience Glacier 3000, snow activities and the Peak Walk by Tissot.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Zurich – Lucerne",
+      desc: "Arrive at Zurich Airport and activate your Swiss Pass for the scenic train journey to Lucerne. Explore Lucerne Old Town, Chapel Bridge and the lakeside promenade.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Lindt Chocolate Museum & Rhine Falls",
+      desc: "Breakfast at Hotel. Visit Lindt Home of Chocolate and later use your Swiss Pass to visit Rhine Falls. Boat ride is not included.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Excursion to Mt. Titlis with Ice Flyer",
+      desc: "Breakfast at Hotel. Enjoy the Mt. Titlis excursion with Ice Flyer. The source itinerary then continues the journey towards Interlaken and the surrounding alpine valleys.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Lucerne – Interlaken | Grindelwald & Lauterbrunnen",
+      desc: "Breakfast at Hotel. Travel to Interlaken using your Swiss Pass. Explore Grindelwald and Lauterbrunnen with waterfalls, scenic meadows and mountain views.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Excursion to Mt. Jungfrau – Top of Europe",
+      desc: "Breakfast at Hotel. Visit Jungfraujoch and explore the Ice Palace, views of the Aletsch Glacier and snowy peaks at 3,454 metres.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Interlaken – Zermatt",
+      desc: "Breakfast at Hotel. Travel to the car-free resort town of Zermatt using your Swiss Pass and enjoy views of the Matterhorn.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Excursion to Matterhorn Glacier Paradise",
+      desc: "Use your Swiss Pass with applicable reductions to visit Matterhorn Glacier Paradise, the highest cable car station in Europe. Enjoy ice sculptures and panoramic snowfields.",
+      tags: [],
+    },
+    {
+      day: "08",
+      title: "Zermatt – Montreux",
+      desc: "Check out and travel to Montreux through the scenic Lake Geneva region. Enjoy the lakeside promenade and town.",
+      tags: [],
+    },
+    {
+      day: "09",
+      title: "Excursion to Glacier 3000",
+      desc: "Experience Glacier 3000, snow activities, Peak Walk by Tissot and stunning Alpine views.",
+      tags: [],
+    },
+    {
+      day: "10",
+      title: "Montreux – Geneva Airport – India",
+      desc: "After breakfast, proceed to Geneva Airport using your Swiss Pass for the onward journey.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "15 days consecutive 02nd class Swiss Pass",
+      "Zurich Airport to Lucerne hotel using Swiss Pass",
+      "Lindt chocolate museum entry ticket (Subject to availability)",
+      "Visit Rhine Falls using Swiss Pass (NO boat ride)",
+      "Excursion to Mt Titlis with Ice Flyer conjunction to Swiss Pass",
+      "Lucerne Hotel to Interlaken hotel using Swiss Pass",
+      "Visit Grindelwald and Lauterbrunnen using Swiss Pass",
+      "Excursion to Mt Jungfrau with Swiss Pass",
+      "Interlaken to Zermatt hotel using Swiss Pass",
+      "Excursion to Matterhorn with Swiss Pass",
+      "Zermatt to Montreux hotel using Swiss Pass",
+      "Excursion to Glacier 3000 using Swiss Pass",
+      "Montreux hotel to Geneva Airport using Swiss Pass",
+    ],
+
+    excluded: [
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Personal expenses such as laundry, mineral water, drinks, telephone or other expenses not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Lucerne 3N",
+            hotel: "ibis Styles Luzern City or similar",
+          },
+          {
+            location: "Interlaken 2N",
+            hotel: "Hotel Lotschberg or similar",
+          },
+          {
+            location: "Zermatt 2N",
+            hotel: "Hotel Butterfly or Similar",
+          },
+          {
+            location: "Montreux 2N",
+            hotel: "Hôtel Villa Toscane Montreux or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Apr, May, Jun, Jul & Aug - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 2028 per person onwards",
+                triple: "EUR 1811 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 482 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1084 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 2154 per person onwards",
+                triple: "EUR 1977 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 716 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1204 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Nov, Dec, Jan & Feb - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 2039 per person onwards",
+                triple: "EUR 1873 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 639 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1094 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Lucerne 3N",
+            hotel: "Hotel Monopol Luzern or similar",
+          },
+          {
+            location: "Interlaken 2N",
+            hotel: "Hotel Metropole or similar",
+          },
+          {
+            location: "Zermatt 2N",
+            hotel: "Ambassador Zermatt or Similar",
+          },
+          {
+            location: "Montreux 2N",
+            hotel: "Mona Montreux or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Apr, May, Jun, Jul & Aug - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 2537 per person onwards",
+                triple: "EUR 2322 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 967 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1569 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 2562 per person onwards",
+                triple: "EUR 2381 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 1095 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1592 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Nov, Dec, Jan & Feb - 2026",
+            rows: [
+              {
+                pax: "02 – 08 Pax",
+                twinDouble: "EUR 2537 per person onwards",
+                triple: "EUR 2392 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 1156 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1569 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Rhine Fall 15 minutes boat ride",
+      price: "EUR 12",
+    },
+    {
+      name: "Lindt home chocolate ticket",
+      price: "EUR 20",
+    },
+    {
+      name: "Jungfraujoch with Swiss Pass ticket",
+      price: "EUR 145",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+      "/images/Switzerland/day-1.jpg",
+      "/images/Switzerland/day-2.jpg",
+      "/images/Switzerland/day-3.jpg",
+      "/images/Switzerland/day-4.jpg",
+      "/images/Switzerland/day-5.jpg",
+      "/images/Switzerland/day-6.jpg",
+      "/images/Switzerland/day-7.jpg",
+      "/images/Switzerland/day-8.jpg",
+      "/images/Switzerland/day-9.jpg",
+  ],
+},
+
+{
+  title: "Swiss Panorama Experience: Montreux, Lausanne & Geneva",
+  slug: "montreux-lausanne-geneva-06n",
+  price: "EUR 1289 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "",
+  image: "/images/Swiss/day-1.jpg",
+  location: "Montreux, Lausanne, Geneva",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Montreux, Lausanne, Geneva",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "06 Days Swiss Pass",
+    ],
+
+    highlights: [
+      "Glacier 3000",
+      "Mont Blanc Views",
+      "Matterhorn Views",
+      "Mt. Titlis",
+      "Rotair Cable Car",
+      "Ice Flyer",
+      "Glacier Cave",
+      "Chillon Castle",
+      "Lake Geneva",
+      "Geneva Old Town",
+      "Jet d'Eau",
+      "Flower Clock",
+    ],
+
+    experiences: [
+      {
+        title: "Montreux – Glacier 3000",
+        desc: "Enjoy panoramic Alpine views including Mont Blanc and the Matterhorn, along with snow-covered landscapes and summit activities.",
+      },
+      {
+        title: "Lausanne – Mt. Titlis",
+        desc: "Travel to Mt. Titlis, ride the Rotair cable car, experience the Ice Flyer chairlift and explore the Glacier Cave.",
+      },
+      {
+        title: "Lausanne – Chillon Castle",
+        desc: "Visit Chillon Castle on the shores of Lake Geneva using the Swiss Pass.",
+      },
+      {
+        title: "Geneva – Leisure Day",
+        desc: "Explore Geneva's Jet d'Eau, United Nations area, Flower Clock and Old Town at leisure.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Geneva – Montreux",
+      desc: "Arrival at Geneva Airport and travel to Montreux using your Swiss Pass. Check in and enjoy the lakeside surroundings at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Montreux – Excursion to Glacier 3000",
+      desc: "Breakfast at Hotel. Proceed to Glacier 3000 using your Swiss Pass. Enjoy panoramic views of the Alps, Mont Blanc and Matterhorn, along with snow-covered landscapes and summit activities.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Montreux – Lausanne",
+      desc: "Breakfast at Hotel. Travel from Montreux to Lausanne using your Swiss Pass. Check in and explore Lausanne at your own pace.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Lausanne – Excursion to Mt. Titlis with Ice Flyer",
+      desc: "Breakfast at Hotel. Enjoy a scenic journey to Mt. Titlis, ride the Rotair cable car, experience the Ice Flyer chairlift and explore the Glacier Cave.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Lausanne – Geneva | Chillon Castle",
+      desc: "Breakfast at Hotel. Visit Chillon Castle using your Swiss Pass, then travel from Lausanne to Geneva. Explore Geneva's lakeside promenades, gardens and Old Town.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Geneva – Day at Leisure",
+      desc: "Breakfast at Hotel. Enjoy a full day at leisure in Geneva. Explore Jet d'Eau, the United Nations area, Flower Clock and Old Town.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Geneva – India",
+      desc: "Breakfast at Hotel. Private transfer from Geneva hotel to Geneva Airport for your return flight.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights Accommodation with Breakfast",
+      "02nd Class 06 Days Consecutive Swiss Pass",
+      "Geneva Airport to Montreux by using Swiss Pass",
+      "Excursion to Glacier 3000 with Swiss Pass",
+      "Montreux to Lausanne by using Swiss Pass",
+      "Excursion to Mt. Titlis with Ice Flyer",
+      "Lausanne to Geneva by using Swiss Pass",
+      "Visit Chillon Castle with Swiss Pass",
+      "Private transfer from Geneva Hotel to Geneva Airport",
+    ],
+
+    excluded: [
+      "Tours on SIC/Shared basis where client needs to reach the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Personal expenses such as laundry, mineral water, drinks, telephone or other expenses not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Montreux 2N",
+            hotel: "Villa Toscane or Similar",
+          },
+          {
+            location: "Lausanne 2N",
+            hotel: "Ibis Lausanne Centre or Similar",
+          },
+          {
+            location: "Geneva 2N",
+            hotel: "Hotel Bernina Geneva or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1289 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1269 per person onwards",
+                triple: "EUR 1154 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1261 per person onwards",
+                triple: "EUR 1145 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 342 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 675 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July, Aug & Sep - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1233 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1213 per person onwards",
+                triple: "EUR 1139 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1206 per person onwards",
+                triple: "EUR 1126 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 402 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 624 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1240 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1220 per person onwards",
+                triple: "EUR 1152 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1213 per person onwards",
+                triple: "EUR 1139 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 427 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 631 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Montreux 2N",
+            hotel: "Mona Montreux or Similar",
+          },
+          {
+            location: "Lausanne 2N",
+            hotel: "Hotel Continental or Similar",
+          },
+          {
+            location: "Geneva 2N",
+            hotel: "Novotel Geneve Centre or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1530 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1510 per person onwards",
+                triple: "EUR 1341 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1502 per person onwards",
+                triple: "EUR 1333 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 429 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 906 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July, Aug & Sep - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1419 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1399 per person onwards",
+                triple: "EUR 1300 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1398 per person onwards",
+                triple: "EUR 1292 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 518 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 800 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1508 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1488 per person onwards",
+                triple: "EUR 1373 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1487 per person onwards",
+                triple: "EUR 1365 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 559 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 889 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/Capitals/day-1.jpg",
+    "/images/Capitals/day-2.jpg",
+    "/images/Capitals/day-3.jpg",
+    "/images/Capitals/day-4.jpg",
+    "/images/Capitals/day-5.jpg",
+    "/images/Capitals/day-6.jpg",
+  ]
+},
+
+{
+  title: "Explore Brussels + Antwerp + Rotterdam",
+  slug: "brussels-antwerp-rotterdam-06n",
+  price: "EUR 634 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+  image:  "/images/bru/day-1.jpg",
+  location: "Brussels, Antwerp, Rotterdam",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Brussels, Antwerp, Rotterdam",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Private Transfers",
+    ],
+
+    highlights: [
+      "Grand Place",
+      "Atomium",
+      "Royal Palace",
+      "European Parliament",
+      "Brussels Art Nouveau",
+      "Antwerp Cathedral of Our Lady",
+      "Grote Markt",
+      "Scheldt Riverfront",
+      "Cube Houses",
+      "Erasmus Bridge",
+      "Markthal",
+      "Rotterdam Architecture",
+      "World War II History",
+    ],
+
+    experiences: [
+      {
+        title: "Brussels – Hop-On Hop-Off Bus Tour",
+        desc: "Enjoy a flexible 24-hour Brussels Hop-On Hop-Off Bus Tour covering major attractions including Grand Place, Atomium, Royal Palace, European Parliament and Art Nouveau neighbourhoods.",
+      },
+      {
+        title: "Brussels – Antwerp",
+        desc: "Travel by train from Brussels to Antwerp. The journey takes approximately 40–50 minutes and Antwerp offers historic architecture, fashion, art and gastronomy.",
+      },
+      {
+        title: "Antwerp – Leisure Day",
+        desc: "Enjoy a full day at leisure in Antwerp and explore its historic centre, architecture, markets, culture and attractions.",
+      },
+      {
+        title: "Antwerp – Rotterdam",
+        desc: "Travel by train from Antwerp to Rotterdam. Explore Rotterdam's modern architecture, Cube Houses, Erasmus Bridge, Markthal and waterfront.",
+      },
+      {
+        title: "Rotterdam Walking Tour",
+        desc: "Enjoy a shared-basis walking tour covering Rotterdam's highlights, hidden gems, architecture and World War II history.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Brussels",
+      desc: "Arrival at Brussels Airport followed by a private transfer to the hotel. Enjoy the first evening exploring Brussels, including the Grand Place and historic cobblestone streets.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Brussels – Brussels Hop-On Hop-Off Bus Tour – 24 Hours",
+      desc: "Breakfast at Hotel. Proceed for the Brussels Hop-On Hop-Off Bus Tour on shared basis. Explore major Brussels landmarks including Grand Place, Atomium, Royal Palace, European Parliament and Art Nouveau neighbourhoods.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Brussels – Antwerp",
+      desc: "Breakfast at Hotel. Travel by train from Brussels to Antwerp. The journey takes approximately 40–50 minutes. Explore Antwerp's Cathedral of Our Lady, Grote Markt and Scheldt riverfront.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Antwerp – Day Free for Leisure",
+      desc: "Breakfast at Hotel. Enjoy a full day at leisure in Antwerp and explore the city at your own pace.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Antwerp – Rotterdam",
+      desc: "Breakfast at Hotel. Travel by train from Antwerp to Rotterdam. The journey takes approximately 1 hour to 1 hour 15 minutes. Explore Rotterdam's modern architecture and waterfront.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Rotterdam – Walking Tour: Highlights, Gems, Architecture & WW2 History",
+      desc: "Breakfast at Hotel. Enjoy a shared-basis Rotterdam walking tour lasting approximately 2–3 hours, covering iconic sites, architecture, World War II history, hidden streets, vibrant squares and riverfronts.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Rotterdam – India",
+      desc: "Breakfast at Hotel. Proceed to Rotterdam Airport by private transfer for the onward journey.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Night Accommodation with Breakfast",
+      "Transfer from Brussels Airport to Hotel on Private Basis",
+      "Brussels Hop-On Hop-Off Bus Tour – 24 Hours",
+      "Transfer from Brussels Hotel to Train Station on Private Basis",
+      "Train from Brussels to Antwerp",
+      "Transfer from Antwerp Train Station to Hotel on Private Basis",
+      "Day Free at Leisure",
+      "Transfer from Antwerp Hotel to Train Station on Private Basis",
+      "Train from Antwerp to Rotterdam",
+      "Transfer from Rotterdam Train Station to Hotel on Private Basis",
+      "Rotterdam Walking Tour – Highlights, Gems, Architecture & History WW2 on Shared Basis",
+      "Private Transfer from Rotterdam Hotel to Airport",
+    ],
+
+    excluded: [
+      "Hotel pick-up for shared/SIC tour",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water, drinks, telephone or any other charges/expenses not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Brussels 2N",
+            hotel: "B&B HOTEL Brussels Centre Louise or similar",
+          },
+          {
+            location: "Antwerp 2N",
+            hotel: "B&B HOTEL Antwerpen Zuid or similar",
+          },
+          {
+            location: "Rotterdam 2N",
+            hotel: "Ibis Rotterdam City Centre or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 634 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 545 per person onwards",
+                triple: "EUR 536 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 503 per person onwards",
+                triple: "EUR 492 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 337 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 310 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 895 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 825 per person onwards",
+                triple: "EUR 813 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 765 per person onwards",
+                triple: "EUR 740 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 430 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 592 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 741 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 653 per person onwards",
+                triple: "EUR 636 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 596 per person onwards",
+                triple: "EUR 582 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 438 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 429 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Brussels 2N",
+            hotel: "The Liman Hotel or similar",
+          },
+          {
+            location: "Antwerp 2N",
+            hotel: "Crowne Plaza Antwerp or similar",
+          },
+          {
+            location: "Rotterdam 2N",
+            hotel: "Leonardo Hotel Rotterdam Savoy or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 722 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 633 per person onwards",
+                triple: "EUR 607 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 593 per person onwards",
+                triple: "EUR 556 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 356 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 395 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 903 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 833 per person onwards",
+                triple: "EUR 821 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 769 per person onwards",
+                triple: "EUR 752 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 333 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 492 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 753 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 664 per person onwards",
+                triple: "EUR 642 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 603 per person onwards",
+                triple: "EUR 590 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 335 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 428 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Brussels – Antwerp – Rotterdam 2nd Class Train Ticket",
+      price: "EUR 100 - 110 per person",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/bru/day-1.jpg",
+    "/images/bru/day-2.jpg",
+    "/images/bru/day-3.jpg",
+    "/images/bru/day-4.jpg",
+    "/images/bru/day-5.jpg",
+    "/images/bru/day-6.jpg",
+  ]
+},
+
+{
+  title: "Best of Denmark and Germany",
+  slug: "copenhagen-hamburg-berlin-07n",
+  price: "EUR 989 per person onwards",
+  days: "07 Nights / 08 Days",
+  rating: "",
+  image: "",
+  location: "Copenhagen, Hamburg, Berlin",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 07 Nights",
+      places: "Copenhagen, Hamburg, Berlin",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "07 Nights Accommodation",
+      "Private Transfers",
+    ],
+
+    highlights: [
+      "Copenhagen Walking Tour",
+      "Copenhagen Canal Cruise",
+      "Forest Tower",
+      "Forgotten Giants Trolls",
+      "Hamburg Old Town",
+      "Rathausmarkt",
+      "Berlin Hop-On Hop-Off Bus Tour",
+      "Brandenburg Gate",
+      "Berlin Wall Memorial",
+      "Checkpoint Charlie",
+      "Museum Island",
+      "Alexanderplatz",
+      "Berlin TV Tower",
+    ],
+
+    experiences: [
+      {
+        title: "Copenhagen – Walking Tour & Canal Cruise",
+        desc: "Explore central Copenhagen through a shared-basis walking tour followed by a Copenhagen Canal Cruise with ticket included.",
+      },
+      {
+        title: "Copenhagen – Forest Tower & Forgotten Giants",
+        desc: "Take a shared/SIC day trip to Denmark's Forest Tower and Forgotten Giants. Forest Tower entrance is not included and guests need to reach the meeting point on their own.",
+      },
+      {
+        title: "Hamburg – Old Town Walking Tour",
+        desc: "Explore Hamburg's historic Old Town, architecture and landmarks through a shared-basis guided walking tour.",
+      },
+      {
+        title: "Berlin – Hop-On Hop-Off & TV Tower",
+        desc: "Explore Berlin's major landmarks using a one-day Hop-On Hop-Off Bus Tour and visit Berlin TV Tower with standard entrance ticket.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Copenhagen",
+      desc: "Arrival in Copenhagen followed by a private transfer from the airport to the hotel. Evening at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Copenhagen – Group Walking Tour & Copenhagen Canal Cruise",
+      desc: "Breakfast at Hotel. Join a shared-basis Copenhagen Group Walking Tour covering central Copenhagen highlights. After lunch on your own, enjoy the Copenhagen Canal Cruise with ticket included.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Copenhagen – Forest Tower & Forgotten Giants Trolls Trip",
+      desc: "Breakfast at Hotel. Proceed for the Forest Tower & Forgotten Giants Trolls Trip from Copenhagen on SIC basis. Guest needs to reach the meeting point on their own. Forest Tower entrance is not included.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Copenhagen – Hamburg",
+      desc: "Breakfast at Hotel. Check out and take a private transfer from hotel to airport. Fly from Copenhagen to Hamburg. On arrival, enjoy a private transfer to the hotel and spend the evening at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Hamburg – Hamburg Old Town Guided Walking Tour",
+      desc: "Breakfast at Hotel. Join a shared-basis guided walking tour of Hamburg Old Town starting at Rathausmarkt. Evening at leisure to explore Hamburg further.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Hamburg – Berlin",
+      desc: "Breakfast at Hotel. Private transfer from Hamburg Hotel to Hamburg Train Station. Board the train to Berlin. Private transfer from Berlin Train Station to hotel after arrival.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Berlin – Hop-On Hop-Off Bus Tour & Berlin TV Tower",
+      desc: "Breakfast at Hotel. Enjoy a one-day Berlin Hop-On Hop-Off Bus Tour. Guest needs to reach the meeting point on their own. Visit Berlin TV Tower with standard entrance ticket. Remaining time at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Berlin – India",
+      desc: "Breakfast at Hotel. Check out and proceed by private transfer from Berlin Hotel to Berlin Airport.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "07 Night Accommodation with Breakfast",
+      "Private Transfer from Copenhagen Airport to Hotel",
+      "Copenhagen Group Walking Tour on Shared Basis",
+      "Copenhagen Canal Cruise Ticket",
+      "Forest Tower & Forgotten Giants Trolls Trip from Copenhagen on SIC Basis",
+      "Private Transfer from Copenhagen Hotel to Airport",
+      "Private Transfer from Hamburg Airport to Hotel",
+      "Hamburg Old Town Guided Walking Tour on Shared Basis",
+      "Private Transfer from Hamburg Hotel to Train Station",
+      "Train from Hamburg to Berlin",
+      "Private Transfer from Berlin Train Station to Hotel",
+      "Berlin 01 Day Hop-On Hop-Off Bus Tour",
+      "Berlin TV Tower Standard Entrance Ticket",
+      "Private Transfer from Berlin Hotel to Airport",
+    ],
+
+    excluded: [
+      "Tours on SIC/Shared basis where client needs to reach the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water, drinks, telephone or other charges not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Copenhagen 3N",
+            hotel: "Best Western Hotel Hebron or Similar",
+          },
+          {
+            location: "Hamburg 2N",
+            hotel: "ibis Hamburg Alster Centrum or similar",
+          },
+          {
+            location: "Berlin 2N",
+            hotel: "Novotel Suites Berlin City Potsdamer Platz or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 989 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 881 per person onwards",
+                triple: "EUR 822 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 816 per person onwards",
+                triple: "EUR 767 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 470 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 418 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1226 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1103 per person onwards",
+                triple: "EUR 974 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1043 per person onwards",
+                triple: "EUR 924 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 470 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 645 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1141 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1008 per person onwards",
+                triple: "EUR 929 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 958 per person onwards",
+                triple: "EUR 879 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 505 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 560 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Copenhagen 3N",
+            hotel: "Crowne Plaza Copenhagen Towers by IHG or Similar",
+          },
+          {
+            location: "Hamburg 2N",
+            hotel: "Hotel NH Collection Hamburg City or similar",
+          },
+          {
+            location: "Berlin 2N",
+            hotel: "Novotel Berlin Mitte or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1046 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 923 per person onwards",
+                triple: "EUR 868 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 873 per person onwards",
+                triple: "EUR 818 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 492 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 475 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1271 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1148 per person onwards",
+                triple: "EUR 1080 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1093 per person onwards",
+                triple: "EUR 1015 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 638 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 675 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1231 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1118 per person onwards",
+                triple: "EUR 1042 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1068 per person onwards",
+                triple: "EUR 987 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 629 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 660 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "2nd Class Train Ticket from Hamburg to Berlin",
+      price: "EUR 45 - 55 per person",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+},
+
+{
+  title: "Explore Denmark, Sweden and Norway",
+  slug: "copenhagen-stockholm-oslo-07n",
+  price: "EUR 1158 per person onwards",
+  days: "07 Nights / 08 Days",
+  rating: "4.9",
+  image:  "/images/denmark/day-1.jpg",
+  location: "Copenhagen, Stockholm, Oslo",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 07 Nights",
+      places: "Copenhagen, Stockholm, Oslo",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "07 Nights Accommodation",
+      "Private Transfers",
+    ],
+
+    highlights: [
+      "Copenhagen Walking Tour",
+      "Copenhagen Canal Cruise",
+      "Forest Tower",
+      "Forgotten Giants Trolls",
+      "Stockholm Old Town",
+      "Medieval Streets",
+      "Oslo Guided Walking Tour",
+      "Oslofjord Scenic Cruise",
+      "Oslo Islands",
+      "Norwegian Coastline",
+    ],
+
+    experiences: [
+      {
+        title: "Copenhagen – Walking Tour & Canal Cruise",
+        desc: "Explore central Copenhagen through a shared-basis walking tour followed by a canal cruise with ticket included.",
+      },
+      {
+        title: "Copenhagen – Forest Tower & Forgotten Giants",
+        desc: "Enjoy a shared-basis day trip to Forest Tower and Forgotten Giants. Forest Tower entrance is not included and guests need to reach the meeting point on their own.",
+      },
+      {
+        title: "Stockholm – Old Town Walking Tour",
+        desc: "Explore Stockholm's historic Old Town, narrow medieval streets and vintage buildings through a shared-basis walking tour.",
+      },
+      {
+        title: "Oslo – Walking Tour & Fjord Cruise",
+        desc: "Explore Oslo through a shared-basis guided walking tour followed by an approximately 2-hour scenic Oslofjord cruise.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Copenhagen",
+      desc: "Arrival in Copenhagen followed by a private transfer from the airport to the hotel. Evening at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Copenhagen – Group Walking Tour & Copenhagen Canal Cruise",
+      desc: "Breakfast at Hotel. Join a shared-basis Copenhagen Group Walking Tour covering central Copenhagen. After lunch on your own, enjoy the Copenhagen Canal Cruise with ticket included.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Copenhagen – Forest Tower & Forgotten Giants Trolls Trip",
+      desc: "Breakfast at Hotel. Proceed for the Forest Tower & Forgotten Giants Trolls Trip on SIC basis. Guests need to reach the meeting point on their own. Forest Tower entrance is not included.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Copenhagen – Stockholm",
+      desc: "Breakfast at Hotel. Check out and take private transfer to Copenhagen Airport for the flight to Stockholm. On arrival, private transfer to the Stockholm hotel. Evening at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Stockholm – Stockholm Old Town Walking Tour",
+      desc: "Breakfast at Hotel. Join a shared-basis walking tour through Stockholm Old Town, exploring medieval streets and historic buildings. Rest of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Stockholm – Oslo",
+      desc: "Breakfast at Hotel. Check out and take private transfer from Stockholm Hotel to airport/transport hub. Travel to Oslo and take private transfer to the Oslo hotel. Rest of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Oslo – Guided Walking Tour & Scenic Fjord Cruise",
+      desc: "Breakfast at Hotel. Enjoy a shared-basis guided walking tour of Oslo followed by an approximately 2-hour shared-basis Oslofjord scenic cruise.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Oslo – India",
+      desc: "Breakfast at Hotel. Check out and take private transfer from Oslo Hotel to Oslo Airport.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "07-Night Accommodation with Breakfast",
+      "Private Transfer from Copenhagen Airport to Hotel on Arrival",
+      "Shared-Basis Copenhagen City Walking Tour",
+      "Copenhagen Canal Cruise – Ticket Included",
+      "Shared-Basis Forest Tower & Forgotten Giants Day Trip from Copenhagen including Transport & Tour",
+      "Forest Tower Entrance Fee Excluded",
+      "Private Transfer from Copenhagen Hotel to Airport on Departure",
+      "Private Transfer from Stockholm Airport to Hotel on Arrival",
+      "Shared-Basis Stockholm Old Town Walking Tour",
+      "Private Transfer from Stockholm Hotel to Airport / Onward Transport Hub on Departure",
+      "Private Transfer from Oslo Airport to Hotel on Arrival",
+      "Shared-Basis Oslo Guided Walking Tour",
+      "Shared-Basis Oslofjord Scenic Cruise",
+      "Private Transfer from Oslo Hotel to Airport on Departure",
+    ],
+
+    excluded: [
+      "Tours on SIC/Shared basis where client needs to reach the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water, drinks, telephone or any other charges/expenses not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Copenhagen 3N",
+            hotel: "Best Western Hotel Hebron or Similar",
+          },
+          {
+            location: "Stockholm 2N",
+            hotel: "ibis Styles Stockholm Odenplan or similar",
+          },
+          {
+            location: "Oslo 2N",
+            hotel: "Thon Hotel Europa or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1158 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 974 per person onwards",
+                triple: "EUR 934 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 896 per person onwards",
+                triple: "EUR 861 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 518 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 475 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1218 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1084 per person onwards",
+                triple: "EUR 1059 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1006 per person onwards",
+                triple: "EUR 981 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 758 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 535 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1188 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1004 per person onwards",
+                triple: "EUR 984 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 926 per person onwards",
+                triple: "EUR 906 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 593 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 505 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Copenhagen 3N",
+            hotel: "Crowne Plaza Copenhagen Towers by IHG or Similar",
+          },
+          {
+            location: "Stockholm 2N",
+            hotel: "Courtyard by Marriott Stockholm Kungsholmen or similar",
+          },
+          {
+            location: "Oslo 2N",
+            hotel: "Radisson Blu Plaza Hotel, Oslo or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1193 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1016 per person onwards",
+                triple: "EUR 989 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 936 per person onwards",
+                triple: "EUR 904 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 562 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 510 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1308 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1134 per person onwards",
+                triple: "EUR 1095 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1046 per person onwards",
+                triple: "EUR 1012 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 671 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 625 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1328 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1189 per person onwards",
+                triple: "EUR 1063 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1066 per person onwards",
+                triple: "EUR 985 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 550 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 645 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/denmark/day-1.jpg",
+    "/images/denmark/day-2.jpg",
+    "/images/denmark/day-3.jpg",
+    "/images/denmark/day-4.jpg",
+    "/images/denmark/day-5.jpg",
+    "/images/denmark/day-6.jpg",
+    "/images/denmark/day-7.jpg",
+  ]
+},
+
+{
+  title: "Glimpses of Denmark, Sweden & Germany",
+  slug: "copenhagen-stockholm-hamburg-07n",
+  price: "EUR 1032 per person onwards",
+  days: "07 Nights / 08 Days",
+  rating: "4.9",
+  image: "/images/mark/day-1.jpg",
+  location: "Copenhagen, Stockholm, Hamburg",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 07 Nights",
+      places: "Copenhagen, Stockholm, Hamburg",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "07 Nights Accommodation",
+      "Private Transfers",
+    ],
+
+    highlights: [
+      "Copenhagen Walking Tour",
+      "Copenhagen Canal Cruise",
+      "Forest Tower",
+      "Forgotten Giants Trolls",
+      "Stockholm Old Town",
+      "Medieval Streets",
+      "Hamburg Old Town",
+      "Historic Architecture",
+      "City Centre Landmarks",
+    ],
+
+    experiences: [
+      {
+        title: "Copenhagen – Walking Tour & Canal Cruise",
+        desc: "Explore central Copenhagen through a shared-basis walking tour followed by a canal cruise with ticket included.",
+      },
+      {
+        title: "Copenhagen – Forest Tower & Forgotten Giants",
+        desc: "Enjoy a shared-basis day trip to Forest Tower and Forgotten Giants. Forest Tower entrance is not included and guests need to reach the meeting point on their own.",
+      },
+      {
+        title: "Stockholm – Old Town Walking Tour",
+        desc: "Explore Stockholm's historic Old Town, narrow medieval streets and vintage buildings through a shared-basis walking tour.",
+      },
+      {
+        title: "Hamburg – Old Town Walking Tour",
+        desc: "Explore Hamburg's historic architecture, city-centre landmarks and learn about the city's past and present through a shared-basis guided walking tour.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Copenhagen",
+      desc: "Arrival in Copenhagen followed by a private transfer from the airport to the hotel. Evening at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Copenhagen – Group Walking Tour & Copenhagen Canal Cruise",
+      desc: "Breakfast at Hotel. Join a shared-basis Copenhagen Group Walking Tour covering central Copenhagen. After lunch on your own, enjoy the Copenhagen Canal Cruise with ticket included.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Copenhagen – Forest Tower & Forgotten Giants Trolls Trip",
+      desc: "Breakfast at Hotel. Proceed for the Forest Tower & Forgotten Giants Trolls Trip on SIC basis. Guests need to reach the meeting point on their own. Forest Tower entrance is not included.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Copenhagen – Stockholm",
+      desc: "Breakfast at Hotel. Check out and take private transfer to Copenhagen Airport for the flight to Stockholm. On arrival, private transfer to Stockholm Hotel. Evening at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Stockholm – Stockholm Old Town Walking Tour",
+      desc: "Breakfast at Hotel. Join a shared-basis walking tour through Stockholm Old Town, exploring narrow medieval streets and historic buildings. Rest of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Stockholm – Hamburg",
+      desc: "Breakfast at Hotel. Check out and take private transfer from Stockholm Hotel to airport or transport hub. Travel to Hamburg and take the included private transfer from Hamburg Airport to the hotel. Evening at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Hamburg – Hamburg Old Town Guided Walking Tour",
+      desc: "Breakfast at Hotel. Join a shared-basis guided walking tour of Hamburg Old Town covering historic architecture, city-centre landmarks and the city's past and present. Free time afterwards.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Hamburg – India",
+      desc: "Breakfast at Hotel. Check out and take private transfer from Hamburg Hotel to Hamburg Airport.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "07-night accommodation with breakfast for the entire trip as per chosen hotels",
+      "Private Transfer from Copenhagen Airport to Hotel upon arrival",
+      "Shared-Basis Copenhagen City Walking Tour",
+      "Copenhagen Canal Cruise Ticket",
+      "Shared-Basis Forest Tower & Forgotten Giants Day Trip from Copenhagen including Transport & Tour",
+      "Forest Tower Entrance Not Included",
+      "Private Transfer from Copenhagen Hotel to Airport for Departure",
+      "Private Transfer from Stockholm Airport to Hotel on Arrival",
+      "Shared-Basis Stockholm Old Town Walking Tour",
+      "Private Transfer from Stockholm Hotel to Airport / Departure Transport",
+      "Private Transfer from Hamburg Airport to Hotel on Arrival",
+      "Shared-Basis Hamburg Old Town Guided Walking Tour",
+      "Private Transfer from Hamburg Hotel to Airport / Onward Transport",
+    ],
+
+    excluded: [
+      "Tours on SIC/Shared basis where client needs to reach the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water, drinks, telephone or any other charges/expenses not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Copenhagen 3N",
+            hotel: "Best Western Hotel Hebron or Similar",
+          },
+          {
+            location: "Stockholm 2N",
+            hotel: "ibis Styles Stockholm Odenplan or similar",
+          },
+          {
+            location: "Hamburg 2N",
+            hotel: "ibis Hamburg Alster Centrum or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1032 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 859 per person onwards",
+                triple: "EUR 853 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 794 per person onwards",
+                triple: "EUR 778 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 553 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 390 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1227 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1039 per person onwards",
+                triple: "EUR 1004 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 969 per person onwards",
+                triple: "EUR 934 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 621 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 575 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1152 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 964 per person onwards",
+                triple: "EUR 936 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 894 per person onwards",
+                triple: "EUR 866 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 567 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 500 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Copenhagen 3N",
+            hotel: "Crowne Plaza Copenhagen Towers by IHG or Similar",
+          },
+          {
+            location: "Stockholm 2N",
+            hotel: "Courtyard by Marriott Stockholm Kungsholmen or similar",
+          },
+          {
+            location: "Hamburg 2N",
+            hotel: "Hotel NH Collection Hamburg City or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1177 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 996 per person onwards",
+                triple: "EUR 947 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 914 per person onwards",
+                triple: "EUR 870 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 530 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 525 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1332 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1149 per person onwards",
+                triple: "EUR 1084 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1079 per person onwards",
+                triple: "EUR 1009 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 636 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 680 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              {
+                pax: "02 Pax",
+                twinDouble: "EUR 1342 per person onwards",
+              },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1129 per person onwards",
+                triple: "EUR 1026 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1054 per person onwards",
+                triple: "EUR 955 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 502 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 660 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/mark/day-1.jpg",
+    "/images/mark/day-2.jpg",
+    "/images/mark/day-3.jpg",
+    "/images/mark/day-4.jpg",
+    "/images/mark/day-5.jpg",
+    "/images/mark/day-6.jpg",
+    "/images/mark/day-7.jpg",
+  ]
+},
+
+{
+  title: "Scandinavian Capitals Express",
+  slug: "helsinki-stockholm-oslo-06n",
+  price: "EUR 1088 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+  image: "/images/Express/day-1.jpg",
+  location: "Helsinki, Stockholm, Oslo",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Helsinki, Stockholm, Oslo",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Private Transfers",
+    ],
+
+    highlights: [
+      "Helsinki Hop-On Hop-Off",
+      "Senate Square",
+      "Rock Church",
+      "Sibelius Monument",
+      "Market Square",
+      "Helsinki Cathedral",
+      "Stockholm Old Town",
+      "Gamla Stan",
+      "Royal Palace",
+      "Oslo Walking Tour",
+      "Oslofjord Scenic Cruise",
+      "Oslo Islands",
+      "Coastal Landscapes",
+    ],
+
+    experiences: [
+      {
+        title: "Helsinki – Hop-On Hop-Off Sightseeing",
+        desc: "Explore Helsinki with a 1-day Hop-On Hop-Off Bus Pass covering Senate Square, Rock Church, Sibelius Monument, Market Square, Helsinki Cathedral, Waterfront and Old Market Hall.",
+      },
+      {
+        title: "Stockholm – Old Town Walking Tour",
+        desc: "Enjoy a shared walking tour through Gamla Stan, medieval alleys, colorful buildings, Royal Palace surroundings and historic squares.",
+      },
+      {
+        title: "Oslo – Guided Walking Tour",
+        desc: "Explore Oslo through a shared-basis guided walking tour covering the Norwegian capital's central sights.",
+      },
+      {
+        title: "Oslo – Scenic Fjord Cruise",
+        desc: "Enjoy a shared-basis scenic cruise through Oslofjord, passing islands, coastal landscapes and traditional summer houses.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Helsinki",
+      desc: "Arrive at Helsinki Airport and meet your driver for a private transfer to the hotel. After check-in, relax or explore Helsinki's streets, waterfront promenades and Market Square at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Helsinki – Hop-On Hop-Off Sightseeing",
+      desc: "Breakfast at Hotel. Enjoy the Helsinki Hop-On Hop-Off Bus Pass valid for 1 day. Explore Senate Square, Rock Church, Sibelius Monument, Market Square, Helsinki Cathedral, Waterfront and Old Market Hall.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Helsinki – Stockholm",
+      desc: "Breakfast at Hotel. Private transfer from Helsinki Hotel to the airport for the flight to Stockholm. On arrival, private transfer from Stockholm Airport to the hotel. Evening at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Stockholm – Old Town Walking Tour",
+      desc: "Breakfast at Hotel. Join a shared Old Town (Gamla Stan) Walking Tour covering medieval alleys, colorful buildings, Royal Palace surroundings and historic squares.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Stockholm – Oslo",
+      desc: "Breakfast at Hotel. Private transfer from Stockholm Hotel to the airport for the flight to Oslo. On arrival, private transfer to the Oslo hotel. Evening at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Oslo – Walking Tour + Scenic Fjord Cruise",
+      desc: "Breakfast at Hotel. Enjoy the Oslo Guided Walking Tour on shared basis followed by the Oslo Scenic Fjord Cruise on shared basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Oslo – India",
+      desc: "Breakfast at Hotel. Check out and proceed by private transfer from Oslo Hotel to the airport for the return flight.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Night Accommodation with Breakfast",
+      "Private Transfer from Helsinki Airport to Hotel",
+      "Helsinki Hop on Hop off Bus Valid for 1 Day",
+      "Private Transfer from Helsinki Hotel to Airport",
+      "Private Transfer from Stockholm Airport to Hotel",
+      "Stockholm Old Town Walking Tour on Shared Basis",
+      "Private Transfer from Stockholm Hotel to Airport",
+      "Private Transfer from Oslo Airport to Hotel",
+      "Oslo Guided Walking Tour on Shared Basis",
+      "Oslo Scenic Fjord Cruise on Shared Basis",
+      "Private Transfer from Oslo Hotel to Airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water, drinks, telephone or any other charges/expenses not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Helsinki 2N",
+            hotel: "Scandic Kallio or Similar",
+          },
+          {
+            location: "Stockholm 2N",
+            hotel: "ibis Styles Stockholm Odenplan or similar",
+          },
+          {
+            location: "Oslo 2N",
+            hotel: "Thon Hotel Europa or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 1088 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 909 per person onwards",
+                triple: "EUR 893 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 831 per person onwards",
+                triple: "EUR 730 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 430 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 490 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 983 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 978 per person onwards",
+                triple: "EUR 864 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 825 per person onwards",
+                triple: "EUR 756 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 390 per child",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 453",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 920 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 892 per person onwards",
+                triple: "EUR 793 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 728 per person onwards",
+                triple: "EUR 681 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 289 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 355",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Helsinki 2N",
+            hotel: "Scandic Park Helsinki or Similar",
+          },
+          {
+            location: "Stockholm 2N",
+            hotel: "Courtyard by Marriott Stockholm Kungsholmen or similar",
+          },
+          {
+            location: "Oslo 2N",
+            hotel: "Radisson Blu Plaza Hotel or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 1096 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1002 per person onwards",
+                triple: "EUR 917 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 912 per person onwards",
+                triple: "EUR 754 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 445 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 512 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 1005 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 995 per person onwards",
+                triple: "EUR 886 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 912 per person onwards",
+                triple: "EUR 832 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 415 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 490 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 986 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 912 per person onwards",
+                triple: "EUR 856 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 761 per person onwards",
+                triple: "EUR 712 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 295 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 355 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/Express/day-1.jpg",
+    "/images/Express/day-2.jpg",
+    "/images/Express/day-3.jpg",
+    "/images/Express/day-4.jpg",
+    "/images/Express/day-5.jpg",
+    "/images/Express/day-6.jpg",
+  ]
+},
+
+{
+  title: "Finland Getaway Plus",
+  slug: "helsinki-rovaniemi-saariselka-08n",
+  price: "EUR 2295 per person onwards",
+  days: "08 Nights / 09 Days",
+  rating: "4.9",
+  image: "/images/gate/day-1.jpg",
+  location: "Helsinki, Rovaniemi, Saariselkä",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 08 Nights",
+      places: "Helsinki, Rovaniemi, Saariselkä",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "08 Nights Accommodation",
+      "Northern Lights",
+      "Glass Igloo Stay",
+    ],
+
+    highlights: [
+      "Helsinki Walking Tour",
+      "Tallinn Guided Day Tour",
+      "Ferry Crossing",
+      "Northern Lights Tour",
+      "Santa Claus Village",
+      "Arctic Circle",
+      "Husky Sled Ride",
+      "Reindeer Sled Ride",
+      "Ranua Wildlife Park",
+      "Glass Igloo",
+      "Arctic Landscape",
+    ],
+
+    experiences: [
+      {
+        title: "Helsinki – Walking Tour",
+        desc: "Explore Helsinki through a shared-basis walking tour covering key attractions, historic streets, waterfronts and the city's urban atmosphere.",
+      },
+      {
+        title: "Helsinki – Tallinn Guided Day Tour",
+        desc: "Travel by ferry across the Gulf of Finland to Tallinn and explore the medieval Old Town, historic lanes, churches and old city walls.",
+      },
+      {
+        title: "Rovaniemi – Northern Lights Tour",
+        desc: "Enjoy an included shared-basis Northern Lights tour, subject to weather and solar activity conditions.",
+      },
+      {
+        title: "Rovaniemi – Santa Claus Village",
+        desc: "Visit Santa Claus Village, cross the Arctic Circle and experience a husky or reindeer sled ride subject to operational conditions.",
+      },
+      {
+        title: "Rovaniemi – Ranua Wildlife Park",
+        desc: "Visit Ranua Wildlife Park with included tickets and see Arctic wildlife including polar bears, lynx and moose.",
+      },
+      {
+        title: "Saariselkä – Glass Igloo",
+        desc: "Stay in a glass igloo and enjoy the Arctic sky, snow-covered surroundings and potential Northern Lights viewing in favourable conditions.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Helsinki",
+      desc: "Arrive at Helsinki Airport and take a private transfer to the hotel. Evening at leisure to relax or explore Helsinki.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Helsinki – Walking Tour on Shared Basis",
+      desc: "Breakfast at Hotel. Join a shared-basis walking tour of Helsinki covering key attractions, historic streets, waterfronts and urban highlights. Rest of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Helsinki – Tallinn Guided Day Tour with Ferry Crossing",
+      desc: "Breakfast at Hotel. Proceed to the ferry terminal and travel across the Gulf of Finland to Tallinn. Explore Tallinn Old Town, medieval buildings, historic lanes, churches and old city walls before returning to Helsinki by ferry.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Helsinki – Rovaniemi",
+      desc: "Breakfast at Hotel. Check out and transfer to Helsinki Airport. Travel to Rovaniemi by domestic flight or as per travel arrangement. Private transfer from Rovaniemi Airport to hotel. Evening at leisure followed by the included Northern Lights Tour, subject to weather and solar activity.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Rovaniemi – Santa Claus Village + Husky & Reindeer Sled Ride",
+      desc: "Breakfast at Hotel. Visit Santa Claus Village, cross the Arctic Circle and enjoy a husky or reindeer sled ride, subject to operational conditions.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Rovaniemi – Ranua Zoo with Tickets",
+      desc: "After breakfast, proceed on SIC basis to Ranua Wildlife Park with included tickets. Explore Arctic wildlife including polar bears, lynx and moose.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Rovaniemi – Saariselkä",
+      desc: "Breakfast at Hotel. Check out and take private transfer from Rovaniemi Hotel to the Saariselkä resort. Check in and settle for the night.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Saariselkä – Day at Leisure",
+      desc: "Breakfast at the resort. Spend the day at leisure in the Arctic surroundings. Enjoy the glass-igloo experience, resort amenities, snow landscapes and potential Northern Lights viewing.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "09",
+      title: "Saariselkä – India",
+      desc: "Breakfast at Hotel. Check out and take a private transfer from Saariselkä Hotel to Ivalo Airport.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "08 Night Accommodation with Breakfast",
+      "Private Transfer from Helsinki Airport to Hotel",
+      "Helsinki Walking Tour on Shared Basis",
+      "Tallinn Guided Day Tour with Ferry Crossing on Shared Basis from Helsinki",
+      "Private Transfer from Helsinki Hotel to Airport",
+      "Private Transfer from Rovaniemi Airport to Hotel",
+      "Northern Lights Tour from Rovaniemi on SIC Basis",
+      "Santa Claus Village + Husky & Reindeer Sled Ride from Rovaniemi on Shared Basis",
+      "Trip to Ranua Zoo with Tickets from Rovaniemi on SIC Basis",
+      "Private Transfer from Rovaniemi Hotel to Saariselkä Hotel",
+      "Private Transfer from Saariselkä Hotel to Ivalo Airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water, drinks, telephone or any other charges/expenses not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Helsinki 3N",
+            hotel: "Scandic Pasila or Similar",
+          },
+          {
+            location: "Rovaniemi 3N",
+            hotel: "Scandic Rovaniemi City or similar",
+          },
+          {
+            location: "Saariselkä 2N",
+            hotel: "Kakslauttanen Arctic Resort (Glass Igloo) or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 2295 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 2041 per person onwards",
+                triple: "EUR 1995 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1954 per person onwards",
+                triple: "EUR 1824 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 1263 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1135 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 2145 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1896 per person onwards",
+                triple: "EUR 1715 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1809 per person onwards",
+                triple: "EUR 1554 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 743 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 990 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 2180 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1931 per person onwards",
+                triple: "EUR 1736 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1839 per person onwards",
+                triple: "EUR 1575 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 736 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1025 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Helsinki 3N",
+            hotel: "Radisson Blu Seaside Hotel, Helsinki or Similar",
+          },
+          {
+            location: "Rovaniemi 3N",
+            hotel: "Original Sokos Hotel Vaakuna, Rovaniemi or similar",
+          },
+          {
+            location: "Saariselkä 2N",
+            hotel: "Kakslauttanen Arctic Resort (Glass Igloo) or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 2205 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1951 per person onwards",
+                triple: "EUR 1880 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1864 per person onwards",
+                triple: "EUR 1709 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 1098 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 1045 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 2085 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1831 per person onwards",
+                triple: "EUR 1755 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1744 per person onwards",
+                triple: "EUR 1594 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 973 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 935 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 2105 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1841 per person onwards",
+                triple: "EUR 1783 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1744 per person onwards",
+                triple: "EUR 1617 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 1042 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 935 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/gate/day-1.jpg",
+    "/images/gate/day-2.jpg",
+    "/images/gate/day-3.jpg",
+    "/images/gate/day-4.jpg",
+    "/images/gate/day-5.jpg",
+    "/images/gate/day-6.jpg",
+    "/images/gate/day-7.jpg",
+    "/images/gate/day-8.jpg",
+  ]
+},
+
+{
+  title: "Mesmerizing Finland and Sweden",
+  slug: "helsinki-rovaniemi-stockholm-08n",
+  price: "EUR 1640 per person onwards",
+  days: "08 Nights / 09 Days",
+  rating: "4.9",
+  image: "/images/Sweden/day-1.jpg",
+  location: "Helsinki, Rovaniemi, Stockholm",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 08 Nights",
+      places: "Helsinki, Rovaniemi, Stockholm",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "08 Nights Accommodation",
+      "Northern Lights",
+      "Arctic Experiences",
+    ],
+
+    highlights: [
+      "Helsinki Walking Tour",
+      "Tallinn Guided Day Tour",
+      "Ferry Crossing",
+      "Northern Lights Tour",
+      "Santa Claus Village",
+      "Arctic Circle",
+      "Husky Sled Ride",
+      "Reindeer Sled Ride",
+      "Ranua Wildlife Park",
+      "Stockholm Old Town",
+      "Gamla Stan",
+      "Medieval Streets",
+    ],
+
+    experiences: [
+      {
+        title: "Helsinki – Walking Tour",
+        desc: "Explore Helsinki through a shared-basis walking tour covering key attractions, historic streets, waterfronts and the city's urban atmosphere.",
+      },
+      {
+        title: "Helsinki – Tallinn Guided Day Tour",
+        desc: "Take a ferry across the Gulf of Finland to Tallinn and explore its medieval Old Town, historic lanes, churches and old city walls.",
+      },
+      {
+        title: "Rovaniemi – Northern Lights",
+        desc: "Enjoy a shared-basis Northern Lights tour from Rovaniemi, subject to operational and weather conditions.",
+      },
+      {
+        title: "Rovaniemi – Santa Claus Village",
+        desc: "Visit Santa Claus Village, cross the Arctic Circle and enjoy a husky or reindeer sled ride subject to operational conditions.",
+      },
+      {
+        title: "Rovaniemi – Ranua Zoo",
+        desc: "Visit Ranua Wildlife Park with tickets included and explore Arctic wildlife.",
+      },
+      {
+        title: "Stockholm – Old Town Walking Tour",
+        desc: "Explore Stockholm's historic Old Town through charming narrow alleys, historic buildings, waterfront districts and cultural landmarks.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Helsinki",
+      desc: "Arrive at Helsinki Airport and take a private transfer to the hotel. Evening at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Helsinki – Walking Tour on Shared Basis",
+      desc: "Breakfast at Hotel. Join a shared-basis Helsinki walking tour covering key attractions, historic streets, waterfronts and the city's urban vibe. Rest of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Helsinki – Tallinn Guided Day Tour with Ferry Crossing",
+      desc: "Breakfast at Hotel. Proceed to the ferry terminal and travel across the Gulf of Finland to Tallinn. Explore Tallinn Old Town and return to Helsinki by ferry.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Helsinki – Rovaniemi",
+      desc: "Breakfast at Hotel. Check out and transfer to Helsinki Airport. Travel to Rovaniemi by domestic flight or as per travel arrangement. Private transfer to hotel. Evening Northern Lights Tour on shared basis, subject to weather and solar activity.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Rovaniemi – Santa Claus Village + Husky & Reindeer Sled Ride",
+      desc: "Breakfast at Hotel. Visit Santa Claus Village, cross the Arctic Circle and enjoy a husky or reindeer sled ride subject to operational conditions.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Rovaniemi – Ranua Zoo with Tickets",
+      desc: "After breakfast, proceed to Ranua Wildlife Park on SIC basis with tickets included.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Rovaniemi – Stockholm",
+      desc: "Breakfast at Hotel. Check out and take private transfer from Rovaniemi to the next destination, Stockholm. On arrival, check in to the hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Stockholm – Old Town Walking Tour",
+      desc: "Breakfast at Hotel. Join a shared-basis walking tour of Stockholm's historic Old Town covering narrow alleys, historic buildings, waterfront districts and cultural heritage. Rest of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "09",
+      title: "Stockholm – India",
+      desc: "Breakfast at Hotel. Check out and take private transfer from Stockholm Hotel to Stockholm Airport.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "08 Night Accommodation with Breakfast",
+      "Private Transfer from Helsinki Airport to Hotel",
+      "Helsinki Walking Tour on Shared Basis",
+      "Tallinn Guided Day Tour with Ferry Crossing on Shared Basis",
+      "Private Transfer from Helsinki Hotel to Airport",
+      "Private Transfer from Rovaniemi Airport to Hotel",
+      "Northern Lights Tour from Rovaniemi on SIC Basis",
+      "Santa Claus Village + Husky & Reindeer Sled Ride from Rovaniemi on Shared Basis",
+      "Trip to Ranua Zoo with Tickets from Rovaniemi on SIC Basis",
+      "Private Transfer from Rovaniemi Hotel to Airport",
+      "Private Transfer from Stockholm Airport to Hotel",
+      "Stockholm Old Town Walking Tour on Shared Basis",
+      "Private Transfer from Stockholm Hotel to Airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water, drinks, telephone or any other charges/expenses not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "Helsinki 3N",
+            hotel: "Scandic Pasila or Similar",
+          },
+          {
+            location: "Rovaniemi 3N",
+            hotel: "Scandic Rovaniemi City or similar",
+          },
+          {
+            location: "Stockholm 2N",
+            hotel: "ibis Styles Stockholm Odenplan or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 1640 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1500 per person onwards",
+                triple: "EUR 1420 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1448 per person onwards",
+                triple: "EUR 1358 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 937 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 700 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 1453 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1308 per person onwards",
+                triple: "EUR 1195 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1241 per person onwards",
+                triple: "EUR 1128 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 691 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 523 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 1557 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1411 per person onwards",
+                triple: "EUR 1205 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1348 per person onwards",
+                triple: "EUR 1138 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 510 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 625 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "Helsinki 3N",
+            hotel: "Radisson Blu Seaside Hotel, Helsinki or Similar",
+          },
+          {
+            location: "Rovaniemi 3N",
+            hotel: "Original Sokos Hotel Vaakuna, Rovaniemi or similar",
+          },
+          {
+            location: "Stockholm 2N",
+            hotel: "Best Western Time Hotel or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 1580 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1425 per person onwards",
+                triple: "EUR 1325 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1363 per person onwards",
+                triple: "EUR 1283 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 842 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 635 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 1480 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1335 per person onwards",
+                triple: "EUR 1285 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1273 per person onwards",
+                triple: "EUR 1218 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 892 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 550 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "EUR 1495 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "EUR 1345 per person onwards",
+                triple: "EUR 1292 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "EUR 1283 per person onwards",
+                triple: "EUR 1225 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "EUR 893 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "EUR 560 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/Sweden/day-1.jpg",
+    "/images/Sweden/day-2.jpg",
+    "/images/Sweden/day-3.jpg",
+    "/images/Sweden/day-4.jpg",
+    "/images/Sweden/day-5.jpg",
+    "/images/Sweden/day-6.jpg",
+    "/images/Sweden/day-7.jpg",
+    "/images/Sweden/day-8.jpg",
+  ]
+},
+
+{
+  title: "Classic Europe Escape: London & Amsterdam Highlights",
+  slug: "london-amsterdam-06n",
+  price: "GBP 1340 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "",
+  image: "",
+  location: "London, Amsterdam",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "2 Destinations, 06 Nights",
+      places: "London, Amsterdam",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "London Eye",
+      "Canal Cruise",
+    ],
+
+    highlights: [
+      "London City Tour",
+      "London Eye",
+      "London River Cruise",
+      "Madame Tussauds",
+      "Tower Bridge",
+      "Amsterdam Hop-On Hop-Off",
+      "Amsterdam Canal Cruise",
+      "Zaanse Schans",
+      "Edam",
+      "Volendam",
+      "Marken",
+    ],
+
+    experiences: [
+      {
+        title: "London – City Tour + London Eye + River Cruise",
+        desc: "Enjoy a London city tour on SIC basis with London Eye Standard Entry and a London River Cruise along the River Thames.",
+      },
+      {
+        title: "London – Madame Tussauds + Tower Bridge",
+        desc: "Explore London with Madame Tussauds Standard Entry and Tower Bridge Entry, including the iconic high-level glass walkways.",
+      },
+      {
+        title: "Amsterdam – Hop-On Hop-Off + Canal Cruise",
+        desc: "Explore Amsterdam using the 1-day Hop-On Hop-Off City Tour and enjoy a classic Amsterdam Canal Cruise.",
+      },
+      {
+        title: "Amsterdam – Zaanse Schans, Edam, Volendam & Marken",
+        desc: "Enjoy a full-day SIC tour through the Dutch countryside, visiting windmills, cheese factories, wooden houses and traditional fishing villages.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – London",
+      desc: "Arrive in London where a private driver will meet you at the arrivals hall and transfer you directly to the hotel.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "London – City Tour with London Eye and London River Cruise",
+      desc: "Breakfast at Hotel. Proceed for the London City Tour on SIC basis. Enjoy the London Eye Experience with standard entry and a London River Cruise along the River Thames.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "London – City Tour with Madame Tussauds and Tower Bridge",
+      desc: "Breakfast at Hotel. Proceed for the London City Tour on SIC basis including Madame Tussauds Standard Entry and Tower Bridge Entry.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "London – Amsterdam",
+      desc: "Breakfast at Hotel. Private transfer from London Hotel to London Train Station. Board the train to Amsterdam. On arrival, meet your private driver at Amsterdam Train Station for transfer to the hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Amsterdam – Hop-On Hop-Off City Tour & Canal Cruise",
+      desc: "Breakfast at Hotel. Enjoy the 1-day Amsterdam Hop-On Hop-Off City Tour followed by an Amsterdam Canal Cruise through the city's canal network.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Amsterdam – Zaanse Schans, Edam, Volendam & Marken",
+      desc: "Breakfast at Hotel. Proceed for a full-day SIC tour to Zaanse Schans, Edam, Volendam and Marken.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Amsterdam – India",
+      desc: "Breakfast at Hotel. Private transfer from Amsterdam Hotel to Amsterdam Airport for the return flight.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights Accommodation with Breakfast",
+      "Private transfer from London Airport (LHR) to London Hotel",
+      "02 Days London Hop On Hop Off City Tour",
+      "London Eye Standard Entry Ticket",
+      "London River Cruise Ticket",
+      "Madame Tussauds Standard Entry Ticket",
+      "London Tower Bridge Entry Ticket",
+      "Private transfer from London Hotel to London Train Station",
+      "Private transfer from Amsterdam Train Station to Amsterdam Hotel",
+      "01 Day Amsterdam Hop On Hop Off City Tour",
+      "Amsterdam Canal Cruise Ticket",
+      "Zaanse Schans, Edam, Volendam & Marken Tour from Amsterdam on SIC Basis",
+      "Private transfer from Amsterdam Hotel to Amsterdam Airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water, drinks, telephone or any other charges/expenses not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 3* Hotel",
+
+        hotels: [
+          {
+            location: "London 3N",
+            hotel: "Hampton by Hilton London Waterloo or Similar",
+          },
+          {
+            location: "Amsterdam 3N",
+            hotel: "The Highlander Hotel or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1340 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "GBP 1277 per person onwards",
+                triple: "GBP 1056 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "GBP 1249 per person onwards",
+                triple: "GBP 1025 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "GBP 411 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "GBP 903 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July, Aug & Sep - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1086 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "GBP 1102 per person onwards",
+                triple: "GBP 1092 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "GBP 1079 per person onwards",
+                triple: "GBP 1064 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "GBP 1025 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "GBP 653 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1284 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "GBP 1245 per person onwards",
+                triple: "GBP 1208 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "GBP 1194 per person onwards",
+                triple: "GBP 1179 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "GBP 953 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "GBP 851 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 4* Hotel",
+
+        hotels: [
+          {
+            location: "London 3N",
+            hotel: "The Clermont Charing Cross or Similar",
+          },
+          {
+            location: "Amsterdam 3N",
+            hotel: "Park Plaza Victoria Amsterdam or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1420 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "GBP 1417 per person onwards",
+                triple: "GBP 1387 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "GBP 1374 per person onwards",
+                triple: "GBP 1364 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "GBP 1246 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "GBP 1009 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "April, May, June, July, Aug & Sep - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1625 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "GBP 1574 per person onwards",
+                triple: "GBP 1416 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "GBP 1549 per person onwards",
+                triple: "GBP 1388 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "GBP 878 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "GBP 1199 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1668 per person onwards" },
+              {
+                pax: "04 Pax",
+                twinDouble: "GBP 1617 per person onwards",
+                triple: "GBP 1549 per person onwards",
+              },
+              {
+                pax: "06 Pax",
+                twinDouble: "GBP 1592 per person onwards",
+                triple: "GBP 1521 per person onwards",
+              },
+              {
+                pax: "Child Sharing with Extra Bed",
+                price: "GBP 1191 per child onwards",
+              },
+              {
+                pax: "Single Room Supplement",
+                price: "GBP 1242 onwards",
+              },
+              {
+                pax: "Below 2-year child",
+                price: "Free of cost",
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "London - Amsterdam 02nd Class Train Ticket",
+      price: "GBP 105 - 115 per adult",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+},
+
+{
+  title: "Classic UK Explorer",
+  slug: "london-birmingham-manchester-07n",
+  price: "GBP 1086 per person onwards",
+  days: "07 Nights / 08 Days",
+  rating: "",
+  image: "",
+  location: "London, Birmingham, Manchester",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 07 Nights",
+      places: "London, Birmingham, Manchester",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "07 Nights Accommodation",
+      "London Hop-On Hop-Off",
+      "Manchester City Stadium Tour",
+    ],
+
+    highlights: [
+      "London Hop On Hop Off Tour",
+      "London Eye",
+      "Madame Tussauds",
+      "Tower of London",
+      "Tower Bridge",
+      "Birmingham Guided Walking Tour",
+      "St Philip’s Cathedral",
+      "Broad Street",
+      "Centenary Square",
+      "Symphony Hall",
+      "Victoria Square",
+      "Ikon Gallery",
+      "Manchester City Stadium Tour",
+      "Etihad Stadium",
+    ],
+
+    experiences: [
+      {
+        title: "London – Hop On Hop Off + London Eye + Madame Tussauds",
+        desc: "Explore London with a 2-day Hop On Hop Off Tour, including London Eye and Madame Tussauds entrance.",
+      },
+      {
+        title: "London – Tower of London & Tower Bridge",
+        desc: "Continue sightseeing with the Tower of London and Tower Bridge, including the high-level glass walkways and Victorian Engine Rooms.",
+      },
+      {
+        title: "Birmingham – Guided Walking Tour",
+        desc: "Explore Birmingham on a shared-basis guided walking tour covering Cathedral Square, Broad Street, Centenary Square, Symphony Hall, Victoria Square and Ikon Gallery.",
+      },
+      {
+        title: "Manchester – City Stadium Tour",
+        desc: "Enjoy a behind-the-scenes Manchester City Stadium Tour with access to the players' tunnel, dugouts, dressing room and press conference room.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – London",
+      desc: "Arrive at London Heathrow Airport and enjoy a private transfer to your London hotel. Evening at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "London – Hop On Hop Off Day 1 + London Eye + Madame Tussauds",
+      desc: "Breakfast at Hotel. Proceed for Day 1 of the London Hop On Hop Off Tour. Visit the London Eye and Madame Tussauds, then continue exploring London through the Hop On Hop Off routes.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "London – Hop On Hop Off Day 2 + Tower of London + Tower Bridge",
+      desc: "Breakfast at Hotel. Continue Day 2 of the London Hop On Hop Off Tour. Visit the Tower of London and Tower Bridge, then enjoy the remainder of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "London – Birmingham",
+      desc: "Breakfast at Hotel. Private transfer from London Hotel to London Train Station. Travel to Birmingham and receive a private transfer from Birmingham Train Station to the hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Birmingham – Guided Walking Tour",
+      desc: "Breakfast at Hotel. Enjoy a shared-basis guided walking tour covering Cathedral Square, St Philip’s Cathedral, Broad Street, Centenary Square, Symphony Hall, Victoria Square, Town Hall, Council House and Ikon Gallery.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Birmingham – Manchester",
+      desc: "Breakfast at Hotel. Private transfer from Birmingham Hotel to the train station. Upon arrival in Manchester, private transfer to your hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Manchester – Manchester City Stadium Tour",
+      desc: "Breakfast at Hotel. Enjoy the Manchester City Stadium Tour with behind-the-scenes access to the stadium, players' tunnel, dugouts, dressing room and press conference room.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Manchester – India",
+      desc: "Breakfast at Hotel. Private transfer from Manchester Hotel to Manchester Airport for the return journey to India.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "7 Nights’ Accommodation with Breakfast",
+      "Private transfer from London Heathrow Airport to London hotel",
+      "London Hop on Hop Off Bus Tour – 2 Days",
+      "London Eye Entrance Ticket",
+      "Madame Tussauds Entrance Ticket",
+      "Tower of London Entrance Ticket",
+      "Tower Bridge Entrance Ticket",
+      "Private transfer from London hotel to London train station",
+      "Private transfer from Birmingham train station to Birmingham hotel",
+      "Guided Walking Tour on Shared Basis",
+      "Private transfer from Birmingham hotel to Birmingham train station",
+      "Private transfer from Manchester train station to Manchester hotel",
+      "Manchester City Stadium Tour on Shared Basis",
+      "Private transfer from Manchester hotel to Manchester Airport",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tour",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or other charges not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "London 3N",
+            hotel: "City London Hotel or similar",
+          },
+          {
+            location: "Birmingham 2N",
+            hotel: "Hampton by Hilton Birmingham Broad Street or similar",
+          },
+          {
+            location: "Manchester 2N",
+            hotel: "Holiday Inn Express Manchester City Centre – Arena or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Apr, May, Jun, Jul & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1086 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 957 per person onwards", triple: "GBP 841 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 906 per person onwards", triple: "GBP 790 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 401 per child" },
+              { pax: "Single Room Supplement", price: "GBP 544" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1004 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 915 per person onwards", triple: "GBP 824 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 864 per person onwards", triple: "GBP 773 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 424 per child" },
+              { pax: "Single Room Supplement", price: "GBP 492" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "Nov, Dec, Jan & Feb - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1201 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1072 per person onwards", triple: "GBP 953 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1021 per person onwards", triple: "GBP 902 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 507 per child" },
+              { pax: "Single Room Supplement", price: "GBP 659" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "London 3N",
+            hotel: "DoubleTree by Hilton London - West End or similar",
+          },
+          {
+            location: "Birmingham 2N",
+            hotel: "Hilton Garden Inn Birmingham Brindleyplace or similar",
+          },
+          {
+            location: "Manchester 2N",
+            hotel: "Holiday Inn Express Manchester City Centre – Arena or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Apr, May, Jun, Jul & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1278 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1169 per person onwards", triple: "GBP 1063 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1118 per person onwards", triple: "GBP 1002 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 653 per child" },
+              { pax: "Single Room Supplement", price: "GBP 706" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1187 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1050 per person onwards", triple: "GBP 1037 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 989 per person onwards", triple: "GBP 976 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 813 per child" },
+              { pax: "Single Room Supplement", price: "GBP 617" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "Nov, Dec, Jan & Feb - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1107 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 988 per person onwards", triple: "GBP 977 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 947 per person onwards", triple: "GBP 931 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 782 per child" },
+              { pax: "Single Room Supplement", price: "GBP 565" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "London - Birmingham – Manchester 02nd class train ticket",
+      price: "GBP 150 - 200 per person",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+},
+
+{
+  title: "British Isles Grand Discovery: London, Dublin & Belfast",
+  slug: "london-dublin-belfast-09n",
+  price: "GBP 1578 per person onwards",
+  days: "09 Nights / 10 Days",
+  rating: "",
+  image: "",
+  location: "London, Dublin, Belfast",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 09 Nights",
+      places: "London, Dublin, Belfast",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "09 Nights Accommodation",
+      "London Eye",
+      "Cliffs of Moher",
+      "Giant’s Causeway",
+    ],
+
+    highlights: [
+      "London City Tour",
+      "London Eye",
+      "London River Cruise",
+      "Madame Tussauds",
+      "Tower Bridge",
+      "Cliffs of Moher",
+      "Burren",
+      "Galway City",
+      "Howth Village",
+      "Giant’s Causeway",
+      "Carrickfergus Castle",
+      "Glenarm Castle",
+      "Carnlough Harbour",
+      "Dark Hedges",
+      "A History of Terror Walking Tour",
+    ],
+
+    experiences: [
+      {
+        title: "London – City Tour + London Eye + River Cruise",
+        desc: "Enjoy a London City Tour on SIC basis with London Eye entry and a scenic River Thames Cruise.",
+      },
+      {
+        title: "London – Madame Tussauds + Tower Bridge",
+        desc: "Visit Madame Tussauds and explore Tower Bridge including its high-level glass walkways.",
+      },
+      {
+        title: "Dublin – Cliffs of Moher, Burren & Galway",
+        desc: "Enjoy a full-day SIC tour covering the dramatic Cliffs of Moher, Burren landscapes and Galway City.",
+      },
+      {
+        title: "Dublin – Howth Coastal Tour",
+        desc: "Explore Howth Summit and the fishing village with a coastal walking experience overlooking Dublin Bay.",
+      },
+      {
+        title: "Belfast – Giant’s Causeway & Game of Thrones",
+        desc: "Explore Giant’s Causeway, Carrickfergus Castle, Glenarm Castle, Carnlough Harbour, Waterfoot Caves, Cushendun, Rope Bridge and The Dark Hedges.",
+      },
+      {
+        title: "Belfast – A History of Terror Walking Tour",
+        desc: "Learn about Belfast’s complex history and The Troubles through a shared-basis historical walking tour.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – London",
+      desc: "Arrive in London and receive a private transfer from the airport to your hotel.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "London – City Tour with London Eye & River Cruise",
+      desc: "Breakfast at Hotel. Proceed for the London City Tour on SIC basis. Enjoy the London Eye and River Thames Cruise.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "London – Madame Tussauds & Tower Bridge",
+      desc: "Breakfast at Hotel. Proceed for the London City Tour on SIC basis including Madame Tussauds and Tower Bridge.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "London – Dublin",
+      desc: "Breakfast at Hotel. Private transfer from London Hotel to London Airport (LHR). Fly to Dublin and receive a private transfer from Dublin Airport to the hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Dublin – Cliffs of Moher, Burren & Galway City",
+      desc: "Breakfast at Hotel. Enjoy the full-day Cliffs of Moher, Burren & Galway City Day Tour on SIC basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Dublin – Howth Village Coastal Tour",
+      desc: "Breakfast at Hotel. Enjoy a half-day coastal tour to Howth Village on SIC basis, including Howth Summit and its fishing village.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Dublin – Belfast",
+      desc: "Breakfast at Hotel. Private transfer from Dublin Hotel to Belfast Hotel. Evening at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Belfast – Giant’s Causeway & Game of Thrones Tour",
+      desc: "Breakfast at Hotel. Enjoy the full-day Giant’s Causeway and Game of Thrones Day Tour on SIC basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "09",
+      title: "Belfast – A History of Terror Walking Tour",
+      desc: "Join the A History of Terror Walking Tour on a shared basis and learn about Belfast’s complex and turbulent past.",
+      tags: [],
+    },
+    {
+      day: "10",
+      title: "Belfast – India",
+      desc: "Breakfast at Hotel. Private transfer from Belfast Hotel to Belfast Airport for the return flight.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "09 Nights Accommodation with Breakfast",
+      "Private transfer from London Airport (LHR) to London Hotel",
+      "02 Days London Hop on Hop off City Tour",
+      "London Eye Standard Entry Ticket",
+      "London River Cruise Ticket",
+      "Madame Tussauds Standard Entry Ticket",
+      "London Tower Bridge Entry Ticket",
+      "Private transfer from London Hotel to London Airport (LHR)",
+      "Private transfer from Dublin Airport to Dublin Hotel",
+      "Cliffs of Moher, Burren & Galway City Day Tour from Dublin on SIC Basis",
+      "Half Day Coastal Tour to Howth Village from Dublin on SIC Basis",
+      "Private transfer from Dublin Hotel to Belfast Hotel",
+      "Giant’s Causeway and Game of Thrones Day Tour from Belfast on SIC Basis",
+      "A History of Terror Walking Tour from Belfast on Shared Basis",
+      "Private transfer from Belfast Hotel to Belfast Airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or other charges not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "London 3N",
+            hotel: "Hampton by Hilton London Waterloo or Similar",
+          },
+          {
+            location: "Dublin 3N",
+            hotel: "Maldron Hotel Pearse Street or similar",
+          },
+          {
+            location: "Belfast 3N",
+            hotel: "Holiday Inn Express Belfast City - Queen's Quarter or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1578 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1431 per person onwards", triple: "GBP 1369 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1355 per person onwards", triple: "GBP 1291 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 908 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 838 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July, Aug & Sep - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1541 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1398 per person onwards", triple: "GBP 1215 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1323 per person onwards", triple: "GBP 1135 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 526 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 807 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1545 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1402 per person onwards", triple: "GBP 1220 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1327 per person onwards", triple: "GBP 1140 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 533 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 811 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "London 3N",
+            hotel: "The Clermont Charing Cross or Similar",
+          },
+          {
+            location: "Dublin 3N",
+            hotel: "The Croke Park or similar",
+          },
+          {
+            location: "Belfast 3N",
+            hotel: "voco Belfast or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 2082 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1953 per person onwards", triple: "GBP 1769 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1953 per person onwards", triple: "GBP 1769 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 1051 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 1338 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July, Aug & Sep - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1932 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1783 per person onwards", triple: "GBP 1502 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1711 per person onwards", triple: "GBP 1472 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 609 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 1178 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1967 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1818 per person onwards", triple: "GBP 1587 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1746 per person onwards", triple: "GBP 1512 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 791 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 1213 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+},
+
+{
+  title: "Grand Britain Experience: England & Scotland Highlights",
+  slug: "london-edinburgh-glasgow-07n",
+  price: "GBP 1174 per person onwards",
+  days: "07 Nights / 08 Days",
+  rating: "4.9",
+  image: "/images/Scotland/day-1.jpg",
+  location: "London, Edinburgh, Glasgow",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 07 Nights",
+      places: "London, Edinburgh, Glasgow",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "07 Nights Accommodation",
+      "London Eye",
+      "Edinburgh Castle",
+      "Loch Lomond",
+    ],
+
+    highlights: [
+      "London Hop On Hop Off",
+      "London Eye",
+      "London River Cruise",
+      "Madame Tussauds",
+      "Tower Bridge",
+      "Edinburgh Hop On Hop Off",
+      "Edinburgh Castle",
+      "Royal Mile",
+      "Holyrood Palace",
+      "Loch Lomond",
+      "Trossachs",
+      "Stirling Castle",
+      "Luss",
+    ],
+
+    experiences: [
+      {
+        title: "London – City Tour + London Eye + River Cruise",
+        desc: "Explore London on a SIC-basis city tour with London Eye and Thames River Cruise.",
+      },
+      {
+        title: "London – Madame Tussauds + Tower Bridge",
+        desc: "Visit Madame Tussauds and explore Tower Bridge including its high-level glass walkways.",
+      },
+      {
+        title: "Edinburgh – Hop On Hop Off + Edinburgh Castle",
+        desc: "Explore Edinburgh with a 1-day Hop On Hop Off City Tour and Edinburgh Castle Entry.",
+      },
+      {
+        title: "Glasgow – Loch Lomond, Trossachs & Stirling Castle",
+        desc: "Enjoy a full-day SIC tour through Scottish countryside, Loch Lomond, the Trossachs and Stirling Castle, without entrance.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – London",
+      desc: "Arrive in London and receive a private transfer from London Airport to your hotel.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "London – City Tour with London Eye & River Cruise",
+      desc: "Breakfast at Hotel. Proceed for the London City Tour on SIC basis, including London Eye and Thames River Cruise.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "London – Madame Tussauds & Tower Bridge",
+      desc: "Breakfast at Hotel. Proceed for the London City Tour on SIC basis including Madame Tussauds and Tower Bridge.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "London – Edinburgh",
+      desc: "Breakfast at Hotel. Private transfer from London Hotel to London Train Station. Board the train to Edinburgh. On arrival, private transfer to your Edinburgh Hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Edinburgh – Hop On Hop Off + Edinburgh Castle",
+      desc: "Breakfast at Hotel. Enjoy the 1-day Edinburgh Hop On Hop Off City Tour and Edinburgh Castle Entry Ticket.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Edinburgh – Glasgow",
+      desc: "Breakfast at Hotel. Private transfer from Edinburgh Hotel to Edinburgh Train Station. Travel by train to Glasgow and receive a private transfer to the hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Glasgow – Loch Lomond, Trossachs & Stirling Castle",
+      desc: "Breakfast at Hotel. Enjoy a full-day Loch Lomond, Trossachs & Stirling Castle Tour from Glasgow on SIC basis without entrance.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Glasgow – India",
+      desc: "Breakfast at Hotel. Private transfer from Glasgow Hotel to Glasgow Airport for the onward flight.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "07 Nights Accommodation with Breakfast",
+      "Private transfer from London Airport (LHR) to London Hotel",
+      "02 Days London Hop on Hop off City Tour",
+      "London Eye Standard Entry Ticket",
+      "London River Cruise Ticket",
+      "Madame Tussauds Standard Entry Ticket",
+      "London Tower Bridge Entry Ticket",
+      "Private transfer from London Hotel to London Train Station",
+      "Private transfer from Edinburgh Train Station to Edinburgh Hotel",
+      "01 Day Edinburgh Hop on Hop off City Tour",
+      "Edinburgh Castle Entry Ticket",
+      "Private transfer from Edinburgh Hotel to Edinburgh Train Station",
+      "Private transfer from Glasgow Train Station to Glasgow Hotel",
+      "Loch Lomond, Trossachs & Stirling Castle Tour from Glasgow on SIC Basis (Without Entrance)",
+      "Private transfer from Glasgow Hotel to Glasgow Airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or other charges not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "London 3N",
+            hotel: "Hampton by Hilton London Waterloo or Similar",
+          },
+          {
+            location: "Edinburgh 2N",
+            hotel: "Holiday Inn Express Edinburgh City Centre or similar",
+          },
+          {
+            location: "Glasgow 2N",
+            hotel: "Holiday Inn Express Glasgow - City Centre Riverside or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1174 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1087 per person onwards", triple: "GBP 1068 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1049 per person onwards", triple: "GBP 1028 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 807 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 689 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July, Aug & Sep - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1232 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1144 per person onwards", triple: "GBP 1047 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1106 per person onwards", triple: "GBP 1008 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 640 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 741 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1275 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1187 per person onwards", triple: "GBP 1075 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1149 per person onwards", triple: "GBP 1036 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 647 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 784 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "London 3N",
+            hotel: "The Clermont Charing Cross or Similar",
+          },
+          {
+            location: "Edinburgh 2N",
+            hotel: "Hilton Edinburgh Carlton or similar",
+          },
+          {
+            location: "Glasgow 2N",
+            hotel: "Glasgow, BW Signature Collection by Best Western or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1389 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1328 per person onwards", triple: "GBP 1243 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1300 per person onwards", triple: "GBP 1215 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 883 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 948 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July, Aug & Sep - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1561 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1501 per person onwards", triple: "GBP 1254 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1473 per person onwards", triple: "GBP 1225 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 950 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 1501 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1617 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1557 per person onwards", triple: "GBP 1302 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1529 per person onwards", triple: "GBP 1273 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 612 onwards per child" },
+              { pax: "Single Room Supplement", price: "GBP 1166" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "London – Edinburgh - Glasgow 02nd class train ticket",
+      price: "GBP 110 – 120 per adult",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/Scotland/day-1.jpg",
+    "/images/Scotland/day-2.jpg",
+    "/images/Scotland/day-3.jpg",
+    "/images/Scotland/day-4.jpg",
+    "/images/Scotland/day-5.jpg",
+    "/images/Scotland/day-6.jpg",
+    "/images/Scotland/day-7.jpg",
+  ]
+},
+
+{
+  title: "Explore London + Ireland Combination",
+  slug: "london-dublin-06n",
+  price: "GBP 1279 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+  image:  "/images/Ire/day-1.jpg",
+  location: "London, Dublin",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "2 Destinations, 06 Nights",
+      places: "London, Dublin",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "London Eye",
+      "Windsor Castle",
+      "Cliffs of Moher",
+    ],
+
+    highlights: [
+      "London Hop On Hop Off",
+      "London Eye",
+      "Thames River Cruise",
+      "Windsor Castle",
+      "Bath",
+      "Stonehenge",
+      "Cliffs of Moher",
+      "Burren",
+      "Galway City",
+      "Dublin Hop On Hop Off",
+      "Trinity College",
+      "St. Patrick’s Cathedral",
+      "Dublin Castle",
+      "Temple Bar",
+    ],
+
+    experiences: [
+      {
+        title: "London – Hop On Hop Off + London Eye + Thames Cruise",
+        desc: "Explore London with a one-day Hop On Hop Off city tour, London Eye entry and Thames River Cruise.",
+      },
+      {
+        title: "London – Windsor Castle, Bath & Stonehenge",
+        desc: "Enjoy a full-day SIC tour covering Windsor Castle, Bath and Stonehenge with all tickets included.",
+      },
+      {
+        title: "Dublin – Cliffs of Moher, Burren & Galway",
+        desc: "Enjoy a full-day SIC tour through the Cliffs of Moher, Burren and Galway City.",
+      },
+      {
+        title: "Dublin – Hop On Hop Off",
+        desc: "Explore Dublin on a one-day Hop On Hop Off tour covering major city attractions.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – London",
+      desc: "Arrive at London Heathrow Airport and enjoy a private transfer to your London hotel. London Eye, Thames River Cruise and Hop On Hop Off are planned subject to availability.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "London – Hop On Hop Off + London Eye + Thames River Cruise",
+      desc: "Breakfast at Hotel. Proceed for the one-day London Hop On Hop Off city tour on SIC basis. Visit the London Eye and enjoy the Thames River Cruise.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "London – Windsor Castle, Bath & Stonehenge",
+      desc: "Breakfast at Hotel. Enjoy the full-day Windsor Castle, Bath and Stonehenge Tour on SIC basis with all tickets included.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "London – Dublin",
+      desc: "Breakfast at Hotel. Private transfer from London Hotel to London Heathrow Airport for the onward flight to Dublin. Private transfer from Dublin Airport to the hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Dublin – Cliffs of Moher, Burren & Galway City",
+      desc: "Breakfast at Hotel. Enjoy a full-day Cliffs of Moher, Burren and Galway City Tour on SIC basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Dublin – Hop On Hop Off Tour",
+      desc: "Breakfast at Hotel. Enjoy a one-day Dublin Hop On Hop Off Tour on SIC basis covering landmarks including Trinity College, St. Patrick’s Cathedral, Dublin Castle and Temple Bar.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Dublin – India",
+      desc: "Breakfast at Hotel. Private transfer to Dublin Airport for the return journey.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06-night accommodation with breakfast",
+      "Private transfer from London LHR Airport to London Hotel",
+      "London 01 Day Hop on Hop off City tour on SIC Basis",
+      "London Eye entry ticket Only",
+      "Thames River Cruise ticket Entrance",
+      "Windsor Castle, Bath and Stonehenge Tour from London on SIC Basis (all Ticket are included)",
+      "Private transfer from London Hotel to London LHR Airport",
+      "Private Transfer from Dublin Airport to Dublin Hotel",
+      "Cliffs of Moher, Burren & Galway City Day Tour from Dublin on SIC Basis",
+      "Dublin 01 Day Hop on Hop off city tour on SIC Basis",
+      "Private Transfer from Dublin Hotel to Dublin Airport",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tour",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or other charges not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "London 3N",
+            hotel: "Royal National Hotel or similar",
+          },
+          {
+            location: "Dublin 3N",
+            hotel: "Waterloo Lodge Townhouse or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1279 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1170 per person onwards", triple: "GBP 964 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1128 per person onwards", triple: "GBP 940 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 688 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 614 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1109 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1060 per person onwards", triple: "GBP 999 per person" },
+              { pax: "06 Pax", twinDouble: "GBP 1040 per person onwards", triple: "GBP 975 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 582 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 530 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1219 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1185 per person onwards", triple: "GBP 1035 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1120 per person onwards", triple: "GBP 1025 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 607 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 760 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "London 3N",
+            hotel: "Thistle London Holborn or similar",
+          },
+          {
+            location: "Dublin 3N",
+            hotel: "Clayton Hotel Charlemont or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1019 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1005 per person onwards", triple: "GBP 991 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 985 per person onwards", triple: "GBP 971 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 633 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 385 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July, Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1324 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1289 per person onwards", triple: "GBP 1235 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1254 per person onwards", triple: "GBP 1219 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 551 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 735 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1199 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1140 per person onwards", triple: "GBP 1100 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1104 per person onwards", triple: "GBP 1090 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 645 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 780 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/Ire/day-1.jpg",
+    "/images/Ire/day-2.jpg",
+    "/images/Ire/day-3.jpg",
+    "/images/Ire/day-4.jpg",
+    "/images/Ire/day-5.jpg",
+    "/images/Ire/day-6.jpg",
+  ]
+},
+
+{
+  title: "Celtic Wonders Journey: Dublin, Cliffs of Moher & Giant’s Causeway",
+  slug: "dublin-belfast-06n",
+  price: "GBP 966 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "",
+  image: "",
+  location: "Dublin, Belfast",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "2 Destinations, 06 Nights",
+      places: "Dublin, Belfast",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Cliffs of Moher",
+      "Howth Village",
+      "Giant’s Causeway",
+      "Game of Thrones",
+    ],
+
+    highlights: [
+      "Cliffs of Moher",
+      "Burren",
+      "Galway City",
+      "Howth Village",
+      "Howth Summit",
+      "Dublin Bay",
+      "Giant’s Causeway",
+      "Carrickfergus Castle",
+      "Glenarm Castle",
+      "Carnlough Harbour",
+      "Waterfoot Caves",
+      "Cushendun",
+      "Rope Bridge",
+      "The Dark Hedges",
+      "A History of Terror Walking Tour",
+    ],
+
+    experiences: [
+      {
+        title: "Dublin – Cliffs of Moher, Burren & Galway",
+        desc: "Enjoy a full-day SIC tour covering the Cliffs of Moher, Burren and Galway City.",
+      },
+      {
+        title: "Dublin – Howth Village Coastal Tour",
+        desc: "Explore Howth Summit and the picturesque fishing village with guided coastal walking and free time.",
+      },
+      {
+        title: "Belfast – Giant’s Causeway & Game of Thrones",
+        desc: "Explore Giant’s Causeway, Carrickfergus Castle, Glenarm Castle, Carnlough Harbour, Waterfoot Caves, Cushendun, Rope Bridge and The Dark Hedges.",
+      },
+      {
+        title: "Belfast – A History of Terror Walking Tour",
+        desc: "Explore Belfast’s complex history and The Troubles through a shared-basis historical walking tour.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Dublin",
+      desc: "Arrive at Dublin Airport and enjoy a private transfer to your Dublin hotel.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Dublin – Cliffs of Moher, Burren & Galway City",
+      desc: "Breakfast at hotel. Enjoy a full-day Cliffs of Moher, Burren & Galway City Day Tour on SIC basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Dublin – Half Day Coastal Tour to Howth Village",
+      desc: "Breakfast at hotel. Enjoy a half-day coastal tour to Howth Village on SIC basis, including Howth Summit, fishing village and guided coastal walking.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Dublin – Belfast",
+      desc: "Breakfast at hotel. Private transfer from Dublin Hotel to Belfast Hotel. Evening at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Belfast – Giant’s Causeway & Game of Thrones",
+      desc: "Breakfast at hotel. Enjoy the full-day Giant’s Causeway and Game of Thrones Day Tour on SIC basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Belfast – A History of Terror Walking Tour",
+      desc: "Join the A History of Terror Walking Tour on a shared basis and learn about Belfast’s complex and turbulent past.",
+      tags: [],
+    },
+    {
+      day: "07",
+      title: "Belfast – India",
+      desc: "Breakfast at hotel. Private transfer from Belfast Hotel to Belfast Airport for the return flight.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights Accommodation with Breakfast",
+      "Private transfer from Dublin Airport to Dublin Hotel",
+      "Cliffs of Moher, Burren & Galway City Day Tour from Dublin on SIC Basis",
+      "Half Day Coastal Tour to Howth Village from Dublin on SIC Basis",
+      "Private transfer from Dublin Hotel to Belfast Hotel",
+      "Giant’s Causeway and Game of Thrones Day Tour from Belfast on SIC Basis",
+      "A History of Terror Walking Tour from Belfast on Shared Basis",
+      "Private transfer from Belfast Hotel to Belfast Airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or other charges not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "Dublin 3N",
+            hotel: "Maldron Hotel Pearse Street or similar",
+          },
+          {
+            location: "Belfast 3N",
+            hotel: "Holiday Inn Express Belfast City - Queen's Quarter or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 966 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 856 per person onwards", triple: "GBP 811 per person" },
+              { pax: "06 Pax", twinDouble: "GBP 800 per person onwards", triple: "GBP 751 per person" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 488 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 493 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July, Aug & Sep - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 986 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 856 per person onwards", triple: "GBP 730 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 800 per person onwards", triple: "GBP 671 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 257 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 493 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 969 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 856 per person onwards", triple: "GBP 735 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 800 per person onwards", triple: "GBP 676 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 272 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 493 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "Dublin 3N",
+            hotel: "The Croke Park or similar",
+          },
+          {
+            location: "Belfast 3N",
+            hotel: "voco Belfast or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1295 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1186 per person onwards", triple: "GBP 1034 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1130 per person onwards", triple: "GBP 975 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 497 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 808 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July, Aug & Sep - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1027 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 917 per person onwards", triple: "GBP 830 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 860 per person onwards", triple: "GBP 770 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 429 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 551 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1027 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 917 per person onwards", triple: "GBP 830 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 860 per person onwards", triple: "GBP 770 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 429 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 551 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+},
+
+{
+  title: "Explore Edinburgh + Glasgow + Inverness",
+  slug: "edinburgh-glasgow-inverness-06n",
+  price: "GBP 776 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+  image: "/images/ness/day-1.jpg",
+  location: "Edinburgh, Glasgow, Inverness",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Edinburgh, Glasgow, Inverness",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Edinburgh Castle",
+      "Edinburgh Hop On Hop Off",
+      "Glasgow Hop On Hop Off",
+      "Inverness Hop On Hop Off",
+    ],
+
+    highlights: [
+      "Edinburgh Castle",
+      "Edinburgh Hop On Hop Off",
+      "Old Town",
+      "New Town",
+      "George Square",
+      "Glasgow Cathedral",
+      "Riverside Museum",
+      "University of Glasgow",
+      "Kelvingrove Art Gallery and Museum",
+      "River Ness",
+      "Inverness Castle",
+      "Caledonian Canal",
+      "Scottish Highlands",
+    ],
+
+    experiences: [
+      {
+        title: "Edinburgh – Hop On Hop Off + Edinburgh Castle",
+        desc: "Explore Edinburgh on a one-day Hop On Hop Off city tour and visit Edinburgh Castle.",
+      },
+      {
+        title: "Glasgow – Hop On Hop Off",
+        desc: "Explore Glasgow's major attractions including George Square, Glasgow Cathedral, Riverside Museum, University of Glasgow and Kelvingrove Art Gallery and Museum.",
+      },
+      {
+        title: "Inverness – Hop On Hop Off",
+        desc: "Explore River Ness, Inverness Castle exterior, Caledonian Canal and scenic Highland viewpoints.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Edinburgh",
+      desc: "Arrive at Edinburgh Airport and enjoy a private transfer to your Edinburgh hotel.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Edinburgh – Hop On Hop Off Tour & Castle Visit",
+      desc: "Breakfast at Hotel. Enjoy Edinburgh's one-day Hop On Hop Off tour on SIC basis and Edinburgh Castle entry.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Edinburgh – Glasgow",
+      desc: "Breakfast at Hotel. Private transfer from Edinburgh Hotel to the train station. Travel to Glasgow and receive a private transfer from Glasgow Train Station to your hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Glasgow – Hop On Hop Off Tour",
+      desc: "Breakfast at Hotel. Enjoy Glasgow's one-day Hop On Hop Off tour on SIC basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Glasgow – Inverness",
+      desc: "Breakfast at Hotel. Private transfer to Glasgow Train Station and train to Inverness. Private transfer from Inverness Train Station to your hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Inverness – Hop On Hop Off Tour",
+      desc: "Breakfast at Hotel. Enjoy the one-day Inverness Hop On Hop Off city tour on SIC basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Inverness – India",
+      desc: "Breakfast at Hotel. Private transfer from Inverness Hotel to Inverness Airport.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Night accommodation with breakfast",
+      "Private transfer from Edinburgh Airport to Edinburgh Hotel",
+      "Edinburgh 01-day Hop On Hop Off city tour on SIC basis",
+      "Edinburgh Castle entry ticket (subject to availability)",
+      "Private transfer from Edinburgh Hotel to Edinburgh Train Station",
+      "Private transfer from Glasgow Train Station to Glasgow Hotel",
+      "Glasgow 01-day Hop On Hop Off city tour on SIC basis",
+      "Private transfer from Glasgow Hotel to Glasgow Train Station",
+      "Private transfer from Inverness Train Station to Inverness Hotel",
+      "Inverness 01-day Hop On Hop Off city tour on SIC basis",
+      "Private transfer from Inverness Hotel to Inverness Airport",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tour",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or other charges not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "Edinburgh 2N",
+            hotel: "Holiday Inn Express Edinburgh - Royal Mile by IHG or similar",
+          },
+          {
+            location: "Glasgow 2N",
+            hotel: "Holiday Inn Express Glasgow - City Ctr Riverside by IHG or similar",
+          },
+          {
+            location: "Inverness 2N",
+            hotel: "Royal Highland Hotel or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 776 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 728 per person onwards", triple: "GBP 676 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 688 per person onwards", triple: "GBP 632 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 313 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 445" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1036 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1009 per person onwards", triple: "GBP 973 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 938 per person onwards", triple: "GBP 915 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 321 per child" },
+              { pax: "Single Room Supplement", price: "GBP 570" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March-Oct & Sep - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 998 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 961 per person onwards", triple: "GBP 915 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 930 per person onwards", triple: "GBP 893 per person onwards" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "Edinburgh 2N",
+            hotel: "Novotel Edinburgh Centre or similar",
+          },
+          {
+            location: "Glasgow 2N",
+            hotel: "YOTEL Glasgow or similar",
+          },
+          {
+            location: "Inverness 2N",
+            hotel: "River Ness Hotel, a member of Radisson Individuals or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 816 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 739 per person onwards", triple: "GBP 672 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 697 per person onwards", triple: "GBP 624 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 315 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 321 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1190 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1128 per person onwards", triple: "GBP 1009 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1086 per person onwards" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1001 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 924 per person onwards", triple: "GBP 754 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 852 per person onwards", triple: "GBP 716 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 325 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 450 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Edinburgh - Glasgow - Inverness 02nd class train ticket",
+      price: "GBP 60-70 per person, on actual basis",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/ness/day-1.jpg",
+    "/images/ness/day-2.jpg",
+    "/images/ness/day-3.jpg",
+    "/images/ness/day-4.jpg",
+    "/images/ness/day-5.jpg",
+    "/images/ness/day-6.jpg",
+  ]
+},
+
+{
+  title: "Best of Edinburgh & Glasgow",
+  slug: "edinburgh-glasgow-06n",
+  price: "GBP 845 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "",
+  image: "",
+  location: "Edinburgh, Glasgow",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "2 Destinations, 06 Nights",
+      places: "Edinburgh, Glasgow",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Edinburgh Hop On Hop Off",
+      "Loch Ness",
+      "Glencoe",
+      "Glenfinnan Viaduct",
+    ],
+
+    highlights: [
+      "Edinburgh Hop On Hop Off",
+      "Edinburgh Castle",
+      "Royal Mile",
+      "Grassmarket",
+      "Loch Ness",
+      "Glencoe",
+      "Fort William",
+      "Scottish Highlands",
+      "Glasgow Hop On Hop Off",
+      "Glasgow Cathedral",
+      "Riverside Museum",
+      "Kelvingrove Art Gallery",
+      "Glasgow University",
+      "Glenfinnan Viaduct",
+      "Glenfinnan Monument",
+      "Loch Lomond",
+      "Neptune’s Staircase",
+    ],
+
+    experiences: [
+      {
+        title: "Edinburgh – Hop On Hop Off",
+        desc: "Explore Edinburgh at your own pace with an open-top Hop On Hop Off tour covering major city sights.",
+      },
+      {
+        title: "Edinburgh – Loch Ness, Glencoe & Scottish Highlands",
+        desc: "Enjoy a full-day SIC tour through Callander, Glencoe, Fort William, Loch Ness, Inverness and Pitlochry.",
+      },
+      {
+        title: "Glasgow – Hop On Hop Off",
+        desc: "Explore Glasgow's museums, galleries, parks and major landmarks on a city Hop On Hop Off tour.",
+      },
+      {
+        title: "Glasgow – Glenfinnan, Fort William & Glencoe",
+        desc: "Travel through the Scottish Highlands, Glencoe, Fort William and Glenfinnan Viaduct, with views of Loch Shiel and Loch Lomond.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Edinburgh",
+      desc: "Arrive in Edinburgh and enjoy a smooth transfer from the airport to your hotel.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Edinburgh – 01 Day Hop On Hop Off Bus",
+      desc: "Breakfast at Hotel. Enjoy Edinburgh's one-day Hop On Hop Off city tour on SIC basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Edinburgh – Loch Ness, Glencoe & Scottish Highlands",
+      desc: "Breakfast at Hotel. Enjoy a full-day Loch Ness, Glencoe & Scottish Highlands Tour from Edinburgh on SIC basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Edinburgh – Glasgow",
+      desc: "Breakfast at Hotel. Private transfer to Edinburgh Train Station, train to Glasgow and private transfer from Glasgow Train Station to hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Glasgow – 01 Day Hop On Hop Off City Tour",
+      desc: "Breakfast at Hotel. Enjoy Glasgow's one-day Hop On Hop Off city tour on SIC basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Glasgow – Glenfinnan, Fort William & Glencoe",
+      desc: "Breakfast at Hotel. Enjoy the full-day Glenfinnan, Fort William and Glencoe Day Trip from Glasgow on SIC basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Glasgow – India",
+      desc: "Breakfast at Hotel. Private transfer from Glasgow Hotel to Glasgow Airport.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 nights’ accommodation with breakfast",
+      "Private transfer from Edinburgh Airport to Edinburgh Hotel",
+      "Loch Ness, Glencoe & the Scottish Highlands Tour from Edinburgh on SIC Basis",
+      "Private transfer from Edinburgh Hotel to Edinburgh Train station",
+      "Private transfer from Glasgow Train station to Glasgow Hotel",
+      "Glasgow 01 Day Hop on Hop off City tour on SIC Basis",
+      "Glenfinnan, Fort William, and Glencoe Day Trip from Glasgow on SIC Basis",
+      "Private Transfer from Glasgow Hotel to Glasgow Airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or other charges not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "Edinburgh 3N",
+            hotel: "Hampton by Hilton Edinburgh West End or Similar",
+          },
+          {
+            location: "Glasgow 3N",
+            hotel: "Sandyford Lodge Hotel or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 960 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 932 per person onwards", triple: "GBP 892 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 901 per person onwards", triple: "GBP 849 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 571 per child" },
+              { pax: "Single Room Supplement", price: "GBP 795" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 935 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 892 per person onwards", triple: "GBP 844 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 876 per person onwards", triple: "GBP 804 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 569 per child" },
+              { pax: "Single Room Supplement", price: "GBP 1241" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 845 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 827 per person onwards", triple: "GBP 819 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 811 per person onwards", triple: "GBP 791 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 554 per child" },
+              { pax: "Single Room Supplement", price: "GBP 760" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "Edinburgh 3N",
+            hotel: "The Caledonian Edinburgh, Curio Collection by Hilton or Similar",
+          },
+          {
+            location: "Glasgow 3N",
+            hotel: "Clayton Hotel Glasgow or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1025 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 997 per person onwards", triple: "GBP 937 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 985 per person onwards", triple: "GBP 913 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 348 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 1701 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1229 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1200 per person onwards", triple: "GBP 1110 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1190 per person onwards", triple: "GBP 1093 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 450 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 1671 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1015 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1002 per person onwards", triple: "GBP 927 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 981 per person onwards", triple: "GBP 903 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 354 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 1671 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Edinburgh to Glasgow 02nd class train ticket",
+      price: "GBP 30–40 per person, on actual basis",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+},
+
+{
+  title: "Ireland Signature Journey: From Belfast to the Cliffs of Moher",
+  slug: "belfast-dublin-galway-07n",
+  price: "GBP 1491 per person onwards",
+  days: "07 Nights / 08 Days",
+  rating: "4.9",
+  image: "/images/journey/day-1.jpg",
+  location: "Belfast, Dublin, Galway",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 07 Nights",
+      places: "Belfast, Dublin, Galway",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "07 Nights Accommodation",
+      "Titanic Belfast",
+      "Giant’s Causeway",
+      "Cliffs of Moher",
+      "Galway",
+    ],
+
+    highlights: [
+      "Belfast Hop-On Hop-Off",
+      "Titanic Belfast Experience",
+      "City Hall",
+      "Cathedral Quarter",
+      "Peace Walls",
+      "Crumlin Road Gaol",
+      "Giant’s Causeway",
+      "Game of Thrones Locations",
+      "Dublin Hop-On Hop-Off",
+      "Trinity College",
+      "Temple Bar",
+      "Phoenix Park",
+      "St. Patrick’s Cathedral",
+      "Guinness Storehouse",
+      "Galway",
+      "Cliffs of Moher",
+      "The Burren",
+    ],
+
+    experiences: [
+      {
+        title: "Belfast – Hop-On Hop-Off + Titanic Belfast",
+        desc: "Explore Belfast's major attractions with a one-day Hop-On Hop-Off tour followed by the Titanic Belfast Experience.",
+      },
+      {
+        title: "Belfast – Giant’s Causeway & Game of Thrones",
+        desc: "Enjoy a full-day SIC tour covering Giant’s Causeway and famous coastal and Game of Thrones locations.",
+      },
+      {
+        title: "Dublin – Hop-On Hop-Off",
+        desc: "Explore Dublin's major landmarks including Trinity College, Temple Bar, Phoenix Park, St. Patrick’s Cathedral and the Guinness Storehouse.",
+      },
+      {
+        title: "Galway – Cliffs of Moher & Burren",
+        desc: "Enjoy a full-day SIC tour to the Cliffs of Moher and the unique rocky landscapes of the Burren.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Ireland / Belfast",
+      desc: "Arrive at Belfast Airport and enjoy a private transfer to your Belfast hotel.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Belfast – Hop-On Hop-Off + Titanic Belfast",
+      desc: "Breakfast at Hotel. Enjoy a one-day Belfast Hop-On Hop-Off Bus Tour followed by the Titanic Belfast Experience.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Belfast – Giant’s Causeway & Game of Thrones",
+      desc: "Breakfast at Hotel. Enjoy a full-day Giant’s Causeway & Game of Thrones Tour on SIC basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Belfast – Dublin",
+      desc: "Breakfast at Hotel. Private transfer from Belfast Hotel to Dublin Hotel. Evening at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Dublin – Hop-On Hop-Off Bus Tour",
+      desc: "Breakfast at Hotel. Enjoy a one-day Dublin Hop-On Hop-Off Bus Tour covering major city landmarks.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Dublin – Galway",
+      desc: "Breakfast at Hotel. Private transfer from Dublin Hotel to Galway Hotel. Evening at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Galway – Cliffs of Moher & Burren",
+      desc: "Breakfast at Hotel. Enjoy a full-day Cliffs of Moher & Burren Tour on SIC basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Galway – Dublin Airport – India",
+      desc: "Private transfer from Galway Hotel to Dublin Airport for the onward flight.",
+      tags: [],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "Private transfer from Belfast Airport to hotel",
+      "01-day Belfast Hop On Hop Off bus tour",
+      "Belfast Titanic Experience entry ticket",
+      "Giant’s Causeway and Game of Thrones Day Tour from Belfast on SIC Basis",
+      "Private transfer from Belfast hotel to Dublin",
+      "Dublin 01 Hop On Hop Off bus tour",
+      "Private transfer from Dublin hotel to Galway hotel",
+      "Day trip to Cliffs of Moher & Burren from Galway on SIC Basis",
+      "Private transfer from Galway hotel to Dublin Airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or other charges not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "Belfast 3N",
+            hotel: "Hampton by Hilton Belfast City Centre or Similar",
+          },
+          {
+            location: "Dublin 2N",
+            hotel: "Hilton Garden Inn Dublin City Centre or Similar",
+          },
+          {
+            location: "Galway 2N",
+            hotel: "Claregalway Hotel or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Nov – Feb 2026 / 2027",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1491 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1198 per person onwards", triple: "GBP 1144 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1037 per person onwards", triple: "GBP 980 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 499 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 543 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1737 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1340 per person onwards", triple: "GBP 1252 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1193 per person onwards", triple: "GBP 1095 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 552 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 689 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1849 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1452 per person onwards", triple: "GBP 1328 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1305 per person onwards", triple: "GBP 1171 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 556 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 801 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "Belfast 3N",
+            hotel: "Clayton Hotel Belfast or Similar",
+          },
+          {
+            location: "Dublin 2N",
+            hotel: "Hotel Riu Plaza The Gresham Dublin or Similar",
+          },
+          {
+            location: "Galway 2N",
+            hotel: "Madron Hotel Sandy Road Galway or Similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Nov – Feb 2026 / 2027",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1547 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1146 per person onwards", triple: "GBP 1128 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 987 per person onwards", triple: "GBP 976 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 611 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 496 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 1736 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1338 per person onwards", triple: "GBP 1199 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1178 per person onwards", triple: "GBP 1039 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 392 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 655 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "Mar, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "GBP 2226 per person onwards" },
+              { pax: "04 Pax", twinDouble: "GBP 1828 per person onwards", triple: "GBP 1542 per person onwards" },
+              { pax: "06 Pax", twinDouble: "GBP 1668 per person onwards", triple: "GBP 1382 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "GBP 441 per child onwards" },
+              { pax: "Single Room Supplement", price: "GBP 1145 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/journey/day-1.jpg",
+    "/images/journey/day-2.jpg",
+    "/images/journey/day-3.jpg",
+    "/images/journey/day-4.jpg",
+    "/images/journey/day-5.jpg",
+    "/images/journey/day-6.jpg",
+    "/images/journey/day-7.jpg",
+  ]
+},
+
+{
+  title: "From Munich’s Majesty to Innsbruck’s Alps",
+  slug: "munich-salzburg-innsbruck-06n",
+  price: "Euro 815 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "",
+  image:  "/images/majesty/day-1.jpg",
+  location: "Munich, Salzburg, Innsbruck",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Munich, Salzburg, Innsbruck",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Munich Hop-On Hop-Off",
+      "Nymphenburg Palace",
+      "Sound of Music Tour",
+      "Swarovski Crystal Worlds",
+    ],
+
+    highlights: [
+      "Munich",
+      "Munich Hop-On Hop-Off",
+      "Nymphenburg Palace",
+      "Salzburg Old Town",
+      "The Original Sound of Music Tour",
+      "Salzach River",
+      "Innsbruck Old Town",
+      "Golden Roof",
+      "Swarovski Crystal Worlds",
+      "Chambers of Wonder",
+      "Crystal Cloud",
+      "Alpine Mountain Views",
+    ],
+
+    experiences: [
+      {
+        title: "Munich – City Exploration",
+        desc: "Explore Munich with a Hop-On Hop-Off sightseeing tour followed by a visit to the magnificent Nymphenburg Palace.",
+      },
+      {
+        title: "Salzburg – The Original Sound of Music Tour",
+        desc: "Enjoy a half-day guided tour inspired by The Sound of Music, visiting iconic film locations and scenic Austrian countryside.",
+      },
+      {
+        title: "Innsbruck – Swarovski Crystal Worlds",
+        desc: "Visit Swarovski Crystal Worlds and explore the Chambers of Wonder, crystal installations and Crystal Cloud.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Munich",
+      desc: "Arrive at Munich Airport and enjoy a private transfer to your city centre hotel. Rest of the day at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Munich – City Exploration",
+      desc: "Breakfast at hotel. Enjoy a Munich Hop-On Hop-Off sightseeing tour followed by a visit to Nymphenburg Palace.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Munich – Salzburg",
+      desc: "Breakfast at hotel. Travel from Munich to Salzburg by train. Transfer to hotel and enjoy the remainder of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Salzburg – The Original Sound of Music Tour",
+      desc: "Breakfast at hotel. Enjoy a half-day guided Original Sound of Music Tour from Salzburg on SIC basis.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Salzburg – Innsbruck",
+      desc: "Breakfast at hotel. Travel by train to Innsbruck. After hotel check-in, explore the medieval Old Town, Golden Roof and surrounding mountain views.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Innsbruck – Swarovski Crystal Worlds Experience",
+      desc: "Breakfast at hotel. Visit Swarovski Crystal Worlds and explore the Chambers of Wonder and Crystal Cloud.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Innsbruck – India",
+      desc: "Breakfast at hotel. Check out and proceed to Innsbruck Airport for your onward flight.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights Accommodation with Breakfast",
+      "Private transfers between airports, hotels, and train stations",
+      "01-Day Munich Hop-On Hop-Off Bus Ticket",
+      "Nymphenburg Palace Entrance Ticket",
+      "Half-Day Guided Original Sound of Music Tour from Salzburg on SIC basis",
+      "Swarovski Crystal Worlds Visit from Innsbruck on SIC basis",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tour",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or any other charges/expenses not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "Munich 2N",
+            hotel: "Arthotel Munich or similar",
+          },
+          {
+            location: "Salzburg 2N",
+            hotel: "Altstadt Hotel Hofwirt or similar",
+          },
+          {
+            location: "Innsbruck 2N",
+            hotel: "Hotel Goldene Krone or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 815 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 751 per person onwards", triple: "Euro 718 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 710 per person onwards", triple: "Euro 684 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 456 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 457 onwards" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 926 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 837 per person onwards", triple: "Euro 763 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 796 per person onwards", triple: "Euro 720 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 400 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 539 onwards" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 897 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 809 per person onwards", triple: "Euro 746 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 768 per person onwards", triple: "Euro 711 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 430 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 512 onwards" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "Munich 2N",
+            hotel: "Hotel München City Center or similar",
+          },
+          {
+            location: "Salzburg 2N",
+            hotel: "Wyndham Grand Salzburg Conference Centre or similar",
+          },
+          {
+            location: "Innsbruck 2N",
+            hotel: "Hotel Central - Innsbruck or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 838 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 750 per person onwards", triple: "Euro 699 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 709 per person onwards", triple: "Euro 667 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 416 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 456 onwards" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 974 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 886 per person onwards", triple: "Euro 842 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 845 per person onwards", triple: "Euro 802 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 542 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 558 onwards" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 913 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 828 per person onwards", triple: "Euro 752 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 789 per person onwards", triple: "Euro 713 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 416 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 525 onwards" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Munich – Salzburg – Innsbruck 02nd class train ticket",
+      price: "Euro 95 - 125 per person, on actual basis",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+     "/images/majesty/day-1.jpg",
+      "/images/majesty/day-2.jpg",
+       "/images/majesty/day-3.jpg",
+        "/images/majesty/day-4.jpg",
+         "/images/majesty/day-5.jpg",
+          "/images/majesty/day-6.jpg",
+  ]
+},
+
+{
+  title: "From Medieval Streets to Imperial Palaces",
+  slug: "prague-vienna-budapest-09n",
+  price: "Euro 1067 per person onwards",
+  days: "09 Nights / 10 Days",
+  rating: "",
+  image: "/images/imperial/day-1.jpg",
+  location: "Prague, Vienna, Budapest",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 09 Nights",
+      places: "Prague, Vienna, Budapest",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "09 Nights Accommodation",
+      "Prague Castle",
+      "Vltava River Cruise",
+      "Český Krumlov",
+      "Schönbrunn Palace",
+      "Bratislava",
+      "Danube Cruise",
+      "Széchenyi Thermal Bath",
+    ],
+
+    highlights: [
+      "Prague Old Town",
+      "Prague Castle",
+      "Mala Strana",
+      "Vltava River Cruise",
+      "Český Krumlov",
+      "Vienna State Opera",
+      "Belvedere Palace",
+      "Ringstrasse",
+      "Schönbrunn Palace",
+      "Danube Canal Cruise",
+      "Bratislava Old Town",
+      "Budapest Buda & Pest",
+      "St. Stephen’s Basilica",
+      "Danube River Cruise",
+      "Széchenyi Thermal Spa",
+    ],
+
+    experiences: [
+      {
+        title: "Prague – City Tour, Castle & Vltava Cruise",
+        desc: "Explore Prague by Hop-On Hop-Off, visit Prague Castle and enjoy an evening Vltava River cruise.",
+      },
+      {
+        title: "Prague – Český Krumlov",
+        desc: "Enjoy a full-day trip to the UNESCO-listed medieval town of Český Krumlov.",
+      },
+      {
+        title: "Vienna – City Tour, Schönbrunn Palace & Cruise",
+        desc: "Explore Vienna by Hop-On Hop-Off, visit Schönbrunn Palace and enjoy a Danube Canal cruise.",
+      },
+      {
+        title: "Vienna – Bratislava",
+        desc: "Take a day trip to Bratislava and explore its historic Old Town and surrounding landscapes.",
+      },
+      {
+        title: "Budapest – City, Basilica, Cruise & Thermal Bath",
+        desc: "Explore both Buda and Pest, visit St. Stephen’s Basilica, cruise the Danube and relax at Széchenyi Thermal Bath.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Prague",
+      desc: "Arrive at Prague Airport and enjoy a private transfer to your city centre hotel. Rest of the day at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Prague – City Tour, Castle Visit & Vltava Cruise",
+      desc: "Breakfast at hotel. Enjoy a Prague Hop-On Hop-Off tour, Prague Castle visit and evening Vltava River cruise.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Prague – Day Trip to Český Krumlov",
+      desc: "Breakfast at hotel. Enjoy a full-day trip to Český Krumlov.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Prague – Vienna",
+      desc: "Breakfast at hotel. Travel by train from Prague to Vienna and enjoy the remainder of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Vienna – Hop-On Hop-Off, Schönbrunn Palace & City Cruise",
+      desc: "Breakfast at hotel. Enjoy Vienna Hop-On Hop-Off, Schönbrunn Palace and Danube Canal cruise.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Vienna – Day Trip to Bratislava",
+      desc: "Breakfast at hotel. Take a day trip to Bratislava with free time to explore the Old Town.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Vienna – Budapest",
+      desc: "Breakfast at hotel. Board the train to Budapest, transfer to hotel and enjoy the evening at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Budapest – Hop-On Hop-Off, Basilica Visit & Danube Cruise",
+      desc: "Breakfast at hotel. Enjoy Day 1 of the 2-Day Hop-On Hop-Off, visit St. Stephen’s Basilica and take an evening Danube River cruise.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "09",
+      title: "Budapest",
+      desc: "Breakfast at hotel. Enjoy Day 2 of Hop-On Hop-Off followed by a visit to Széchenyi Thermal Spa.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "10",
+      title: "Budapest – India",
+      desc: "Breakfast at hotel. Check out and transfer to Budapest Airport for your onward flight.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "09 Nights Accommodation with Breakfast",
+      "Private transfers between airports, hotels, and train stations",
+      "01-Day Prague Hop-On Hop-Off Bus Ticket",
+      "Prague Castle Entrance Ticket",
+      "Vltava River Cruise on shared basis",
+      "Day Trip to Český Krumlov from Prague on SIC basis",
+      "01-Day Vienna Hop-On Hop-Off Bus Ticket",
+      "Schönbrunn Palace Entrance Ticket",
+      "Vienna City Cruise on shared basis",
+      "Day Trip to Bratislava from Vienna on SIC basis",
+      "02-Days Budapest Hop-On Hop-Off Bus Ticket",
+      "St. Stephen’s Basilica Entrance Ticket",
+      "Danube River Cruise on shared basis",
+      "Széchenyi Thermal Bath Entrance Ticket",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tour",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or any other charges/expenses not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "Prague 3N",
+            hotel: "Hotel Atlantic Prague Old Town or similar",
+          },
+          {
+            location: "Vienna 3N",
+            hotel: "Garten- und Kunsthotel Gabriel or similar",
+          },
+          {
+            location: "Budapest 2N",
+            hotel: "Triple M Hotel or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1067 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 934 per person onwards", triple: "Euro 851 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 905 per person onwards", triple: "Euro 820 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 520 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 437 onwards" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1234 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1101 per person onwards", triple: "Euro 1004 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 1071 per person onwards", triple: "Euro 973 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 622 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 596 onwards" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1152 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1019 per person onwards", triple: "Euro 919 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 960 per person onwards", triple: "Euro 888 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 535 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 518 onwards" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "Prague 3N",
+            hotel: "Amigo City Centre Hotel or similar",
+          },
+          {
+            location: "Vienna 3N",
+            hotel: "Garner Hotel Vienna - Prinz Eugen or similar",
+          },
+          {
+            location: "Budapest 2N",
+            hotel: "Eurostars Palazzo Zichy or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 974 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 865 per person onwards", triple: "Euro 831 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 832 per person onwards", triple: "Euro 813 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 674 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 348 onwards" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1307 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1173 per person onwards", triple: "Euro 1144 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 1159 per person onwards", triple: "Euro 1116 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 979 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 665 onwards" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1124 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 990 per person onwards", triple: "Euro 922 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 960 per person onwards", triple: "Euro 891 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 600 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 490 onwards" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      name: "Prague – Vienna – Budapest 02nd class train ticket",
+      price: "Euro 55 - 80 onwards per person, on actual basis",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/imperial/day-1.jpg",
+    "/images/imperial/day-2.jpg",
+    "/images/imperial/day-3.jpg",
+    "/images/imperial/day-4.jpg",
+    "/images/imperial/day-5.jpg",
+    "/images/imperial/day-6.jpg",
+    "/images/imperial/day-7.jpg",
+    "/images/imperial/day-8.jpg",
+    "/images/imperial/day-9.jpg",
+  ]
+},
+
+{
+  title: "Coast & Islands",
+  slug: "split-hvar-dubrovnik-06n",
+  price: "Euro 969 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "",
+  image: "",
+  location: "Split, Hvar, Dubrovnik",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Split, Hvar, Dubrovnik",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Trogir Old Town",
+      "Hvar Island",
+      "Wine & Olive Oil Tasting",
+      "Mostar",
+      "Kravica Waterfalls",
+    ],
+
+    highlights: [
+      "Split",
+      "Diocletian’s Palace",
+      "Trogir Old Town",
+      "Hvar Town",
+      "Napoleon Fortress",
+      "Stari Grad Plain",
+      "Jelsa",
+      "Duboković Winery",
+      "Wine Tasting",
+      "Olive Oil Tasting",
+      "Dubrovnik Old Town",
+      "Mostar Old Town",
+      "Old Bridge",
+      "Kravica Waterfalls",
+      "Neum",
+    ],
+
+    experiences: [
+      {
+        title: "Split – Trogir Old Town",
+        desc: "Enjoy a half-day SIC tour of Trogir Old Town with an English-speaking professional guide.",
+      },
+      {
+        title: "Hvar – Island Tour with Wine & Olive Oil Tasting",
+        desc: "Explore Hvar’s villages, lavender fields, Napoleon Fortress, St. Roko’s Chapel, Stari Grad Plain and Jelsa, with wine tasting at Duboković Winery.",
+      },
+      {
+        title: "Dubrovnik – Mostar & Kravica Waterfall",
+        desc: "Explore Mostar Old Town and the famous Old Bridge before visiting the Kravica Waterfalls in Bosnia-Herzegovina.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Split",
+      desc: "Arrive in Split and enjoy a private transfer to your hotel. Rest of the day at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Split – Half-Day Tour of Trogir Old Town",
+      desc: "Breakfast at hotel. Enjoy a half-day Trogir Old Town tour on SIC basis with an English-speaking professional guide.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Split – Hvar",
+      desc: "Breakfast at hotel. Travel by ferry from Split to Hvar. Explore Hvar Town and enjoy the remainder of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Hvar – Island Tour with Wine & Olive Oil Tasting",
+      desc: "Breakfast at hotel. Enjoy an island tour covering Napoleon Fortress, villages, lavender fields, St. Roko’s Chapel, Stari Grad Plain and Jelsa with wine tasting.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Hvar – Dubrovnik",
+      desc: "Breakfast at hotel. Travel by ferry from Hvar to Dubrovnik and explore the historic coastal city.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Dubrovnik – Mostar & Kravica Waterfall",
+      desc: "Breakfast at hotel. Enjoy a SIC day tour to Mostar and Kravica Waterfalls. Entrance to the waterfall is not included.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Dubrovnik – India",
+      desc: "Breakfast at hotel. Proceed to Dubrovnik Airport with a private transfer.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights Accommodation with Breakfast",
+      "Private transfer from Split Airport to Split Hotel",
+      "Half-Day Tour of Trogir Old Town from Split on SIC Basis",
+      "Private transfer from Split Hotel to Split Ferry Port",
+      "2nd Class Ferry Tickets from Split - Hvar",
+      "Private transfer from Hvar Ferry Port to Hvar Hotel",
+      "Island tour with Wine & Olive Oil Tasting from Hvar on SIC Basis",
+      "Private transfer from Hvar Hotel to Hvar Ferry Port",
+      "2nd Class Ferry Tickets from Hvar - Dubrovnik",
+      "Private transfer from Dubrovnik Ferry Port to Dubrovnik Hotel",
+      "Mostar and Kravica Waterfall Day Tour from Dubrovnik on SIC Basis",
+      "Private transfer from Dubrovnik Hotel to Dubrovnik Airport",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tour",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Kravica Waterfall entrance",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or any other charges/expenses not mentioned in inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "Split 2N",
+            hotel: "Boban Luxury Suites or similar",
+          },
+          {
+            location: "Hvar 2N",
+            hotel: "Park Hvar or similar",
+          },
+          {
+            location: "Dubrovnik 2N",
+            hotel: "Prijeko Palace or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 969 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 939 per person onwards", triple: "Euro 911 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 900 per person onwards", triple: "Euro 872 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 323 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 354 onwards" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1378 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1298 per person onwards", triple: "Euro 1100 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 1259 per person onwards", triple: "Euro 1061 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 485 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 769 onwards" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1311 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1231 per person onwards", triple: "Euro 1207 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 1192 per person onwards", triple: "Euro 1168 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 435 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 702 onwards" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "Split 2N",
+            hotel: "Boban Luxury Suites or similar",
+          },
+          {
+            location: "Hvar 2N",
+            hotel: "Park Hvar or similar",
+          },
+          {
+            location: "Dubrovnik 2N",
+            hotel: "Prijeko Palace or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 943 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 923 per person onwards", triple: "Euro 912 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 884 per person onwards", triple: "Euro 873 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 360 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 328 onwards" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1384 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1304 per person onwards", triple: "Euro 1099 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 1265 per person onwards", triple: "Euro 1061 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 490 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 775 onwards" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1744 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1664 per person onwards", triple: "Euro 1414 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 1625 per person onwards", triple: "Euro 1375 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 491 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 1135 onwards" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+},
+
+{
+  title: "Two Cities, One Coast",
+  slug: "zadar-split-04n",
+  price: "Euro 399 per person onwards",
+  days: "04 Nights / 05 Days",
+  rating: "4.9",
+  image: "/images/TwoCities/day-1.jpg",
+  location: "Zadar, Split",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "2 Destinations, 04 Nights",
+      places: "Zadar, Split",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "04 Nights Accommodation",
+      "Zadar Old Town",
+      "Preko",
+      "Osljak",
+      "Kali Island",
+      "Blue Lagoon",
+      "Borko Beach",
+      "Šolta",
+    ],
+
+    highlights: [
+      "Zadar",
+      "Zadar Old Town",
+      "Sea Organ",
+      "Preko Island",
+      "Osljak Island",
+      "Kali Island",
+      "Adriatic Coastline",
+      "Split",
+      "Diocletian’s Palace",
+      "Blue Lagoon",
+      "Borko Beach",
+      "Šolta Island",
+      "Snorkeling",
+      "Dalmatian Coast",
+    ],
+
+    experiences: [
+      {
+        title: "Zadar – Preko, Osljak & Kali Island Boat Tour",
+        desc: "Enjoy a shared boat excursion covering Preko, Osljak and Kali, with opportunities for swimming, sightseeing and exploring local island communities.",
+      },
+      {
+        title: "Split – Blue Lagoon, Borko Beach & Šolta",
+        desc: "Enjoy a shared full-day boat tour with turquoise waters, coastal landscapes, island views, snorkeling and relaxation.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Zadar",
+      desc: "Arrive at Zadar Airport and enjoy a private transfer to your hotel. Spend the rest of the day at leisure exploring the Old Town and waterfront.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Zadar – Preko, Osljak & Kali Island Boat Tour",
+      desc: "Breakfast at hotel. Enjoy a shared boat tour to Preko, Osljak and Kali islands. Return to Zadar in the afternoon.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Zadar – Split",
+      desc: "Breakfast at hotel. Check out and enjoy a private transfer to Split. Check in and explore Split’s old town, cafes or nearby beaches.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Split – Blue Lagoon, Borko Beach & Šolta",
+      desc: "Breakfast at hotel. Enjoy a shared full-day boat tour to Blue Lagoon, Borko Beach and Šolta Island.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Split – India",
+      desc: "Breakfast at hotel. Proceed to Split Airport with a private transfer for your onward flight.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "4 Nights Accommodation with Breakfast",
+      "Private transfer from Zadar Airport to Zadar Hotel",
+      "Preko, Osljak, and Kali Island Boat Tour from Zadar on Shared Basis",
+      "Private transfer from Zadar Hotel to Split Hotel",
+      "Blue Lagoon, Borko Beach & Šolta Tour on Shared Basis from Split",
+      "Private transfer from Split Hotel to Split Airport",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tours unless mentioned",
+      "Flight tickets",
+      "Visa and insurance fees",
+      "Water bottles",
+      "Lunch and Dinner",
+      "Optional tours",
+      "Local city taxes payable directly at the hotel",
+      "Personal expenses such as laundry, drinks, or telephone charges",
+      "Any service not mentioned in the inclusions",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "Zadar 2N",
+            hotel: "Porto or similar",
+          },
+          {
+            location: "Split 2N",
+            hotel: "Boban Luxury Suites or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 399 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 357 per person onwards", triple: "Euro 348 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 325 per person onwards", triple: "Euro 316 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 125 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 146 onwards" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 546 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 504 per person onwards", triple: "Euro 428 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 478 per person onwards", triple: "Euro 402 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 155 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 277 onwards" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 551 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 520 per person onwards", triple: "Euro 439 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 494 per person onwards", triple: "Euro 413 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 160 per child onwards" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "Zadar 2N",
+            hotel: "Teatro Verdi Boutique Hotel or similar",
+          },
+          {
+            location: "Split 2N",
+            hotel: "Boban Luxury Suites or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 418 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 376 per person onwards", triple: "Euro 369 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 344 per person onwards", triple: "Euro 337 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 114 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 165 onwards" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 606 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 580 per person onwards", triple: "Euro 501 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 554 per person onwards", triple: "Euro 475 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 158 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 353 onwards" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 614 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 588 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 562 per person onwards", triple: "Euro 535 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 226 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 361 onwards" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/TwoCities/day-1.jpg",
+    "/images/TwoCities/day-2.jpg",
+    "/images/TwoCities/day-3.jpg",
+    "/images/TwoCities/day-4.jpg",
+  ]
+},
+
+{
+  title: "Norway Discovery: From the Arctic Circle to the Fjords",
+  slug: "tromso-alesund-bergen-06n",
+  price: "Euro 1140 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+  image: "/images/Arctic/day-1.jpg",
+  location: "Tromsø, Ålesund, Bergen",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Tromsø, Ålesund, Bergen",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Northern Lights Tour",
+      "Sommarøy & Fjords Tour",
+      "Salmon Picnic",
+      "Ålesund Sightseeing Cruise",
+      "Bergen Hop On Hop Off",
+    ],
+
+    highlights: [
+      "Tromsø",
+      "Northern Lights",
+      "Arctic Cathedral",
+      "Tromsø Harbor",
+      "Sommarøy Islands",
+      "Fjords",
+      "Salmon Picnic",
+      "Ålesund",
+      "Ålesund Sightseeing Cruise",
+      "Bergen",
+      "Bryggen Wharf",
+      "Mount Fløyen",
+      "Fish Market",
+      "Hanseatic Quarter",
+    ],
+
+    experiences: [
+      {
+        title: "Tromsø – Northern Lights Tour",
+        desc: "Join a Northern Lights Tour on SIC basis and travel beyond the city lights to selected Aurora viewing locations.",
+      },
+      {
+        title: "Tromsø – Sommarøy & Fjords",
+        desc: "Explore the Sommarøy Islands and surrounding fjords with coastal scenery, fishing villages, crystal-blue waters and a Salmon Picnic.",
+      },
+      {
+        title: "Ålesund – Sightseeing Cruise",
+        desc: "Enjoy spectacular views of fjords and mountains during the Ålesund Sightseeing Cruise.",
+      },
+      {
+        title: "Bergen – Hop On Hop Off",
+        desc: "Explore Bergen with a 1-day Hop On Hop Off bus pass covering attractions such as Bryggen Wharf, Mount Fløyen and the Fish Market.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Tromsø",
+      desc: "Arrive in Tromsø and enjoy a private transfer from the airport to your hotel. Spend the remainder of the day at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Tromsø – Northern Lights Tour",
+      desc: "Breakfast at hotel. Enjoy free time in Tromsø before joining a Northern Lights Tour on SIC basis in the evening.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Tromsø – Sommarøy & Fjords Tour – Ålesund",
+      desc: "Breakfast at hotel. Enjoy the Fjords and Sommarøy Islands Tour with Salmon Picnic on SIC basis. Later transfer to Tromsø Airport and fly to Ålesund, followed by private transfer to your hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Ålesund – Sightseeing Cruise",
+      desc: "Breakfast at hotel. Proceed for the Ålesund Cruise and enjoy spectacular views of fjords and mountains.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Ålesund – Bergen",
+      desc: "Breakfast at hotel. Private transfer to Ålesund Airport for your departure to Bergen. On arrival, private transfer to your hotel. Rest of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Bergen – Hop On Hop Off Tour",
+      desc: "Breakfast at hotel. Enjoy a 1-day Bergen Hop On Hop Off Bus Pass and explore Bryggen Wharf, Mount Fløyen, the Fish Market and the old Hanseatic quarter.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Bergen – India",
+      desc: "Breakfast at hotel. Private transfer from Bergen Hotel to Bergen Airport for your onward flight to India.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Night Accommodation with Breakfast",
+      "Private transfer from Tromso airport to Tromso hotel",
+      "Northern Light Tour on SIC basis (Operational only from Nov-Feb)",
+      "Fjords and Sommarøy Islands Tour with Salmon Picnic on SIC basis",
+      "Private transfer from Tromso hotel to Tromso airport",
+      "Private transfer from Alesund airport to Alesund hotel",
+      "Alesund Sightseeing Cruise",
+      "Private transfer from Alesund hotel to Alesund airport",
+      "Private transfer from Bergen airport to Bergen hotel",
+      "Bergen Hop on Hop off bus valid for 1 Day",
+      "Private transfer from Bergen hotel to Bergen airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or any other charges/expenses not mentioned in Inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers. etc",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "Tromsø 2N",
+            hotel: "Scandic Grand Tromsø or Similar",
+          },
+          {
+            location: "Ålesund 2N",
+            hotel: "Hotel Noreg or similar",
+          },
+          {
+            location: "Bergen 2N",
+            hotel: "Comfort Hotel Bergen or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1140 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1018 per person onwards", triple: "Euro 927 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 950 per person onwards", triple: "Euro 859 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 350 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 521 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1194 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1062 per person onwards", triple: "Euro 1022 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 994 per person onwards", triple: "Euro 954 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 435 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 452 onwards" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 947 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 815 per person onwards", triple: "Euro 801 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 747 per person onwards", triple: "Euro 733 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 320 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 318 onwards" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "Tromsø 2N",
+            hotel: "Radisson Blu Tromsø or Similar",
+          },
+          {
+            location: "Ålesund 2N",
+            hotel: "Quality Hotel Ålesund or similar",
+          },
+          {
+            location: "Bergen 2N",
+            hotel: "Comfort Hotel Bergen or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1155 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1023 per person onwards", triple: "Euro 990 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 955 per person onwards", triple: "Euro 912 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 411 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 480 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1202 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1070 per person onwards", triple: "Euro 1016 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 1001 per person onwards", triple: "Euro 948 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 464 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 558 onwards" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1008 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 875 per person onwards", triple: "Euro 910 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 865 per person onwards", triple: "Euro 812 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 450 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 365 onwards" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/Arctic/day-1.jpg",
+    "/images/Arctic/day-2.jpg",
+    "/images/Arctic/day-3.jpg",
+    "/images/Arctic/day-4.jpg",
+  ]
+},
+
+{
+  title: "Discover Norway",
+  slug: "tromso-oslo-bergen-06n",
+  price: "Euro 1413 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+  image: "/images/discover/day-1.jpg",
+  location: "Tromsø, Oslo, Bergen",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Tromsø, Oslo, Bergen",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Northern Lights Tour",
+      "Oslofjord Cruise",
+      "Norway in a Nutshell",
+      "Bergen Hop On Hop Off",
+    ],
+
+    highlights: [
+      "Tromsø",
+      "Northern Lights",
+      "Arctic Culture",
+      "Oslo",
+      "Oslofjord",
+      "Scenic Fjord Cruise",
+      "Norway in a Nutshell",
+      "Bergen",
+      "Bryggen Wharf",
+      "Mount Fløyen",
+      "Fish Market",
+      "Hanseatic Quarter",
+    ],
+
+    experiences: [
+      {
+        title: "Tromsø – Northern Lights",
+        desc: "Join a Northern Light Tour on SIC basis and travel outside the city to selected viewing spots for the Aurora Borealis.",
+      },
+      {
+        title: "Oslo – Oslofjord Cruise",
+        desc: "Enjoy a scenic Oslofjord cruise with audio guide commentary and panoramic views of coastlines, islands and landscapes.",
+      },
+      {
+        title: "Oslo – Bergen by Norway in a Nutshell",
+        desc: "Travel from Oslo to Bergen through dramatic fjords, mountains, waterfalls and charming villages.",
+      },
+      {
+        title: "Bergen – Hop On Hop Off",
+        desc: "Explore Bergen with a 1-day Hop On Hop Off Bus Pass covering Bryggen Wharf, Mount Fløyen, the Fish Market and Hanseatic quarter.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Tromsø",
+      desc: "Arrive in Tromsø and enjoy a private transfer from the airport to your hotel. Rest of the day at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Tromsø – Northern Lights Tour",
+      desc: "Breakfast at hotel. Explore Tromsø at your own pace before joining the Northern Light Tour on SIC basis in the evening.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Tromsø – Oslo",
+      desc: "Breakfast at hotel. Private transfer to Tromsø Airport and flight to Oslo. On arrival, private transfer to hotel followed by a Scenic Fjord Cruise with Audio Guide Commentary.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Oslo – Sightseeing Cruise",
+      desc: "Breakfast at hotel. Enjoy a relaxing cruise through the Oslofjord with panoramic views and audio guide commentary.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Oslo – Bergen",
+      desc: "Breakfast at hotel. Private transfer to Oslo Train Station and board the Norway in a Nutshell Train to Bergen. On arrival, private transfer to your hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Bergen – Hop On Hop Off Tour",
+      desc: "Breakfast at hotel. Enjoy a 1-day Bergen Hop On Hop Off Bus Pass covering major attractions.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Bergen – India",
+      desc: "Breakfast at hotel. Private transfer from Bergen Hotel to Bergen Airport for your onward flight to India.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Night Accommodation with Breakfast",
+      "Private transfer from Tromso airport to Tromso hotel",
+      "Northern Light Tour on SIC basis (Operational only from Nov-Feb)",
+      "Fjords and Sommarøy Islands Tour with Salmon Picnic on SIC basis",
+      "Private transfer from Tromso hotel to Tromso airport",
+      "Private transfer from Alesund airport to Alesund hotel",
+      "Alesund Sightseeing Cruise",
+      "Private transfer from Alesund hotel to Alesund airport",
+      "Private transfer from Bergen airport to Bergen hotel",
+      "Bergen Hop on Hop off bus valid for 1 Day",
+      "Private transfer from Bergen hotel to Bergen airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or any other charges/expenses not mentioned in Inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers. Etc",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "Tromsø 2N",
+            hotel: "Scandic Grand Tromsø or Similar",
+          },
+          {
+            location: "Oslo 2N",
+            hotel: "Anker Hotel or similar",
+          },
+          {
+            location: "Bergen 2N",
+            hotel: "Comfort Hotel Bergen or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1413 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1287 per person onwards", triple: "Euro 1244 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 1223 per person onwards", triple: "Euro 1180 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 430 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 540 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1418 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1292 per person onwards", triple: "Euro 1240 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 1228 per person onwards", triple: "Euro 1176 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 450 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 545 onwards" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1223 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1097 per person onwards", triple: "Euro 1080 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 1033 per person onwards", triple: "Euro 1016 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 320 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 350 onwards" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "Tromsø 2N",
+            hotel: "Radisson Blu Tromsø or Similar",
+          },
+          {
+            location: "Oslo 2N",
+            hotel: "Radisson Blu Plaza Oslo or similar",
+          },
+          {
+            location: "Bergen 2N",
+            hotel: "Comfort Hotel Bergen or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1426 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1300 per person onwards", triple: "Euro 1298 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 1235 per person onwards", triple: "Euro 1212 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 490 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 523 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1536 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1410 per person onwards", triple: "Euro 1354 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 1490 per person onwards", triple: "Euro 1387 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 495 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 633 onwards" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1276 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1185 per person onwards", triple: "Euro 1121 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 1128 per person onwards", triple: "Euro 1082 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 355 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 375 onwards" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/discover/day-1.jpg",
+    "/images/discover/day-2.jpg",
+    "/images/discover/day-3.jpg",
+    "/images/discover/day-4.jpg",
+    "/images/discover/day-5.jpg",
+    "/images/discover/day-6.jpg",
+  ]
+},
+
+{
+  title: "Two Capitals, One Journey",
+  slug: "zagreb-ljubljana-04n",
+  price: "Euro 463 per person onwards",
+  days: "04 Nights / 05 Days",
+  rating: "",
+  image: "/images/Capitals/day-1.jpg",
+  location: "Zagreb, Ljubljana",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "2 Destinations, 04 Nights",
+      places: "Zagreb, Ljubljana",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "04 Nights Accommodation",
+      "Zagreb City Tour",
+      "WWII Tunnels",
+      "Ljubljana Old Town",
+      "Postojna Cave",
+      "Predjama Castle",
+    ],
+
+    highlights: [
+      "Zagreb",
+      "Ban Jelačić Square",
+      "WWII Tunnels",
+      "Zagreb Old Town",
+      "Ljubljana",
+      "Ljubljana Riverfront",
+      "Ljubljana Castle",
+      "Postojna Cave",
+      "Underground Train Ride",
+      "Predjama Castle",
+    ],
+
+    experiences: [
+      {
+        title: "Zagreb – City & WWII Tunnels Walking Tour",
+        desc: "Explore Zagreb's notable landmarks and historic WWII tunnels on a shared walking tour.",
+      },
+      {
+        title: "Ljubljana – City Exploration",
+        desc: "Discover Ljubljana's riverfront, elegant bridges, café culture and picturesque Old Town.",
+      },
+      {
+        title: "Postojna Cave & Predjama Castle",
+        desc: "Explore Postojna Cave with its underground train ride and guided walk, followed by the dramatic Predjama Castle.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Zagreb",
+      desc: "Arrive at Zagreb Airport and enjoy a private transfer to your hotel. Spend the remainder of the day at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Zagreb – City & WWII Tunnels Walking Tour",
+      desc: "Breakfast at hotel. Proceed for the City and WWII Tunnels Walking Tour on shared basis, followed by free time to explore Zagreb.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Zagreb – Ljubljana",
+      desc: "Breakfast at hotel. Private transfer from Zagreb Hotel to Zagreb Airport and onward journey to Ljubljana. Private transfer to your Ljubljana hotel. Rest of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Postojna Cave & Predjama Castle Tour",
+      desc: "Breakfast at hotel. Enjoy the Postojna Cave and Predjama Castle Tour on shared basis from Ljubljana.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Ljubljana – India",
+      desc: "Breakfast at hotel. Private transfer to Ljubljana Airport for your onward journey.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "4 Nights Accommodation with Breakfast",
+      "Private transfer from Zagreb Airport to Zagreb Hotel",
+      "City and WWII Tunnels Walking Tour on Shared Basis from Zagreb",
+      "Private transfer from Zagreb Hotel to Ljubljana Hotel",
+      "Private transfer from Ljubljana Airport to Ljubljana Hotel",
+      "Postojna Cave & Predjama Castle Tour on SIC Basis from Ljubljana",
+      "Private transfer from Ljubljana Hotel to Ljubljana Airport",
+    ],
+
+    excluded: [
+      "Hotel pick-up for shared/SIC tours (unless mentioned)",
+      "International flight tickets",
+      "Visa & travel insurance fees",
+      "Water bottles",
+      "Lunch & Dinner",
+      "Optional tours",
+      "Hotel city tax to be paid directly at the hotel",
+      "Personal expenses such as laundry, drinks, telephone charges, etc.",
+      "Any service not mentioned in the inclusions",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "Zagreb 2N",
+            hotel: "Canopy By Hilton Zagreb City Centre or similar",
+          },
+          {
+            location: "Ljubljana 2N",
+            hotel: "Antiq Palace or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 463 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 424 per person onwards", triple: "Euro 409 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 405 per person onwards", triple: "Euro 390 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 100 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 180 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 559 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 520 per person onwards", triple: "Euro 468 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 501 per person onwards", triple: "Euro 449 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 122 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 276 onwards" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 571 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 532 per person onwards", triple: "Euro 476 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 513 per person onwards", triple: "Euro 457 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 126 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 288 onwards" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "Zagreb 2N",
+            hotel: "Canopy By Hilton Zagreb City Centre or similar",
+          },
+          {
+            location: "Ljubljana 2N",
+            hotel: "Antiq Palace or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 590 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 583 per person onwards", triple: "Euro 575 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 564 per person onwards", triple: "Euro 556 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 126 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 307 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 664 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 657 per person onwards", triple: "Euro 636 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 638 per person onwards", triple: "Euro 617 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 130 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 381 onwards" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 708 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 701 per person onwards", triple: "Euro 659 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 662 per person onwards", triple: "Euro 640 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 100 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 425 onwards" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/Capitals/day-1.jpg",
+    "/images/Capitals/day-2.jpg",
+    "/images/Capitals/day-3.jpg",
+    "/images/Capitals/day-4.jpg",
+  ]
+},
+
+{
+  title: "Croatia in a Week Zagreb",
+  slug: "zagreb-split-dubrovnik-06n",
+  price: "Euro 589 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "",
+  image: "",
+  location: "Zagreb, Split, Dubrovnik",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Zagreb, Split, Dubrovnik",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Zagreb City Tour",
+      "WWII Tunnels",
+      "Diocletian's Palace",
+      "Split Old Town",
+      "Adriatic Ferry",
+      "Dubrovnik Old Town",
+      "Game of Thrones Tour",
+    ],
+
+    highlights: [
+      "Zagreb",
+      "Ban Jelačić Square",
+      "Dolac Market",
+      "Stone Gate",
+      "WWII Tunnels",
+      "Split",
+      "Diocletian's Palace",
+      "Dalmatian Coast",
+      "Adriatic Coastline",
+      "Dubrovnik",
+      "Fort Lovrijenac",
+      "Pile Gate",
+      "Dubrovnik City Walls",
+      "Game of Thrones Locations",
+    ],
+
+    experiences: [
+      {
+        title: "Zagreb – City & WWII Tunnels",
+        desc: "Explore Zagreb's key landmarks and hidden WWII tunnels on a shared walking tour.",
+      },
+      {
+        title: "Split – Old Town & Diocletian's Palace",
+        desc: "Discover the ancient Diocletian's Palace, historic squares, temples, courtyards and medieval lanes.",
+      },
+      {
+        title: "Split – Dubrovnik Ferry",
+        desc: "Travel from Split to Dubrovnik by 2nd Class Ferry while enjoying views of the Adriatic coastline.",
+      },
+      {
+        title: "Dubrovnik – Game of Thrones Tour",
+        desc: "Explore famous filming locations including Fort Lovrijenac, Pile Gate and the city walls.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Zagreb",
+      desc: "Arrive at Zagreb Airport and enjoy a private transfer to your hotel. Spend the remainder of the day at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Zagreb – City and WWII Tunnels Walking Tour",
+      desc: "Breakfast at hotel. Enjoy the City and WWII Tunnels Walking Tour on shared basis covering Ban Jelačić Square, Dolac Market, Stone Gate and the historic Old Town.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Zagreb – Split",
+      desc: "Breakfast at hotel. Private transfer from Zagreb Hotel to Zagreb Airport for your flight to Split. On arrival, private transfer to your Split hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Split – Old Town and Diocletian Palace Walking Tour",
+      desc: "Breakfast at hotel. Enjoy a shared walking tour of Split's Old Town and Diocletian's Palace, followed by leisure time.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Split – Dubrovnik",
+      desc: "Breakfast at hotel. Private transfer to Split Ferry Station and board the 2nd Class Ferry to Dubrovnik. On arrival, private transfer to your hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Dubrovnik – The Ultimate Game of Thrones City Walking Tour",
+      desc: "Breakfast at hotel. Enjoy the Ultimate Game of Thrones City Walking Tour on shared basis covering famous filming locations including Fort Lovrijenac, Pile Gate and the city walls.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Dubrovnik – India",
+      desc: "Breakfast at hotel. Private transfer from Dubrovnik Hotel to Dubrovnik Airport for your onward journey.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights Accommodation with Breakfast",
+      "Private transfer from Zagreb Airport to Zagreb Hotel",
+      "City and WWII Tunnels Walking Tour on Shared Basis from Zagreb",
+      "Private transfer from Zagreb Hotel to Zagreb Airport",
+      "Private transfer from Split Airport to Split Hotel",
+      "Old Town and Diocletian Palace Walking Tour on Shared Basis from Split",
+      "Private transfer from Split Hotel to Split Ferry Station",
+      "2nd Class Ferry Ticket from Split to Dubrovnik",
+      "Private transfer from Dubrovnik Ferry Station to Dubrovnik Hotel",
+      "The Ultimate Game of Thrones City Walking Tour from Dubrovnik on Shared Basis",
+      "Private transfer from Dubrovnik Hotel to Dubrovnik Airport",
+    ],
+
+    excluded: [
+      "Return Flight Tickets",
+      "Visa and Insurance fees",
+      "Hotel pick up for shared/SIC tours",
+      "Optional tours",
+      "Hotel City Tax to be paid directly at the hotel",
+      "Lunch and Dinner",
+      "Water bottles",
+      "Expenses of personal nature such as laundry, drinks, telephone, etc.",
+      "Anything not mentioned in the Inclusions",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "Zagreb 2N",
+            hotel: "Art Hotel Like or similar",
+          },
+          {
+            location: "Split 2N",
+            hotel: "Boban Luxury Suites or similar",
+          },
+          {
+            location: "Dubrovnik 2N",
+            hotel: "Prijeko Palace or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 589 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 551 per person onwards", triple: "Euro 540 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 521 per person onwards", triple: "Euro 510 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 153 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 276 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 875 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 799 per person onwards", triple: "Euro 688 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 769 per person onwards", triple: "Euro 658 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 235 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 562 onwards" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1031 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 955 per person onwards", triple: "Euro 819 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 925 per person onwards", triple: "Euro 790 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 260 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 700 onwards" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "Zagreb 2N",
+            hotel: "Canopy By Hilton Zagreb City Centre or similar",
+          },
+          {
+            location: "Split 2N",
+            hotel: "Boban Luxury Suites or similar",
+          },
+          {
+            location: "Dubrovnik 2N",
+            hotel: "Prijeko Palace or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 643 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 617 per person onwards", triple: "Euro 609 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 587 per person onwards", triple: "Euro 579 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 185 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 322 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 905 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 829 per person onwards", triple: "Euro 746 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 799 per person onwards", triple: "Euro 716 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 239 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 592 onwards" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1061 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 985 per person onwards", triple: "Euro 880 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 955 per person onwards", triple: "Euro 850 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 265 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 730 onwards" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+},
+
+{
+  title: "Scenic Norway: Lofoten Islands to Fjord Capitals",
+  slug: "svolvaer-alesund-bergen-06n",
+  price: "Euro 923 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "",
+  image: "/images/Norway/day-1.jpg",
+  location: "Svolvær, Ålesund, Bergen",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Svolvær, Ålesund, Bergen",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Lofoten Trollfjord Safari",
+      "Sea Eagle Safari",
+      "Ålesund Sightseeing Cruise",
+      "Bergen Hop On Hop Off",
+    ],
+
+    highlights: [
+      "Svolvær",
+      "Lofoten Islands",
+      "Trollfjord",
+      "Sea Eagle Safari",
+      "Arctic Landscapes",
+      "Ålesund",
+      "Art Nouveau Architecture",
+      "Ålesund Fjords",
+      "Bergen",
+      "Bryggen Wharf",
+      "Mount Fløyen",
+      "Fish Market",
+      "Hanseatic Quarter",
+    ],
+
+    experiences: [
+      {
+        title: "Svolvær – Trollfjord Sea Eagle Safari",
+        desc: "Enjoy an exciting RIB boat adventure through the stunning Trollfjord, surrounded by towering cliffs, with opportunities to spot majestic Sea Eagles.",
+      },
+      {
+        title: "Ålesund – Sightseeing Cruise",
+        desc: "Enjoy spectacular views of the fjords and mountains during the Ålesund Sightseeing Cruise.",
+      },
+      {
+        title: "Bergen – Hop On Hop Off",
+        desc: "Explore Bergen at your own pace with a 1-day Hop On Hop Off Bus Pass covering Bryggen Wharf, Mount Fløyen, the Fish Market and the old Hanseatic quarter.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Svolvær",
+      desc: "Arrive at Svolvær Airport and enjoy a private transfer to your hotel. After check-in, relax or explore the local town at your own pace.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Svolvær – RIB Boat Lofoten Trollfjord Sea Eagle Safari",
+      desc: "Enjoy the RIB Boat Lofoten Trollfjord Sea Eagle Safari through the dramatic Trollfjord, with an opportunity to spot Sea Eagles. In the evening, private transfer to Svolvær Airport for your onward journey.",
+      tags: [],
+    },
+    {
+      day: "03",
+      title: "Svolvær – Ålesund",
+      desc: "Breakfast at hotel. Check out and proceed to Svolvær Airport for your flight to Ålesund. On arrival, private transfer to your hotel. Rest of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Ålesund – Sightseeing Cruise",
+      desc: "Breakfast at hotel. Proceed for the Ålesund Cruise and enjoy spectacular views of the fjords and mountains.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Ålesund – Bergen",
+      desc: "Breakfast at hotel. Private transfer from Ålesund Hotel to Ålesund Airport for your departure to Bergen. On arrival, private transfer to your hotel. Rest of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Bergen – Hop On Hop Off Tour",
+      desc: "Breakfast at hotel. Enjoy a 1-day Bergen Hop On Hop Off Bus Pass covering Bryggen Wharf, Mount Fløyen, the Fish Market and the old Hanseatic quarter.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Bergen – India",
+      desc: "Breakfast at hotel. Private transfer from Bergen Hotel to Bergen Airport for your onward flight to India.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Night Accommodation with Breakfast",
+      "Private transfer from Tromso airport to Tromso hotel",
+      "Northern Light Tour on SIC basis (Operational only from Nov-Feb)",
+      "Fjords and Sommarøy Islands Tour with Salmon Picnic on SIC basis",
+      "Private transfer from Tromso hotel to Tromso airport",
+      "Private transfer from Alesund airport to Alesund hotel",
+      "Alesund Sightseeing Cruise",
+      "Private transfer from Alesund hotel to Alesund airport",
+      "Private transfer from Bergen airport to Bergen hotel",
+      "Bergen Hop on Hop off bus valid for 1 Day",
+      "Private transfer from Bergen hotel to Bergen airport",
+    ],
+
+    excluded: [
+      "The tours which are on SIC/Shared basis for them client need to reach at the pickup point",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or any other charges/expenses not mentioned in Inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers. etc",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "Svolvær 2N",
+            hotel: "Nordis Hotel Lofoten or Similar",
+          },
+          {
+            location: "Ålesund 2N",
+            hotel: "Hotel Noreg or similar",
+          },
+          {
+            location: "Bergen 2N",
+            hotel: "Comfort Hotel Bergen or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 923 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 791 per person onwards", triple: "Euro 714 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 723 per person onwards", triple: "Euro 646 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 250 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 379 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 860 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 728 per person onwards", triple: "Euro 714 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 660 per person onwards", triple: "Euro 646 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 289 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 315 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1194 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1062 per person onwards", triple: "Euro 981 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 994 per person onwards", triple: "Euro 913 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 415 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 440 onwards" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "Svolvær 2N",
+            hotel: "Quality Hotel Richard withs or Similar",
+          },
+          {
+            location: "Ålesund 2N",
+            hotel: "Quality Hotel Ålesund or similar",
+          },
+          {
+            location: "Bergen 2N",
+            hotel: "Comfort Hotel Bergen or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 975 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 843 per person onwards", triple: "Euro 832 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 775 per person onwards", triple: "Euro 764 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 411 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 430" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 1134 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 1002 per person onwards", triple: "Euro 953 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 934 per person onwards", triple: "Euro 885 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 464 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 558 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 936 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 804 per person onwards", triple: "Euro 770 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 736 per person onwards", triple: "Euro 692 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 320 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 392 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/Norway/day-1.jpg",
+    "/images/Norway/day-2.jpg",
+    "/images/Norway/day-3.jpg",
+    "/images/Norway/day-4.jpg",
+    "/images/Norway/day-5.jpg",
+    "/images/Norway/day-6.jpg",
+  ],
+},
+
+{
+  title: "Explore Frankfurt, Heidelberg & Munich",
+  slug: "frankfurt-heidelberg-munich-06n",
+  price: "Euro 716 per person onwards",
+  days: "06 Nights / 07 Days",
+  rating: "4.9",
+  image: "/images/he/day-1.jpg",
+  location: "Frankfurt, Heidelberg, Munich",
+  nextDate: "Available on Request",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Destinations, 06 Nights",
+      places: "Frankfurt, Heidelberg, Munich",
+    },
+
+    pills: [
+      "Breakfast Included",
+      "06 Nights Accommodation",
+      "Frankfurt Hop On Hop Off",
+      "Heidelberg Old Town",
+      "Heidelberg Walking Tour",
+      "Direct Train Journey",
+      "Munich Hop On Hop Off",
+    ],
+
+    highlights: [
+      "Frankfurt",
+      "Römerberg",
+      "St. Paul's Church",
+      "Goethe House",
+      "Main Tower",
+      "Financial District",
+      "Heidelberg",
+      "Marktplatz",
+      "Church of the Holy Spirit",
+      "Heidelberg University",
+      "Old Bridge",
+      "Heidelberg Castle",
+      "Munich",
+      "Marienplatz",
+      "Nymphenburg Palace",
+      "Königsplatz",
+      "BMW Museum",
+      "Englischer Garten",
+    ],
+
+    experiences: [
+      {
+        title: "Frankfurt – Hop On Hop Off Bus Tour",
+        desc: "Enjoy a 24-hour flexible sightseeing experience covering Römerberg, St. Paul's Church, Goethe House, Main Tower and the financial district.",
+      },
+      {
+        title: "Heidelberg – Old Town Walking Tour",
+        desc: "Explore Heidelberg's historic Old Town, including Marktplatz, the Church of the Holy Spirit, Heidelberg University, the Old Bridge and lanes beneath Heidelberg Castle.",
+      },
+      {
+        title: "Frankfurt – Heidelberg – Munich by Train",
+        desc: "Travel between the three destinations by direct train services, with private transfers between stations and hotels.",
+      },
+      {
+        title: "Munich – Hop On Hop Off Bus Tour",
+        desc: "Enjoy a 24-hour Munich sightseeing experience covering Marienplatz, Nymphenburg Palace, Königsplatz, BMW Museum and Englischer Garten.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "India – Frankfurt",
+      desc: "Arrive at Frankfurt Airport and enjoy a private transfer to your hotel. Spend the evening exploring or relaxing at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Frankfurt – Hop On Hop Off Bus Tour – 24 Hours",
+      desc: "Breakfast at hotel. Enjoy the Frankfurt Hop-On Hop-Off Bus Tour on shared basis and explore the city's major landmarks at your own pace.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Frankfurt – Heidelberg",
+      desc: "Breakfast at hotel. Catch a direct train from Frankfurt to Heidelberg. On arrival, continue to your hotel and enjoy the remainder of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Heidelberg – Heidelberg Old Town Walking Tour",
+      desc: "Breakfast at hotel. Enjoy the Heidelberg Old Town Walking Tour on shared basis covering Marktplatz, Church of the Holy Spirit, Heidelberg University, Old Bridge and the historic lanes beneath Heidelberg Castle.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Heidelberg – Munich",
+      desc: "Breakfast at hotel. Catch a direct train from Heidelberg to Munich. On arrival, transfer to your hotel and enjoy the rest of the day at leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Munich – Hop On Hop Off Bus Tour – 24 Hours",
+      desc: "Breakfast at hotel. Enjoy the Munich Hop-On Hop-Off Bus Tour on shared basis and explore Marienplatz, Nymphenburg Palace, Königsplatz, BMW Museum and Englischer Garten.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Munich – India",
+      desc: "Breakfast at hotel. Proceed to Munich Airport with a private transfer for your onward flight to India.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  inclusions: {
+    included: [
+      "06 Night Accommodation with Breakfast",
+      "Transfer from Frankfurt airport to hotel on private basis",
+      "Frankfurt hop on hop off bus tour - 24 Hours",
+      "Transfer from Frankfurt hotel to train station on private basis",
+      "Train from Frankfurt to Heidelberg",
+      "Transfer from Heidelberg train station to hotel on private basis",
+      "Heidelberg old town walking tour",
+      "Transfer from Heidelberg hotel to train station on private basis",
+      "Train from Heidelberg to Munich",
+      "Transfer from Munich train station to hotel on private basis",
+      "Munich hop on hop off bus tour - 24 hours",
+      "Transfer from Munich hotel to airport on private basis",
+    ],
+
+    excluded: [
+      "Hotel pick up for shared/SIC tour",
+      "Return Flight Tickets",
+      "Visa & Insurance fees",
+      "Water Bottles",
+      "Train ticket",
+      "Optional tours",
+      "Hotel City Tax is not included in the cost to be paid on the spot at the hotel",
+      "Lunch & Dinner",
+      "Extra charges/expenses of personal nature like laundry, mineral water/drinks, telephone or any other charges/expenses not mentioned in Inclusions",
+      "Mandatory tips of Euro 2-3 per person per day for Coach Drivers. Etc",
+    ],
+  },
+
+  pricing: {
+    note: "Price is not applicable during fair/Events dates.",
+
+    options: [
+      {
+        category: "Option 1 – 03* Hotel",
+
+        hotels: [
+          {
+            location: "Frankfurt 2N",
+            hotel: "ibis Frankfurt Centrum or similar",
+          },
+          {
+            location: "Heidelberg 2N",
+            hotel: "Boarding House Heidelberg or similar",
+          },
+          {
+            location: "Munich 2N",
+            hotel: "Arthotel Munich or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 716 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 606 per person onwards", triple: "Euro 545 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 563 per person onwards", triple: "Euro 497 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 254 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 387 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 847 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 740 per person onwards", triple: "Euro 666 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 699 per person onwards", triple: "Euro 626 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 355 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 491 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 812 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 698 per person onwards", triple: "Euro 625 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 656 per person onwards", triple: "Euro 581 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 301 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 479 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+
+      {
+        category: "Option 2 – 04* Hotel",
+
+        hotels: [
+          {
+            location: "Frankfurt 2N",
+            hotel: "Leonardo Royal Hotel Frankfurt or similar",
+          },
+          {
+            location: "Heidelberg 2N",
+            hotel: "Hilton Heidelberg or similar",
+          },
+          {
+            location: "Munich 2N",
+            hotel: "Hotel Munchen City Center, Affiliated or similar",
+          },
+        ],
+
+        seasons: [
+          {
+            months: "Jan, Feb, Nov & Dec - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 722 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 622 per person onwards", triple: "Euro 617 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 582 per person onwards", triple: "Euro 576 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 467 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 393 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "April, May, June, July & Aug - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 856 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 773 per person onwards", triple: "Euro 672 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 707 per person onwards", triple: "Euro 638 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 361 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 485 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+          {
+            months: "March, Sep & Oct - 2026",
+            rows: [
+              { pax: "02 Pax", twinDouble: "Euro 820 per person onwards" },
+              { pax: "04 Pax", twinDouble: "Euro 707 per person onwards", triple: "Euro 660 per person onwards" },
+              { pax: "06 Pax", twinDouble: "Euro 665 per person onwards", triple: "Euro 615 per person onwards" },
+              { pax: "Child Sharing with Extra Bed", price: "Euro 387 per child onwards" },
+              { pax: "Single Room Supplement", price: "Euro 487 onwards" },
+              { pax: "Below 2-year child", price: "Free of cost" },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+
+  supplementaryTours: [
+    {
+      title: "Optional Train Cost",
+      route: "Frankfurt – Heidelberg – Munich",
+      description: "02nd Class train ticket – on actual basis",
+      price: "Euro 95 – 105 per person",
+    },
+  ],
+
+  terms: [
+    "Booking should be received 45 days prior to arrival.",
+    "A 10% deposit of the total booking amount is required at the time of confirmation.",
+    "The Offered rates are net and non-commissionable",
+    "Hotel City Tax is not included in the cost to be paid on the spot at the hotel.",
+    "Rates and availability of the services are subject to change before any confirmation.",
+    "No bookings are made at the time of quotation.",
+    "Any extra services to be paid directly",
+    "Driver tips to be paid directly",
+    "Anything that is not mentioned in the inclusions list is always not included.",
+    "Cancellation Policy: As per our trading contract",
+    "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
+  ],
+
+  images : [
+    "/images/he/day-1.jpg",
+    "/images/he/day-2.jpg",
+    "/images/he/day-3.jpg",
+    "/images/he/day-4.jpg",
+    "/images/he/day-5.jpg",
+    "/images/he/day-6.jpg",
+  ]
+},
+
+
+
 
 ];
 
