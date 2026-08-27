@@ -3486,10 +3486,10 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   {
     title: "Best of Iceland – 08 Nights/09 Days (8N Reykjavik)",
     slug: "best-of-iceland-8n-reykjavik",
-    price: "Euro 1477 per person onwards", // lowest rate in PDF (3* Hotel, 06 Pax Triple, Apr-Aug)
+    price: "Euro 1477 per person onwards",
     days: "08 Nights / 09 Days",
-    rating: "", // not present in PDF
-    image: "", // not present in PDF
+    rating: "4.9",
+    image: "/images/iceland/day-1.jpg",
     location: "Reykjavik, Iceland",
     nextDate: "Available on Request", // not present in PDF
 
@@ -3736,7 +3736,21 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [], // no photos present in PDF, only company logo
+    images: [
+      "/images/iceland/day-1.jpg",
+      "/images/iceland/day-2.jpg",
+      "/images/iceland/day-3.jpg",
+      "/images/iceland/day-4.jpg",
+      "/images/iceland/day-5.jpg",
+      "/images/iceland/day-6.jpg",
+      "/images/iceland/day-7.jpg",
+      "/images/iceland/day-8.jpg",
+      "/images/iceland/day-9.jpg",
+      "/images/iceland/day-10.jpg",
+      "/images/iceland/day-11.jpg",
+      "/images/iceland/day-12.jpg",
+      "/images/iceland/extra1.jpg",
+    ], 
   },
 
   {
@@ -3744,8 +3758,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "best-of-iceland-11n-akureyri-reykjavik-vik",
     price: "Euro 3470 per person onwards", // lowest rate in PDF (3* Hotel, 06 Pax Triple, Jan/Feb/Nov/Dec)
     days: "11 Nights / 12 Days",
-    rating: "", // not present in PDF
-    image: "", // not present in PDF
+    rating: "4.9",
+    image: "/images/ice/day-1.jpg", 
     location: "Akureyri, Reykjavik, Vik, Iceland",
     nextDate: "Available on Request", // not present in PDF
 
@@ -4026,7 +4040,21 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [], // no photos present in PDF, only company logo
+    images: [
+      "/images/ice/day-1.jpg", 
+      "/images/ice/day-2.jpg", 
+      "/images/ice/day-3.jpg", 
+      "/images/ice/day-4.jpg", 
+      "/images/ice/day-5.jpg", 
+      "/images/ice/day-6.jpg", 
+      "/images/ice/day-7.jpg", 
+      "/images/ice/day-8.jpg", 
+      "/images/ice/day-9.jpg", 
+      "/images/ice/day-10.jpg", 
+      "/images/ice/day-11.jpg", 
+      "/images/ice/day-12.jpg", 
+      "/images/ice/extra1.jpg", 
+    ], 
   },
 
   {
@@ -4034,7 +4062,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "athens-3n",
     price: "Euro 302 per person onwards",
     days: "03 Nights / 04 Days",
-    rating: "", // not present in PDF
+    rating: "4.9", // not present in PDF
     image: "/images/Athens/day-1.jpg",
     location: "Athens, Greece",
     nextDate: "Available on Request", // not present in PDF
@@ -4300,6 +4328,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     title: "Athens Mykonos Santorini Heraklion",
     slug: "athens-mykonos-santorini-heraklion",
     price: "Euro 1024 per person",
+    rating: "4.9",
     image: "/images/Mykonos/day-1.jpg",
     days: "09 Days / 08 Nights",
     location: "Athens, Mykonos, Santorini, Heraklion",
@@ -4604,6 +4633,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     title: "Glimpses of Greece",
     slug: "glimpses-of-greece-athens-santorini",
     price: "Euro 905 per person",
+    rating: "4.9",
     days: "06 Days / 05 Nights",
     image: "/images/Greece/day-1.jpg",
     location: "Athens, Santorini",
@@ -5152,6 +5182,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     title: "Greece Getaway Plus",
     slug: "greece-getaway-plus-athens-mykonos-santorini",
     price: "Euro 909 per person",
+    rating: "4.9",
     days: "07 Days / 06 Nights",
     location: "Athens, Mykonos, Santorini",
     nextDate: "Available on Request",
@@ -5391,8 +5422,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "best-of-mykonos-3n",
     price: "Euro 458 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Apr-Aug 2026)
     days: "03 Nights / 04 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/my/day-1.jpg",
     location: "Mykonos, Greece",
     nextDate: "Available on Request",
 
@@ -5583,7 +5614,14 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/my/day-1.jpg",
+      "/images/my/day-2.jpg",
+      "/images/my/day-3.jpg",
+      "/images/my/day-4.jpg",
+      "/images/my/extra1.jpg",
+      "/images/my/extra2.jpg",
+    ],
   },
 
 
@@ -6104,8 +6142,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "central-europe-escape-budapest-zagreb-ljubljana",
     price: "EUR 1076 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "07 Nights / 08 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/central/day-1.jpg",
     location: "Budapest, Zagreb, Ljubljana",
     nextDate: "Available on Request",
 
@@ -6346,7 +6384,20 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/central/day-1.jpg",
+      "/images/central/day-2.jpg",
+      "/images/central/day-3.jpg",
+      "/images/central/day-4.jpg",
+      "/images/central/day-5.jpg",
+      "/images/central/day-6.jpg",
+      "/images/central/day-7.jpg",
+      "/images/central/day-8.jpg",
+      "/images/central/extra1.jpg",
+      "/images/central/extra2.jpg",
+      "/images/central/extra3.jpg",
+      "/images/central/extra4.jpg",
+    ],
   },
 
 
@@ -6355,7 +6406,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "scenic-europe-escape-ljubljana-salzburg-munich",
     price: "EUR 918 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "06 Nights / 07 Days",
-    rating: "",
+    rating: "4.9",
     image: "/images/Lajuba/day-1.jpg",
     location: "Ljubljana, Salzburg, Munich",
     nextDate: "Available on Request",
@@ -6626,8 +6677,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "classic-uk-escape-london-cardiff-liverpool",
     price: "GBP 1190 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "06 Nights / 07 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image:   "/images/liverpool/day-1.jpg",
     location: "London, Cardiff, Liverpool, United Kingdom",
     nextDate: "Available on Request",
 
@@ -6879,7 +6930,19 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/liverpool/day-1.jpg",
+      "/images/liverpool/day-2.jpg",
+      "/images/liverpool/day-3.jpg",
+      "/images/liverpool/day-4.jpg",
+      "/images/liverpool/day-5.jpg",
+      "/images/liverpool/day-6.jpg",
+      "/images/liverpool/day-7.jpg",
+      "/images/liverpool/extra1.jpg",
+      "/images/liverpool/extra2.jpg",
+      "/images/liverpool/extra3.jpg",
+      "/images/liverpool/extra4.jpg",
+    ],
   },
 
 
@@ -6888,8 +6951,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "classic-uk-escape-london-cardiff-manchester",
     price: "GBP 937 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "06 Nights / 07 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image:  "/images/cardiff/day-1.jpg",
     location: "London, Cardiff, Manchester, United Kingdom",
     nextDate: "Available on Request",
 
@@ -7138,7 +7201,17 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/cardiff/day-1.jpg",
+      "/images/cardiff/day-2.jpg",
+      "/images/cardiff/day-3.jpg",
+      "/images/cardiff/day-4.jpg",
+      "/images/cardiff/day-5.jpg",
+      "/images/cardiff/day-6.jpg",
+      "/images/cardiff/day-7.jpg",
+      "/images/cardiff/extra1.jpg",
+      "/images/cardiff/extra2.jpg",
+    ],
   },
 
   {
@@ -7146,8 +7219,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "classic-uk-escape-london-newport-edinburgh",
     price: "GBP 1111 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "06 Nights / 07 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/newport/day-1.jpg",
     location: "London, Newport, Edinburgh, United Kingdom",
     nextDate: "Available on Request",
 
@@ -7397,7 +7470,17 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/newport/day-1.jpg",
+      "/images/newport/day-2.jpg",
+      "/images/newport/day-3.jpg",
+      "/images/newport/day-4.jpg",
+      "/images/newport/day-5.jpg",
+      "/images/newport/day-6.jpg",
+      "/images/newport/day-7.jpg",
+      "/images/newport/extra1.jpg",
+      "/images/newport/extra2.jpg",
+    ],
   },
 
 
@@ -7406,8 +7489,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "classic-poland-escape-warsaw-krakow",
     price: "EUR 799 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "06 Nights / 07 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/poland/Day-1.jpg",
     location: "Warsaw, Kraków, Poland",
     nextDate: "Available on Request",
 
@@ -7649,7 +7732,15 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/poland/Day-1.jpg",
+      "/images/poland/Day-2.jpg",
+      "/images/poland/Day-3.jpg",
+      "/images/poland/Day-4.jpg",
+      "/images/poland/Day-5.jpg",
+      "/images/poland/Day-6.jpg",
+      "/images/poland/Day-7.jpg",
+    ],
   },
 
 
@@ -7658,8 +7749,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "classic-europe-escape-warsaw-prague",
     price: "EUR 610 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "05 Nights / 06 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/warsaw/Day-1.jpg",
     location: "Warsaw, Prague",
 
     highlightsData: {
@@ -7897,7 +7988,14 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/warsaw/Day-1.jpg",
+      "/images/warsaw/Day-2.jpg",
+      "/images/warsaw/Day-3.jpg",
+      "/images/warsaw/Day-4.jpg",
+      "/images/warsaw/Day-5.jpg",
+      "/images/warsaw/Day-6.jpg",
+    ],
   },
 
   {
@@ -7905,7 +8003,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "from-windmills-to-the-eiffel-amsterdam-paris",
     price: "EUR 838 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "06 Nights / 07 Days",
-    rating: "",
+    rating: "4.9",
     image: "/images/wind/day-1.jpg",
     location: "Amsterdam, Paris",
     nextDate: "Available on Request",
@@ -8171,8 +8269,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "best-of-barcelona-madrid-ibiza",
     price: "EUR 1114 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "08 Nights / 09 Days", // itinerary in PDF runs Day 1–Day 8 (08 Nights); the header's own "06 Nights/07 Days" and "02N Barcelona + 02N Madrid + 02 Ibiza" undercount this — see note below
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/barcelona/day-1.jpg",
     location: "Barcelona, Madrid, Ibiza, Spain",
     nextDate: "Available on Request",
 
@@ -8430,7 +8528,16 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/barcelona/day-1.jpg",
+      "/images/barcelona/day-2.jpg",
+      "/images/barcelona/day-3.jpg",
+      "/images/barcelona/day-4.jpg",
+      "/images/barcelona/day-5.jpg",
+      "/images/barcelona/day-6.jpg",
+      "/images/barcelona/day-7.jpg",
+      "/images/barcelona/day-8.jpg",
+    ],
   },
 
   {
@@ -8738,8 +8845,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "best-of-ireland-belfast-dublin",
     price: "GBP 928 per person onwards", // lowest 02 Pax rate in PDF (4* Hotel, Twin/Double, Nov–Feb 2026/2027); 3* lowest was GBP 983
     days: "07 Nights / 08 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image:  "/images/land/day-1.jpg",
     location: "Belfast, Dublin, Ireland",
     nextDate: "Available on Request",
 
@@ -8975,7 +9082,16 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/land/day-1.jpg",
+      "/images/land/day-2.jpg",
+      "/images/land/day-3.jpg",
+      "/images/land/day-4.jpg",
+      "/images/land/day-5.jpg",
+      "/images/land/day-6.jpg",
+      "/images/land/day-7.jpg",
+      "/images/land/day-8.jpg",
+    ],
   },
 
 
@@ -8985,7 +9101,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     price: "EUR 546 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Nov/Dec/Jan/Feb 2026-2027)
     days: "06 Nights / 07 Days",
     rating: "4.9",
-    image: "",
+    image: "/images/buda6/day-1.jpg",
     location: "Budapest, Vienna, Prague",
     nextDate: "Available on Request",
 
@@ -9229,7 +9345,16 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/buda6/day-1.jpg",
+      "/images/buda6/day-2.jpg",
+      "/images/buda6/day-3.jpg",
+      "/images/buda6/day-4.jpg",
+      "/images/buda6/day-5.jpg",
+      "/images/buda6/day-6.jpg",
+      "/images/buda6/day-7.jpg",
+    
+    ],
   },
 
   {
@@ -9237,8 +9362,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "budapest-vienna-prague-08n",
     price: "EUR 646 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "08 Nights / 09 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image:  "/images/buda/day-1.jpg",
     location: "Budapest, Vienna, Prague",
     nextDate: "Available on Request",
 
@@ -9494,7 +9619,17 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/buda/day-1.jpg",
+      "/images/buda/day-2.jpg",
+      "/images/buda/day-3.jpg",
+      "/images/buda/day-4.jpg",
+      "/images/buda/day-5.jpg",
+      "/images/buda/day-6.jpg",
+      "/images/buda/day-7.jpg",
+      "/images/buda/day-8.jpg",
+      "/images/buda/day-9.jpg",
+    ],
   },
 
   {
@@ -9502,8 +9637,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "copenhagen-gothenburg-04n",
     price: "EUR 656 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Mar/Sep/Oct 2026)
     days: "04 Nights / 05 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/cop/day-1.jpg",
     location: "Copenhagen, Gothenburg",
     nextDate: "Available on Request",
 
@@ -9750,7 +9885,13 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/cop/day-1.jpg",
+      "/images/cop/day-2.jpg",
+      "/images/cop/day-3.jpg",
+      "/images/cop/day-4.jpg",
+      "/images/cop/day-5.jpg",
+    ],
   },
 
   {
@@ -9758,8 +9899,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "stockholm-gothenburg-04n",
     price: "EUR 833 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "04 Nights / 05 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/swe/day-1.jpg",
     location: "Stockholm, Gothenburg",
     nextDate: "Available on Request",
 
@@ -9984,7 +10125,13 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/swe/day-1.jpg",
+      "/images/swe/day-2.jpg",
+      "/images/swe/day-3.jpg",
+      "/images/swe/day-4.jpg",
+      "/images/swe/day-5.jpg",
+    ],
   },
 
 
@@ -10836,8 +10983,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "helsinki-stockholm-04n",
     price: "EUR 640 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Mar/Sep/Oct 2026)
     days: "04 Nights / 05 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/finland/day-1.jpg",
     location: "Helsinki, Stockholm",
     nextDate: "Available on Request",
 
@@ -11057,7 +11204,17 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/finland/day-1.jpg",
+      "/images/finland/day-2.jpg",
+      "/images/finland/day-3.jpg",
+      "/images/finland/day-4.jpg",
+      "/images/finland/day-5.jpg",
+      "/images/finland/extra1.jpg",
+      "/images/finland/extra2.jpg",
+      "/images/finland/extra3.jpg",
+      "/images/finland/extra4.jpg",
+    ],
   },
 
   {
@@ -11346,8 +11503,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "london-manchester-06n",
     price: "GBP 954 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Mar/Sep/Oct 2026)
     days: "06 Nights / 07 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image:  "/images/classic/day-1.jpg",
     location: "London, Manchester",
     nextDate: "Available on Request",
 
@@ -11595,7 +11752,19 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/classic/day-1.jpg",
+      "/images/classic/day-2.jpg",
+      "/images/classic/day-3.jpg",
+      "/images/classic/day-4.jpg",
+      "/images/classic/day-5.jpg",
+      "/images/classic/day-6.jpg",
+      "/images/classic/day-7.jpg",
+      "/images/classic/extra1.jpg",
+      "/images/classic/extra2.jpg",
+      "/images/classic/extra3.jpg",
+      "/images/classic/extra4.jpg",
+    ],
   },
 
   {
@@ -12161,8 +12330,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "oslo-flam-bergen-06n",
     price: "EUR 1192 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "06 Nights / 07 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/oslo/day-1.jpg",
     location: "Oslo, Flam, Bergen",
     nextDate: "Available on Request",
 
@@ -12419,7 +12588,15 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/oslo/day-1.jpg",
+      "/images/oslo/day-2.jpg",
+      "/images/oslo/day-3.jpg",
+      "/images/oslo/day-4.jpg",
+      "/images/oslo/day-5.jpg",
+      "/images/oslo/day-6.jpg",
+      "/images/oslo/day-7.jpg",
+    ],
   },
 
   {
@@ -12427,8 +12604,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "paris-geneva-zurich-07n",
     price: "EUR 1192 per person onwards", // Note: lowest 02 Pax rate found is EUR 1274 (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "07 Nights / 08 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image:   "/images/swis/day-1.jpg",
     location: "Paris, Geneva, Zurich",
     nextDate: "Available on Request",
 
@@ -12686,7 +12863,15 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/swis/day-1.jpg",
+      "/images/swis/day-2.jpg",
+      "/images/swis/day-3.jpg",
+      "/images/swis/day-4.jpg",
+      "/images/swis/day-5.jpg",
+      "/images/swis/day-6.jpg",
+      "/images/swis/day-7.jpg",
+    ],
   },
 
   {
@@ -12694,8 +12879,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "vienna-munich-zurich-06n",
     price: "EUR 1008 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "06 Nights / 07 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/best1/day-1.jpg",
     location: "Vienna, Munich, Zurich",
     nextDate: "Available on Request",
 
@@ -12941,7 +13126,15 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/best1/day-1.jpg",
+      "/images/best1/day-2.jpg",
+      "/images/best1/day-3.jpg",
+      "/images/best1/day-4.jpg",
+      "/images/best1/day-5.jpg",
+      "/images/best1/day-6.jpg",
+      "/images/best1/day-7 .jpg",
+    ],
   },
 
   {
@@ -12949,8 +13142,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "vienna-munich-zurich-07n",
     price: "EUR 1130 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "07 Nights / 08 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/best/day-1.jpg",
     location: "Vienna, Munich, Zurich",
     nextDate: "Available on Request",
 
@@ -13207,7 +13400,15 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/best/day-1.jpg",
+      "/images/best/day-2.jpg",
+      "/images/best/day-3.jpg",
+      "/images/best/day-4.jpg",
+      "/images/best/day-5.jpg",
+      "/images/best/day-6.jpg",
+      "/images/best/day-7.jpg",
+    ],
   },
 
   {
@@ -14276,8 +14477,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "amsterdam-brussels-paris-08n",
     price: "EUR 1296 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Nov/Dec/Jan/Feb 2026)
     days: "08 Nights / 09 Days",
-    rating: "",
-    image: "",
+    rating: "4.9",
+    image: "/images/ams/day-1.jpg",
     location: "Amsterdam, Brussels, Paris",
     nextDate: "Available on Request",
 
@@ -14549,7 +14750,24 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
       "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
     ],
 
-    images: [],
+    images: [
+      "/images/ams/day-1.jpg",
+      "/images/ams/day-2.jpg",
+      "/images/ams/day-3.jpg",
+      "/images/ams/day-4.jpg",
+      "/images/ams/day-5.jpg",
+      "/images/ams/day-6.jpg",
+      "/images/ams/day-7.jpg",
+      "/images/ams/day-8.jpg",
+      "/images/ams/extra1.jpg",
+      "/images/ams/extra2.jpg",
+      "/images/ams/extra3.jpg",
+      "/images/ams/extra4.jpg",
+      "/images/ams/extra5.jpg",
+      "/images/ams/extra6.jpg",
+      "/images/ams/extra7.jpg",
+      // "/images/ams/extra1.jpg",
+    ],
   },
 
   {
@@ -14820,8 +15038,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   slug: "barcelona-valencia-seville-madrid-07n",
   price: "EUR 737 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
   days: "07 Nights / 08 Days",
-  rating: "",
-  image: "",
+  rating: "4.9",
+  image: "/images/val7/day-1.jpg",
   location: "Barcelona, Valencia, Seville, Madrid",
   nextDate: "Available on Request",
 
@@ -15081,7 +15299,16 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
   ],
 
-  images: [],
+  images: [
+    "/images/val7/day-1.jpg",
+    "/images/val7/day-2.jpg",
+    "/images/val7/day-3.jpg",
+    "/images/val7/day-4.jpg",
+    "/images/val7/day-5.jpg",
+    "/images/val7/day-6.jpg",
+    "/images/val7/day-7.jpg",
+    "/images/val7/extra1.jpg",
+  ],
 },
 
 
@@ -15360,8 +15587,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   slug: "barcelona-madrid-04n",
   price: "EUR 543 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
   days: "04 Nights / 05 Days",
-  rating: "",
-  image: "",
+  rating: "4.9",
+  image:  "/images/madrid/day-1.jpg",
   location: "Barcelona, Madrid",
   nextDate: "Available on Request",
 
@@ -15585,7 +15812,20 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
   ],
 
-  images: [],
+  images: [
+    "/images/madrid/day-1.jpg",
+    "/images/madrid/day-2.jpg",
+    "/images/madrid/day-3.jpg",
+    "/images/madrid/day-4.jpg",
+    "/images/madrid/day-5.jpg",
+    "/images/madrid/day-6.jpg",
+    "/images/madrid/day-7.jpg",
+    "/images/madrid/day-8.jpg",
+    "/images/madrid/day-9.jpg",
+    "/images/madrid/extra1.jpg",
+    "/images/madrid/extra2.jpg",
+    "/images/madrid/extra3.jpg",
+  ],
 },
 
 
@@ -16508,8 +16748,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   slug: "seville-lisbon-porto-05n",
   price: "EUR 638 per person onwards",
   days: "05 Nights / 06 Days",
-  rating: "",
-  image: "",
+  rating: "4.9",
+  image: "/images/porto/day-1.jpg",
   location: "Seville, Lisbon, Porto",
   nextDate: "Available on Request",
 
@@ -16849,6 +17089,15 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     "Cancellation Policy: As per our trading contract.",
     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
   ],
+
+  images : [
+    "/images/porto/day-1.jpg",
+    "/images/porto/day-2.jpg",
+    "/images/porto/day-3.jpg",
+    "/images/porto/day-4.jpg",
+    "/images/porto/day-5.jpg",
+    "/images/porto/extra1.jpg",
+  ]
 },
 
 {
@@ -17263,8 +17512,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   slug: "paris-lyon-marseille-06n",
   price: "EUR 974 per person onwards",
   days: "06 Nights / 07 Days",
-  rating: "",
-  image: "",
+  rating: "4.9",
+  image: "/images/pari/day-1.jpg",
   location: "Paris, Lyon, Marseille",
   nextDate: "Available on Request",
 
@@ -17626,6 +17875,19 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     "Cancellation Policy: As per our trading contract",
     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
   ],
+
+  images : [
+    "/images/pari/day-1.jpg",
+    "/images/pari/day-2.jpg",
+    "/images/pari/day-3.jpg",
+    "/images/pari/day-4.jpg",
+    "/images/pari/day-5.jpg",
+    "/images/pari/day-6.jpg",
+    "/images/pari/day-7.jpg",
+    "/images/pari/day-8.jpg",
+    "/images/pari/extra1.jpg",
+    "/images/pari/extra2.jpg",
+  ]
 },
 
 {
@@ -20340,8 +20602,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   slug: "engelberg-grindelwald-zurich-06n",
   price: "EUR 1640 per person onwards",
   days: "06 Nights / 07 Days",
-  rating: "",
-  image: "",
+  rating: "4.9",
+  image: "/images/eng/day-1.jpg",
   location: "Engelberg, Grindelwald, Zurich",
   nextDate: "Available on Request",
 
@@ -20719,6 +20981,18 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     "Cancellation Policy: As per our trading contract",
     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
   ],
+
+  images : [
+    "/images/eng/day-1.jpg",
+    "/images/eng/day-2.jpg",
+    "/images/eng/day-3.jpg",
+    "/images/eng/day-4.jpg",
+    "/images/eng/day-5.jpg",
+    "/images/eng/extra1.jpg",
+    "/images/eng/extra2.jpg",
+    "/images/eng/extra3.jpg",
+    "/images/eng/extra4.jpg",
+  ]
 },
 
 {
@@ -22307,8 +22581,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   slug: "copenhagen-hamburg-berlin-07n",
   price: "EUR 989 per person onwards",
   days: "07 Nights / 08 Days",
-  rating: "",
-  image: "",
+  rating: "4.9",
+  image: "/images/germany/day-1.jpg",
   location: "Copenhagen, Hamburg, Berlin",
   nextDate: "Available on Request",
 
@@ -22699,6 +22973,17 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     "Cancellation Policy: As per our trading contract",
     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
   ],
+
+  images : [
+    "/images/germany/day-1.jpg",
+    "/images/germany/day-2.jpg",
+    "/images/germany/day-3.jpg",
+    "/images/germany/day-4.jpg",
+    "/images/germany/day-5.jpg",
+    "/images/germany/day-6.jpg",
+    "/images/germany/day-7.jpg",
+  ]
+  
 },
 
 {
@@ -24675,8 +24960,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   slug: "london-amsterdam-06n",
   price: "GBP 1340 per person onwards",
   days: "06 Nights / 07 Days",
-  rating: "",
-  image: "",
+  rating: "4.9",
+  image: "/images/dam/day-1.jpg",
   location: "London, Amsterdam",
   nextDate: "Available on Request",
 
@@ -25033,6 +25318,15 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     "Cancellation Policy: As per our trading contract",
     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
   ],
+
+  images : [
+    "/images/dam/day-1.jpg",
+    "/images/dam/day-2.jpg",
+    "/images/dam/day-3.jpg",
+    "/images/dam/day-4.jpg",
+    "/images/dam/day-5.jpg",
+    "/images/dam/day-6.jpg",
+  ]
 },
 
 {
@@ -25040,8 +25334,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   slug: "london-birmingham-manchester-07n",
   price: "GBP 1086 per person onwards",
   days: "07 Nights / 08 Days",
-  rating: "",
-  image: "",
+  rating: "4.9",
+  image: "/images/explore/day-1.jpg",
   location: "London, Birmingham, Manchester",
   nextDate: "Available on Request",
 
@@ -25314,6 +25608,16 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     "Cancellation Policy: As per our trading contract",
     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
   ],
+
+  images : [
+    "/images/explore/day-1.jpg",
+    "/images/explore/day-2.jpg",
+    "/images/explore/day-3.jpg",
+    "/images/explore/day-4.jpg",
+    "/images/explore/day-5.jpg",
+    "/images/explore/day-6.jpg",
+    "/images/explore/day-7.jpg",
+  ]
 },
 
 {
@@ -25321,8 +25625,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   slug: "london-dublin-belfast-09n",
   price: "GBP 1578 per person onwards",
   days: "09 Nights / 10 Days",
-  rating: "",
-  image: "",
+  rating: "4.9",
+  image: "/images/fast/day-1.jpg",
   location: "London, Dublin, Belfast",
   nextDate: "Available on Request",
 
@@ -25613,6 +25917,18 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     "Cancellation Policy: As per our trading contract",
     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
   ],
+
+  images : [
+  "/images/fast/day-1.jpg",
+  "/images/fast/day-2.jpg",
+  "/images/fast/day-3.jpg",
+  "/images/fast/day-4.jpg",
+  "/images/fast/day-5.jpg",
+  "/images/fast/day-6.jpg",
+  "/images/fast/day-7.jpg",
+  "/images/fast/day-8.jpg",
+  "/images/fast/day-9.jpg",
+  ]
 },
 
 {
@@ -26181,8 +26497,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   slug: "dublin-belfast-06n",
   price: "GBP 966 per person onwards",
   days: "06 Nights / 07 Days",
-  rating: "",
-  image: "",
+  rating: "4.9",
+  image: "/images/cel/day-1.jpg",
   location: "Dublin, Belfast",
   nextDate: "Available on Request",
 
@@ -26433,6 +26749,15 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     "Cancellation Policy: As per our trading contract",
     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
   ],
+
+  images : [
+    "/images/cel/day-1.jpg",
+    "/images/cel/day-2.jpg",
+    "/images/cel/day-3.jpg",
+    "/images/cel/day-4.jpg",
+    "/images/cel/day-5.jpg",
+    "/images/cel/day-6.jpg",
+  ]
 },
 
 {
@@ -26712,8 +27037,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   slug: "edinburgh-glasgow-06n",
   price: "GBP 845 per person onwards",
   days: "06 Nights / 07 Days",
-  rating: "",
-  image: "",
+  rating: "4.9",
+  image:  "/images/edin/day-1.jpg",
   location: "Edinburgh, Glasgow",
   nextDate: "Available on Request",
 
@@ -26971,6 +27296,16 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     "Cancellation Policy: As per our trading contract",
     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
   ],
+
+  images : [
+    "/images/edin/day-1.jpg",
+    "/images/edin/day-2.jpg",
+    "/images/edin/day-3.jpg",
+    "/images/edin/day-4.jpg",
+    "/images/edin/day-5.jpg",
+    "/images/edin/day-6.jpg",
+    "/images/edin/day-7.jpg",
+  ]
 },
 
 {
@@ -27839,8 +28174,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   slug: "split-hvar-dubrovnik-06n",
   price: "Euro 969 per person onwards",
   days: "06 Nights / 07 Days",
-  rating: "",
-  image: "",
+  rating: "4.9",
+  image: "/images/coast/day-1.jpg",
   location: "Split, Hvar, Dubrovnik",
   nextDate: "Available on Request",
 
@@ -28095,6 +28430,16 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     "Cancellation Policy: As per our trading contract",
     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
   ],
+
+  images : [
+    "/images/coast/day-1.jpg",
+    "/images/coast/day-2.jpg",
+    "/images/coast/day-3.jpg",
+    "/images/coast/day-4.jpg",
+    "/images/coast/day-5.jpg",
+    "/images/coast/day-6.jpg",
+  ]
+
 },
 
 {
@@ -29125,8 +29470,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   slug: "zagreb-split-dubrovnik-06n",
   price: "Euro 589 per person onwards",
   days: "06 Nights / 07 Days",
-  rating: "",
-  image: "",
+  rating: "4.9",
+  image:  "/images/week/day-1.jpg",
   location: "Zagreb, Split, Dubrovnik",
   nextDate: "Available on Request",
 
@@ -29385,6 +29730,15 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     "Cancellation Policy: As per our trading contract",
     "05% GST + TCS declaration required if payment will be in INR. ROE will be considered the day when the payment will be processed, ROE is subject to change.",
   ],
+
+  images : [
+    "/images/week/day-1.jpg",
+    "/images/week/day-2.jpg",
+    "/images/week/day-3.jpg",
+    "/images/week/day-4.jpg",
+    "/images/week/day-5.jpg",
+    "/images/week/day-6.jpg",
+  ]
 },
 
 {
@@ -29950,7 +30304,3641 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
   ]
 },
 
+{
+  title: "Egypt",
+  slug: "",
+  price: "INR 1,48,300/- + TCS (Refundable)",
+  days: "08 Nights / 09 Days",
+  rating: "",
+  image: "",
+  location: "Egypt",
+  nextDate: "",
 
+  highlightsData: {
+    locationCard: {
+      meta: "08 Nights",
+      places: "Cairo, Alexandria, Aswan, Nile River, Luxor, Hurghada",
+    },
+
+    pills: [
+      "03 Nights Accommodation in Cairo",
+      "03 Nights Nile Cruise",
+      "02 Nights Accommodation in Hurghada",
+    ],
+
+    highlights: [
+      "Giza Pyramids",
+      "Sphinx",
+      "Valley Temple",
+      "Grand Egyptian Museum",
+      "Catacomb of Kom El-Shokafa",
+      "Qaitbay Citadel from Outside",
+      "Alexandria Library",
+      "The High Dam",
+      "Philae Temple",
+      "Kom Ombo Temple",
+      "Edfu Temple",
+      "Valley of the Kings",
+      "Hatshepsut Temple",
+      "Colossi of Memnon",
+      "Luxor Temple",
+      "Giftun Island Snorkeling Trip from Hurghada",
+    ],
+
+    experiences: [
+      {
+        title: "Abu Simple Temple Tour",
+        desc: "",
+      },
+      {
+        title: "Karnak Sound & Light Show",
+        desc: "",
+      },
+      {
+        title: "Hot Air Balloon Ride",
+        desc: "",
+      },
+      {
+        title: "Giftun Island Snorkeling Trip",
+        desc: "Swim with the dolphins before docking at Giftun Island for sports.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrive Cairo",
+      desc: "After your flight arrives at Cairo International Airport, a representative from Egypt Office will be waiting for you in the international arrival hall holding a sign with your name to meet & greet you before the passport control and finish all formalities with you, transfer to your hotel, check-in @ 15:00 PM & overnight in Cairo.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Cairo Day Tour",
+      desc: "After Early breakfast, Meet Egypt Office representative at the hotel lobby and accompany your English speaking Egyptologist to visit the Pyramids of Giza, the great tombs of Cheops, Chephren and Mykerinos, standing as one of the Seven Wonders of the World. Continue to the Sphinx, the famous guardian with the body of a lion and the head of a king, then see the Valley Temple, where the kings were prepared for mummification, Continue your exploration with a visit to The Grand Egyptian Museum (GEM), showcasing a vast collection of ancient treasures, including artifacts from the tomb of Tutankhamun, It is located about two kilometers from the Giza Pyramid Complex; back to the hotel & overnight in Cairo.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Alexandria Day Tour",
+      desc: "After breakfast at the hotel, depart by private air-conditioned vehicle to Alexandria, Begin your visit with the renowned Bibliotheca Alexandrina, a modern architectural masterpiece that commemorates the ancient Library of Alexandria. Continue to the Catacombs of Kom El Shoqafa, one of Alexandria's most remarkable archaeological sites, featuring a unique blend of Egyptian, Greek, and Roman influences. Proceed to the Citadel of Qaitbay (from Outside). Built in the 15th century on the site of the ancient Lighthouse of Alexandria, After completing your sightseeing, return to Cairo and transfer to your hotel. Overnight in Cairo.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Nile Cruise (Start from Aswan Every: Wednesday, Friday)",
+      desc: "Take a morning flight to Aswan, up on Arrival, visit the High Dam, the great engineering project that gave Egypt power and protection from the Nile floods. Continue to the Temple of Philae, built in honor of the goddess Isis and beautifully relocated to its island. Afterwards, embark on your Nile Cruise and enjoy lunch, dinner, and overnight on board in Aswan.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Lunch" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "05",
+      title: "Kom Ombo Temples Tour",
+      desc: "enjoy your Breakfast, sailing along the Nile to Kom Ombo. Here, visit the Temple of Kom Ombo, dedicated to the crocodile god Sobek and the falcon god Horus, famous for its twin design. Continue sailing to Edfu. dinner, and overnight on your Nile Cruise.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Lunch" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "06",
+      title: "Edfu & Luxor Temple",
+      desc: "Enjoy breakfast, then visit the Temple of Horus at Edfu, the best-preserved temple in Egypt with stunning reliefs. Sail onward to Luxor and enjoy lunch on board. Arrive Luxor then continue to the enchanting Luxor Temple, built by pharaohs and later adorned by Alexander the Great, beautifully lit up at night. Dinner and overnight on your cruise in Luxor.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Lunch" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "07",
+      title: "West Bank Tour & Transfer to Hurghada",
+      desc: "Savor a delightful breakfast on board before disembarking at 08:00 AM. and begin your tour of the West Bank. Discover the Valley of the Kings, where the pharaohs of the New Kingdom were buried in richly decorated tombs. Continue to the Temple of Queen Hatshepsut, the stunning terraced monument of Egypt’s only female pharaoh. Stop to view the Colossi of Memnon, two massive statues that once guarded the mortuary temple of Amenhotep III. At the end of the tour, transfer to Hurghada. On arrival at Hurghada, check into the hotel. Overnight in Hurghada.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "08",
+      title: "Hurghada",
+      desc: "Today your day is free at leisure. You can opt to take a snorkeling trip at Giftun Island. Swim with the dolphins before docking at Giftun Island for sports. In the evening, you have free time to enjoy the unique nightlife of Hurghada. Overnight in Hurghada.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "09",
+      title: "Final Departure",
+      desc: "Today, we bid farewell to Egypt. After enjoying your delicious breakfast, please check out by 12:00 PM. Egypt Office representative will accompany you to Sharm El Sheikh International Airport for your Final departure.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [
+    "Please note that no booking has been held at this time.",
+    "Prices are subject to availability and may change at the time of booking.",
+  ],
+
+  inclusions: {
+    included: [
+      "03 Nights’ accommodation in Cairo based on Bed & Breakfast Basis.",
+      "03 Nights’ accommodation at 05 stars Nile Cruise on Full board including Breakfast, Lunch, Dinner.",
+      "02 Nights’ accommodation in Hurghada on Breakfast Basis.",
+      "Meet at Cairo, Asxwan Airports plus transfer to hotel by private air-conditioned Vehicle.",
+      "Transfer Cairo / Alexandria / Cairo by prívate A/C Vehicle.",
+      "Transfer to Hurghada hotel private transfers",
+      "01 Day Excursion in Cairo as mentioned at the above itinerary.",
+      "01 Day Excursion in Alexandria as mentioned at the above itinerary.",
+      "01 Day Excursion in Hurghada as mentioned at the above itinerary.",
+      "Sightseeing Tours on Board the Nile Cruise include visits as mentioned at the above itinerary.",
+      "Private English-speaking Egyptologist in Cairo, Alexandria & the Nile Cruise Only during your sightseeing tours.",
+      "Entrance fees to the above-mentioned sites as mentioned in the itinerary.",
+      "A Bottle of Mineral Water for each person.",
+      "Service charges and all taxes.",
+      "Entry Visa to Egypt",
+      "Travel Insurance",
+      "GST",
+    ],
+
+    excluded: [
+      "TCS 2 % (Refundable against PAN card)",
+      "International flight tickets",
+      "Domestic flight tickets CAIRO - ASWAN – HURGHADA - CAIRO",
+      "Drinks, Beverages & Mineral water during all the meals.",
+      "Any optional tours if required",
+      "Entrance inside any of the pyramids will be with extra fees (Tickets can be booked on the Spot)",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [
+      "Abu Simple Temple Tour",
+      "Karnak Sound & Light Show",
+      "Hot Air Balloon Ride",
+    ],
+  },
+
+  accommodation: [
+    {
+      hotel: "Azal Cairo Pyramids 4*",
+      city: "Cairo",
+      nights: "2",
+      meal: "Breakfast",
+      room: "Standard Room",
+    },
+    {
+      hotel: "Nile Cruise 5*",
+      city: "Nile River",
+      nights: "3",
+      meal: "Breakfast, Lunch & Dinner",
+      room: "",
+    },
+    {
+      hotel: "Sonesta Pharaoh Beach Resort 5*",
+      city: "Hurghada",
+      nights: "2",
+      meal: "Breakfast",
+      room: "Standard Room",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "",
+        price: "INR 1,48,300/- + TCS (Refundable)",
+      },
+    ],
+  },
+
+  terms: [
+    "Please note that no booking has been held at this time.",
+    "Prices are subject to availability and may change at the time of booking.",
+  ],
+
+  images: [],
+},
+
+{
+  title: "Morocco",
+  slug: "",
+  price: "INR 2,69,100/- + TCS (Refundable)",
+  childPrice: "INR 1,09,200/- + TCS (Refundable)",
+  days: "10 Nights / 11 Days",
+  rating: "",
+  image: "",
+  location: "Morocco",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "10 Nights",
+      places: "Casablanca, Rabat, Chefchaouen, Volubilis, Meknes, Fes, Ifrane, Merzouga, Todra Gorges, Dades Valley, Ait Ben Haddou, Marrakech",
+    },
+
+    pills: [
+      "10 Nights Accommodation",
+      "Breakfast",
+      "Private Driver/Guide",
+    ],
+
+    highlights: [
+      "Hassan II Mosque",
+      "Chefchaouen",
+      "Volubilis",
+      "Meknes",
+      "Fes",
+      "Ifrane",
+      "Cedar Forest",
+      "Sahara Desert",
+      "Todra Gorges",
+      "Dades Valley",
+      "Ait Ben Haddou",
+      "Marrakech",
+    ],
+
+    experiences: [
+      {
+        title: "Sahara Desert Experience",
+        desc: "Experience the magic of the Sahara in Merzouga with a camel ride, sunset views, and an overnight stay in a luxury desert camp.",
+      },
+      {
+        title: "Blue City of Chefchaouen",
+        desc: "Spend a relaxed day exploring the picturesque streets and blue alleys of Chefchaouen at your own pace.",
+      },
+      {
+        title: "Atlas Mountains & Scenic Drives",
+        desc: "Travel through Ifrane and the scenic Cedar Forest en route to Merzouga, enjoying beautiful Atlas Mountain landscapes.",
+      },
+      {
+        title: "Cultural Immersion in Fes & Marrakech",
+        desc: "",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival in Casablanca",
+      desc: "Arrive in Casablanca and transfer to your hotel for check-in, followed by a relaxed evening at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Casablanca – Rabat – Chefchaouen",
+      desc: "Visit the iconic Hassan II Mosque, then travel via Rabat to the charming blue town of Chefchaouen for an overnight stay.",
+      tags: [],
+    },
+    {
+      day: "03",
+      title: "Chefchaouen Exploration",
+      desc: "Spend a relaxed day exploring the picturesque streets and blue alleys of Chefchaouen at your own pace.",
+      tags: [],
+    },
+    {
+      day: "04",
+      title: "Chefchaouen – Volubilis – Meknes – Fes",
+      desc: "Depart for Fes, visiting the ancient Roman ruins of Volubilis and stopping at Meknes en route.",
+      tags: [],
+    },
+    {
+      day: "05",
+      title: "Fes Exploration",
+      desc: "Enjoy a guided cultural tour of Fes, exploring its historic medina and vibrant souks.",
+      tags: [],
+    },
+    {
+      day: "06",
+      title: "Fes – Ifrane – Cedar Forest – Merzouga",
+      desc: "Travel through Ifrane and the scenic Cedar Forest en route to Merzouga, enjoying beautiful Atlas Mountain landscapes.",
+      tags: [],
+    },
+    {
+      day: "07",
+      title: "Sahara Desert Experience",
+      desc: "Experience the magic of the Sahara in Merzouga with a camel ride, sunset views, and an overnight stay in a luxury desert camp.",
+      tags: [],
+    },
+    {
+      day: "08",
+      title: "Merzouga – Todra Gorges – Dades Valley",
+      desc: "Explore the dramatic Todra Gorges before continuing to the scenic Dades Valley for an overnight stay.",
+      tags: [],
+    },
+    {
+      day: "09",
+      title: "Dades – Ait Ben Haddou – Marrakech",
+      desc: "Visit the famous Ait Ben Haddou and cross the Atlas Mountains to reach Marrakech.",
+      tags: [],
+    },
+    {
+      day: "10",
+      title: "Marrakech Exploration",
+      desc: "Discover Marrakech with a guided tour and enjoy optional experiences such as gardens and local souks.",
+      tags: [],
+    },
+    {
+      day: "11",
+      title: "Departure",
+      desc: "Transfer to from Marrakech to Casablanca airport for your onward journey.",
+      tags: [],
+    },
+  ],
+
+  pointsToRemember: [
+    "Prices are subject to availability and may change at the time of booking.",
+    "For any further inquiries please reach out to us.",
+  ],
+
+  inclusions: {
+    included: [
+      "10 Nights’ accommodation along with Breakfast",
+      "Airport pick-up and travel in a comfortable, air-conditioned vehicle",
+      "Entrance fees to all historical sites as outlined in the itinerary",
+      "Local guides where required (such as Volubilis, Fes, and Marrakech)",
+      "Services of a private Deep Morocco Tours driver/guide throughout, with maximum ϐlexibility",
+      "Sahara Desert with camel ride & luxury camp",
+      "Blue city of Chefchaouen",
+      "Atlas Mountains & scenic drives",
+      "Cultural immersion in Fes & Marrakech",
+      "Family-friendly pace with ϐlexibility",
+      "Sahara Desert experience",
+      "Optional lunch with a local Berber family",
+      "All tourist city taxes",
+      "All VAT",
+      "No hidden fees or extras",
+      "Travel Insurance",
+      "Tourist visa",
+      "GST",
+    ],
+
+    excluded: [
+      "TCS 2% Refundable",
+      "Airfare",
+      "Meals",
+      "Hotel accommodation",
+      "Tips",
+      "Anything not mentioned in inclusions",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [
+      "Optional lunch with a local Berber family",
+      "Optional experiences such as gardens and local souks",
+    ],
+  },
+
+  accommodation: [
+    {
+      hotel: "",
+      city: "Casablanca",
+      nights: "01",
+      meal: "Breakfast",
+      room: "",
+    },
+    {
+      hotel: "",
+      city: "Chefchaouen",
+      nights: "02",
+      meal: "Breakfast",
+      room: "",
+    },
+    {
+      hotel: "",
+      city: "Fes",
+      nights: "02",
+      meal: "Breakfast",
+      room: "",
+    },
+    {
+      hotel: "",
+      city: "Merzouga",
+      nights: "01",
+      meal: "Breakfast & Dinner",
+      room: "",
+    },
+    {
+      hotel: "",
+      city: "Camp",
+      nights: "01",
+      meal: "Breakfast & Dinner",
+      room: "",
+    },
+    {
+      hotel: "",
+      city: "Dades Valley",
+      nights: "01",
+      meal: "Breakfast & Dinner",
+      room: "",
+    },
+    {
+      hotel: "",
+      city: "Marrakech",
+      nights: "02",
+      meal: "Breakfast",
+      room: "",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "Adult",
+        price: "INR 2,69,100/- + TCS (Refundable)",
+      },
+      {
+        category: "Child",
+        price: "INR 1,09,200/- + TCS (Refundable)",
+      },
+    ],
+  },
+
+  terms: [
+    "Prices are subject to availability and may change at the time of booking.",
+    "For any further inquiries please reach out to us.",
+  ],
+
+  images: [],
+},
+
+{
+  title: "Amazing Nepal",
+  slug: "",
+  price: "RS.28,000 PER PERSON",
+  days: "5 Nights / 6 Days",
+  rating: "",
+  image: "",
+  location: "Kathmandu, Pokhara",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "Kathmandu (2Nights)-Pokhara (2Nights)-Kathmandu(1Night)",
+      places: "Kathmandu, Pokhara",
+    },
+
+    pills: [
+      "5 Nights / 6 Days",
+      "Daily Breakfast & Dinner",
+      "Private AC Vehicle",
+    ],
+
+    highlights: [
+      "Pashupatinath Temple",
+      "Budanilkantha",
+      "Guheshwori (Shakti Peeth)",
+      "Kathmandu Durbar Square",
+      "Swayambhunath",
+      "Manakamana Temple",
+      "Sarangkot",
+      "Davis Fall",
+      "Fewa Lake",
+      "Pumdikot Shiva Statue",
+      "Gupteshwor Mahadev",
+      "Bindabasini Temple",
+    ],
+
+    experiences: [
+      {
+        title: "Sandhya Aarti",
+        desc: "Transfer to Pashupatinath temple for Sandhya Aarti.",
+      },
+      {
+        title: "Kathmandu City Tour",
+        desc: "City tour of Kathmandu covering Budanilkantha, Pashupatinath, Guheshwori (Shakti Peeth), Kathmandu Durbar Square and Swayambhunath.",
+      },
+      {
+        title: "Pokhara City Tour",
+        desc: "City tour covering Davis fall, Fewa lake, Pumdikot Shiva Statue, Gupteshwor Mahadev & Bindabasini temple.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival & Sandhya Aarti",
+      desc: "Upon arrival at airport, you will be met by our representative & transferred to your hotel. Check in at Hotel & later transfer to Pashupatinath temple for Sandhya Aarti, then transfer back to hotel. Overnight stay at Hotel.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Kathmandu City Tour (7Hrs Max)",
+      desc: "After breakfast get ready for the city tour of Kathmandu which will take you to the world heritage sites like Budanilkantha, Pashupatinath, Guheshwori (Shakti Peeth) Kathmandu Durbar Square & Swayambhunath (monkey temple). Evening free. Overnight at hotel in Kathmandu.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Transfer to Pokhara (8hrs)",
+      desc: "After Breakfast Transfer to Pokhara Which Is 8 Hrs. (200 Km) Drive from Kathmandu, On the way Manakamana Temple Visit (Tickets on your own). Evening is Free. Overnight at Hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "City Tour of Pokhara (6Hrs Max)",
+      desc: "Early in the morning around 05:00 am you will be taken to Sarangkot (25min drive) from where you can enjoy the sun rise then return to hotel. after breakfast proceed for city tour of Pokhara which will cover Davis fall, Fewa lake, Pumdikot Shiva Statue, Gupteshwor Mahadev & Bindabasini temple. Overnight at hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Transfer Back to Kathmandu (8 Hrs. Drive)",
+      desc: "After breakfast head back to Kathmandu, Check in to your Hotel & rest of the time free for shopping & other activities. Overnight at Hotel.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Departure",
+      desc: "Today after breakfast you will be transferred to airport as per your flight schedule.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [
+    "Vehicle is used strictly as per itinerary and not for disposal.",
+    "Entry and tickets cost payable extra and directly.",
+    "Transportation is point-to-point only as per the package inclusions; vehicle is not at disposal.",
+    "Rates are valid and applicable to Indian passport/ID holders only.",
+    "In case of flight cancellations, delays, or natural disasters, any extra expenses must be borne by the guest.",
+    "Rates and availability are subject to change at the time of confirmation.",
+    "Only ₹100 INR currency notes are accepted in Nepal. Denominations above ₹100 are not accepted.",
+    "If the specified hotel is unavailable, a similar category hotel will be provided.",
+    "Hotel availability is subject to confirmation at the time of booking.",
+    "Scanned ID copies, rooming list, and meal preferences must be emailed prior to arrival.",
+    "Any itinerary changes must be communicated in advance.",
+    "No vehicle stops for lunch during arrival or departure transfers.",
+    "Rooms and rates are subject to availability.",
+  ],
+
+  inclusions: {
+    included: [
+      "All Transfers & Sightseeing By Pvt Ac Vehicle (Not for Disposal)",
+      "Daily Breakfast & Dinner at Hotel",
+      "3 Night Accommodation in Kathmandu.",
+      "2 Night Accommodation in Pokhara.",
+      "GST Included",
+    ],
+
+    excluded: [
+      "International & domestic air ticket/ GST bill / Meals other than specified",
+      "Tips, drink, laundry Fee",
+      "Entrance fee at the monument",
+      "Medical and travelling Insurance/Boat Ride / cable car ticket",
+      "All the entry tickets cost are mentioned below and are payable directly at the time of sightseeings.",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [
+    {
+      hotel: "Hotel Ramada By Wyndham Dhumbarahi",
+      city: "Kathmandu",
+      nights: "3",
+      meal: "Breakfast & Dinner",
+      room: "",
+    },
+    {
+      hotel: "Temple Himalaya Resort and Spa /Atithi Resort and Spa",
+      city: "Pokhara",
+      nights: "2",
+      meal: "Breakfast & Dinner",
+      room: "",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "4* Hotels",
+        price: "RS.28,000 PER PERSON",
+      },
+    ],
+  },
+
+  terms: [
+    "Rates, services and operations are subject to change as per change in Bhutan Govt. rules and regulations.",
+  ],
+
+  images: [],
+},
+
+{
+  title: "Malaysia & Singapore With Cruise",
+  slug: "",
+  price: "INR 1,44,800/- + TCS (refundable)",
+  days: "08 Nights /09 Days",
+  rating: "",
+  image: "",
+  location: "Kuala Lumpur, Singapore",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "08 Nights /09 Days",
+      places: "Kuala Lumpur, Singapore",
+    },
+
+    pills: [
+      "04 Nights Singapore",
+      "02 Nights Malaysia",
+      "02 Nights Cruise",
+      "Breakfast",
+    ],
+
+    highlights: [
+      "Kuala Lumpur City Tour",
+      "Genting Highlands",
+      "Batu Caves",
+      "Genting Dream Cruise",
+      "Singapore City Tour",
+      "Night Safari",
+      "Gardens by the Bay",
+      "Marina Bay Sands",
+      "Sentosa Island",
+      "Singapore Oceanarium",
+      "Universal Studios",
+    ],
+
+    experiences: [
+      {
+        title: "Genting Highlands Excursion",
+        desc: "Full-day excursion to Genting Highlands with Batu Caves photo opportunity and 2-way cable car ride.",
+      },
+      {
+        title: "Genting Dream Cruise",
+        desc: "Enjoy a full day onboard the Genting Dream cruise.",
+      },
+      {
+        title: "Sentosa Island Experience",
+        desc: "Sentosa Tour including Skypass Round Trip, Standard Ticket, Digiphoto, Wings of Time and Singapore Oceanarium.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival in Kuala Lumpur",
+      desc: "Upon arrival in Kuala Lumpur, you will be welcomed and transferred for a half-day city tour, exploring the major attractions and landmarks of the city. After the tour, proceed to your hotel for check-in and relaxation.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Genting Highlands Excursion",
+      desc: "Enjoy a full-day excursion to Genting Highlands. En route, stop at Batu Caves for a 30-minute photo opportunity. Continue your journey with a 2-way cable car ride (standard gondola only) offering scenic views before spending time at Genting Highlands.",
+      tags: [],
+    },
+    {
+      day: "03",
+      title: "Kuala Lumpur to Singapore & Cruise Embarkation",
+      desc: "Depart from Kuala Lumpur to Singapore by flight. Upon arrival, spend approximately 2 hours at the airport. Later, transfer at 2:00 PM for a half-day Singapore city tour, followed by your cruise embarkation.",
+      tags: [],
+    },
+    {
+      day: "04",
+      title: "Onboard Genting Dream Cruise",
+      desc: "Enjoy a full day onboard the Genting Dream cruise, experiencing various entertainment, dining, and leisure activities available on the ship.",
+      tags: [],
+    },
+    {
+      day: "05",
+      title: "Cruise Disembarkation & Night Safari",
+      desc: "After disembarkation, transfer to your hotel and complete check-in. In the evening, head out to enjoy the exciting Night Safari experience.",
+      tags: [],
+    },
+    {
+      day: "06",
+      title: "Gardens by the Bay & Marina Bay Sands",
+      desc: "Visit Gardens by the Bay, including access to the two domes, followed by the OCBC Skywalk. Later, proceed to Marina Bay Sands SkyPark for panoramic city views.",
+      tags: [],
+    },
+    {
+      day: "07",
+      title: "Sentosa Island Experience",
+      desc: "Spend a full day at Sentosa Island, enjoying its attractions including the SEA Aquarium and other leisure activities.",
+      tags: [],
+    },
+    {
+      day: "08",
+      title: "Universal Studios",
+      desc: "Experience a fun-filled day at Universal Studios, enjoying thrilling rides, shows, and attractions.",
+      tags: [],
+    },
+    {
+      day: "09",
+      title: "Departure from Singapore",
+      desc: "Enjoy the day at leisure for shopping and personal activities. Later, transfer to the Singapore airport for your departure.",
+      tags: [],
+    },
+  ],
+
+  pointsToRemember: [
+    "Please note that no booking has been held at this time.",
+    "Prices are subject to availability and may change at the time of booking.",
+  ],
+
+  inclusions: {
+    included: [
+      "04 Nights’ accommodation at Singapore along with Breakfast",
+      "02 Nights’ accommodation at Malaysia along with Breakfast",
+      "02 Nights’ accommodation at Cruise along with Breakfast",
+      "English Speaking Guide Services",
+      "KLIA1/KLIA2 to KL Hotel - Pick up & Hotel Transfer",
+      "KL Hotel to Half Day KL City Tour: 4 Hrs - With Return Transfers",
+      "Full Day Genting Highland Tour - En-route Batu Caves 30mins *photo-stop only*",
+      "Genting Cable Car Entrance - 2 Way Cable Car",
+      "PVT transfer from Changi airport – Cruise Pier",
+      "PVT Half Day city tour with English Speaking Guide [3 hrs] – after city tour drop guest at Cruise pier",
+      "PVT Night Safari Tour [3.5 hrs] – include admission + tram ride",
+      "Pvt Sentosa Tour – include admission + Skypass Round Trip (Mount Faber Line + Sentosa Line) + Standard Ticket + Digiphoto + wings of times (Standard seat) + Singapore Oceanarium",
+      "PVT Universal Studios – standard admission ticket",
+      "PVT Combine Marina Bay Sands Deck + SIC Garden by the Bay - Flower Dome + Cloud Forest (with Jurassic World: The Exhibition) + OCBC Skyway with 02 way transfers",
+      "Travel Insurance",
+      "Singapore tourist Visa",
+      "GST",
+      "04 Complimentary meals a day",
+      "Port Charges",
+      "Usage of specified cruise facilities",
+      "Usage of Rope Course, Zip Lining, Rock Climbing, Swimming Pool, Jacuzzi, Gymnasium, Water Slides, Mini Golf, Basketball",
+    ],
+
+    excluded: [
+      "TCS 2% (Refundable against PAN card)",
+      "Airfare",
+      "Cruise gratuities to be paid on board",
+      "Meals",
+      "Personal expenses, Optional Activities",
+      "Anything not mentioned in inclusions",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [
+    {
+      hotel: "VERDANT HILL 4*",
+      city: "Kula Lumpur",
+      nights: "2",
+      meal: "Breakfast",
+      room: "Superior Queen",
+    },
+    {
+      hotel: "Genting Dream",
+      city: "Dream Cruise",
+      nights: "2",
+      meal: "Breakfast",
+      room: "Balcony",
+    },
+    {
+      hotel: "NOVOTEL SINGAPORE ON KITCHENER 4*",
+      city: "Singapore",
+      nights: "4",
+      meal: "Breakfast",
+      room: "Superior Room",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "Per Person",
+        price: "INR 1,44,800/- + TCS (refundable)",
+      },
+    ],
+  },
+
+  terms: [
+    "Please note that no booking has been held at this time.",
+    "Prices are subject to availability and may change at the time of booking.",
+  ],
+
+  images: [],
+},
+
+{
+  title: "Dubai",
+  slug: "",
+  price: "INR 59,950/- + TCS",
+  childPrice: "INR 40,350/- + TCS",
+  days: "6 NIGHTS/ 7 DAYS",
+  rating: "",
+  image: "",
+  location: "Dubai",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "6 Nights / 7 Days",
+      places: "Dubai, Abu Dhabi",
+    },
+
+    pills: [
+      "6 Nights Accommodation",
+      "Marina Dhow Cruise",
+      "Desert Safari",
+      "Burj Khalifa",
+    ],
+
+    highlights: [
+      "Marina Dhow Cruise with Dinner",
+      "Dubai City Tour",
+      "Burj Khalifa 124th Floor",
+      "Museum of the Future",
+      "Desert Safari",
+      "The View at The Palm",
+      "Miracle Garden",
+      "Global Village",
+      "Abu Dhabi Day Trip",
+      "1 Theme Park Access",
+    ],
+
+    experiences: [
+      {
+        title: "Marina Dhow Cruise with Dinner",
+        desc: "Standard Marina Dhow Cruise with Dinner.",
+      },
+      {
+        title: "Desert Safari",
+        desc: "Standard Dubai Desert Safari with Dinner.",
+      },
+      {
+        title: "Abu Dhabi Day Trip",
+        desc: "Abu Dhabi City Tour - Grand Mosque Tour with Ferrari on Sic.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival | Marina Dhow Cruise with Dinner (Upper Deck)",
+      desc: "",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Dubai City Tour | Burj Khalifa 124th Floor (Non-Prime Hours)",
+      desc: "",
+      tags: [],
+    },
+    {
+      day: "03",
+      title: "Museum of the Future | Desert Safari",
+      desc: "",
+      tags: [],
+    },
+    {
+      day: "04",
+      title: "View at The Palm | Miracle Garden | Global Village",
+      desc: "",
+      tags: [],
+    },
+    {
+      day: "05",
+      title: "Abu Dhabi Day Trip with 1 Theme Park Access",
+      desc: "",
+      tags: [],
+    },
+    {
+      day: "06",
+      title: "Day Free at Leisure",
+      desc: "",
+      tags: [],
+    },
+    {
+      day: "07",
+      title: "Departure",
+      desc: "",
+      tags: [],
+    },
+  ],
+
+  pointsToRemember: [],
+
+  inclusions: {
+    included: [
+      "6 Nights’ accommodation as mentioned above hotel",
+      "Return airport transfers are on private basis",
+      "Abu Dhabi City Tour - Grand Mosque Tour with Ferrari on Sic",
+      "Burj Khalifa - Nrf - At the Top - Normal Hour on Sic",
+      "Half Day Dubai City Tour on Seat in Coach Basis with",
+      "Standard Dubai Desert Safari with Dinner",
+      "Miracle Garden and Global Village Combo on Sic",
+      "Standard Marina Dhow Cruise with Dinner",
+      "Museum Of the Future",
+      "The view at the palm",
+      "GST",
+    ],
+
+    excluded: [
+      "TCS",
+      "Airfare",
+      "Tourist visa",
+      "Tourism Dirham",
+      "Travel Insurance",
+      "OK to Board charges",
+      "Personal expenses",
+      "Any other items not included under the column \"Inclusions\"",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [
+    {
+      hotel: "Smana Hotel Al Raffa",
+      city: "Dubai",
+      nights: "6",
+      meal: "BB",
+      room: "Standard room",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "Adult",
+        price: "INR 59,950/- + TCS",
+      },
+      {
+        category: "Child",
+        price: "INR 40,350/- + TCS",
+      },
+      {
+        category: "Hotel Rate",
+        price: "USD 370.00 per room on double sharing with child on existing bed for 6 nights",
+      },
+    ],
+  },
+
+  terms: [],
+
+  images: [],
+},
+
+{
+  title: "Hongkong and Macau",
+  slug: "",
+  price: "INR 1,32,800/-",
+  days: "05Nights/ 06Days",
+  rating: "",
+  image: "",
+  location: "Hong Kong, Macau",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "05 Nights / 06 Days",
+      places: "Macau, Hong Kong",
+    },
+
+    pills: [
+      "02 Nights Macau",
+      "03 Nights Hong Kong",
+      "Breakfast",
+      "English Speaking Guide",
+    ],
+
+    highlights: [
+      "Ruins of St. Paul's",
+      "A-Ma Temple",
+      "The Venetian Macao",
+      "Macau Tower",
+      "Victoria Peak",
+      "Madame Tussauds Hong Kong",
+      "Star Ferry",
+      "Tsim Sha Tsui Clock Tower",
+      "Avenue of Stars",
+      "Hong Kong Disneyland",
+      "Ocean Park Hong Kong",
+    ],
+
+    experiences: [
+      {
+        title: "Macau City Tour",
+        desc: "Half-day Macau city tour including Ruins of St. Paul's, A-Ma Temple, The Venetian Macao and Macau Tower.",
+      },
+      {
+        title: "Hong Kong Night Tour",
+        desc: "Victoria Peak with one-way Peak Tram, Madame Tussauds Hong Kong, one-way Star Ferry, Tsim Sha Tsui Clock Tower and Avenue of Stars.",
+      },
+      {
+        title: "Hong Kong Disneyland",
+        desc: "Full day at Hong Kong Disneyland with a 1-day park ticket and two-way transfers.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Hong Kong to Macau",
+      desc: "Arrive at Hong Kong International Airport and take a one-way direct transit bus (Sharing) from the airport to Macau Port via the Hong Kong–Zhuhai–Macau Bridge. Upon arrival at the Macau pier, proceed on your own and take the hotel’s complimentary shuttle bus to your hotel. Hotel check-in time is after 15:00 hrs. Overnight stay in Macau.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Macau",
+      desc: "After breakfast, proceed for a half-day Macau city tour. Visit the famous Ruins of St. Paul's, stop at a local souvenir shop, explore the historic A-Ma Temple, and visit the grand The Venetian Macao casino complex. Later, enjoy panoramic views of the city with an included ticket to Macau Tower. Overnight stay in Macau.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Macau to Hong Kong",
+      desc: "Take the hotel’s complimentary shuttle bus to the Macau ferry pier on your own and board your one-way ferry to Hong Kong. Upon arrival in Hong Kong, meet your representative and proceed to the hotel for check-in. In the evening, enjoy the Hong Kong Night Tour, visiting Victoria Peak with a one-way ride on the Peak Tram, explore Madame Tussauds Hong Kong, take a one-way ride on the Star Ferry, and see the Tsim Sha Tsui Clock Tower and Avenue of Stars. Overnight stay in Hong Kong.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Hong Kong",
+      desc: "Enjoy a full day at Hong Kong Disneyland with a 1-day park ticket and two-way transfers. Experience exciting rides, themed attractions, and live entertainment throughout the park. Overnight stay in Hong Kong.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Hong Kong",
+      desc: "Today visit Ocean Park Hong Kong with a 1-day admission ticket and two-way transfers. Spend the day enjoying thrilling rides, marine life exhibits, and spectacular shows at one of Hong Kong’s most popular attractions. Overnight stay in Hong Kong.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Hong Kong Departure",
+      desc: "After breakfast, transfer to Hong Kong International Airport for your departure flight (ETD after 10:00 hrs). Tour ends with wonderful memories.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [
+    "Please note that no booking has been held at this time.",
+  ],
+
+  inclusions: {
+    included: [
+      "02 Nights hotel accommodation along with Breakfast at Macau",
+      "03 Nights hotel accommodation along with Breakfast at Hong Kong",
+      "1 way ticket Direct Transit Bus",
+      "Half day Macau city tour",
+      "1 way ferry ticket to Hong Kong",
+      "Evening Hong Kong night tour",
+      "1 day Disneyland Ticket",
+      "1 day Ocean park ticket",
+      "All transfers, tickets, Sightseeing as per the itinerary",
+      "All applicable transfer by private coach (except direct transit bus from HK Airport to Macau)",
+      "English Speaking guide",
+      "Travel Insurance",
+      "GST",
+    ],
+
+    excluded: [
+      "TCS 2% (Refundable against PAN card)",
+      "Airfare",
+      "Personal Expenses",
+      "Anything not mentioned in the itinerary",
+      "Tips",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [
+    {
+      hotel: "Venetian Hotel 5*",
+      city: "Macau",
+      nights: "2",
+      meal: "Breakfast",
+      room: "Royale suite",
+    },
+    {
+      hotel: "Harbour Plaza Metropolis Hotel 4*",
+      city: "Hong Kong",
+      nights: "3",
+      meal: "Breakfast",
+      room: "Twin Sharing Standard Room",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "Adult",
+        price: "INR 1,32,800/-",
+      },
+    ],
+  },
+
+  terms: [],
+
+  images: [],
+},
+
+{
+  title: "Amazing 06 Days in Vietnam",
+  slug: "",
+  price: "RS 59,200/- PP",
+  days: "06 Days",
+  rating: "",
+  image: "",
+  location: "Danang, Hanoi, Halong",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "06 Days",
+      places: "Danang, Hoi An, Ba Na Hills, Hanoi, Halong",
+    },
+
+    pills: [
+      "Daily Breakfast",
+      "Indian Meals",
+      "English-speaking Tour Guides",
+      "Travel Insurance",
+    ],
+
+    highlights: [
+      "Dragon Bridge",
+      "Han River Bridge",
+      "Love Lock Bridge",
+      "Tran Thi Ly Bridge",
+      "APEC Sculpture Garden",
+      "Hoi An Ancient Town",
+      "Ba Na Hills",
+      "Golden Bridge",
+      "Ho Chi Minh Complex",
+      "Tran Quoc Pagoda",
+      "Hoan Kiem Lake",
+      "Old Quarter of Hanoi",
+      "Halong Bay",
+      "Thien Cung Cave",
+      "Dau Go Cave",
+    ],
+
+    experiences: [
+      {
+        title: "Basket Boat & Hoi An Ancient Town",
+        desc: "Learn how to paddle the Vietnamese unique bamboo basket boat and visit Hoi An ancient town.",
+      },
+      {
+        title: "Ba Na Hills & Golden Bridge",
+        desc: "Cable car to Ba Na Hills, visit Old Villas, French Stable, Tinh Tam Garden, Golden Bridge, Linh Ung Pagoda, Loc Uyen Garden, Quan Am Pavilion, Nui Chua Peak and Fantasy Park.",
+      },
+      {
+        title: "Halong Day Trip",
+        desc: "Private cruise through Halong Bay with visits to Thien Cung and Dau Go Cave.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival Danang – Dragon Bridge",
+      desc: "On arrival Danang, pick up by our guide and driver from the airport and transfer to the city centre. Lunch at an Indian restaurant (Set menu). Transfer to check in hotel. Standard check-in time is 14h00/15h00. As the sun starts to go down, we visit the 4 famous bridges of the city: Han River Bridge, Love Lock Bridge, Tran Thi Ly Bridge. Stop for photoshoot at APEC Sculpture Garden. Dinner at an Indian restaurant (Set menu). Overnight in Danang.",
+      tags: [
+        { label: "Lunch" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "02",
+      title: "Da Nang – Basket Boat - Hoi An Ancient Town",
+      desc: "Breakfast at the hotel. Free time at leisure. Lunch at an Indian restaurant (Set menu). After lunch, heading to Cam Thanh village and Bay Mau coconut forest. Here we will learn how to paddle the Vietnamese unique bamboo basket boat and explore the now tranquil coconut-palm flanking the waterways. Next, visit Hoian ancient town. Dinner at an Indian restaurant (Set menu). Transfer back to Danang. Overnight in Danang.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Lunch" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "03",
+      title: "Danang – Bana Hills & Golden Bridge – Danang",
+      desc: "After breakfast, transfer to Ba Na hills and take Cable Car. Visit the Old Villas, French Stable, Tinh Tam Garden, Golden Bridge, Linh Ung Pagoda, Loc Uyen Garden, Quan Am Pavilion and Nui Chua Peak. Have lunch at Ba Na Hills restaurant (Indian and Vietnamese buffet). Discover the Bana Brew House and Fantasy Park. Optional Alpine roller coaster, Wax Museum entrance fee, Debay Wine Cellar entrance fee and coin games at Fantasy Park are not included. Go downhill by cable car and return to our hotel. Dinner at an Indian restaurant (Set menu). Overnight in Danang.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Lunch" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "04",
+      title: "Danang – Flight to Hanoi – Half Day City Tour",
+      desc: "After breakfast, check out the hotel. Transfer with our guide and driver to the airport for our departure flight. On arrival, pick up by our guide and driver from the airport and transfer to the city center. Lunch at an Indian restaurant (Set menu). Transfer to the hotel for check in. This afternoon, visit the Ho Chi Minh Complex, Ba Dinh Square, Ho Chi Minh’s Mausoleum (from outside as closed in the afternoon), private residence, One Pillar Pagoda, Tran Quoc Pagoda, Hoan Kiem Lake and Old Quarter of Hanoi. Dinner at an Indian restaurant (Set menu). Overnight in Hanoi.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Lunch" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "05",
+      title: "Hanoi – Halong Day Trip – Hanoi",
+      desc: "After breakfast, transfer to Halong through Old way (3,5 – 4 hours). Upon arrival in Halong, transfer to the pier and board a charming traditional wooden junk for cruising through the Bay. The cruise passes by Stone Dog, Incense Burner (Dinh Huong), and Fighting Cock (Ga Choi). Indian Lunch on board (Set menu). Visit Thien Cung and Dau Go Cave or relax on the boat. After 4 hours of cruising and exploring the Bay, disembark at Halong pier and return to Hanoi through Highway. Dinner at an Indian restaurant (Set menu). Overnight in Hanoi.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Lunch" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "06",
+      title: "Hanoi – Shopping - Departure",
+      desc: "After breakfast, at leisure until checking out of hotel. Standard check-out time is 11h00/12h00. Shopping drop at the Old Quarter. Lunch at an Indian restaurant (Set menu). Transfer with our guide and driver to the airport for our departure flight.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Lunch" },
+      ],
+    },
+  ],
+
+  pointsToRemember: [
+    "No room or service is held until receiving your official confirmation.",
+    "If any service is not available at time of booking, an alternative will be offered.",
+    "No refunds or exchanges can be made in respect of accommodation, meals, sightseeing tours, transport or any other services which are included in the tour prices but not utilized by the tour member.",
+    "Tour rates are based on current fuel rates and subject to change if the fuel rates increase by 10%.",
+    "Prices are subject to availability and may change at the time of booking.",
+  ],
+
+  inclusions: {
+    included: [
+      "English-speaking tour guides (airport to airport)",
+      "Accommodation in TRIPLE room with daily breakfast at hotels",
+      "Day trip Ha Long bay in 4 hours including Indian lunch (set menu)",
+      "Meals as per person: L = lunch, D = dinner",
+      "Airport and other touring transfers in AC vehicles: 01 coach of 35 seats",
+      "Entrance fees as per program",
+      "Cable car 2 ways for BaNa Hills tour with buffet lunch",
+      "Drinking water during transfers: 02 bottles of 500ml water per pax/day to be supplied on coach",
+      "Visa to Vietnam",
+      "Travel Insurance",
+      "Tips for guide and driver: 3USD/pax/day",
+      "GST",
+    ],
+
+    excluded: [
+      "TCS 2% (Refundable aginst PAN card)",
+      "International, domestic flights and airport departure tax.",
+      "Meals & drinks not mentioned in Detailed Program.",
+      "Early check in & Late check-out surcharge.",
+      "Other expense not mentioned in the program.",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [
+      "Alpine roller coaster (USD 3/pax)",
+      "Wax Museum entrance fee (USD 5/pax)",
+      "Debay Wine Cellar entrance fee (USD 5/pax for Silver ticket)",
+      "Coin games at Fantasy Park",
+    ],
+  },
+
+  accommodation: [
+    {
+      hotel: "Fortuna hotel/Deluxe Royal lotus/ Premium",
+      city: "Hanoi",
+      nights: "",
+      meal: "Breakfast",
+      room: "4*",
+    },
+    {
+      hotel: "",
+      city: "Danang",
+      nights: "",
+      meal: "Breakfast",
+      room: "4*",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "4* Hotel",
+        price: "RS 59,200/- PP",
+      },
+    ],
+  },
+
+  terms: [],
+
+  images: [],
+},
+
+{
+  title: "Malaysia",
+  slug: "",
+  price: "RS.49,000 PER PERSON",
+  days: "04 NIGHTS / 05 DAYS",
+  rating: "",
+  image: "",
+  location: "Kuala Lumpur",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "04 Nights / 05 Days",
+      places: "Kuala Lumpur, Genting Highlands, Malacca",
+    },
+
+    pills: [
+      "04 Nights Accommodation",
+      "Breakfast",
+      "05 Lunches & 04 Dinner",
+      "English Speaking Guide",
+    ],
+
+    highlights: [
+      "Petronas Twin Towers",
+      "Genting Highlands",
+      "Batu Caves",
+      "Awana SkyWay",
+      "Malacca",
+      "Melaka River Cruise",
+      "Sunway Lagoon",
+      "Water Park",
+      "Amusement Park",
+      "Wildlife Park",
+      "Extreme Park",
+      "Scream Park",
+      "Nickelodeon Lost Lagoon",
+    ],
+
+    experiences: [
+      {
+        title: "Kuala Lumpur City Tour",
+        desc: "Half-day Kuala Lumpur city tour with Petronas Twin Towers standard tickets.",
+      },
+      {
+        title: "Genting Highlands",
+        desc: "Full-day Genting Highlands excursion with Batu Caves photo stop and two-way cable car ride via Awana SkyWay.",
+      },
+      {
+        title: "Sunway Lagoon",
+        desc: "Full-day excursion with access to all six parks.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival in Kuala Lumpur",
+      desc: "Upon arrival at KLIA1 or KLIA2, you will be welcomed by an English-speaking guide and transferred to your hotel in Kuala Lumpur by a 14-seater van. Standard hotel check-in time is after 3:00 PM. Later, proceed for a half-day Kuala Lumpur city tour (5 hours) with return transfers, including a visit to the iconic Petronas Twin Towers with standard tickets.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Genting Highlands",
+      desc: "After breakfast, depart from your hotel with an English-speaking guide for a full-day excursion to Genting Highlands in a 14-seater van. En route, enjoy a 30-minute photo stop at the famous Batu Caves. Continue your journey and experience a scenic two-way cable car ride via Awana SkyWay using standard gondola tickets. After exploring Genting Highlands, return to your hotel in Kuala Lumpur.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Malacca",
+      desc: "Today, embark on a full-day historical tour to Malacca with your English-speaking guide. Discover the cultural and historical charm of the city and enjoy a relaxing ride on the Melaka River Cruise. Entrance fees to other attractions are not included and must be paid directly at the counter.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Sunway Lagoon",
+      desc: "After breakfast, proceed for a full-day excursion to Sunway Lagoon with your English-speaking guide. Enjoy access to all six parks, including the Water Park, Amusement Park, Wildlife Park, Extreme Park, Scream Park, and Nickelodeon Lost Lagoon.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Departure",
+      desc: "After breakfast, check out from your hotel in Kuala Lumpur. Standard check-out time is 12:00 PM. You will then be transferred to KLIA1 or KLIA2 by a 14-seater van for your departure, accompanied by an English-speaking guide.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [
+    "Standard hotel check-in time is after 3:00 PM.",
+    "Early check-in is not guaranteed; it is subject to availability and any additional charges must be paid directly at the hotel.",
+    "Entrance fees to other attractions are not included and must be paid directly at the counter.",
+    "Late check-out is not included.",
+    "Prices are subject to availability and may change at the time of booking.",
+  ],
+
+  inclusions: {
+    included: [
+      "04 Nights’ accommodation along with Breakfast",
+      "05 Lunches & 04 Dinner included",
+      "Guide to 1 x English Speaking Guide Services",
+      "KL Hotel to Half Day KL City Tour + Petronas Twin Tower: 5 Hrs - With Return Transfers",
+      "Petronas Twin Tower - STANDARD TICKET",
+      "Full Day Genting Highland Tour",
+      "Genting Cable Car Entrance - 2 Way Cable Car (Standard Gondola Only)",
+      "Full Day Historical Malacca Tour",
+      "Melaka Tour - Melaka River Cruise",
+      "Full Day Sunway Lagoon Tour - With Return Transfers",
+      "Sunway Lagoon - 6 Parks Admission Tickets (Nickelodeon + Water + Amusement + Wildlife + Extreme + Scream)",
+      "Travel insurance",
+      "GST",
+    ],
+
+    excluded: [
+      "TCS 2% (Refundable against PAN card)",
+      "Airfare",
+      "Meals",
+      "Personal expenses, Optional Activities",
+      "Anything not mentioned in inclusions",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [
+    {
+      hotel: "VERDANT HILL 4*",
+      city: "Kuala Lumpur",
+      nights: "4",
+      meal: "Bed and Breakfast (BB)",
+      room: "Premier Triple",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "Per Person",
+        price: "RS.49,000 PER PERSON",
+      },
+    ],
+  },
+
+  terms: [],
+
+  images: [],
+},
+
+{
+  title: "Bhutan Package",
+  slug: "",
+  price: "63,500/-",
+  childPrice: "14,200/-",
+  days: "7 Nights / 8 Days",
+  rating: "",
+  image: "",
+  location: "Phuentsholing, Thimphu, Punakha/Wangdue, Paro",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "Phuentsholing 2N – Thimphu 2N – Wangdue / Punakha 1N – Paro 2N",
+      places: "Phuentsholing, Thimphu, Punakha/Wangdue, Paro",
+    },
+
+    pills: [
+      "7 Nights / 8 Days",
+      "4* Equivalent Services",
+      "Breakfast and Dinner",
+      "Indian Nationals",
+    ],
+
+    highlights: [
+      "Kuensel Phodrang (Buddha Dordenma)",
+      "National Memorial Chorten",
+      "Folk Heritage Museum",
+      "Sangaygang View Point",
+      "Takin Preserve Centre",
+      "Changangkha Lhakhang",
+      "Tashichho Dzong",
+      "Dochu-La-Pass",
+      "Punakha Dzong",
+      "Chhimi Lhakhang",
+      "Royal Botanical Park",
+      "Ta Dzong - National Museum",
+      "Rinpung Dzong",
+      "Taktshang Monastery",
+      "Drukgyel Dzong",
+      "Kyichu Lhakhang",
+    ],
+
+    experiences: [
+      {
+        title: "Thimphu Sightseeing",
+        desc: "Visit Kuensel Phodrang, National Memorial Chorten, Folk Heritage Museum, Sangaygang View Point, Takin Preserve Centre, Changangkha Lhakhang and Tashichho Dzong.",
+      },
+      {
+        title: "Punakha/Wangdue Sightseeing",
+        desc: "Visit Dochu-La-Pass, Punakha Dzong and Chhimi Lhakhang.",
+      },
+      {
+        title: "Taktshang Monastery",
+        desc: "Excursion to Taktshang Monastery with a 2-3 hours hike uphill.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "NJP Rly Station / IXB Airport - Phuentsholing",
+      desc: "Meet & Greet on arrival at NJP Railway Station / IXB Airport and transfer to Phuentsholing (961 ft.) - The Gateway of Bhutan by Road from India. On arrival check in at the hotel. In the evening, you may choose to relax at the hotel or walk around the Phuentsholing town. Overnight stay at Phuentsholing.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Phuentsholing - Thimphu",
+      desc: "After breakfast, complete the immigration formalities and transfer to Thimphu (7,710 ft.) the capital city of Bhutan. On the way, stop at places to view scenery and for Photography. On arrival check in at the hotel. Rest of the day at leisure. Overnight stay at Thimphu.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Thimphu Sightseeing",
+      desc: "After breakfast visit the Kuensel Phodrang (Buddha Dordenma), National Memorial Chorten, Folk Heritage Museum, Sangaygang View Point, Takin Preserve Centre, Changangkha Lhakhang and Tashichho Dzong. Overnight stay at Thimphu.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Thimphu - Punakha/Wangdue Sightseeing",
+      desc: "After breakfast drive to Punakha/Wangdue. Stop at Dochu-La-Pass to view the higher Himalayas and the 108 chorten/stupas. On arrival at Punakha, check in at the hotel. Afternoon, visit Punakha Dzong and take a short and easy hike to visit Chhimi Lhakhang. Evening free for leisure. Overnight stay at Punakha / Wangdue.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Punakha/Wangdue - Paro Sightseeing",
+      desc: "After breakfast drive to Paro. On the way stop at Lamperi to visit Royal Botanical Park. On arrival check in at the hotel. Afternoon visit Ta Dzong - National Museum and Rinpung Dzong. Rest of the evening at leisure. Overnight stay at Paro.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Excursion to Taktshang Monastery",
+      desc: "After breakfast, drive to the base of the abode of gods and monks, the Taktshang Monastery. The monastery is a 2 -3 hours hike uphill from here. Afternoon (If time permits), visit the Drukgyel Dzong. On the way back, visit Kyichu Lhakhang. Overnight stay at Paro.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Paro - Phuentsholing",
+      desc: "After breakfast check out from hotel and transfer to Phuentsholing. On arrival check in at the hotel. In the evening, you may choose to relax at the hotel or walk around the Phuentsholing town. Overnight stay at Phuentsholing.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "08",
+      title: "Phuentsholing - NJP Rly Station / IXB Airport",
+      desc: "After breakfast check out from the hotel and drive to NJP Railway Station / IXB Airport for your onward journey.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [
+    "Rates, services and operations are subject to change as per change in Bhutan Govt. rules and regulations.",
+    "The above rates are valid for Indian nationals only.",
+    "The above-mentioned hotels will be confirmed as per the room availability. Otherwise we will confirm similar category.",
+    "The rates quoted in the packages are on per person basis & valid for Indian nationals from 01st Mar 2026 to 30th Jun 2026.",
+    "High seasons surcharge will be applicable during the Festivals (Tshechu) & Peak season.",
+  ],
+
+  inclusions: {
+    included: [
+      "Accommodation on twin Sharing Basis.",
+      "Meal Plan (as per mentioned above).",
+      "Exclusive Non-a/c vehicle for transfers & sightseeing as per itinerary.",
+      "All permit fees & hotel taxes (as per itinerary).",
+      "Guide charges (Only Bhutan Portion).",
+      "Sustainable Development fee” (SDF)",
+      "Rates are valid for INDIAN NATIONALS only.",
+      "GST inclusive**.",
+    ],
+
+    excluded: [
+      "Air Fare/ Train fare.",
+      "Personal Expenses such as Laundry, telephone calls, tips & gratuity, mineral water, soft & hard drinks, rafting, rock climbing, paragliding, porterage.",
+      "Additional sightseeing or extra usage of vehicle, other than mentioned in the itinerary.",
+      "Entrance Fees.",
+      "Any cost arising due to natural calamities like, landslides, road blockage, political disturbances (strikes), etc.",
+      "Any increase in taxes or fuel price, leading to increase in cost on surface transportation & land arrangements.",
+      "TCS & Travel Insurance.",
+      "Anything which is not include in the inclusion.",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [
+    {
+      hotel: "Bhutan Ga Me Ga (Standard) / Lotus Villa / Khamsum (Deluxe) / Similar",
+      city: "Phuentsholing",
+      nights: "2",
+      meal: "Breakfast & Dinner",
+      room: "",
+    },
+    {
+      hotel: "Ariya / Tashi-Yid Wong / Similar",
+      city: "Thimphu",
+      nights: "2",
+      meal: "Breakfast & Dinner",
+      room: "",
+    },
+    {
+      hotel: "Zhingkham Resort / River valley (Deluxe) / Khuru Resort / Similar",
+      city: "Punakha",
+      nights: "1",
+      meal: "Breakfast & Dinner",
+      room: "",
+    },
+    {
+      hotel: "Kichu Resort / Tenzinling Resort (Luxury)/ Resort Thim-Dorji / Similar",
+      city: "Paro",
+      nights: "2",
+      meal: "Breakfast & Dinner",
+      room: "",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "02 PAX",
+        price: "63,500/-",
+      },
+      {
+        category: "CHILD NO BED (CNB)",
+        price: "14,200/-",
+      },
+    ],
+  },
+
+  terms: [],
+
+  images: [],
+},
+
+{
+  title: "Bali Tour Package Quotation",
+  slug: "",
+  price: "",
+  days: "3 Nights Seminyak and 2 Nights Ubud",
+  rating: "",
+  image: "",
+  location: "Seminyak, Ubud",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "3 Nights Seminyak + 2 Nights Ubud",
+      places: "Seminyak, Ubud",
+    },
+
+    pills: [
+      "05 Nights Accommodation",
+      "Breakfast",
+      "Private Basis Tours",
+      "13 Seater Vehicle",
+    ],
+
+    highlights: [
+      "Authentic Balinese Massage",
+      "Kintamani Volcano",
+      "Ubud Village",
+      "Nusa Penida West Island",
+      "Taman Safari Bali",
+      "Bedugul Temple",
+      "Tanah Lot Temple",
+    ],
+
+    experiences: [
+      {
+        title: "Authentic Balinese Massage",
+        desc: "Half Day Authentic Balinese Massage on Private Basis including 60 Minutes Baliness Massage.",
+      },
+      {
+        title: "Kintamani Volcano Tour",
+        desc: "Full Day Kintamani Volcano Tour with Ubud Village including Mount Batur Viewing Only, Ubud Monkey Forest, Tirtha Empul, Tegenungan Water Fall and Swing by Aloha Swing.",
+      },
+      {
+        title: "Nusa Penida Tour",
+        desc: "Full Day Nusa Penida West Island Tour with SIC West Island Tour + Lunch.",
+      },
+      {
+        title: "Taman Safari Bali",
+        desc: "Half Day Taman Safari Bali - Night Safari Pass on Private Basis.",
+      },
+      {
+        title: "Bedugul Temple & Tanah Lot",
+        desc: "Full Day Bedugul Temple with Tanah Lot Sunset Tour including Tanah Lot Temple and Ulun Danu Temple/Bedugul Lake Temple.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival",
+      desc: "Airport To Seminyak The Bali Dream Villa Seminyak on Private Basis. Half Day Authentic Balinese Massage on Private Basis including 60 Minutes Baliness Massage. Arrival Flight should reach on or before 1300 hrs in order to operate the Tour. Accommodation The Bali Dream Villa Seminyak.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Kintamani Volcano Tour with Ubud Village",
+      desc: "Full Day Kintamani Volcano Tour with Ubud Village on Private Basis. Includes Mount Batur Viewing Only, Ubud Monkey Forest, Tirtha Empul, Tegenungan Water Fall, Swing by Aloha Swing. Accommodation The Bali Dream Villa Seminyak.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Nusa Penida Tour",
+      desc: "Full Day Nusa Penida Tour. Includes SIC West Island Tour + Lunch. Visit Kelingking beach, Angel’s billabong, Broken beach and Crystal Bay. Fast Boat transfer is on Sharing Basis. Accommodation The Bali Dream Villa Seminyak.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Seminyak To Ubud",
+      desc: "Transfers: Seminyak To Ubud. Half Day Taman Safari Bali - Night Safari Pass on Private Basis including Night Safari Pass. Accommodation Impiana Private Villas Ubud.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Bedugul Temple with Tanah Lot Sunset",
+      desc: "Full Day Bedugul Temple with Tanah Lot Sunset Tour on Private Basis including Tanah Lot Temple and Ulun Danu Temple/Bedugul Lake Temple. Accommodation Impiana Private Villas Ubud.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Departure",
+      desc: "Impiana Private Villas Ubud Ubud To Airport on Private Basis. Day at Leisure.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [
+    "Arrival Day Tour Restriction: Your Arrival Flight should reach on or before 1300 hrs in order to operate the Tour.",
+    "Transfers to Nusa Penida are based on shared PUBLIC fast boats.",
+    "Rooms and rates are subject to availability.",
+  ],
+
+  inclusions: {
+    included: [
+      "Meet & Greet Assistance at the Airport",
+      "05 Nights accommodation as per above details on BB basis",
+      "One Way Transfer from Airport to Seminyak - The Bali Dream Villa Seminyak on Private Basis",
+      "One Way Transfer from Seminyak - The Bali Dream Villa Seminyak to Ubud - Impiana Private Villas Ubud on Private Basis",
+      "One Way Transfer from Ubud - Impiana Private Villas Ubud to Airport on Private Basis",
+      "Half Day Authentic Balinese Massage on Private Basis - Pick Up from Seminyak Includes : 60 Minutes Baliness Massage",
+      "Full Day Kintamani Volcano Tour with Ubud Village on Private Basis",
+      "Full Day Nusa Penida Tour - Includes : SIC West Island Tour + Lunch",
+      "Half Day Taman Safari Bali - Night Safari Pass on Private Basis",
+      "Full Day Bedugul Temple with Tanah Lot Sunset Tour on Private Basis",
+      "All transfer and tour services in Bali are based on 13 Seater Vehicle - Toyota Hiace and are offered with a guide.",
+      "All transfers and tours in Nusa Penida are provided in 6-seater vehicles and do not include guide services.",
+      "VAT in Indonesia and all other taxes",
+      "All Services based on Selected Itinerary only",
+      "TOURIST VISA",
+      "GST",
+    ],
+
+    excluded: [
+      "Airfare, airport taxes, Visa charges, Bali Tourist Levy",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [
+    {
+      hotel: "The Bali Dream Villa Seminyak",
+      city: "Seminyak",
+      nights: "3",
+      meal: "Breakfast",
+      room: "One Bedroom Pool Villa",
+    },
+    {
+      hotel: "Impiana Private Villas Ubud",
+      city: "Ubud",
+      nights: "2",
+      meal: "Breakfast",
+      room: "Garden Pool Villa",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [],
+  },
+
+  terms: [],
+
+  images: [],
+},
+
+{
+  title: "Thailand",
+  slug: "",
+  price: "RS.29,500 PER PERSON APPX INCLUDING PACKAGE+VISA+GST+TCS TAX",
+  days: "4 Nights / 5 Days",
+  rating: "",
+  image: "",
+  location: "Bangkok, Pattaya",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "2 Nights Bangkok - 2 Nights Pattaya",
+      places: "Bangkok, Pattaya",
+    },
+
+    pills: [
+      "Daily Breakfast",
+      "Thailand Visa Included",
+      "Airport Transfers",
+    ],
+
+    highlights: [
+      "Alcazar Show",
+      "Coral Island",
+      "Pattaya",
+      "Bangkok City Tour",
+      "Golden Buddha",
+      "Marble Buddha",
+      "Safari World Marine Park",
+    ],
+
+    experiences: [
+      {
+        title: "Alcazar Show",
+        desc: "Alcazar Show (Normal Seat).",
+      },
+      {
+        title: "Coral Island Tour",
+        desc: "Coral Island tour by Speed Boat with Indian Lunch.",
+      },
+      {
+        title: "Safari World Marine Park",
+        desc: "Safari World Marine Park with Lunch (Monday Closed).",
+      },
+    ],
+  },
+
+  itinerary: [],
+
+  pointsToRemember: [
+    "The above is just a quote and we are not holding any booking.",
+    "Accommodations/Hotel are subject to availability at the time of booking.",
+    "Day by day activity might change.",
+    "If Any change in no. of pax, duration or date of journey then plz check quote price again before Booking.",
+    "While you want to confirm the booking plz send the flight details along with All Pax/Persons Passport & Pan card copy.",
+    "Request you to plz keep all the conversations in a single mail & reply all to avoid any delay in mail.",
+  ],
+
+  inclusions: {
+    included: [
+      "Alcazar Show (Normal Seat)",
+      "Coral Island tour 1 by Speed Boat with Indian Lunch",
+      "En-route Pattaya-Bangkok (Half Day Bangkok City tour (Golden + Marble Buddha))",
+      "Safari World Marine Park with Lunch (Monday Closed)",
+      "Daily Breakfast",
+      "Airport Transfers",
+      "Thailand visa included",
+      "Premium PVT (3 Way BKK Apt to Pattaya Hotel to Bangkok Hotel to BKK Apt",
+    ],
+
+    excluded: [],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [
+    {
+      hotel: "Mike Garden Resort",
+      city: "Pattaya",
+      nights: "2",
+      meal: "Breakfast",
+      room: "1 Double Bed",
+    },
+    {
+      hotel: "IBIS Bangkok Sukhumvit(4)",
+      city: "Bangkok",
+      nights: "2",
+      meal: "Breakfast",
+      room: "1 Double Bed",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "Per Person",
+        price: "RS.29,500 PER PERSON APPX INCLUDING PACKAGE+VISA+GST+TCS TAX",
+      },
+    ],
+  },
+
+  terms: [],
+
+  images: [],
+},
+
+{
+  title: "Singapore",
+  slug: "",
+  price: "INR 97,600/-",
+  days: "06 Nights / 07 Days",
+  rating: "",
+  image: "",
+  location: "Singapore",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "06 Nights / 07 Days",
+      places: "Singapore",
+    },
+
+    pills: [
+      "06 Nights Accommodation",
+      "Breakfast",
+      "Private Transfers",
+      "English Speaking Guide",
+    ],
+
+    highlights: [
+      "Merlion Park",
+      "Chinatown",
+      "Little India",
+      "Orchard Road",
+      "Marina Bay Sands SkyPark",
+      "Gardens by the Bay",
+      "Flower Dome",
+      "Cloud Forest",
+      "Jurassic World: The Exhibition",
+      "Sentosa Island",
+      "Madame Tussauds Singapore",
+      "Wings of Time",
+      "Universal Studios Singapore",
+      "Singapore Zoo",
+      "Night Safari Singapore",
+    ],
+
+    experiences: [
+      {
+        title: "Sentosa Island Experience",
+        desc: "One-way cable car via Mt. Faber Line, Madame Tussauds Singapore 4-in-1 combo and Wings of Time.",
+      },
+      {
+        title: "Universal Studios Singapore",
+        desc: "Standard admission ticket.",
+      },
+      {
+        title: "Singapore Zoo & Night Safari",
+        desc: "Private combined visit with admission and tram ride.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival in Singapore",
+      desc: "Upon arrival in Singapore, you will be greeted and transferred to your hotel on a private basis. After check-in, the rest of the day is free at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "City Tour & Marina Bay Attractions",
+      desc: "Start your day with a private half-day city tour (3 hours) accompanied by an English-speaking guide. Visit Merlion Park, Chinatown, Little India, and Orchard Road. Later, proceed for your private visit to the Marina Bay Sands SkyPark and Gardens by the Bay, including Flower Dome and Cloud Forest with Jurassic World: The Exhibition.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Sentosa Island Experience",
+      desc: "Enjoy a full-day private tour to Sentosa Island. Begin with a scenic one-way cable car ride via the Mt. Faber Line. Continue with entry to Madame Tussauds Singapore 4-in-1 combo. In the evening, enjoy Wings of Time with standard seating.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Universal Studios Singapore",
+      desc: "Spend an exciting day at Universal Studios Singapore with your standard admission ticket.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Singapore Zoo & Night Safari",
+      desc: "Experience Singapore Zoo and Night Safari Singapore with a private combined visit, admission and tram ride.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Day at Leisure",
+      desc: "This day is free for you to explore Singapore at your own pace.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Departure",
+      desc: "After breakfast, check out from your hotel and proceed with your private transfer to the airport for your departure from Singapore.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [
+    "Prices are subject to availability and may change at the time of booking.",
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights hotel accommodation along with Breakfast",
+      "PVT Return airport transfer [apt-Htl-apt]",
+      "PVT Half day city tour with English Speaking Guide [3 hrs]",
+      "PVT Sentosa Tour – include admission + 1 way cable car (Mt Faber line) + Madam Tussad 4-1 Combo + wings of times (Standard seat)",
+      "PVT Universal Studios – standard admission ticket",
+      "PVT Combined Pvt Combine Singapore Zoo + Night Safari with adm + tram ride",
+      "PVT Combine Marina Bay Sands Deck + Garden by the Bay with Flower Dome + Cloud Forest (with Jurassic World: The Exhibition) with 02 way transfers",
+      "Travel Insurance",
+      "Singapore Visa",
+      "GST",
+    ],
+
+    excluded: [
+      "TCS 2% (Refundable against PAN card)",
+      "All flights tickets",
+      "Personal Expenses",
+      "Tips to drivers & guides (At the discretion of guests, not compulsory)",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [
+    {
+      hotel: "Novotel Singapore On Kitchener",
+      city: "Singapore",
+      nights: "6",
+      meal: "Breakfast",
+      room: "Superior Room",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "Adult",
+        price: "INR 97,600/-",
+      },
+    ],
+  },
+
+  terms: [],
+
+  images: [],
+},
+
+{
+  title: "Thailand Gateway - Krabi Phuket",
+  slug: "",
+  price: "INR 66000 PP FOR WEBSITE",
+  days: "",
+  rating: "",
+  image: "",
+  location: "Krabi, Phuket",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "",
+      places: "Krabi, Phuket",
+    },
+
+    pills: [
+      "4 Island Tour",
+      "Rain Forest Tour",
+      "Tiger Kingdom",
+      "Phi Phi Island Tour",
+      "Airport Transfers",
+    ],
+
+    highlights: [
+      "4 Island Tour",
+      "Hot Spring Waterfall",
+      "Emerald Pool",
+      "Tiger Cave",
+      "Tiger Kingdom",
+      "Maya Bay",
+      "Khai Island",
+    ],
+
+    experiences: [
+      {
+        title: "4 Island Tour",
+        desc: "4 Island tour by Speed Boat with Lunch (National Park Fee Included) (Pier Transfers on Pvt).",
+      },
+      {
+        title: "Rain Forest Tour",
+        desc: "One Day Rain Forest Tour covering Hot Spring Waterfall, Emerald Pool and Tiger Cave with Lunch.",
+      },
+      {
+        title: "Phi Phi Island Tour",
+        desc: "Phi Phi Island tour, Maya Bay & Khai Island tour with Lunch by Speed Boat (National Park Fee Included) (Pier Transfers on Pvt).",
+      },
+    ],
+  },
+
+  itinerary: [],
+
+  pointsToRemember: [],
+
+  inclusions: {
+    included: [
+      "4 Island tour 8 by Speed Boat with Lunch (National Park Fee Included) (Pier Transfers on Pvt) Pvt PVT",
+      "One Day Rain Forest Tour 2 (Hot Spring Waterfall + Emerald Pool + Tiger Cave) with Lunch (NPF Inc.) PVT",
+      "Tiger Kingdom 2 (Medium/Small Size Tiger) (Age 16+ only) Pvt PVT",
+      "Phi Phi Island tour 122 Maya Bay & Khai Island tour with Lunch by Speed Boat (National Park Fee Included) (Pier Transfers on Pvt) PVT",
+      "3 Way HKT Apt to Krabi Hotel to Phuket Hotel to HKT Apt",
+    ],
+
+    excluded: [],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [
+    {
+      hotel: "Holiday Ao Nang Beach Resort, Krabi",
+      city: "Krabi",
+      nights: "3",
+      meal: "",
+      room: "2 Double Bed + 1 Extra Bed / FAMILY GARDEN VIEW",
+    },
+    {
+      hotel: "Diamond Cliff Resort & Spa",
+      city: "Phuket",
+      nights: "3",
+      meal: "",
+      room: "2 Double Bed + 1 Extra Bed / SUPER DELUXE SEA VIEW",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "Double Bed CPA",
+        price: "550.70 USD",
+      },
+      {
+        category: "Adult Extra Bed CPA",
+        price: "462.60 USD",
+      },
+      {
+        category: "Grand Total",
+        price: "2,665.41 USD",
+      },
+      {
+        category: "Website Price",
+        price: "INR 66000 PP FOR WEBSITE",
+      },
+    ],
+  },
+
+  terms: [],
+
+  images: [],
+},
+
+{
+  title: "Explore Srilanka",
+  slug: "",
+  price: "INR 68,500/-",
+  days: "05 Nights / 06 Days",
+  rating: "",
+  image: "",
+  location: "Kandy, Nuwara Eliya, Ella, Bentota, Colombo",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "05 Nights / 06 Days",
+      places: "Kandy, Nuwara Eliya, Ella, Bentota, Colombo",
+    },
+
+    pills: [
+      "05 Nights Accommodation",
+      "Breakfast & Dinner",
+      "English-speaking Chauffeur Guide",
+      "Travel Insurance",
+    ],
+
+    highlights: [
+      "Pinnawala Elephant Orphanage",
+      "Temple of the Sacred Tooth Relic",
+      "International Gem Museum & Lapidary",
+      "Kandy Cultural Dance Show",
+      "Ramboda Waterfall",
+      "Tea Plantation & Tea Factory",
+      "Seetha Amman Temple",
+      "Gregory Lake Park",
+      "Victoria Park",
+      "Scenic Hill Country Train Ride",
+      "Nine Arch Bridge",
+      "Bentota Beach",
+      "Madu River Boat Safari",
+      "Kosgoda Turtle Hatchery",
+      "Galle Face Green",
+      "Independence Square",
+      "Lotus Tower",
+      "Port City waterfront",
+    ],
+
+    experiences: [
+      {
+        title: "Kandy Experience",
+        desc: "Pinnawala Elephant Orphanage, Temple of the Sacred Tooth Relic, International Gem Museum & Lapidary and Kandy Cultural Dance Show.",
+      },
+      {
+        title: "Scenic Train Experience",
+        desc: "Afternoon train from Ambewela to Ella through tea plantations, mist-covered mountains, pine forests, tunnels, bridges and rolling countryside landscapes.",
+      },
+      {
+        title: "Bentota & Colombo",
+        desc: "Madu River Boat Safari, Kosgoda Turtle Hatchery and Colombo experiences.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival – Colombo – Kandy",
+      desc: "Arrival at Bandaranaike International Airport. Meet & greet by your personal chauffeur-guide. Proceed to Kandy. Visit Pinnawala Elephant Orphanage. Check-in at hotel & relax. Evening sightseeing in Kandy including Temple of the Sacred Tooth Relic, International Gem Museum & Lapidary and Kandy Cultural Dance Show. Optional evening stroll around Kandy Lake. Overnight stay in Kandy.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Kandy – Nuwara Eliya",
+      desc: "Breakfast at hotel & check-out. Proceed to Nuwara Eliya via the scenic hill country route. Visit Ramboda Waterfall, Tea Plantation & Tea Factory and Seetha Amman Temple. Check-in at hotel. Evening leisure by the town center or Gregory Lake area. Overnight stay in Nuwara Eliya.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "Nuwara Eliya Sightseeing – Afternoon Train Ride – Ella",
+      desc: "Breakfast at hotel & check-out. Visit Gregory Lake Park, Victoria Park and colonial surroundings and local market area. Proceed to Ambewela Railway Station and board the afternoon train from Ambewela to Ella. Your chauffeur-guide will collect you from Ella Railway Station. Visit Nine Arch Bridge and enjoy leisure time in Ella. Overnight stay in Ella.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Ella – Bentota",
+      desc: "Breakfast at hotel & check-out. Proceed to Bentota via the scenic southern route. Enjoy breathtaking mountain-to-coastal landscape transitions and optional photo stops at waterfalls and viewpoints. Check-in at beach resort & relax. Evening leisure at Bentota Beach. Overnight stay in Bentota.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Bentota – Colombo",
+      desc: "Breakfast at hotel & check-out. Enjoy a Madu River Boat Safari through mangroves, small islands, and traditional village surroundings. Visit the Kosgoda Turtle Hatchery. Proceed to Colombo. Check-in at hotel. Optional Colombo experiences include shopping, Galle Face Green, Independence Square, Lotus Tower exterior and Port City waterfront. Overnight stay in Colombo.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Colombo – Departure",
+      desc: "Breakfast at hotel. Depending on flight timing, enjoy leisure or last-minute shopping. Transfer to Bandaranaike International Airport for departure.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [],
+
+  inclusions: {
+    included: [
+      "Accommodation at hotels mentioned on above Breakfast & Dinner basis.",
+      "Transportation in a Micro Flat Roof Van.",
+      "Entrance Fees to Temple of the Tooth, Pinnawala Elephant Orphanage, Seeta Amman Temple, Victoria Park, Gregory Lake, Turtle Hatchery, Madu River Boat Safari and Ambewela to Ella Train Ride as scheduled.",
+      "Service of an English-speaking chauffeur guide.",
+      "All Taxes + Government charges.",
+      "Around-the-clock support is available at the airport.",
+      "Two 500ml water bottles are provided per person per day.",
+      "Benefit from free public liability insurance coverage valued at $3 million per person for the entire round tour in case of an incident.",
+      "VISA Fees",
+      "Travel Insurance",
+      "GST",
+    ],
+
+    excluded: [
+      "TCS 2% (Refundable against PAN card)",
+      "Meals and Snacks (extra meals / not mentioned in inclusions)",
+      "Entrance / Activity fees",
+      "Any additional meals not specified above",
+      "Video camera permits",
+      "Any other transport not mentioned in the itinerary",
+      "Any other services not mentioned above",
+      "Early check-in/check-out",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [
+      "High tea experience",
+      "Horse riding",
+      "Café hopping",
+      "Strawberry farms",
+      "Ayurvedic spa treatments",
+      "Riverfront dining",
+      "Beach clubs & cafés",
+      "Shopping at Colombo malls & local boutiques",
+      "Optional rooftop dining or café experience",
+    ],
+  },
+
+  accommodation: [
+    {
+      hotel: "Grand Kandyan 5*",
+      city: "Kandy",
+      nights: "1",
+      meal: "Breakfast & Dinner",
+      room: "Deluxe",
+    },
+    {
+      hotel: "Araliya Green City 5*",
+      city: "Nuwara Eliya",
+      nights: "1",
+      meal: "Breakfast & Dinner",
+      room: "Superior",
+    },
+    {
+      hotel: "Newburgh Ella 5*",
+      city: "Ella",
+      nights: "1",
+      meal: "Breakfast & Dinner",
+      room: "Bronze Tip",
+    },
+    {
+      hotel: "Blue Water Resort & Spa 5*",
+      city: "Bentota",
+      nights: "1",
+      meal: "Breakfast & Dinner",
+      room: "Deluxe",
+    },
+    {
+      hotel: "Cinnamon Lakeside 5*",
+      city: "Colombo",
+      nights: "1",
+      meal: "Breakfast & Dinner",
+      room: "Superior",
+    },
+  ],
+
+  pricing: {
+    note: "Minimum based 04 adults",
+    options: [
+      {
+        category: "Price Per Person Sharing DBL",
+        price: "INR 68,500/-",
+      },
+    ],
+  },
+
+  terms: [],
+
+  images: [],
+},
+
+{
+  title: "Wonderful New Zealand",
+  slug: "",
+  price: "INR 1,90,000/- + 5% TCS",
+  days: "13 Nights / 14 Days",
+  rating: "",
+  image: "",
+  location: "Auckland, Rotorua, Queenstown, Mount Cook, Christchurch, Kaikoura",
+  nextDate: "11 Dec 25",
+
+  highlightsData: {
+    locationCard: {
+      meta: "13 Nights / 14 Days",
+      places: "Auckland, Waiheke Island, Rotorua, Queenstown, Mount Cook, Christchurch, Kaikoura",
+    },
+
+    pills: [
+      "13 Nights / 14 Days",
+      "Travel Insurance",
+      "GST Included",
+      "Adventure Activities",
+    ],
+
+    highlights: [
+      "Sky Tower Admission",
+      "Waiheke Island",
+      "Waitomo Glowworm Caves",
+      "Kaituna White Water Rafting",
+      "Polynesian Spa",
+      "Shotover Jetboat Ride",
+      "Skyline Gondola Ride + 3 Luge",
+      "Individual Shark Ride",
+      "Kawarau Bungy + Nevis Swing Combo",
+      "Onsen Hot Pools",
+      "Alpine Vista Heli Flight",
+      "Tandem Skydive 16,500ft",
+      "Whale Watch Kaikoura",
+    ],
+
+    experiences: [
+      {
+        title: "Waiheke Island",
+        desc: "Auckland to Waiheke Island and return to Auckland.",
+      },
+      {
+        title: "Waitomo Glowworm Caves",
+        desc: "Guided tour of the Waitomo Glowworm Caves.",
+      },
+      {
+        title: "Queenstown Adventure",
+        desc: "Shotover Jetboat Ride, Skyline Gondola Ride with 3 Luge, Individual Shark Ride, Kawarau Bungy + Nevis Swing Combo and Onsen Hot Pools.",
+      },
+      {
+        title: "Mount Cook Adventure",
+        desc: "Alpine Vista Heli Flight for 20 minutes and Tandem Skydive from 16,500ft.",
+      },
+      {
+        title: "Kaikoura Whale Watching",
+        desc: "Whale Watch Tour using Ocean Cabin.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival Auckland",
+      desc: "Arrival in Auckland.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Auckland – Waiheke Island – Auckland",
+      desc: "Visit Waiheke Island from Auckland and return to Auckland.",
+      tags: [],
+    },
+    {
+      day: "03",
+      title: "Auckland to Rotorua via Waitomo",
+      desc: "Travel from Auckland to Rotorua via Waitomo. Enjoy the Waitomo Glowworm Caves Guided Tour.",
+      tags: [],
+    },
+    {
+      day: "04",
+      title: "Rotorua",
+      desc: "Kaituna White Water Rafting – Grade 5 followed by a Deluxe Romantic Package at Polynesian Spa.",
+      tags: [],
+    },
+    {
+      day: "05",
+      title: "Rotorua to Queenstown",
+      desc: "Transfer from Rotorua to Queenstown.",
+      tags: [],
+    },
+    {
+      day: "06",
+      title: "Queenstown",
+      desc: "Shotover Jetboat Ride followed by Skyline Gondola Ride + 3 Luge.",
+      tags: [],
+    },
+    {
+      day: "07",
+      title: "Queenstown",
+      desc: "Individual Shark Ride, Kawarau Bungy + Nevis Swing Combo and Original Onsen Exclusive Indoor Pool.",
+      tags: [],
+    },
+    {
+      day: "08",
+      title: "Queenstown",
+      desc: "No specific activity is listed in the itinerary for this day.",
+      tags: [],
+    },
+    {
+      day: "09",
+      title: "Queenstown to Mount Cook",
+      desc: "Travel from Queenstown to Mount Cook.",
+      tags: [],
+    },
+    {
+      day: "10",
+      title: "Mount Cook",
+      desc: "Alpine Vista Heli Flight for 20 minutes and Tandem Skydive from 16,500ft.",
+      tags: [],
+    },
+    {
+      day: "11",
+      title: "Mount Cook to Christchurch",
+      desc: "Travel from Mount Cook to Christchurch.",
+      tags: [],
+    },
+    {
+      day: "12",
+      title: "Christchurch – Kaikoura – Christchurch",
+      desc: "Travel from Christchurch to Kaikoura for Whale Watch Tour – Ocean Cabin, then return to Christchurch.",
+      tags: [],
+    },
+    {
+      day: "13",
+      title: "Christchurch at Leisure",
+      desc: "Day at leisure in Christchurch.",
+      tags: [],
+    },
+    {
+      day: "14",
+      title: "Depart Christchurch by Rental Car",
+      desc: "Depart Christchurch by rental car. End of services.",
+      tags: [],
+    },
+  ],
+
+  pointsToRemember: [
+    "Skyline Queenstown complex is undergoing construction and the Luge operation may open as late as 12pm on weekdays.",
+    "All flights require a minimum number of passengers for departures.",
+    "Prices are subject to availability at the time of booking.",
+    "Full names of all passengers, ages of children if applicable, passenger weights if applicable and full flight details including New Zealand domestic flights are required for booking.",
+    "Adventure activities may involve inherent risks and operators provide a Risk Disclosure statement.",
+    "Any deposit requirement will be advised at the time of booking.",
+    "One amendment is permitted without a service fee; supplier fees may apply.",
+    "Subsequent amendments incur an NZD 100 fee per file.",
+    "Amendments made within 7 days of arrival incur an NZD 200 fee per file.",
+    "Full payment must be received no later than 15 days prior to travel.",
+    "Cancellations between 10 days and 72 hours of arrival incur NZD 500 per person plus applicable supplier cancellation charges.",
+    "Cancellations within 72 hours of arrival incur a 100% cancellation fee.",
+  ],
+
+  inclusions: {
+    included: [
+      "Accommodation as specified",
+      "Meals as specified",
+      "Sightseeing and attractions as specified",
+      "Arrival documents",
+      "Auckland to Waiheke ferry one way",
+      "Travel Insurance",
+      "GST included",
+    ],
+
+    excluded: [
+      "International or Domestic Airfares",
+      "Any optional services quoted separately",
+      "Any items or services not specified in the itinerary",
+      "Early or late check-out of rooms unless specified",
+      "Gratuities",
+      "Personal items",
+      "TCS 5% Extra (Refundable against PAN card)",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [],
+
+  pricing: {
+    note: "Final costing per person",
+    options: [
+      {
+        category: "Per Person",
+        price: "INR 1,90,000/- + 5% TCS",
+      },
+    ],
+  },
+
+  terms: [
+    "Prices are subject to availability of services at the time of booking.",
+    "Full payment must be received no later than 15 days prior to travel.",
+  ],
+
+  images: [],
+},
+
+{
+  title: "Explore Italy",
+  slug: "",
+  price: "INR 3,98,000/- + TCS",
+  days: "15 Nights / 16 Days",
+  rating: "",
+  image: "",
+  location: "Milan, Canazei, Florence, Rome, Naples, Amalfi",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "15 Nights / 16 Days",
+      places: "Milan, Canazei, Florence, Rome, Naples, Amalfi",
+    },
+
+    pills: [
+      "15 Nights / 16 Days",
+      "Breakfast",
+      "Travel Insurance",
+      "Train / Bus Tickets",
+    ],
+
+    highlights: [
+      "Lake Como",
+      "Varenna",
+      "Bellagio",
+      "Como",
+      "Dolomite Surroundings",
+      "Rifugio Friedrich August",
+      "Florence Rooftop Cooking Class",
+      "Iris Galerie",
+      "Regoli Pasticceria",
+      "Crazy Pizza Roma",
+      "Fuffa Factory",
+      "The Oddity Patch Bar",
+      "Frigidarium",
+      "Two Sizes",
+      "Vecchia Trastevere",
+      "Capri",
+      "Anacapri",
+      "Blue Grotto",
+      "Pompeii",
+      "Sorrento",
+      "Positano",
+      "Amalfi",
+    ],
+
+    experiences: [
+      {
+        title: "Lake Como",
+        desc: "Full-day tour from Milan covering Varenna, Bellagio and Como.",
+      },
+      {
+        title: "Florence Cooking Class",
+        desc: "Florence Rooftop Cooking Class with a 360-degree view of the city.",
+      },
+      {
+        title: "Capri & Blue Grotto",
+        desc: "Day tour from Naples covering Capri, Anacapri and Blue Grotto.",
+      },
+      {
+        title: "Amalfi Coast",
+        desc: "Pompeii, Sorrento and Positano drive from Amalfi.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrive in Milan",
+      desc: "Arrive in Milan, explore the city at leisure and overnight stay in Milan.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Lake Como Full Day Tour",
+      desc: "Lake Como Full Day Tour from Milan covering Varenna, Bellagio and Como.",
+      tags: [],
+    },
+    {
+      day: "03",
+      title: "Milan to Canazei",
+      desc: "Check out and travel by train/bus to Canazei. Explore the alpine village and Dolomite surroundings on your own.",
+      tags: [],
+    },
+    {
+      day: "04",
+      title: "Canazei",
+      desc: "Visit Rifugio Friedrich August for mountain views and a traditional alpine lunch on your own.",
+      tags: [],
+    },
+    {
+      day: "05",
+      title: "Canazei to Florence",
+      desc: "Check out and travel to Florence. Enjoy coffee at a traditional wine window and explore the historic center on your own.",
+      tags: [],
+    },
+    {
+      day: "06",
+      title: "Florence",
+      desc: "Join the Florence Rooftop Cooking Class with 360-degree view of the city.",
+      tags: [],
+    },
+    {
+      day: "07",
+      title: "Florence to Rome",
+      desc: "Travel to Rome. Visit Iris Galerie, enjoy pastries at Regoli Pasticceria and dine at Crazy Pizza Roma. Explore the city on your own.",
+      tags: [],
+    },
+    {
+      day: "08",
+      title: "Rome",
+      desc: "Explore Rome, shop at Fuffa Factory and The Oddity Patch Bar, and enjoy gelato from Frigidarium. Day free for shopping.",
+      tags: [],
+    },
+    {
+      day: "09",
+      title: "Rome",
+      desc: "Continue exploring Rome, indulge in tiramisu from Two Sizes and dinner at Vecchia Trastevere. Day free for shopping.",
+      tags: [],
+    },
+    {
+      day: "10",
+      title: "Rome to Naples",
+      desc: "Check out and take a train to Naples. Explore the historic center and waterfront on your own.",
+      tags: [],
+    },
+    {
+      day: "11",
+      title: "Naples",
+      desc: "Enjoy authentic Neapolitan pizza at L'Antica Pizzeria da Michele and continue sightseeing in Naples on your own.",
+      tags: [],
+    },
+    {
+      day: "12",
+      title: "Capri, Anacapri & Blue Grotto",
+      desc: "Capri, Anacapri and Blue Grotto Day Tour from Naples.",
+      tags: [],
+    },
+    {
+      day: "13",
+      title: "Naples to Amalfi",
+      desc: "Check out and transfer by taxi to Amalfi. Enjoy a relaxing evening by the coast.",
+      tags: [],
+    },
+    {
+      day: "14",
+      title: "Pompeii, Sorrento & Positano",
+      desc: "Pompeii, Sorrento and Positano drive from Amalfi.",
+      tags: [],
+    },
+    {
+      day: "15",
+      title: "Amalfi",
+      desc: "Relax in Amalfi, explore nearby coastal villages and enjoy gelato at Royal Gelato on your own.",
+      tags: [],
+    },
+    {
+      day: "16",
+      title: "Departure",
+      desc: "Check out and transfer by taxi to Naples airport for your flight back to India.",
+      tags: [],
+    },
+  ],
+
+  pointsToRemember: [
+    "Prices are subject to availability and may change at the time of booking.",
+  ],
+
+  inclusions: {
+    included: [
+      "15 Nights accommodation along with Breakfast",
+      "Return airport transfers on private basis from Milan airport to hotel and Naples hotel to Naples airport",
+      "Lake Como Full Day Tour from Milan – Varenna, Bellagio and Como",
+      "Florence Cooking Class with 360 Degree View of the City",
+      "Pompeii, Sorrento Positano Drive from Amalfi",
+      "Private taxi transfers from Naples to Amalfi coast & return",
+      "Travel Insurance",
+      "GST",
+      "Train/Bus tickets 2nd class",
+      "Milan to Canazei",
+      "Canazei to Florence",
+      "Florence to Rome",
+      "Rome to Naples",
+    ],
+
+    excluded: [
+      "TCS 2% (Refundable against PAN card)",
+      "Air ticket",
+      "Visa",
+      "Tips",
+      "Anything not mentioned in the inclusions",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [
+    {
+      hotel: "Crowne Plaza Milan Linate",
+      city: "Milan",
+      nights: "2",
+      meal: "Breakfast",
+      room: "Standard Room",
+    },
+    {
+      hotel: "Croce Bianca Leisure & Spa",
+      city: "Canazei",
+      nights: "2",
+      meal: "Breakfast",
+      room: "Superior Double Room",
+    },
+    {
+      hotel: "Grand Hotel Baglioni",
+      city: "Florence",
+      nights: "2",
+      meal: "Breakfast",
+      room: "Standard Room",
+    },
+    {
+      hotel: "Crowne Plaza St. Peters",
+      city: "Rome",
+      nights: "3",
+      meal: "Breakfast",
+      room: "Standard Room",
+    },
+    {
+      hotel: "Ramada By Wyndham Naples",
+      city: "Naples",
+      nights: "3",
+      meal: "Breakfast",
+      room: "Standard Room",
+    },
+    {
+      hotel: "Marina Riviera",
+      city: "Amalfi",
+      nights: "3",
+      meal: "Breakfast",
+      room: "Standard Room",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "Per Person",
+        price: "INR 3,98,000/- + TCS (Refundable)",
+      },
+    ],
+  },
+
+  terms: [],
+
+  images: [],
+},
+
+{
+  title: "Jewels of East Europe",
+  slug: "",
+  price: "EURO 1280 PER PERSON",
+  days: "07 Nights / 08 Days",
+  rating: "",
+  image: "",
+  location: "Vienna, Budapest, Bratislava, Prague, Salzburg, Hallstatt, Munich",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "07 Nights / 08 Days",
+      places: "Austria, Hungary, Slovakia, Czech Republic, Germany",
+    },
+
+    pills: [
+      "07 Nights / 08 Days",
+      "Superior 4-Star Hotels",
+      "Daily Continental Breakfast",
+      "Tour Manager",
+      "Indian Jain / Veg / Non-Veg Meals",
+    ],
+
+    highlights: [
+      "Schönbrunn Palace",
+      "Vienna City Tour",
+      "Budapest City Tour",
+      "Danube River Cruise",
+      "Szentendre",
+      "Bratislava Castle",
+      "Bratislava Old Town",
+      "Prague Castle",
+      "Charles Bridge",
+      "Old Town Square",
+      "Astronomical Clock",
+      "Kutna Hora",
+      "Salzburg",
+      "Hallstatt",
+      "Dachstein Glacier",
+      "Ice Palace",
+      "Stairway to Nothingness",
+      "Suspension Bridge",
+    ],
+
+    experiences: [
+      {
+        title: "Vienna",
+        desc: "Guided city tour of Vienna and visit to Schönbrunn Palace.",
+      },
+      {
+        title: "Budapest",
+        desc: "Guided city tour, Danube River cruise and orientation tour of Szentendre.",
+      },
+      {
+        title: "Prague",
+        desc: "Guided city tour, Prague Castle viewing gallery and Kutna Hora.",
+      },
+      {
+        title: "Dachstein Glacier",
+        desc: "Cable car to Dachstein Glacier with Ice Palace, Stairway to Nothingness and Suspension Bridge.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrive in Vienna",
+      desc: "Arrive at Vienna Airport, meet the representative and transfer to the hotel. In the evening, enjoy dinner before returning to the hotel.",
+      tags: [{ label: "Dinner" }],
+    },
+    {
+      day: "02",
+      title: "Vienna to Budapest",
+      desc: "Guided Vienna city tour covering Ringstrasse, Vienna Opera House and St. Stephen’s Cathedral. Visit Schönbrunn Palace. Enjoy Indian lunch and free time before proceeding to Budapest. Dinner at an Indian restaurant.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Lunch" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "03",
+      title: "Discovering Budapest",
+      desc: "Guided Budapest city tour covering Buda Castle, Hungarian Parliament and Heroes’ Square. After lunch, enjoy a Danube River cruise followed by an orientation visit to Szentendre.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Lunch" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "04",
+      title: "Budapest – Bratislava – Prague",
+      desc: "Travel to Bratislava and enjoy an orientation tour covering Bratislava Castle and the Old Town. Continue to Prague after lunch.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Lunch" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "05",
+      title: "Discover Prague",
+      desc: "Guided Prague city tour covering Prague Castle, Charles Bridge, Old Town Square and Astronomical Clock. Visit the castle viewing gallery and drive to Kutna Hora.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Lunch" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "06",
+      title: "Prague – Salzburg",
+      desc: "Travel to Salzburg. Enjoy a guided tour covering the birthplace of Mozart, Hohensalzburg Fortress and Mirabell Palace.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Lunch" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "07",
+      title: "Salzburg – Hallstatt – Schladming – Munich",
+      desc: "Drive to Hallstatt and explore the village. Continue to Schladming and experience Dachstein Glacier via cable car, including the Ice Palace, Stairway to Nothingness and Suspension Bridge. Continue to Munich.",
+      tags: [
+        { label: "Breakfast" },
+        { label: "Lunch" },
+        { label: "Dinner" },
+      ],
+    },
+    {
+      day: "08",
+      title: "Fly Back Home",
+      desc: "Check out and depart for Munich Airport.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [
+    "A person below 12 years of age on the entire tour will be considered a child.",
+    "As a 3rd person in a triple room, most hotels use rollaway beds and room size may be the same as the double room.",
+    "Tours operate subject to all Government regulations.",
+    "All local taxes, entrances and services are calculated as on 1st October 2024; increases are payable by the traveller/agent.",
+    "All transfers and extensive sightseeing with specified entrance fees will be done in an air-conditioned coach.",
+    "One check-in bag and one hand bag per person are suggested due to limited boot space.",
+    "Services of a Tour Manager or local representatives are provided while on tour.",
+    "Land surcharges may apply on certain departure dates.",
+    "Tour routing may change or operate in reverse itinerary on certain departure dates.",
+    "No refunds for unutilized services.",
+    "Additional taxes in Europe may result in a change in price.",
+  ],
+
+  inclusions: {
+    included: [
+      "Superior 4-star hotel accommodation",
+      "Daily Continental buffet breakfast",
+      "06 Indian Jain/Vegetarian/Non-Vegetarian lunches",
+      "07 Indian Jain/Vegetarian/Non-Vegetarian dinners",
+      "Daily 500ml mineral water bottle per person",
+      "Driver tips",
+      "Professional Tour Manager",
+      "Guided City tour of Vienna",
+      "Schönbrunn Palace",
+      "Guided City tour of Salzburg",
+      "Dachstein Glacier Cable Car",
+      "Ice Palace",
+      "Stairway to Nothingness",
+      "Suspension Bridge",
+      "Guided City tour of Budapest",
+      "Danube River Cruise",
+      "Orientation tour of Szentendre",
+      "Orientation Tour of Bratislava",
+      "Guided City tour of Prague",
+      "Prague Castle viewing Gallery",
+      "Kutna Hora",
+    ],
+
+    excluded: [
+      "Airfare",
+      "Passport",
+      "POE charges",
+      "Visa charges",
+      "Overseas Travel Insurance",
+      "Personal expenses such as porterage, laundry, alcohol, food/drink outside regular menus, minibar and telephone calls",
+      "Extra meals not included in itinerary",
+      "Excursions, city sightseeing, entrance fees and local guides other than specified inclusions",
+      "GST, TCS and other applicable taxes",
+      "Anything not specified in the itinerary",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [
+    {
+      hotel: "",
+      city: "Vienna",
+      nights: "1",
+      meal: "",
+      room: "4-Star Hotel",
+    },
+    {
+      hotel: "",
+      city: "Budapest",
+      nights: "2",
+      meal: "",
+      room: "4-Star Hotel",
+    },
+    {
+      hotel: "",
+      city: "Prague",
+      nights: "2",
+      meal: "",
+      room: "4-Star Hotel",
+    },
+    {
+      hotel: "",
+      city: "Salzburg",
+      nights: "1",
+      meal: "",
+      room: "4-Star Hotel",
+    },
+    {
+      hotel: "",
+      city: "Munich",
+      nights: "1",
+      meal: "",
+      room: "4-Star Hotel",
+    },
+  ],
+
+  pricing: {
+    note: "Cost per person payable in EURO out of BTQ entitlement",
+    options: [
+      {
+        category: "Per Person",
+        price: "EURO 1280",
+      },
+    ],
+  },
+
+  terms: [
+    "Tours are operated subject to Reserve Bank of India / Government of India regulations.",
+    "Tour cost is payable in EURO out of the passenger's BTQ entitlement.",
+  ],
+
+  images: [],
+},
+
+{
+  title: "Switzerland With Paris",
+  slug: "",
+  price: "Adult: Rs. 2,30,950/- per person",
+  childPrice: "Rs. 1,12,950/- per person",
+  days: "07 Nights / 08 Days",
+  rating: "",
+  image: "",
+  location: "Lucerne, Interlaken, Paris",
+  nextDate: "24 May 2025",
+
+  highlightsData: {
+    locationCard: {
+      meta: "02 Nights Lucerne + 02 Nights Interlaken + 03 Nights Paris",
+      places: "Lucerne, Interlaken, Paris",
+    },
+
+    pills: [
+      "07 Nights / 08 Days",
+      "Swiss Flexi Pass",
+      "Breakfast",
+      "Travel Insurance",
+    ],
+
+    highlights: [
+      "Lake Lucerne Catamaran Cruise",
+      "Mount Titlis",
+      "Jungfraujoch",
+      "Paris Seine River Sightseeing Cruise",
+      "Paris Hop-on Hop-off Tour",
+      "Eiffel Tower",
+      "Disneyland Paris",
+      "Louvre Museum",
+    ],
+
+    experiences: [
+      {
+        title: "Mount Titlis",
+        desc: "Full-day visit to Mount Titlis from Lucerne.",
+      },
+      {
+        title: "Jungfraujoch",
+        desc: "Full-day visit to Jungfraujoch from Interlaken.",
+      },
+      {
+        title: "Paris Sightseeing",
+        desc: "Seine River sightseeing cruise, Hop-on Hop-off tour and Eiffel Tower visit.",
+      },
+      {
+        title: "Disneyland Paris",
+        desc: "Full-day visit to Disneyland Paris.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival – Zurich – Lucerne",
+      desc: "Arrive at Zurich Airport and travel to Lucerne by train. Evening Lake Lucerne catamaran cruise. Overnight at Lucerne.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Lucerne – Mount Titlis",
+      desc: "Full-day visit to Mount Titlis. Overnight at Lucerne.",
+      tags: [],
+    },
+    {
+      day: "03",
+      title: "Lucerne to Interlaken",
+      desc: "Travel from Lucerne to Interlaken by train. Rest of the day free for leisure or own activities. Overnight at Interlaken.",
+      tags: [],
+    },
+    {
+      day: "04",
+      title: "Jungfraujoch",
+      desc: "Full-day visit to Jungfraujoch. Overnight at Interlaken.",
+      tags: [],
+    },
+    {
+      day: "05",
+      title: "Interlaken to Paris",
+      desc: "Travel from Interlaken to Paris by train. Arrive in Paris and transfer to the hotel. Evening Seine River cruise. Overnight at Paris.",
+      tags: [],
+    },
+    {
+      day: "06",
+      title: "Paris Sightseeing",
+      desc: "Paris Hop-on Hop-off tour and Eiffel Tower visit. Overnight at Paris.",
+      tags: [],
+    },
+    {
+      day: "07",
+      title: "Disneyland Paris",
+      desc: "Free day with visit to Disneyland Paris. Overnight at Paris.",
+      tags: [],
+    },
+    {
+      day: "08",
+      title: "Louvre Museum – Departure",
+      desc: "Morning visit to Louvre Museum for a 2-hour tour starting at 10:30 AM. Afternoon transfer to the airport for the return flight.",
+      tags: [],
+    },
+  ],
+
+  pointsToRemember: [
+    "TCS 5% applicable to total land package cost and refundable against PAN Card.",
+    "The quoted hotel rooms were shown as blocked in the booking confirmation.",
+    "The package is for 03 adults + 01 child aged 09 years, with 01 room.",
+  ],
+
+  inclusions: {
+    included: [
+      "02 Nights accommodation at Lucerne",
+      "02 Nights accommodation at Interlaken",
+      "03 Nights accommodation at Paris",
+      "03 Days Swiss Flexi Pass (2nd class)",
+      "Interlaken to Paris by train (2nd class)",
+      "Lake Lucerne Catamaran Cruise",
+      "Visit Mount Titlis in Lucerne",
+      "Visit Jungfrauch in Interlaken",
+      "Basel to Paris Train Ticket (2nd class)",
+      "Bateaux Parisiens – Seine River Sightseeing Cruise with Audio guide",
+      "Hop on Hop off tour in Paris",
+      "Eiffel Tower Skip-The-Queue Ticket with Audio Guide Commentary (2nd floor)",
+      "Full Day Visit to Disneyland",
+      "Visit Louvre Museum",
+      "Paris station to Paris Hotel transfers on private basis",
+      "Paris Hotel to Paris Airport transfers on private basis",
+      "Travel Insurance",
+      "GST",
+    ],
+
+    excluded: [],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [
+    {
+      hotel: "Monopole 4*",
+      city: "Lucerne",
+      nights: "2",
+      meal: "",
+      room: "Family Room",
+    },
+    {
+      hotel: "Weisses Kreuz 3***",
+      city: "Interlaken",
+      nights: "2",
+      meal: "",
+      room: "Family Room",
+    },
+    {
+      hotel: "Hotel Mercure Paris Centre Tour Eiffel 4****",
+      city: "Paris",
+      nights: "3",
+      meal: "",
+      room: "Jr. Suite Room",
+    },
+  ],
+
+  pricing: {
+    note: "03 Adults + 01 Child (09 years), 01 Room",
+    options: [
+      {
+        category: "Adult",
+        price: "Rs. 2,30,950/- per person",
+      },
+      {
+        category: "Adult (14 Years)",
+        price: "Rs. 2,06,025/- per person",
+      },
+      {
+        category: "Child (09 Years)",
+        price: "Rs. 1,12,950/- per person",
+      },
+    ],
+  },
+
+  terms: [],
+
+  images: [],
+},
+
+{
+  title: "Mauritius",
+  slug: "",
+  price: "INR 1,38,300/- + TCS",
+  days: "06 Nights / 07 Days",
+  rating: "",
+  image: "",
+  location: "Mauritius",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "06 Nights / 07 Days",
+      places: "Mauritius",
+    },
+
+    pills: [
+      "06 Nights / 07 Days",
+      "Breakfast & Dinner",
+      "Private Transfers",
+      "Travel Insurance",
+    ],
+
+    highlights: [
+      "Port Louis",
+      "Citadelle Fortress",
+      "Caudan Waterfront",
+      "Trou aux Cerfs",
+      "Grand Bassin",
+      "23 Colored Earth",
+      "Seaplane Activity",
+      "Casela Adventure Park",
+      "Ile Aux Cerfs",
+      "Belle Mare",
+    ],
+
+    experiences: [
+      {
+        title: "North Island Tour",
+        desc: "Port Louis City Tour, Citadelle Fortress, Caudan Waterfront and Jumbo Mall.",
+      },
+      {
+        title: "South Island Tour",
+        desc: "Trou aux Cerfs Crater, Grand Bassin Sacred Lake & Shiv Temple and 23 Colored Earths.",
+      },
+      {
+        title: "Ile Aux Cerfs",
+        desc: "Full-day Ile Aux Cerfs excursion with combined speedboat and land transfers.",
+      },
+      {
+        title: "Casela Adventure Park",
+        desc: "Casela Adventure Park entrance included.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival in Mauritius",
+      desc: "Arrival in Mauritius, transfer to hotel and check-in. Rest of the day at leisure.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "North Tour",
+      desc: "Full-day North Island tour covering Port Louis City Tour, Citadelle Fortress and Caudan Waterfront.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "03",
+      title: "South Tour",
+      desc: "Full-day South Island tour covering Trou aux Cerfs, Grand Bassin and 23 Colored Earth.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "04",
+      title: "Seaplane Activity – Casela Adventure Park – Hotel Change",
+      desc: "Check out and proceed for a seaplane activity. Continue to Casela Adventure Park where entrance is included. Transfer to Radisson Blu Azuri Beach Resort & Spa and check in.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "05",
+      title: "Ile Aux Cerfs Tour",
+      desc: "Full-day excursion to Ile Aux Cerfs with speedboat transfer. Enjoy the beaches and optional water activities at Belle Mare.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "06",
+      title: "Day at Leisure",
+      desc: "Free day at leisure to relax at the resort or explore nearby areas.",
+      tags: [{ label: "Breakfast" }],
+    },
+    {
+      day: "07",
+      title: "Departure",
+      desc: "Check out and transfer to the airport for departure.",
+      tags: [{ label: "Breakfast" }],
+    },
+  ],
+
+  pointsToRemember: [
+    "No booking has been held at this time.",
+  ],
+
+  inclusions: {
+    included: [
+      "06 Nights accommodation along with Breakfast & Dinner",
+      "Meet and assist at the airport",
+      "Return airport transfers on private basis",
+      "North Tour to Citadelle Fortress, Caudan Waterfront via Port Louis City Tour and Jumbo Mall on private basis",
+      "South Tour to Trou aux Cerfs Crater, Grand Bassin Sacred Lake & Shiv Temple and 23 Colored Earths on private basis",
+      "Ile Aux Cerf Tour with water activities on own at Belle Mare, Ile aux Cerfs Island, combined speedboat transfers and land transfers on private basis",
+      "Travel Insurance",
+      "GST",
+    ],
+
+    excluded: [
+      "TCS 2% (Refundable against PAN card)",
+      "All flight tickets",
+      "Personal Expenses",
+      "Tips to drivers & guides",
+    ],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [
+      "Tube Ride",
+    ],
+  },
+
+  accommodation: [
+    {
+      hotel: "Outrigger Beach Resort & Spa 4*",
+      city: "Mauritius",
+      nights: "4",
+      meal: "Breakfast & Dinner",
+      room: "Ocean View King Room",
+    },
+    {
+      hotel: "Radisson Blu Azuri Beach Resort & Spa 5*",
+      city: "Mauritius",
+      nights: "2",
+      meal: "Breakfast & Dinner",
+      room: "Premium Garden Room",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "Airfare Per Adult",
+        price: "INR 1,38,300/- + TCS (Refundable)",
+      },
+    ],
+  },
+
+  terms: [],
+
+  images: [],
+},
+
+{
+  title: "Magnificent Maldives",
+  slug: "",
+  price: "INR 87,700/-",
+  days: "04 Nights / 05 Days",
+  rating: "",
+  image: "",
+  location: "Maldives",
+  nextDate: "",
+
+  highlightsData: {
+    locationCard: {
+      meta: "04 Nights / 05 Days",
+      places: "Maldives",
+    },
+
+    pills: [
+      "04 Nights / 05 Days",
+      "Beach Villa",
+      "All Meals",
+      "Shared Speed Boat Transfers",
+    ],
+
+    highlights: [
+      "Villa Nautica Paradise Island",
+      "Beach Villa",
+      "All Meals",
+      "Shared Speed Boat Airport Transfers",
+    ],
+
+    experiences: [
+      {
+        title: "Maldives Island Stay",
+        desc: "Stay at Villa Nautica Paradise Island in a Beach Villa with all meals included.",
+      },
+    ],
+  },
+
+  itinerary: [
+    {
+      day: "01",
+      title: "Arrival in Maldives",
+      desc: "Airport transfer by shared speed boat to Villa Nautica Paradise Island.",
+      tags: [],
+    },
+    {
+      day: "02",
+      title: "Maldives",
+      desc: "Day at the resort.",
+      tags: [],
+    },
+    {
+      day: "03",
+      title: "Maldives",
+      desc: "Day at the resort.",
+      tags: [],
+    },
+    {
+      day: "04",
+      title: "Maldives",
+      desc: "Day at the resort.",
+      tags: [],
+    },
+    {
+      day: "05",
+      title: "Departure",
+      desc: "Shared speed boat airport transfer.",
+      tags: [],
+    },
+  ],
+
+  pointsToRemember: [
+    "2% TCS (Tax Collection at Source) is applicable for all payments.",
+    "Compulsory PAN Card & Passport copy is required for all guests.",
+    "Rates are subject to USD fluctuation at the time of booking and payment.",
+    "Rooms and rates are subject to availability and may change at the time of confirmation.",
+  ],
+
+  inclusions: {
+    included: [
+      "04 Nights accommodation at Villa Nautica Paradise Island",
+      "Beach Villa",
+      "All Meals",
+      "Airport Transfers by Shared Speed Boat",
+    ],
+
+    excluded: [],
+  },
+
+  supplementaryTours: {
+    note: "",
+    items: [],
+  },
+
+  accommodation: [
+    {
+      hotel: "Villa Nautica Paradise Island",
+      city: "Maldives",
+      nights: "4",
+      meal: "All Meals",
+      room: "Beach Villa",
+    },
+  ],
+
+  pricing: {
+    note: "",
+    options: [
+      {
+        category: "Total Cost",
+        price: "INR 87,700/-",
+      },
+    ],
+  },
+
+  terms: [
+    "Rates are subject to USD fluctuation at the time of booking & payment.",
+    "Rooms and rates are subject to availability and may change at the time of confirmation.",
+  ],
+
+  images: [],
+},
 
 
 ];

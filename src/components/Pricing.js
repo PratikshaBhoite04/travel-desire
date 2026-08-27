@@ -72,3 +72,4 @@ function Pricing({ pricing }) {
 }
 
 export default Pricing;
+
