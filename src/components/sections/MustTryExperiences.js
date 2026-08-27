@@ -32,11 +32,11 @@ const ArrowLeftIcon = ({ className }) => (
   </svg>
 );
 
-/* ===== Figma Grid Mapping ===== */
+/* ===== EXPERIENCE → MATCHING PACKAGE ===== */
 const experiences = [
   {
     title: "Paragliding",
-    slug: "manali-snow-adventure",
+    slug: "himachal-5nights-6days-package",
     image: Paragliding,
     className: "col-span-2",
   },
@@ -48,25 +48,25 @@ const experiences = [
   },
   {
     title: "Wine Tasting",
-    slug: "european-wonders-09-days",
+    slug: "split-hvar-dubrovnik-06n",
     image: Wine,
     className: "row-span-2",
   },
   {
     title: "Aurora",
-    slug: "kashmir-valley-escape",
+    slug: "tromso-alesund-bergen-06n",
     image: Aurora,
     className: "row-span-2",
   },
   {
     title: "Ropeway",
-    slug: "manali-snow-adventure",
+    slug: "wonderful-new-zealand",
     image: Ropeway,
     className: "row-span-2",
   },
   {
     title: "Surfing",
-    slug: "rajasthan-mewad-with-tiger-reserve",
+    slug: "andaman-complete-explorer",
     image: Surfing,
     className: "col-span-2",
   },
@@ -78,6 +78,7 @@ function MustTryExperiences() {
 
   const scroll = (dir) => {
     if (!scrollRef.current) return;
+
     scrollRef.current.scrollBy({
       left: dir === "left" ? -320 : 320,
       behavior: "smooth",
@@ -86,41 +87,43 @@ function MustTryExperiences() {
 
   return (
     <section className="py-10 md:py-10 bg-white">
-     <div className="max-w-7xl mx-auto px-6 text-center mb-12">
-  {/* ===== MOBILE HEADING ===== */}
-  <h2 className="md:hidden font-tiempos font-[500] text-[36px] leading-[42px] tracking-[1px] text-[#1C3627]">
-    Must try <br />
-    <span className="text-[#06D5C6]">Experiences</span>
-  </h2>
+      <div className="max-w-7xl mx-auto px-6 text-center mb-12">
 
-  {/* ===== DESKTOP HEADING ===== */}
-  <h2 className="hidden md:block text-[54px] font-[500] font-tiempos text-[#1C3627]">
-    Must try <span className="text-[#06D5C6]">Experiences</span>
-  </h2>
+        {/* ===== MOBILE HEADING ===== */}
+        <h2 className="md:hidden font-tiempos font-[500] text-[36px] leading-[42px] tracking-[1px] text-[#1C3627]">
+          Must try <br />
+          <span className="text-[#06D5C6]">Experiences</span>
+        </h2>
 
-{/* ===== MOBILE SUBTITLE ===== */}
-<p className="
-  md:hidden
-  mt-3
-  mx-auto
-  max-w-[320px]
-  text-[#717171]
-  font-inter
-  text-[15px]
-  leading-[24px]
-  text-center
-">
-  Fixed departure dates with confirmed bookings.
-  Join fellow travelers on curated group tours.
-</p>
+        {/* ===== DESKTOP HEADING ===== */}
+        <h2 className="hidden md:block text-[54px] font-[500] font-tiempos text-[#1C3627]">
+          Must try <span className="text-[#06D5C6]">Experiences</span>
+        </h2>
 
+        {/* ===== MOBILE SUBTITLE ===== */}
+        <p
+          className="
+            md:hidden
+            mt-3
+            mx-auto
+            max-w-[320px]
+            text-[#717171]
+            font-inter
+            text-[15px]
+            leading-[24px]
+            text-center
+          "
+        >
+          Fixed departure dates with confirmed bookings.
+          Join fellow travelers on curated group tours.
+        </p>
 
-  {/* ===== DESKTOP SUBTITLE  ===== */}
-  <p className="hidden md:block text-[#717171] font-manrope text-[17px]">
-    Fixed departure dates with confirmed bookings.
-    Join fellow travelers on curated group tours.
-  </p>
-</div>
+        {/* ===== DESKTOP SUBTITLE ===== */}
+        <p className="hidden md:block text-[#717171] font-manrope text-[17px]">
+          Fixed departure dates with confirmed bookings.
+          Join fellow travelers on curated group tours.
+        </p>
+      </div>
 
       {/* ================= MOBILE SLIDER ================= */}
       <div className="md:hidden">
@@ -145,25 +148,24 @@ function MustTryExperiences() {
                 {item.title}
               </div>
 
-<button
-  onClick={() => navigate(`/tour/${item.slug}`)}
-  className="absolute bottom-4 right-4 w-16 h-11 rounded-full bg-[#1EEBD9] flex items-center justify-center z-10"
->
-  <svg
-    viewBox="0 0 24 24"
-    fill="none"
-    className="w-5 h-5 rotate-[-45deg]"
-  >
-    <path
-      d="M5 12H19M19 12L13 6M19 12L13 18"
-      stroke="#001917"
-      strokeWidth="1.8"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-</button>
-
+              <button
+                onClick={() => navigate(`/tour/${item.slug}`)}
+                className="absolute bottom-4 right-4 w-16 h-11 rounded-full bg-[#1EEBD9] flex items-center justify-center z-10"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  className="w-5 h-5 rotate-[-45deg]"
+                >
+                  <path
+                    d="M5 12H19M19 12L13 6M19 12L13 18"
+                    stroke="#001917"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
             </div>
           ))}
         </div>
@@ -186,7 +188,7 @@ function MustTryExperiences() {
         </div>
       </div>
 
-      {/* ================= DESKTOP GRID (FIGMA EXACT) ================= */}
+      {/* ================= DESKTOP GRID ================= */}
       <div className="hidden md:block max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-4 auto-rows-[205px] gap-6">
           {experiences.map((item, index) => (
@@ -206,26 +208,24 @@ function MustTryExperiences() {
                 {item.title}
               </div>
 
-<button
-  onClick={() => navigate(`/tour/${item.slug}`)}
-  className="absolute bottom-4 right-4 w-16 h-11 rounded-full bg-[#1EEBD9] flex items-center justify-center z-10"
->
-  <svg
-    viewBox="0 0 24 24"
-    fill="none"
-    className="w-5 h-5 rotate-[-45deg]"
-  >
-    <path
-      d="M5 12H19M19 12L13 6M19 12L13 18"
-      stroke="#001917"
-      strokeWidth="1.8"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-</button>
-
-
+              <button
+                onClick={() => navigate(`/tour/${item.slug}`)}
+                className="absolute bottom-4 right-4 w-16 h-11 rounded-full bg-[#1EEBD9] flex items-center justify-center z-10"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  className="w-5 h-5 rotate-[-45deg]"
+                >
+                  <path
+                    d="M5 12H19M19 12L13 6M19 12L13 18"
+                    stroke="#001917"
+                    strokeWidth="1.8"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
             </div>
           ))}
         </div>
