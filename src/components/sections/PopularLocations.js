@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const locations = [
+/* ================= UNIQUE INTERNATIONAL PACKAGES ================= */
+
+const rowOneLocations = [
   {
     title: "Europe",
     desc: "Explore iconic cities, Swiss Alps, historic landmarks and unforgettable European experiences.",
@@ -22,7 +24,9 @@ const locations = [
     image: "/images/morocco/day-1.jpg",
     slug: "morocco",
   },
+];
 
+const rowTwoLocations = [
   {
     title: "Bhutan",
     desc: "Experience peaceful Himalayan landscapes, ancient monasteries, scenic valleys and Bhutanese culture.",
@@ -45,8 +49,16 @@ const locations = [
   },
 ];
 
-// duplicate for seamless loop
-const loopData = [...locations, ...locations];
+/*
+  Duplicate ONLY for seamless marquee animation.
+  Packages are unique in the original data.
+*/
+
+const loopRowOne = [...rowOneLocations, ...rowOneLocations];
+const loopRowTwo = [...rowTwoLocations, ...rowTwoLocations];
+
+
+/* ================= ARROW ICON ================= */
 
 const ArrowUpRightIcon = ({ className }) => (
   <svg viewBox="0 0 24 24" fill="none" className={className}>
@@ -62,67 +74,115 @@ const ArrowUpRightIcon = ({ className }) => (
   </svg>
 );
 
+
+/* ================= CARD ================= */
+
 function Card({ place }) {
   const navigate = useNavigate();
   const [active, setActive] = useState(false);
+
+  const handleNavigate = (e) => {
+    e.stopPropagation();
+    navigate(`/tour/${place.slug}`);
+  };
 
   return (
     <div
       onClick={() => setActive(!active)}
       className="
-        group relative
-        min-w-[240px] h-[230px]
-        md:min-w-[360px] md:h-[300px]
-        rounded-2xl overflow-hidden
+        group
+        relative
+        min-w-[260px]
+        h-[240px]
+
+        sm:min-w-[300px]
+        sm:h-[260px]
+
+        md:min-w-[360px]
+        md:h-[300px]
+
+        lg:min-w-[380px]
+
+        rounded-2xl
+        overflow-hidden
         cursor-pointer
+        flex-shrink-0
       "
     >
+      {/* IMAGE */}
       <img
         src={place.image}
         alt={place.title}
         className="w-full h-full object-cover"
       />
 
-      {/* Overlay: hover (desktop) + tap (mobile) */}
+      {/* OVERLAY */}
       <div
         className={`
           absolute inset-0
           bg-[#DDF8A3]/95
-          p-6 flex flex-col justify-between
+          p-5 sm:p-6
+          flex flex-col justify-between
           transition duration-300
 
           ${active ? "opacity-100" : "opacity-0"}
-          md:opacity-0 md:group-hover:opacity-100
+
+          md:opacity-0
+          md:group-hover:opacity-100
         `}
       >
         <div>
-          <h3 className="text-[28px] font-[500] text-[#0F2F24]">
+          <h3
+            className="
+              text-[23px]
+              sm:text-[25px]
+              md:text-[28px]
+              font-[500]
+              text-[#0F2F24]
+            "
+          >
             {place.title}
           </h3>
 
-          <p className="mt-2 text-[18px] text-[#3F5F54]">
+          <p
+            className="
+              mt-2
+              text-[15px]
+              sm:text-[16px]
+              md:text-[18px]
+              leading-relaxed
+              text-[#3F5F54]
+            "
+          >
             {place.desc}
           </p>
         </div>
 
+        {/* NAVIGATION BUTTON */}
         <button
-          onClick={(e) => {
-            e.stopPropagation();
-            navigate(`/tour/${place.slug}`);
-          }}
+          onClick={handleNavigate}
+          aria-label={`View ${place.title} package`}
           className="
-            self-end h-[40px] w-[56px]
-            rounded-full bg-[#0F2F24]
-            flex items-center justify-center
+            self-end
+            h-[40px]
+            w-[56px]
+            rounded-full
+            bg-[#0F2F24]
+            flex
+            items-center
+            justify-center
             group
           "
         >
           <ArrowUpRightIcon
             className="
-              w-5 h-5 text-[#D5FB93]
+              w-5
+              h-5
+              text-[#D5FB93]
               translate-y-[2px]
               translate-x-[1px]
-              transition-transform duration-300
+              transition-transform
+              duration-300
               group-hover:translate-x-[2px]
               group-hover:-translate-y-[2px]
             "
@@ -133,38 +193,102 @@ function Card({ place }) {
   );
 }
 
+
+/* ================= POPULAR LOCATIONS ================= */
+
 function PopularLocations() {
   return (
-    <section className="py-20 bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6 mb-12">
+    <section
+      className="
+        py-12
+        sm:py-16
+        md:py-20
+        bg-white
+        overflow-hidden
+      "
+    >
+      {/* HEADING */}
+
+      <div
+        className="
+          max-w-7xl
+          mx-auto
+          px-4
+          sm:px-6
+          mb-8
+          sm:mb-10
+          md:mb-12
+        "
+      >
         <h2
           className="
-            font-tiempos text-center font-[500] text-[#0F2F24]
-            text-[36px] leading-[36px]
-            md:text-[56.56px] md:leading-[56.56px]
+            font-tiempos
+            text-center
+            font-[500]
+            text-[#0F2F24]
+
+            text-[36px]
+            leading-[40px]
+
+            sm:text-[44px]
+            sm:leading-[48px]
+
+            md:text-[56.56px]
+            md:leading-[56.56px]
           "
         >
           Most Popular{" "}
+
           <span className="text-[#06D5C6] block md:inline">
             Locations
           </span>
         </h2>
       </div>
 
-      {/* ROW 1 */}
-      <div className="overflow-hidden mb-6">
-        <div className="flex gap-3 w-max animate-marquee-left px-6">
-          {loopData.map((place, index) => (
-            <Card key={`row1-${index}`} place={place} />
+
+      {/* ================= ROW 1 ================= */}
+
+      <div className="overflow-hidden mb-4 sm:mb-6">
+        <div
+          className="
+            flex
+            gap-3
+            sm:gap-4
+            w-max
+            animate-marquee-left
+            px-4
+            sm:px-6
+          "
+        >
+          {loopRowOne.map((place, index) => (
+            <Card
+              key={`row1-${place.slug}-${index}`}
+              place={place}
+            />
           ))}
         </div>
       </div>
 
-      {/* ROW 2 */}
+
+      {/* ================= ROW 2 ================= */}
+
       <div className="overflow-hidden">
-        <div className="flex gap-3 w-max animate-marquee-right px-6">
-          {loopData.map((place, index) => (
-            <Card key={`row2-${index}`} place={place} />
+        <div
+          className="
+            flex
+            gap-3
+            sm:gap-4
+            w-max
+            animate-marquee-right
+            px-4
+            sm:px-6
+          "
+        >
+          {loopRowTwo.map((place, index) => (
+            <Card
+              key={`row2-${place.slug}-${index}`}
+              place={place}
+            />
           ))}
         </div>
       </div>
