@@ -10,14 +10,12 @@ const rowOneLocations = [
     image: "/images/europe/day-1.jpg",
     slug: "european-wonders-09-days",
   },
-
   {
     title: "Hong Kong & Macau",
     desc: "Experience vibrant city life, iconic skylines, Disneyland and Macau attractions.",
     image: "/images/hongkong/day-1.jpg",
     slug: "hongkong-and-macau",
   },
-
   {
     title: "Morocco",
     desc: "Discover ancient cities, the blue streets of Chefchaouen, the Sahara Desert and vibrant Marrakech.",
@@ -33,14 +31,12 @@ const rowTwoLocations = [
     image: "/images/bhutan/day-1.jpg",
     slug: "bhutan-package",
   },
-
   {
     title: "Sri Lanka",
     desc: "Explore scenic hill country, tea plantations, beautiful beaches and vibrant Colombo.",
     image: "/images/srilanka/day-1.jpg",
     slug: "explore-srilanka",
   },
-
   {
     title: "Thailand",
     desc: "Discover tropical islands, beautiful beaches, exciting adventures and the best of Krabi and Phuket.",
@@ -49,10 +45,7 @@ const rowTwoLocations = [
   },
 ];
 
-/*
-  Duplicate ONLY for seamless marquee animation.
-  Packages are unique in the original data.
-*/
+/* Duplicate only for seamless marquee animation */
 
 const loopRowOne = [...rowOneLocations, ...rowOneLocations];
 const loopRowTwo = [...rowTwoLocations, ...rowTwoLocations];
@@ -102,6 +95,7 @@ function Card({ place }) {
         md:h-[300px]
 
         lg:min-w-[380px]
+        lg:h-[310px]
 
         rounded-2xl
         overflow-hidden
@@ -113,7 +107,17 @@ function Card({ place }) {
       <img
         src={place.image}
         alt={place.title}
-        className="w-full h-full object-cover"
+        loading="lazy"
+        className="
+          absolute
+          inset-0
+          block
+          w-full
+          h-full
+          max-w-none
+          object-cover
+          object-center
+        "
       />
 
       {/* OVERLAY */}
@@ -172,6 +176,7 @@ function Card({ place }) {
             items-center
             justify-center
             group
+            flex-shrink-0
           "
         >
           <ArrowUpRightIcon
@@ -238,7 +243,6 @@ function PopularLocations() {
           "
         >
           Most Popular{" "}
-
           <span className="text-[#06D5C6] block md:inline">
             Locations
           </span>
