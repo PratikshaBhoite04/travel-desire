@@ -13,8 +13,12 @@ import teamM2 from "../../assets/images/teamM2.webp";
 import teamM3 from "../../assets/images/teamM3.webp";
 import quotes from "../../assets/images/quotes.png"
 import temple2 from "../../assets/images/temple2.webp"
-import office from "../../assets/images/office.png"
-import office2 from "../../assets/images/office2.png"
+import office from "../../assets/images/office1.jpg"
+import office1 from "../../assets/images/office2.jpg"
+import office2 from "../../assets/images/office3.jpg"
+import office3 from "../../assets/images/office4.jpg"
+import office4 from "../../assets/images/office5.jpg"
+import office5 from "../../assets/images/office7.jpg"
 import headerLines from "../../assets/images/header-lines.png";
 // import OurAchievements from "../about/ourAchivement";
 import OurJourney from "./OurJourney";
@@ -495,7 +499,7 @@ items-start md:items-center
   {/* AUTO SCROLL IMAGES — NO EXTRA SPACE BELOW */}
   <div className="relative mt-16 mb-0 w-full overflow-hidden">
     <div className="flex w-max animate-marquee gap-2 px-6 pb-0">
-      {[office, office2, office, office2, office, office2].map((img, i) => (
+      {[office, office1, office2, office3, office4, office5].map((img, i) => (
         <div
           key={i}
           className="w-[280px] h-[200px] md:w-[420px] md:h-[260px] flex-shrink-0"
