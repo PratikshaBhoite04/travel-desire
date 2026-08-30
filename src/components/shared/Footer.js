@@ -6,6 +6,15 @@ import emailIcon from "../../assets/icons/email.png";
 import starIcon from "../../assets/icons/star.png";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
+const socialLinks = [
+  { Icon: FaFacebookF, href: "https://www.facebook.com/traveldesire.co.in" },
+  { Icon: FaInstagram, href: "https://www.instagram.com/traveldesireindia/" },
+  { Icon: FaLinkedinIn, href: "https://www.linkedin.com/in/swapnil-sawant-2a435717" },
+];
+
+const officeAddress =
+  "Office No 510, 10 Biz Park, near Symbiosis Law School Road, Mhada Colony, Viman Nagar, Pune, Maharashtra 411014";
+
 function Footer() {
   return (
     <footer className="relative bg-[#011715] text-white pt-20 overflow-hidden">
@@ -46,10 +55,12 @@ function Footer() {
             </p>
 
             <div className="flex gap-3">
-              {[FaFacebookF, FaInstagram, FaLinkedinIn].map((Icon, i) => (
+              {socialLinks.map(({ Icon, href }, i) => (
                 <a
                   key={i}
-                  href="#"
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 border border-[#ACF92999] rounded-full flex items-center justify-center"
                 >
                   <Icon size={16} />
@@ -88,7 +99,7 @@ function Footer() {
             <ul className="space-y-4 text-sm text-[#B0B0B0]">
               <li className="flex gap-3">
                 <img src={locationIcon} className="w-5 h-5 mt-1" />
-                <span>123 Travel Street, Mumbai<br />Maharashtra 400001</span>
+                <span>{officeAddress}</span>
               </li>
               <li className="flex gap-3">
                 <img src={phoneIcon} className="w-5 h-5" />
@@ -96,7 +107,7 @@ function Footer() {
               </li>
               <li className="flex gap-3">
                 <img src={emailIcon} className="w-5 h-5" />
-                <span>hello@tripdesire.com</span>
+                <a href="mailto:sales@traveldesire.in">sales@traveldesire.in</a>
               </li>
             </ul>
           </div>
@@ -150,7 +161,7 @@ function Footer() {
             <ul className="space-y-3 text-sm text-[#B0B0B0]">
               <li className="flex gap-3">
                 <img src={locationIcon} className="w-5 h-5" />
-                <span>123 Travel Street, Mumbai</span>
+                <span>{officeAddress}</span>
               </li>
               <li className="flex gap-3">
                 <img src={phoneIcon} className="w-5 h-5" />
@@ -158,7 +169,7 @@ function Footer() {
               </li>
               <li className="flex gap-3">
                 <img src={emailIcon} className="w-5 h-5" />
-                <span>hello@tripdesire.com</span>
+                <a href="mailto:sales@traveldesire.in">sales@traveldesire.in</a>
               </li>
             </ul>
           </div>
@@ -166,10 +177,12 @@ function Footer() {
           <div>
             <p className="font-tiempos mb-3">Follow Us</p>
             <div className="flex gap-3">
-              {[FaFacebookF, FaInstagram, FaLinkedinIn].map((Icon, i) => (
+              {socialLinks.map(({ Icon, href }, i) => (
                 <a
                   key={i}
-                  href="#"
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 border border-[#ACF92999] rounded-full flex items-center justify-center"
                 >
                   <Icon size={16} />

@@ -205,8 +205,7 @@ function Contact() {
                   <div>
                     <p className="font-manrope font-[700] text-[18px] text-[#121212]">Office Address</p>
                     <p className="mt-1 font-manrope text-[14px] font-[500] text-[#4A5565]">
-                      123 Travel Street, Andheri West<br />
-                      Mumbai, Maharashtra 400001
+                      Office No 510, 10 Biz Park, near Symbiosis Law School Road, Mhada Colony, Viman Nagar, Pune, Maharashtra 411014
                     </p>
                   </div>
                 </li>
@@ -223,8 +222,9 @@ function Contact() {
                   <img src={emailIcon} className="w-12 h-12" alt="" />
                   <div>
                     <p className="font-manrope font-[700] text-[18px] text-[#121212]">Email</p>
-                    <p className="mt-1 font-manrope text-[14px] font-[500] text-[#4A5565]">hello@tripdesire.com</p>
-                    <p className="font-manrope text-[14px] font-[500] text-[#4A5565]">support@tripdesire.com</p>
+                    <p className="mt-1 font-manrope text-[14px] font-[500] text-[#4A5565]">
+                      <a href="mailto:sales@traveldesire.in">sales@traveldesire.in</a>
+                    </p>
                   </div>
                 </li>
 

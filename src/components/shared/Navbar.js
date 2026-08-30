@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import logo from "../../assets/icons/logo.svg";
 import { Search } from "lucide-react";
 import AnimatedCTA from "../../components/shared/AnimatedCTA";
@@ -23,6 +23,7 @@ function Navbar() {
 
   //  Hook INSIDE component
   const location = useLocation();
+  const navigate = useNavigate();
   const mobileLinkClass = ({ isActive }) =>
   `
     font-manrope text-[18px] font-[500]
@@ -178,8 +179,9 @@ const navbarCTAClass = `
 
 
   <AnimatedCTA
-    label="Plan My Trip"
+    defaultText="Plan My Trip"
     hoverText="Send Inquiry Now!"
+    onClick={() => navigate("/contact")}
     className={`
       hidden md:flex
       items-center justify-center

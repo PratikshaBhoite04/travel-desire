@@ -1,15 +1,14 @@
 import Navbar from "../../components/shared/Navbar";
 
 // import teamHero from "../../assets/images/team.png";
-import founder from "../../assets/images/founder.png";
+import ceo from "../../assets/images/ceo.JPG";
 // import journeyImg from "../../assets/images/office.png";
 import frameBackground from "../../assets/images/frameBackground.png";
 
 import team1 from "../../assets/images/team1.webp";
 import team2 from "../../assets/images/teamM2.webp";
 import team3 from "../../assets/images/team2.png";
-import team5 from "../../assets/images/team5.webp";
-import team6 from "../../assets/images/team6.webp";
+import teamPhoto from "../../assets/images/team_photo.JPG";
 import teamM2 from "../../assets/images/teamM2.webp";
 import teamM3 from "../../assets/images/teamM3.webp";
 import quotes from "../../assets/images/quotes.png"
@@ -140,20 +139,13 @@ function About() {
 
             {/* ================= HERO IMAGE ================= */}
 <section className="bg-white">
-  <div className="block md:hidden rounded-[10px] overflow-hidden">
+  <div className="w-full overflow-hidden md:rounded-none">
     <img
-      src={team6}
+      src={teamPhoto}
       alt="Our Team"
-      className="w-full h-[380px] object-cover"
+      className="block w-full h-auto max-w-full object-contain"
     />
   </div>
-
-  {/* Desktop */}
-  <img
-    src={team5}
-    alt="Our Team"
-    className="hidden md:block w-full h-[520px] object-cover"
-  />
 </section>
 
 
@@ -233,11 +225,11 @@ items-start md:items-center
   </div>
 
   {/* IMAGE CARD */}
-  <div className="flex justify-end order-2 md:order-2">
+  <div className="flex justify-center md:justify-end order-2 w-full">
     <img
-      src={founder}
+      src={ceo}
       alt="Founder"
-      className="w-full object-contain"
+      className="block w-full max-w-full h-auto object-contain rounded-[18px]"
     />
   </div>
 
@@ -369,6 +361,7 @@ items-start md:items-center
 
 
 {/* ================= MEET OUR TEAM ================= */}
+{false && (
 <section className="bg-[#FFFFFF] py-20">
   <div className="max-w-7xl mx-auto px-4 md:px-6">
 
@@ -434,6 +427,7 @@ items-start md:items-center
 
   </div>
 </section>
+)}
 
             {/* ================= JOIN OUR TEAM ================= */}
 

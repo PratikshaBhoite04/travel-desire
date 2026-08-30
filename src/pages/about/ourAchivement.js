@@ -119,7 +119,10 @@ function OurAchievements() {
           See what our travelers are experiencing. Follow us on Instagram for daily inspiration
         </p>
 
-        <button
+        <a
+          href="https://www.instagram.com/traveldesireindia/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="relative inline-flex items-center p-[1.5px] rounded-full"
           style={{
             background:
@@ -132,9 +135,9 @@ function OurAchievements() {
               alt="Instagram"
               className="w-5 h-5"
             />
-            Follow @tripdesire
+            Follow @traveldesireindia
           </span>
-        </button>
+        </a>
       </div>
     </section>
   );
