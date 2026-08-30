@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import  team7 from "../../assets/images/team7.webp";
+import  teamjourney from "../../assets/images/teamJ.jpg";
 
 const OurJourney = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -7,34 +7,7 @@ const OurJourney = () => {
   const itemRefs = useRef([]);
 
   // const journeyImg = "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop";
-
-  const timelineData = [
-    {
-      year: "2000",
-      title: "Discover Your Desire",
-      description: "Browse handpicked destinations, curated itineraries, and exclusive experiences designed around your travel style.",
-    },
-    {
-      year: "2000-2002",
-      title: "Discover Your Desire",
-      description: "Browse handpicked destinations, curated itineraries, and exclusive experiences designed around your travel style.",
-    },
-    {
-      year: "2002 – 2005",
-      title: "Expanding Horizons",
-      description: "Expanded into international destinations and built strong global travel partnerships.",
-    },
-    {
-      year: "2010",
-      title: "Trusted Travel Brand",
-      description: "Became a trusted travel brand, serving over 10,000 happy travelers across India and beyond.",
-    },
-    {
-      year: "2020 – Present",
-      title: "Innovation & Experience",
-      description: "Leveraging technology and personalization to craft seamless, unforgettable travel experiences.",
-    }
-  ];
+  const timelineData = [ { year: "2015", title: "WHERE IT ALL BEGAN", subtitle: "FROM HOME TO THE WORLD!", description: "We started small, working from home with one goal — to help people experience the world.", }, { year: "2017", title: "A Little More Room for Big Dreams", description: "What began at home slowly grew into a team, a company and countless journeys around the world.", }, { year: "TODAY", title: "11 YEARS OF TRAVEL DESIRE", description: "We didn't just grow. We grew with you. For 11 years, we have been learning, growing and creating better travel experiences.", }, ];
 
   useEffect(() => {
     // Only use the scroll container as root if we are on desktop (md and above)
@@ -75,7 +48,7 @@ const OurJourney = () => {
         {/* LEFT IMAGE - Non-sticky on mobile to prevent overlap */}
 <div className="hidden md:block w-full h-[520px] rounded-[24px] overflow-hidden sticky top-24 shadow-sm">
           <img
-            src={team7}
+            src={teamjourney}
             alt="Our Journey"
             className="w-full h-full object-cover"
           />
