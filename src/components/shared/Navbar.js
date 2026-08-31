@@ -161,11 +161,12 @@ function Navbar() {
 
               {/* ================= LOGO ================= */}
 
-              <img
-                src={logo}
-                alt="Travel Desire"
-                className="h-14 w-auto"
-              />
+           <img
+  src={logo}
+  alt="Travel Desire"
+  className="h-14 w-auto cursor-pointer"
+  onClick={() => navigate("/")}
+/>
 
               {/* ================= DESKTOP LINKS ================= */}
 
