@@ -22,6 +22,7 @@ import office5 from "../../assets/images/office7.jpg"
 import headerLines from "../../assets/images/header-lines.png";
 // import OurAchievements from "../about/ourAchivement";
 import OurJourney from "./OurJourney";
+import drives from "../../assets/images/drives.JPG"
 import { useRef } from "react";
 
 
@@ -317,7 +318,7 @@ items-start md:items-center
         {/* IMAGE (Now inside grid so ordering works) */}
         <div className="order-3 sm:col-span-2 md:hidden h-[300px]">
           <img
-            src={temple2}
+            src={drives}
             alt="Our Values"
             className="w-full h-full object-cover rounded-[18px]"
           />
@@ -353,7 +354,7 @@ items-start md:items-center
       {/* DESKTOP IMAGE (Unchanged layout) */}
       <div className="hidden md:block h-full">
         <img
-          src={temple2}
+          src={drives}
           alt="Our Values"
           className="w-full h-full object-cover rounded-[18px]"
         />
