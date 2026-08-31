@@ -900,7 +900,7 @@ O/N hotel`,
 
 
   {
-    title: "Chardham Package",
+    title: "Chardham",
     slug: "chardham-package",
     category: "Domestic",
     price: "₹62,000",
@@ -3308,187 +3308,187 @@ Drive Towards Rajkot for Departure
 
   //--------------------------------------- Sikkim - Darjeeling -----------------------------------
 
-  {
-    title: "Sikkim - Darjeeling",
-    slug: "sikkim-darjeeling-7nights-8days-package",
-    price: "₹40,800",
-    days: "7 Nights / 8 Days",
-    rating: "4.9",
-    // image: sikkim1,
-    location: "Gangtok, Pelling, Darjeeling",
-    nextDate: "Available on Request",
+//   {
+//     title: "Sikkim - Darjeeling",
+//     slug: "sikkim-darjeeling-7nights-8days-package",
+//     price: "₹40,800",
+//     days: "7 Nights / 8 Days",
+//     rating: "4.9",
+//     // image: sikkim1,
+//     location: "Gangtok, Pelling, Darjeeling",
+//     nextDate: "Available on Request",
 
-    highlightsData: {
-      locationCard: {
-        meta: "Gangtok 2 Nights / Pelling 2 Nights / Darjeeling 3 Nights",
-        places: "Gangtok, Pelling, Darjeeling",
-      },
+//     highlightsData: {
+//       locationCard: {
+//         meta: "Gangtok 2 Nights / Pelling 2 Nights / Darjeeling 3 Nights",
+//         places: "Gangtok, Pelling, Darjeeling",
+//       },
 
-      pills: [
-        "Breakfast Included",
-        "Dinner Included",
-        "Hotel Stay Included",
-      ],
+//       pills: [
+//         "Breakfast Included",
+//         "Dinner Included",
+//         "Hotel Stay Included",
+//       ],
 
-      highlights: [
-        "Tsomgo Lake",
-        "New Baba Mandir",
-        "Khecheopalri Lake",
-        "Pemayangtse Monastery",
-        "Sang-Ngag Choling (Skywalk)",
-        "Tiger Hill",
-        "Mirik Sumendu Lake",
-        "Himalayan Mountaineering Institute",
-      ],
+//       highlights: [
+//         "Tsomgo Lake",
+//         "New Baba Mandir",
+//         "Khecheopalri Lake",
+//         "Pemayangtse Monastery",
+//         "Sang-Ngag Choling (Skywalk)",
+//         "Tiger Hill",
+//         "Mirik Sumendu Lake",
+//         "Himalayan Mountaineering Institute",
+//       ],
 
-      experiences: [
-        {
-          title: "Sikkim - Darjeeling Getaway",
-          desc: "",
-        },
-      ],
-    },
+//       experiences: [
+//         {
+//           title: "Sikkim - Darjeeling Getaway",
+//           desc: "",
+//         },
+//       ],
+//     },
 
-    pax: "8 Adults",
+//     pax: "8 Adults",
 
-    itinerary: [
-      {
-        day: "01",
-        title: "Bagdogra Airport to Gangtok - Pickup",
-        desc: `Approx Distance: 125 Km • Est. Travel Time: 5 hours
+//     itinerary: [
+//       {
+//         day: "01",
+//         title: "Bagdogra Airport to Gangtok - Pickup",
+//         desc: `Approx Distance: 125 Km • Est. Travel Time: 5 hours
 
-Meet and Greet on arrival at Bagdogra International Airport and transfer to Gangtok (5,500 Ft.). On arrival check-in to the hotel and rest of the day at leisure. Overnight stay at Gangtok`,
-      },
+// Meet and Greet on arrival at Bagdogra International Airport and transfer to Gangtok (5,500 Ft.). On arrival check-in to the hotel and rest of the day at leisure. Overnight stay at Gangtok`,
+//       },
 
-      {
-        day: "02",
-        title: "Gangtok to Tsomgo Lake & Baba Mandir - Excursion",
-        desc: `Approx Distance: 120 Km • Est. Travel Time: 8 hours
+//       {
+//         day: "02",
+//         title: "Gangtok to Tsomgo Lake & Baba Mandir - Excursion",
+//         desc: `Approx Distance: 120 Km • Est. Travel Time: 8 hours
 
-After breakfast, start for an excursion to Tsomgo Lake (12,400 ft. / 37 Kms. / 02 Hrs. from Gangtok) and further drive to New Baba Mandir (13,200 ft. / 16 Kms. / 01 Hrs. from Tsomgo Lake). Evening back to Gangtok. Overnight stay at Gangtok.
+// After breakfast, start for an excursion to Tsomgo Lake (12,400 ft. / 37 Kms. / 02 Hrs. from Gangtok) and further drive to New Baba Mandir (13,200 ft. / 16 Kms. / 01 Hrs. from Tsomgo Lake). Evening back to Gangtok. Overnight stay at Gangtok.
 
-Note: In case of Land slide or any other reason Tsomgo Lake is closed we will provided alternate sightseeing. Due to winter season (heavy snow) vehicle will be able to drive till Snow point on the way to Tsomgo Lake and New Baba Mandir.`,
-      },
+// Note: In case of Land slide or any other reason Tsomgo Lake is closed we will provided alternate sightseeing. Due to winter season (heavy snow) vehicle will be able to drive till Snow point on the way to Tsomgo Lake and New Baba Mandir.`,
+//       },
 
-      {
-        day: "03",
-        title: "Gangtok to Pelling - Transfer Via Namchi",
-        desc: `Approx Distance: 200 Km • Est. Travel Time: 9 hours
+//       {
+//         day: "03",
+//         title: "Gangtok to Pelling - Transfer Via Namchi",
+//         desc: `Approx Distance: 200 Km • Est. Travel Time: 9 hours
 
-After breakfast, start for Pelling (6,300 Ft. / 120 Kms. / 5 Hrs.) via Namchi to visit Siddheshwar Dham (Chardham) and Sai Temple. On arrival check-in to your hotel. Overnight stay at Pelling.`,
-      },
+// After breakfast, start for Pelling (6,300 Ft. / 120 Kms. / 5 Hrs.) via Namchi to visit Siddheshwar Dham (Chardham) and Sai Temple. On arrival check-in to your hotel. Overnight stay at Pelling.`,
+//       },
 
-      {
-        day: "04",
-        title: "Pelling - Fullday Sightseeing with Sky Walk",
-        desc: `Est. Travel Time: 6 hours
+//       {
+//         day: "04",
+//         title: "Pelling - Fullday Sightseeing with Sky Walk",
+//         desc: `Est. Travel Time: 6 hours
 
-After breakfast start for a full day sightseeing tour. In first half, Rimbi waterfalls, Khecheopalri Lake (Wishfulling Lake) and Khangchendzongha waterfalls. In the second half cover the Pemayangtse monastery, Rabdantse ruins (2nd capital of Sikkim), Sang-Ngag Choling (Skywalk). Evening free for leisure. Overnight stay at Pelling.`,
-      },
+// After breakfast start for a full day sightseeing tour. In first half, Rimbi waterfalls, Khecheopalri Lake (Wishfulling Lake) and Khangchendzongha waterfalls. In the second half cover the Pemayangtse monastery, Rabdantse ruins (2nd capital of Sikkim), Sang-Ngag Choling (Skywalk). Evening free for leisure. Overnight stay at Pelling.`,
+//       },
 
-      {
-        day: "05",
-        title: "Pelling to Darjeeling - Transfer",
-        desc: `Approx Distance: 100 Km • Est. Travel Time: 4 hours
+//       {
+//         day: "05",
+//         title: "Pelling to Darjeeling - Transfer",
+//         desc: `Approx Distance: 100 Km • Est. Travel Time: 4 hours
 
-After breakfast check out from the hotel and transfer to Darjeeling (6,950 Ft.) via Singla Check post. On arrival, check-in to the hotel and rest of the day at leisure. Overnight stay at Darjeeling.`,
-      },
+// After breakfast check out from the hotel and transfer to Darjeeling (6,950 Ft.) via Singla Check post. On arrival, check-in to the hotel and rest of the day at leisure. Overnight stay at Darjeeling.`,
+//       },
 
-      {
-        day: "06",
-        title: "Darjeeling - Mirik and Pashupati Market Day Visit",
-        desc: `Approx Distance: 100 Km • Est. Travel Time: 6 hours
+//       {
+//         day: "06",
+//         title: "Darjeeling - Mirik and Pashupati Market Day Visit",
+//         desc: `Approx Distance: 100 Km • Est. Travel Time: 6 hours
 
-After breakfast start for a full day excursion trip to Mirik (4,902 ft.), which is a small picturesque hill station with a beautiful lake surrounded by forested hills on all sides with the back drop of Mt Kanchenjunga. The road runs through some fascinating tea gardens, and pine forests. Visit Sumendu Lake, which is famous for it being one of the best man-made lakes. Enjoy horse ride and boating at the lake site on direct payment basis.
+// After breakfast start for a full day excursion trip to Mirik (4,902 ft.), which is a small picturesque hill station with a beautiful lake surrounded by forested hills on all sides with the back drop of Mt Kanchenjunga. The road runs through some fascinating tea gardens, and pine forests. Visit Sumendu Lake, which is famous for it being one of the best man-made lakes. Enjoy horse ride and boating at the lake site on direct payment basis.
 
-On the way back to Darjeeling return via Pasupati Market, which is situated in Indo-Nepal border (Extra vehicle charges will be applicable for Nepal Border to Pasupati Market on direct payment basis). Evening back to hotel. Overnight stay at Darjeeling.`,
-      },
+// On the way back to Darjeeling return via Pasupati Market, which is situated in Indo-Nepal border (Extra vehicle charges will be applicable for Nepal Border to Pasupati Market on direct payment basis). Evening back to hotel. Overnight stay at Darjeeling.`,
+//       },
 
-      {
-        day: "07",
-        title: "Darjeeling - Fullday Sightseeing with Tiger Hill",
-        desc: `Approx Distance: 130 Km • Est. Travel Time: 8 hours
+//       {
+//         day: "07",
+//         title: "Darjeeling - Fullday Sightseeing with Tiger Hill",
+//         desc: `Approx Distance: 130 Km • Est. Travel Time: 8 hours
 
-Early morning (4:00 AM) visit Tiger Hill (Subject to availability of token, if not possible at the time of Sunrise, then it will be covered in day time.) and then back to hotel.
+// Early morning (4:00 AM) visit Tiger Hill (Subject to availability of token, if not possible at the time of Sunrise, then it will be covered in day time.) and then back to hotel.
 
-After breakfast, starting at 8.30 AM, visit Himalayan Mountaineering Institute, P.N. Zoological Park (Thursday closed), Tenzing Rock, Ropeway (Note: Closed on 19th of Every Month), Tibetan Refugee self-help Centre (Sunday closed), Tea Garden (outer view), Japanese Temple (Peace Pagoda). Evening free for leisure. Overnight stay at Darjeeling.
+// After breakfast, starting at 8.30 AM, visit Himalayan Mountaineering Institute, P.N. Zoological Park (Thursday closed), Tenzing Rock, Ropeway (Note: Closed on 19th of Every Month), Tibetan Refugee self-help Centre (Sunday closed), Tea Garden (outer view), Japanese Temple (Peace Pagoda). Evening free for leisure. Overnight stay at Darjeeling.
 
-Note: Darjeeling ropeway will be on direct payment basis. It has limited cabins (Approx. 8 and per cabin 4 persons can be accommodated), resulting in long queues due to high tourist volume. Be patient with potential delays. It could also impact your schedule for other sightseeing activities due to time constraints.`,
-      },
+// Note: Darjeeling ropeway will be on direct payment basis. It has limited cabins (Approx. 8 and per cabin 4 persons can be accommodated), resulting in long queues due to high tourist volume. Be patient with potential delays. It could also impact your schedule for other sightseeing activities due to time constraints.`,
+//       },
 
-      {
-        day: "08",
-        title: "Darjeeling to Bagdogra Airport - Drop",
-        desc: `Approx Distance: 70 Km • Est. Travel Time: 3 hours
+//       {
+//         day: "08",
+//         title: "Darjeeling to Bagdogra Airport - Drop",
+//         desc: `Approx Distance: 70 Km • Est. Travel Time: 3 hours
 
-After breakfast Checkout from hotel and take, the departure transfers to Bagdogra International Airport for your onward journey.`,
-      },
-    ],
+// After breakfast Checkout from hotel and take, the departure transfers to Bagdogra International Airport for your onward journey.`,
+//       },
+//     ],
 
-    pointsToRemember: [
-      "In case of Land slide or any other reason Tsomgo Lake is closed, alternate sightseeing will be provided.",
-      "Due to winter season (heavy snow) vehicle will be able to drive till Snow point on the way to Tsomgo Lake and New Baba Mandir.",
-      "Horse ride and boating at Mirik lake site on direct payment basis.",
-      "Extra vehicle charges will be applicable for Nepal Border to Pasupati Market on direct payment basis.",
-      "Tiger Hill visit subject to availability of token; if not possible at sunrise, will be covered in day time.",
-      "P.N. Zoological Park closed on Thursday.",
-      "Darjeeling Ropeway closed on 19th of every month.",
-      "Tibetan Refugee self-help Centre closed on Sunday.",
-      "Darjeeling ropeway is on direct payment basis, has limited cabins (Approx. 8, 4 persons per cabin), resulting in long queues.",
-    ],
+//     pointsToRemember: [
+//       "In case of Land slide or any other reason Tsomgo Lake is closed, alternate sightseeing will be provided.",
+//       "Due to winter season (heavy snow) vehicle will be able to drive till Snow point on the way to Tsomgo Lake and New Baba Mandir.",
+//       "Horse ride and boating at Mirik lake site on direct payment basis.",
+//       "Extra vehicle charges will be applicable for Nepal Border to Pasupati Market on direct payment basis.",
+//       "Tiger Hill visit subject to availability of token; if not possible at sunrise, will be covered in day time.",
+//       "P.N. Zoological Park closed on Thursday.",
+//       "Darjeeling Ropeway closed on 19th of every month.",
+//       "Tibetan Refugee self-help Centre closed on Sunday.",
+//       "Darjeeling ropeway is on direct payment basis, has limited cabins (Approx. 8, 4 persons per cabin), resulting in long queues.",
+//     ],
 
-    hotels: [
-      {
-        nights: "1st (25 Jun) & 2nd (26 Jun)",
-        destination: "Gangtok",
-        hotel: "Shinkham Grand / Similar",
-        mealPlan: "MAP",
-        accommodation: "4 Super Deluxe Double Room",
-        pax: "8 Pax",
-      },
-      {
-        nights: "3rd (27 Jun) & 4th (28 Jun)",
-        destination: "Pelling",
-        hotel: "Amani / Similar",
-        mealPlan: "MAP",
-        accommodation: "4 Super Deluxe Room",
-        pax: "8 Pax",
-      },
-      {
-        nights: "5th (29 Jun), 6th (30 Jun) & 7th (01 Jul)",
-        destination: "Darjeeling",
-        hotel: "Q Saina Mapham (Veg) / Similar",
-        mealPlan: "MAP",
-        accommodation: "4 Cozy Kanchenjunga View Room",
-        pax: "8 Pax",
-      },
-    ],
+//     hotels: [
+//       {
+//         nights: "1st (25 Jun) & 2nd (26 Jun)",
+//         destination: "Gangtok",
+//         hotel: "Shinkham Grand / Similar",
+//         mealPlan: "MAP",
+//         accommodation: "4 Super Deluxe Double Room",
+//         pax: "8 Pax",
+//       },
+//       {
+//         nights: "3rd (27 Jun) & 4th (28 Jun)",
+//         destination: "Pelling",
+//         hotel: "Amani / Similar",
+//         mealPlan: "MAP",
+//         accommodation: "4 Super Deluxe Room",
+//         pax: "8 Pax",
+//       },
+//       {
+//         nights: "5th (29 Jun), 6th (30 Jun) & 7th (01 Jul)",
+//         destination: "Darjeeling",
+//         hotel: "Q Saina Mapham (Veg) / Similar",
+//         mealPlan: "MAP",
+//         accommodation: "4 Cozy Kanchenjunga View Room",
+//         pax: "8 Pax",
+//       },
+//     ],
 
-    hotelCategoryDetails: "Hotels Used - LUXURY (3* DLX)",
+//     hotelCategoryDetails: "Hotels Used - LUXURY (3* DLX)",
 
-    inclusions: {
-      included: [],
-      excluded: [],
-    },
+//     inclusions: {
+//       included: [],
+//       excluded: [],
+//     },
 
-    pricing: {
-      rows: [
-        {
-          category: "Luxury (3* DLX)",
-          price: "₹40,800",
-          unit: "per person",
-        },
-      ],
-      note: "Rs.40,800 per person",
-    },
+//     pricing: {
+//       rows: [
+//         {
+//           category: "Luxury (3* DLX)",
+//           price: "₹40,800",
+//           unit: "per person",
+//         },
+//       ],
+//       note: "Rs.40,800 per person",
+//     },
 
-    // images: [
-    //   sikkim1,
-    //   sikkim2,
-    //   sikkim3,
-    //   sikkim4,
-    // ],
-  },
+//     // images: [
+//     //   sikkim1,
+//     //   sikkim2,
+//     //   sikkim3,
+//     //   sikkim4,
+//     // ],
+//   },
 
 
   {
@@ -4173,7 +4173,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
+  note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
       items: [
         {
           name: "Delphi Day Tour from Athens on SIC Basis with Lunch",
@@ -4337,7 +4337,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "athens-mykonos-santorini-heraklion",
     price: "Euro 1024 per person",
     rating: "4.9",
-    image: "/images/Mykonos/day-2.jpg",
+    image: "/images/Mykonos/day-4.jpg",
     days: "09 Days / 08 Nights",
     location: "Athens, Mykonos, Santorini, Heraklion",
     nextDate: "Available on Request",
@@ -4586,7 +4586,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     ],
 
     optionalCostForFerryAndTour: {
-      note: "Price is not applicable during fair/Events dates",
+  note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
       items: [
         { component: "Economy class ferry ticket", price: "291" },
         { component: "Half-day Delos tour from Mykonos on shared basis", price: "145" },
@@ -5533,7 +5533,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
+       note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
       items: [
         {
           name: "Day tour to South east in cruise from Mykonos on shared basis",
@@ -6546,7 +6546,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
+        note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
       items: [
         {
           name: "2nd class Train ticket from Ljubljana to Salzburg (with one interchange)",
@@ -6819,7 +6819,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
+        note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
       items: [
         {
           name: "2nd class Train ticket from London to Cardiff",
@@ -7090,7 +7090,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
+        note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
       items: [
         {
           name: "2nd class Train ticket from London to Cardiff",
@@ -7104,7 +7104,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+        note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -7359,7 +7359,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
       items: [
         {
           name: "2nd class Train ticket from London to Newport",
@@ -7373,7 +7373,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+        note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
+
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -7627,7 +7628,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
+       note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
+
       items: [
         {
           name: "2nd class Train ticket from Warsaw to Krakow",
@@ -7637,7 +7639,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+       note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
+
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -7879,7 +7882,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
+        note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
+
       items: [
         {
           name: "2nd class Train ticket from Ljubljana to Salzburg (with one interchange)",
@@ -7893,7 +7897,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+        note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
+
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -8147,7 +8152,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
+        note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
+
       items: [
         {
           name: "Amsterdam–Paris 2nd class train ticket – on actual basis",
@@ -8157,7 +8163,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+       note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -8421,7 +8427,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
+       note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
+
       items: [
         {
           name: "2nd class Train ticket from Barcelona to Madrid",
@@ -8431,7 +8438,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+       note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -8554,7 +8561,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     price: "EUR 863 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "08 Nights / 09 Days",
     rating: "4.9",
-    image: "/images/Madrid7/day-1.jpg",
+    image: "/images/Madrid7/day-4.jpg",
     location: "Barcelona, Valencia, Seville, Madrid, Spain",
     nextDate: "Available on Request",
 
@@ -8696,7 +8703,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
+       note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Tours operating on SIC/Shared basis may require travellers to reach the designated pickup point. Prices are not applicable during fair/event dates.",
+
       items: [
         {
           name: "Barcelona – Valencia (standard class train ticket, on actual basis)",
@@ -8730,7 +8738,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+       note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -8987,7 +8995,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -9238,7 +9246,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
+       note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       items: [
         {
           name: "2nd class Train ticket from Budapest to Vienna & Vienna to Prague – on actual basis",
@@ -9248,7 +9256,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+       note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -9512,7 +9520,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
+       note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       items: [
         {
           name: "2nd class Train ticket from Budapest to Vienna & Vienna to Prague – on actual basis",
@@ -9522,7 +9530,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+       note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -9758,7 +9766,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     supplementaryTours: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       items: [
         {
           name: "2nd class train ticket from Copenhagen to Gothenburg – on actual basis",
@@ -9768,7 +9776,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+       note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -10030,7 +10038,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -10563,7 +10571,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -10858,7 +10866,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -11109,7 +11117,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -11384,7 +11392,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -11657,7 +11665,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -11939,7 +11947,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -12215,7 +12223,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -12469,7 +12477,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -12767,7 +12775,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -13029,7 +13037,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -13303,7 +13311,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -13568,7 +13576,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -13839,7 +13847,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -14103,7 +14111,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -14653,7 +14661,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -14929,7 +14937,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -15047,7 +15055,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     price: "EUR 737 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "07 Nights / 08 Days",
     rating: "4.9",
-    image: "/images/val7/day-1.jpg",
+    image: "/images/val7/day-2.jpg",
     location: "Barcelona, Valencia, Seville, Madrid",
     nextDate: "Available on Request",
 
@@ -15200,7 +15208,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -15466,7 +15474,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -15596,7 +15604,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     price: "EUR 543 per person onwards", // lowest 02 Pax rate in PDF (3* Hotel, Twin/Double, Jan/Feb/Nov/Dec 2026)
     days: "04 Nights / 05 Days",
     rating: "4.9",
-    image: "/images/madrid/day-1.jpg",
+    image: "/images/madrid/day-3.jpg",
     location: "Barcelona, Madrid",
     nextDate: "Available on Request",
 
@@ -15717,7 +15725,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -15983,7 +15991,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -16107,7 +16115,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "barcelona-madrid-seville-08n",
     price: "EUR 1066 per person onwards",
     days: "08 Nights / 09 Days",
-    rating: "",
+    rating: "4.9",
     image: "/images/gau/day-1.jpg",
     location: "Barcelona, Madrid, Seville",
     nextDate: "Available on Request",
@@ -16273,7 +16281,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -16525,7 +16533,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -16868,7 +16876,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -17257,7 +17265,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 3* Hotel",
@@ -17643,7 +17651,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -18060,7 +18068,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -18458,7 +18466,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+    note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -18838,7 +18846,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -19228,7 +19236,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -19455,8 +19463,8 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     slug: "lucerne-interlaken-montreux-07n",
     price: "EUR 1586 per person onwards",
     days: "07 Nights / 08 Days",
-    rating: "",
-    image: "/images/fall/day-1.jpg",
+    rating: "4.9",
+    image: "/images/fall/day-4.jpg",
     location: "Lucerne, Interlaken, Montreux",
     nextDate: "Available on Request",
 
@@ -19590,7 +19598,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -19943,7 +19951,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -20338,7 +20346,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -20739,7 +20747,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -21009,7 +21017,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     price: "EUR 1230 per person onwards",
     days: "06 Nights / 07 Days",
     rating: "4.9",
-    image: "/images/charm/day-1.jpg",
+    image: "/images/charm/day-2.jpg",
     location: "Zurich, Bern, Geneva",
     nextDate: "Available on Request",
 
@@ -21133,7 +21141,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -21558,7 +21566,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -21919,7 +21927,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -22318,7 +22326,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -22590,7 +22598,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     price: "EUR 989 per person onwards",
     days: "07 Nights / 08 Days",
     rating: "4.9",
-    image: "/images/germany/day-1.jpg",
+    image: "/images/germany/day-4.jpg",
     location: "Copenhagen, Hamburg, Berlin",
     nextDate: "Available on Request",
 
@@ -22726,7 +22734,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -23133,7 +23141,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -23532,7 +23540,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -23927,7 +23935,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -24172,7 +24180,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     price: "EUR 2295 per person onwards",
     days: "08 Nights / 09 Days",
     rating: "4.9",
-    image: "/images/gate/day-1.jpg",
+    image: "/images/gate/day-2.jpg",
     location: "Helsinki, Rovaniemi, Saariselkä",
     nextDate: "Available on Request",
 
@@ -24318,7 +24326,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -24718,7 +24726,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -25097,7 +25105,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -25481,7 +25489,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -25795,7 +25803,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -26084,7 +26092,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -26367,7 +26375,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -26635,7 +26643,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -26900,7 +26908,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -27177,7 +27185,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -27460,7 +27468,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -27728,7 +27736,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -28034,7 +28042,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -28314,8 +28322,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
-
+      note: "Price is not applicable during fair/Events dates.",note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
       options: [
         {
           category: "Option 1 – 03* Hotel",
@@ -28564,7 +28571,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+     note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -29096,7 +29103,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -29239,7 +29246,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     price: "Euro 463 per person onwards",
     days: "04 Nights / 05 Days",
     rating: "",
-    image: "/images/Capitals/day-1.jpg",
+    image: "/images/Capitals/day-2.jpg",
     location: "Zagreb, Ljubljana",
     nextDate: "Available on Request",
 
@@ -29346,7 +29353,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -29612,7 +29619,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -29881,7 +29888,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -30164,7 +30171,7 @@ After breakfast Checkout from hotel and take, the departure transfers to Bagdogr
     },
 
     pricing: {
-      note: "Price is not applicable during fair/Events dates.",
+      note: "All prices are per person and are based on 02 Pax twin/double sharing at the lowest available season, unless otherwise stated. Final pricing may vary depending on travel dates, hotel availability, room type and number of travellers. Prices are not applicable during fair/event dates.",
 
       options: [
         {
@@ -32656,7 +32663,7 @@ pricing: {
     price: "INR 68,500/-",
     days: "05 Nights / 06 Days",
     rating: "4.9",
-    image: "/images/srilanka/day-1.jpg",
+    image: "/images/srilanka/day-3.jpg",
     location: "Kandy, Nuwara Eliya, Ella, Bentota, Colombo",
     nextDate: "",
 

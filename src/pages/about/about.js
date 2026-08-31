@@ -22,7 +22,7 @@ import office5 from "../../assets/images/office7.jpg"
 import headerLines from "../../assets/images/header-lines.png";
 // import OurAchievements from "../about/ourAchivement";
 import OurJourney from "./OurJourney";
-import drives from "../../assets/images/drives.JPG"
+import drives from "../../assets/images/drives.jpeg"
 import { useRef } from "react";
 
 
@@ -290,64 +290,62 @@ items-start md:items-center
       {/* LEFT AREA (Cards + Image for mobile ordering) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:col-span-2">
 
-        {/* Card 1 */}
-        <div className="bg-[#001917] rounded-[15px] px-8 pt-6 pb-5 order-1">
-            <div className="md:translate-y-6 translate-y-6">
-          <h4 className="font-tiempos text-[26.11px] leading-[36.07px] text-[#D5FB93] mb-2">
-            Personalised Holiday Planning
-          </h4>
-          <p className="font-manrope text-[17px] md:text[19px] leading-[26.28px] text-white pb-6 md:pb-0">
-            We specialise in customised domestic and international tour packages designed around your preferences, budget, and pace of travel.
+{/* Card 1 */}
+<div className="bg-[#001917] rounded-[15px] px-8 py-6 flex items-center order-1">
+  <div>
+    <h4 className="font-tiempos text-[26.11px] leading-[36.07px] text-[#D5FB93] mb-2">
+      Personalised Holiday Planning
+    </h4>
 
-          </p>
-          </div>
-        </div>
+    <p className="font-manrope text-[17px] md:text-[19px] leading-[26.28px] text-white">
+      We specialise in customised domestic and international tour packages
+      designed around your preferences, budget, and pace of travel.
+    </p>
+  </div>
+</div>
 
-        {/* Card 2 */}
-        <div className="bg-[#001917] rounded-[15px] px-8 pt-6 pb-5 order-2">
-             <div className="md:translate-y-6 translate-y-6">
-          <h4 className="font-tiempos text-[26.11px] leading-[36.07px] text-[#D5FB93] mb-2">
-           End-to-End Travel Solutions
-          </h4>
-          <p className="font-manrope text-[17px] md:text[19px] leading-[26.28px] text-white pb-6 md:pb-0">
-          From air ticketing, hotel bookings, visas, passport assistance, and travel insurance, we manage everything — so you travel stress-free.
-          </p>
-            </div>
-        </div>
+{/* Card 2 */}
+<div className="bg-[#001917] rounded-[15px] px-8 py-6 flex items-center order-2">
+  <div>
+    <h4 className="font-tiempos text-[26.11px] leading-[36.07px] text-[#D5FB93] mb-2">
+      End-to-End Travel Solutions
+    </h4>
 
-        {/* IMAGE (Now inside grid so ordering works) */}
-        <div className="order-3 sm:col-span-2 md:hidden h-[300px]">
-          <img
-            src={drives}
-            alt="Our Values"
-            className="w-full h-full object-cover rounded-[18px]"
-          />
-        </div>
+    <p className="font-manrope text-[17px] md:text-[19px] leading-[26.28px] text-white">
+      From air ticketing, hotel bookings, visas, passport assistance, and
+      travel insurance, we manage everything — so you travel stress-free.
+    </p>
+  </div>
+</div>
 
-        {/* Card 3 */}
-        <div className="bg-[#001917] rounded-[15px] px-8 pt-6 pb-5 order-4">
-             <div className="md:translate-y-6 translate-y-6">
-          <h4 className="font-tiempos text-[26.11px] leading-[36.07px] text-[#D5FB93] mb-2">
-             Global Network, Local Expertise
-          </h4>
-          <p className="font-manrope text-[17px] md:text[19px] leading-[26.28px] text-white pb-6 md:pb-0">
-            With strong partnerships across top destinations worldwide, we offer reliable international holiday planning backed by trusted local partners.
+{/* Card 3 */}
+<div className="bg-[#001917] rounded-[15px] px-8 py-6 flex items-center order-4">
+  <div>
+    <h4 className="font-tiempos text-[26.11px] leading-[36.07px] text-[#D5FB93] mb-2">
+      Global Network, Local Expertise
+    </h4>
 
-          </p>
-            </div>
-        </div>
+    <p className="font-manrope text-[17px] md:text-[19px] leading-[26.28px] text-white">
+      With strong partnerships across top destinations worldwide, we offer
+      reliable international holiday planning backed by trusted local partners.
+    </p>
+  </div>
+</div>
 
-        {/* Card 4 */}
-        <div className="bg-[#001917] rounded-[15px] px-8 pt-6 pb-5 order-5">
-             <div className="md:translate-y-6 translate-y-6">
-          <h4 className="font-tiempos text-[26.11px] leading-[36.07px] text-[#D5FB93] mb-2">
-          Experiences That Matter
-          </h4>
-          <p className="font-manrope text-[17px] md:text[19px] leading-[26.28px] text-white pb-6 md:pb-0">
-          Whether it’s a family vacation, honeymoon package, offbeat holiday, or luxury international tour, we focus on meaningful experiences — not just itineraries.
-          </p>
-            </div>
-        </div>
+{/* Card 4 */}
+<div className="bg-[#001917] rounded-[15px] px-8 py-6 flex items-center order-5">
+  <div>
+    <h4 className="font-tiempos text-[26.11px] leading-[36.07px] text-[#D5FB93] mb-2">
+      Experiences That Matter
+    </h4>
+
+    <p className="font-manrope text-[17px] md:text-[19px] leading-[26.28px] text-white">
+      Whether it’s a family vacation, honeymoon package, offbeat holiday, or
+      luxury international tour, we focus on meaningful experiences — not just
+      itineraries.
+    </p>
+  </div>
+</div>
 
       </div>
 

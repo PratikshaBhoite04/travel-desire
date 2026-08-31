@@ -210,13 +210,24 @@ function Contact() {
                   </div>
                 </li>
 
-                <li className="flex gap-4">
-                  <img src={phoneIcon} className="w-12 h-12" alt="" />
-                  <div>
-                    <p className="font-manrope font-[700] text-[18px] text-[#121212]">Phone</p>
-                    <p className="mt-1 font-manrope text-[14px] font-[500] text-[#4A5565]">+91 98765 43210</p>
-                  </div>
-                </li>
+      
+          <li className="flex gap-4">
+  <img src={phoneIcon} className="w-12 h-12" alt="" />
+
+  <div>
+    <p className="font-manrope font-[700] text-[18px] text-[#121212]">
+      Phone
+    </p>
+
+    <p className="mt-1 font-manrope text-[14px] font-[500] text-[#4A5565]">
+      +91 98765 43210
+    </p>
+
+    <p className="font-manrope text-[14px] font-[500] text-[#4A5565]">
+      +91 88051 15522
+    </p>
+  </div>
+</li>
 
                 <li className="flex gap-4">
                   <img src={emailIcon} className="w-12 h-12" alt="" />

@@ -7,7 +7,46 @@ const OurJourney = () => {
   const itemRefs = useRef([]);
 
   // const journeyImg = "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2071&auto=format&fit=crop";
-  const timelineData = [ { year: "2015", title: "WHERE IT ALL BEGAN", subtitle: "FROM HOME TO THE WORLD!", description: "We started small, working from home with one goal — to help people experience the world.", }, { year: "2017", title: "A Little More Room for Big Dreams", description: "What began at home slowly grew into a team, a company and countless journeys around the world.", }, { year: "TODAY", title: "11 YEARS OF TRAVEL DESIRE", description: "We didn't just grow. We grew with you. For 11 years, we have been learning, growing and creating better travel experiences.", }, ];
+const timelineData = [
+{
+year: "2015",
+title: "WHERE IT ALL BEGAN",
+subtitle: "FROM HOME TO THE WORLD!",
+description:
+"We started small, working from home with one goal — to help people experience the world.",
+},
+{
+year: "2017",
+title: "A Little More Room for Big Dreams",
+subtitle: "FROM ONE ROOM TO OUR FIRST LITTLE WORKPLACE.",
+description:
+"A small space, but enough room for bigger dreams.",
+},
+{
+year: "2018",
+title: "TAKING ROOT / FINDING OUR PLACE",
+description:
+"Our first rented office. More journeys to plan. More travellers to serve. And a dream that was steadily finding its place.",
+},
+{
+year: "2022",
+title: "GROWING TOGETHER",
+description:
+"New space. New possibilities. Travel Desire moved into a co-working space as the journey continued to grow.",
+},
+{
+year: "2024",
+title: "MORE THAN A BUSINESS",
+description:
+"A team of 7–8, united by one desire. More people. More ideas. More passion for creating journeys worth remembering.",
+},
+{
+year: "2026",
+title: "11 YEARS & STILL MOVING",
+description:
+"From working at home to building a trusted travel company. 11 years of learning. 11 years of growing. 11 years of earning your trust. And today, we’re proud to be rated 4.9★ by the people who matter most — our travellers.",
+},
+];
 
   useEffect(() => {
     // Only use the scroll container as root if we are on desktop (md and above)

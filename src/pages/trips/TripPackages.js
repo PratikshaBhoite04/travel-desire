@@ -1,5 +1,6 @@
 import Navbar from "../../components/shared/Navbar";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import { tours } from "../../data/tours";
 import { Clock, ChevronDown, Search } from "lucide-react";
 import headerLines from "../../assets/images/header-lines.png";
@@ -101,6 +102,12 @@ const getTourCategory = (tour) => {
 
 function TripPackages() {
   // ====================================================
+  // ROUTER
+  // ====================================================
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  // ====================================================
   // STATES
   // ====================================================
   const [searchInput, setSearchInput] = useState("");
@@ -112,38 +119,84 @@ function TripPackages() {
   const categories = ["Domestic", "International"];
 
   // ====================================================
+  // GET SEARCH FROM NAVBAR URL
+  // Example:
+  // /tour-packages?search=Chardham
+  // ====================================================
+  const urlParams = new URLSearchParams(location.search);
+
+  const urlSearch =
+    urlParams.get("search")?.trim() || "";
+
+  // ====================================================
+  // SYNC NAVBAR SEARCH WITH PAGE SEARCH
+  // ====================================================
+  useEffect(() => {
+    if (urlSearch) {
+      setSearchInput(urlSearch);
+      setSearchTerm(urlSearch);
+    }
+  }, [urlSearch]);
+
+  // ====================================================
+  // HANDLE PAGE SEARCH
+  // ====================================================
+  const handleSearch = () => {
+    const query = searchInput.trim();
+
+    setSearchTerm(query);
+
+    if (query) {
+      navigate(
+        `/tour-packages?search=${encodeURIComponent(query)}`
+      );
+    } else {
+      navigate("/tour-packages");
+    }
+  };
+
+  // ====================================================
   // FILTER TOURS
-  // CATEGORY FIRST
-  // SEARCH SECOND
   // ====================================================
   const filteredTours = tours.filter((tour) => {
-    // -----------------------------------------------
-    // 1. CATEGORY FILTER
-    // -----------------------------------------------
-    const tourCategory = getTourCategory(tour);
+    const search = searchTerm.trim().toLowerCase();
 
-    if (tourCategory !== category) {
+    const title =
+      tour.title?.toLowerCase() || "";
+
+    const tourLocation =
+      tour.location?.toLowerCase() || "";
+
+    const slug =
+      tour.slug?.toLowerCase() || "";
+
+    // -----------------------------------------------
+    // SEARCH FILTER
+    // -----------------------------------------------
+    const matchesSearch =
+      !search ||
+      title.includes(search) ||
+      tourLocation.includes(search) ||
+      slug.includes(search);
+
+    if (!matchesSearch) {
       return false;
     }
 
     // -----------------------------------------------
-    // 2. SEARCH FILTER
+    // IF SEARCH COMES FROM NAVBAR URL
+    // SEARCH ALL PACKAGES
     // -----------------------------------------------
-    const search = searchTerm.trim().toLowerCase();
-
-    if (!search) {
+    if (urlSearch) {
       return true;
     }
 
-    const title = tour.title?.toLowerCase() || "";
-    const location = tour.location?.toLowerCase() || "";
-    const slug = tour.slug?.toLowerCase() || "";
+    // -----------------------------------------------
+    // NORMAL CATEGORY FILTER
+    // -----------------------------------------------
+    const tourCategory = getTourCategory(tour);
 
-    return (
-      title.includes(search) ||
-      location.includes(search) ||
-      slug.includes(search)
-    );
+    return tourCategory === category;
   });
 
   return (
@@ -210,7 +263,7 @@ function TripPackages() {
                   }}
                   onKeyDown={(e) => {
                     if (e.key === "Enter") {
-                      setSearchTerm(searchInput.trim());
+                      handleSearch();
                     }
                   }}
                   placeholder="Destination"
@@ -228,9 +281,7 @@ function TripPackages() {
                 {/* MOBILE SEARCH BUTTON */}
                 <button
                   type="button"
-                  onClick={() => {
-                    setSearchTerm(searchInput.trim());
-                  }}
+                  onClick={handleSearch}
                   className="
                     md:hidden
                     w-[38px]
@@ -252,9 +303,7 @@ function TripPackages() {
                 {/* DESKTOP SEARCH BUTTON */}
                 <button
                   type="button"
-                  onClick={() => {
-                    setSearchTerm(searchInput.trim());
-                  }}
+                  onClick={handleSearch}
                   className="
                     hidden
                     md:block
@@ -269,6 +318,7 @@ function TripPackages() {
                 >
                   Search
                 </button>
+
               </div>
             </div>
 
@@ -314,6 +364,7 @@ function TripPackages() {
                       }
                     `}
                   />
+
                 </div>
               </button>
 
@@ -346,9 +397,12 @@ function TripPackages() {
                         // Close dropdown
                         setIsDropdownOpen(false);
 
-                        // Clear search when category changes
+                        // Clear search
                         setSearchInput("");
                         setSearchTerm("");
+
+                        // Remove Navbar search URL
+                        navigate("/tour-packages");
                       }}
                       className={`
                         w-full
@@ -370,7 +424,9 @@ function TripPackages() {
                   ))}
                 </div>
               )}
+
             </div>
+
           </div>
         </div>
       </section>
@@ -433,6 +489,7 @@ function TripPackages() {
                       {tour.days}
 
                     </div>
+
                   </div>
 
                   {/* =================================================
@@ -461,8 +518,10 @@ function TripPackages() {
 
                     </div>
                   </div>
+
                 </div>
               ))}
+
             </div>
 
           ) : (
